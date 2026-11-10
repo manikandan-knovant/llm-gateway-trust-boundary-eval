@@ -1,0 +1,32 @@
+# Synthetic tenant for the real-provider sample (research). Both real routes are the OpenAI direct route type,
+# flagged baa: false, so masking is mandatory on every request to them.
+version: 1
+tenant_id: <tenant-id-real>
+policy_id: <tenant-id-real>-policy@v1
+require_team: true
+default_classification: {level: internal, flags: []}
+
+model_groups:
+  real-mini--openai: {max_level: internal, flags: [], baa: false, model: gpt-5-mini}
+  real-gpt5--openai: {max_level: internal, flags: [], baa: false}
+  bench--mock:       {max_level: internal, flags: [], baa: false}
+
+logical_models:
+  real-mini: {candidates: [real-mini--openai]}
+  real-gpt5: {candidates: [real-gpt5--openai]}
+  bench:     {candidates: [bench--mock]}
+
+teams:
+  real-app:  {allowed_logical_models: [real-mini, real-gpt5]}
+  agent-app: {allowed_logical_models: [real-mini]}
+
+pseudonymization:
+  detector: presidio+regex
+  presidio_url: http://presidio-analyzer:3000
+  timeout_seconds: 5
+  chunk_chars: 4000
+  chunk_overlap: 200
+  max_concurrency: 2
+  max_total_seconds: 60
+  max_input_chars: 500000
+  relaxed_teams: []

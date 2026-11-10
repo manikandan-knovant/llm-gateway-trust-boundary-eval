@@ -1,0 +1,37 @@
+# Synthetic tenant B (research), regex-only detector. Same shape as the product's local tenant policy.
+# bench--mock has a BAA flag so a RELAXED team gets no scan (E1 "no-scan" arm); every other team is scanned.
+# phi--mock and fo-fallback--mock have no BAA, so masking is mandatory on chains that include them.
+version: 1
+tenant_id: <tenant-id-b>
+policy_id: <tenant-id-b>-policy@v1
+require_team: true
+default_classification: {level: internal, flags: []}
+
+model_groups:
+  bench--mock:       {max_level: restricted, flags: [PHI, PII], baa: true}
+  phi--mock:         {max_level: internal, flags: [], baa: false}
+  fo-primary--mock:  {max_level: restricted, flags: [PHI, PII], baa: true}
+  fo-fallback--mock: {max_level: internal, flags: [], baa: false}
+
+logical_models:
+  bench:    {candidates: [bench--mock]}
+  phi:      {candidates: [phi--mock]}
+  failover: {candidates: [fo-primary--mock, fo-fallback--mock]}
+
+teams:
+  bench-scan:    {allowed_logical_models: [bench]}
+  bench-relaxed: {allowed_logical_models: [bench]}
+  phi-app:       {allowed_logical_models: [phi]}
+  fo-app:        {allowed_logical_models: [failover]}
+  proj1:         {allowed_logical_models: [bench]}
+  proj2:         {allowed_logical_models: [bench, phi]}
+
+pseudonymization:
+  detector: regex
+  timeout_seconds: 5
+  chunk_chars: 4000
+  chunk_overlap: 200
+  max_concurrency: 2
+  max_total_seconds: 60
+  max_input_chars: 500000
+  relaxed_teams: [bench-relaxed]

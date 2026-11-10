@@ -1,0 +1,3 @@
+build,hard_negatives_overmasked,hard_negative_masked_spans,hard_negative_types,phi_queries_with_any_value_in_clear,unlocatable_tags,unaligned_queries,non_200
+a-base,"199/219 = 90.9% [86.3, 94.0]",357,"{""DATE"": 192, ""NRP"": 24, ""PERSON"": 35, ""LOCATION"": 10}","755/832 = 90.7% [88.6, 92.5]",1,0,0
+a-fix,"199/219 = 90.9% [86.3, 94.0]",328,"{""DATE"": 190, ""NRP"": 24, ""PERSON"": 35, ""LOCATION"": 10}","718/832 = 86.3% [83.8, 88.5]",1,0,0

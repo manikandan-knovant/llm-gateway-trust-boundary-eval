@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "LLM gateway trust-boundary measurements: harness, synthetic data and results"
+type: software
+authors:
+  - family-names: Elumalai
+    given-names: Manikandan
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0009-0049-6695"
+version: "2026-11-09"
+date-released: "2026-11-09"
+license: MIT
+abstract: >-
+  Measurement harness, synthetic-data generators and results for an LLM gateway built on LiteLLM 1.102.1,
+  acting as the trust boundary for agentic AI in regulated healthcare: added latency, failover under faults with a
+  non-BAA fallback, tenant isolation, PHI detection, masking and restore (synthetic notes and the ASQ-PHI benchmark),
+  load, scale-out across gateway worker counts, a 30-minute soak, a concurrent real-provider spot check, multi-turn
+  agent runs with per-run budgets and key revocation, and stock LiteLLM 1.102.1 (with and without its own tag-based
+  routing) under the same faults. Code under MIT; data and results under CC BY 4.0.
+keywords:
+  - LLM gateway
+  - LiteLLM
+  - PHI
+  - de-identification
+  - HIPAA
+  - agentic AI
+references:
+  - type: dataset
+    title: "ASQ-PHI"
+    doi: "10.17632/csz5dzp7nx.1"
+    notes: "Used as an external benchmark (E11); not redistributed here. Data in Brief, DOI 10.1016/j.dib.2026.112586."
+    authors:
+      - name: "The ASQ-PHI authors"

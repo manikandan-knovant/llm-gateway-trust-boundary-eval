@@ -1,0 +1,42 @@
+# E13: stock LiteLLM 1.102.1 (the unmodified PyPI wheel inside the baseline image, entrypoint replaced; no gateway
+# callbacks are loaded because e13-litellm-tags.yaml lists none) with tag-based routing, in front of the same mock.
+# Postgres holds LiteLLM's virtual keys only. Project name: itpro-add-e13.
+services:
+  postgres:
+    image: postgres:16
+    environment: {POSTGRES_USER: litellm, POSTGRES_PASSWORD: research-e13-local-db, POSTGRES_DB: litellm}
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U litellm -d litellm"], interval: 3s, retries: 30}
+  mock-upstream:
+    image: python:3.12-slim
+    command: ["python", "/harness/mock5.py"]
+    environment: {MOCK_DELAY_MS: "50"}
+    volumes: ["../harness:/harness:ro"]
+    ports: ["127.0.0.1:4953:8080"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+  litellm:
+    image: itpro-gateway:baseline-2026-11-09
+    pull_policy: never
+    depends_on: {mock-upstream: {condition: service_healthy}, postgres: {condition: service_healthy}}
+    environment:
+      LITELLM_MASTER_KEY: ${E13_MASTER_KEY:?set a local LiteLLM master key}
+      DATABASE_URL: postgresql://litellm:research-e13-local-db@postgres:5432/litellm
+      LITELLM_LOCAL_MODEL_COST_MAP: "True"
+    volumes: ["../stack:/stack:ro"]
+    entrypoint: ["litellm", "--config", "/stack/e13-litellm-tags.yaml", "--port", "4000", "--num_workers", "1"]
+    ports: ["127.0.0.1:4951:4000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:4000/health/liveliness', timeout=3)"]
+      interval: 5s
+      retries: 90
+      start_period: 30s
+  harness:
+    image: itpro-gateway:baseline-2026-11-09
+    pull_policy: never
+    profiles: ["tools"]
+    environment: {PYTHONDONTWRITEBYTECODE: "1", LITELLM_MASTER_KEY: "${E13_MASTER_KEY:-}"}
+    volumes: ["../:/research"]
+    working_dir: /research/harness
+    entrypoint: ["python"]

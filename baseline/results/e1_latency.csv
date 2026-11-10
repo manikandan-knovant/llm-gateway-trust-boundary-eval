@@ -1,0 +1,2121 @@
+phase,seq,arm,status,latency_ms,request_id,pseudonymization,scan_cold,scan_parts,scan_cache_hit_parts,scan_ms
+warmup,0,gw_cold,200,470.924,a3e3fcb1-1b25-4adf-8378-b296bb57d176,applied; entities=0,True,1,0,40
+warmup,1,gw_cached,200,82.532,fe220d60-ea58-4a2a-992e-f6ba0e1902e9,applied; entities=0,True,1,0,10
+warmup,2,gw_noscan,200,80.207,d654aa0f-7ca5-430a-9d9b-6123d6c77d86,relaxed,,,,0
+warmup,3,gw_cold,200,76.909,077a88ed-5896-4ce6-8635-c6580d5df30d,applied; entities=0,True,1,0,9
+warmup,4,direct,200,53.37,,,,,,
+warmup,5,gw_noscan,200,65.335,002e1c0b-d798-4222-9721-6c9d40fd8ad8,relaxed,,,,0
+warmup,6,gw_cold,200,79.161,861f7567-7b3f-4b5f-bb31-aae54cd6fa15,applied; entities=0,True,1,0,13
+warmup,7,gw_cold,200,75.644,b9f2b532-29f5-4e2f-86fd-587bf9748ab7,applied; entities=0,True,1,0,8
+warmup,8,gw_cached,200,64.335,36b13637-7300-4717-979b-5b3ae007a8ac,applied; entities=0,False,1,1,0
+warmup,9,direct,200,51.407,,,,,,
+warmup,10,direct,200,51.524,,,,,,
+warmup,11,gw_noscan,200,64.749,f7055661-3fff-4e55-be4d-80384d1c5d1c,relaxed,,,,0
+warmup,12,gw_noscan,200,67.329,e4bac905-90e6-4726-b701-49089dab8ddf,relaxed,,,,0
+warmup,13,gw_cold,200,75.293,4babd0c5-a668-4c21-b335-cdb287b8086b,applied; entities=0,True,1,0,9
+warmup,14,gw_noscan,200,66.178,77cb7c73-db21-44e2-a1ba-e333a29125bc,relaxed,,,,0
+warmup,15,direct,200,52.273,,,,,,
+warmup,16,gw_noscan,200,64.573,fd35cfb4-a768-459c-b8da-aa94a4b7c9a8,relaxed,,,,0
+warmup,17,direct,200,51.943,,,,,,
+warmup,18,direct,200,51.624,,,,,,
+warmup,19,gw_cached,200,66.313,a5f5f344-2fb0-46c2-b900-a2b49396961c,applied; entities=0,False,1,1,0
+warmup,20,gw_cold,200,74.573,6f960ed6-af39-4c2f-be10-9a5d035b36c1,applied; entities=0,True,1,0,9
+warmup,21,gw_cold,200,76.608,a168a57a-8e28-4fd6-acd2-e375efbd51af,applied; entities=0,True,1,0,8
+warmup,22,direct,200,51.451,,,,,,
+warmup,23,gw_cached,200,65.754,8cab6c9b-a6b1-4bbe-a578-6fe44263fa8f,applied; entities=0,False,1,1,0
+warmup,24,gw_noscan,200,68.865,55fbd063-6162-4f8c-a1d6-eef077290bef,relaxed,,,,0
+warmup,25,gw_noscan,200,68.367,5ebd681d-2e20-44a9-901f-d457c87ce265,relaxed,,,,0
+warmup,26,gw_cold,200,78.758,70127acc-ac05-41c8-8a24-28ba0479b779,applied; entities=0,True,1,0,9
+warmup,27,gw_cached,200,75.63,f2801cb8-3d8c-4bb1-9362-fcb0368575c5,applied; entities=0,False,1,1,0
+warmup,28,gw_cached,200,76.422,b7fb969a-d196-41f4-bfa5-77c88c167700,applied; entities=0,False,1,1,0
+warmup,29,gw_noscan,200,73.46,e8d23760-dee7-4995-97ff-0631e97b2ed0,relaxed,,,,0
+warmup,30,gw_cached,200,66.838,aeaa7689-c7dc-4814-82ad-ef14045b90df,applied; entities=0,False,1,1,0
+warmup,31,direct,200,51.864,,,,,,
+warmup,32,gw_noscan,200,70.851,460ec92e-8ecd-4946-b4e1-a19486c01f37,relaxed,,,,0
+warmup,33,gw_noscan,200,74.833,9cb791e6-08cf-4539-bf05-abb99960a171,relaxed,,,,0
+warmup,34,gw_cached,200,67.83,68537e64-4406-4cf5-b803-a9ba6a22d94b,applied; entities=0,False,1,1,0
+warmup,35,gw_noscan,200,71.724,1376d946-fc21-41bf-a6b6-c6bd6e70d17e,relaxed,,,,0
+warmup,36,direct,200,52.029,,,,,,
+warmup,37,gw_cold,200,73.233,9c576ca0-468d-4a25-b62c-d5e3044e7f81,applied; entities=0,True,1,0,8
+warmup,38,gw_noscan,200,65.534,6bea45bc-aa22-4df6-b4de-f0a49a90733e,relaxed,,,,0
+warmup,39,gw_cold,200,73.111,e52ec962-dd2f-44f6-a008-e0cf6e8c342a,applied; entities=0,True,1,0,8
+warmup,40,gw_cached,200,66.685,06221f72-dd97-4e47-b636-65bce1f44f14,applied; entities=0,False,1,1,0
+warmup,41,gw_noscan,200,73.18,50f0f789-15aa-4613-a706-7bc547b2281c,relaxed,,,,0
+warmup,42,gw_cold,200,73.044,387664d9-0207-4b08-bfcb-643564104867,applied; entities=0,True,1,0,8
+warmup,43,gw_cold,200,72.464,11a28617-d3b4-4a8e-bb5f-13d7dfa6c117,applied; entities=0,True,1,0,7
+warmup,44,direct,200,51.562,,,,,,
+warmup,45,gw_noscan,200,62.401,a0c6df4c-469b-4fb2-9bcb-1ce205343c44,relaxed,,,,0
+warmup,46,gw_noscan,200,65.354,e25ba9dc-c4c3-4802-b81b-ecd8f1c9ca5e,relaxed,,,,0
+warmup,47,gw_noscan,200,67.257,132fe82e-7f8b-444d-b305-1a02e08cfbfa,relaxed,,,,0
+warmup,48,gw_noscan,200,68.614,449420c2-c689-4328-b597-f464dba33572,relaxed,,,,0
+warmup,49,gw_cached,200,67.319,95a8241a-b97e-4879-ac06-d0bd0c8bb6c8,applied; entities=0,False,1,1,0
+warmup,50,gw_cached,200,69.736,3ade7399-8e6e-4579-a36c-41c216878c10,applied; entities=0,False,1,1,0
+warmup,51,gw_cold,200,74.182,b779d6f0-afbc-458b-be46-82e1cf3b856c,applied; entities=0,True,1,0,9
+warmup,52,gw_noscan,200,65.836,64e724b9-71d6-46b6-932e-857318d4d842,relaxed,,,,0
+warmup,53,gw_cached,200,67.034,d822c573-e1d6-4cfa-88ff-21f51b6c7989,applied; entities=0,False,1,1,0
+warmup,54,gw_cold,200,72.63,b10b68b3-736a-47fd-bc3c-83fbf3d9d14f,applied; entities=0,True,1,0,8
+warmup,55,gw_cold,200,73.763,1410baf5-83e2-4ec7-b3b5-2620bf4492d6,applied; entities=0,True,1,0,7
+warmup,56,gw_cached,200,66.332,dba10794-0599-412b-abb1-d41ac51a2fda,applied; entities=0,False,1,1,0
+warmup,57,gw_cached,200,64.537,30030518-c224-48c7-bab8-d27c33cbe172,applied; entities=0,False,1,1,0
+warmup,58,gw_cold,200,73.387,144847c8-c421-4ab5-a2fd-fd1bf4788a7f,applied; entities=0,True,1,0,7
+warmup,59,gw_cached,200,66.031,a2b2f0f0-9dba-4192-8e56-19d90b481379,applied; entities=0,False,1,1,0
+warmup,60,direct,200,51.713,,,,,,
+warmup,61,direct,200,51.494,,,,,,
+warmup,62,gw_noscan,200,63.694,cc632ed6-b8c1-4152-9087-a5628fbafd22,relaxed,,,,0
+warmup,63,gw_cached,200,64.489,ac00553a-ae52-4a79-ad08-e7a2f74bd572,applied; entities=0,False,1,1,0
+warmup,64,gw_cold,200,72.306,242bc64c-d5d9-4e6a-988f-57a2f5b162d9,applied; entities=0,True,1,0,8
+warmup,65,direct,200,51.548,,,,,,
+warmup,66,gw_cold,200,70.543,afed2b83-23c8-4ae8-a0f5-c45a6ca945d3,applied; entities=0,True,1,0,6
+warmup,67,gw_cached,200,63.485,fda402b1-67c0-48de-9ce8-c59565032a4c,applied; entities=0,False,1,1,0
+warmup,68,gw_cached,200,64.022,7b44bf59-548c-440e-9640-34206375c20f,applied; entities=0,False,1,1,0
+warmup,69,gw_noscan,200,68.057,9c6bd6c5-3acc-4431-b74c-2fb8ee9c323c,relaxed,,,,0
+warmup,70,direct,200,52.086,,,,,,
+warmup,71,direct,200,52.272,,,,,,
+warmup,72,direct,200,51.719,,,,,,
+warmup,73,gw_cold,200,75.98,a5670749-4efa-41f1-8dfa-9e865ad986c9,applied; entities=0,True,1,0,11
+warmup,74,gw_noscan,200,74.216,e70418a7-ed39-47e2-b4a2-c4e77fc4db01,relaxed,,,,0
+warmup,75,gw_cold,200,75.372,d8527298-80e8-4a7f-b1cf-d66cbb895adf,applied; entities=0,True,1,0,8
+warmup,76,gw_cached,200,65.144,bacecc0a-4016-4742-92d7-8f30d55f43be,applied; entities=0,False,1,1,0
+warmup,77,gw_cold,200,81.535,25444b45-fe14-4326-92a8-f6a550cb09bc,applied; entities=0,True,1,0,10
+warmup,78,direct,200,51.575,,,,,,
+warmup,79,gw_cached,200,65.37,a17051fb-beec-49be-924b-bd72b5b9ea2e,applied; entities=0,False,1,1,0
+warmup,80,gw_noscan,200,65.143,e2e41120-528e-4fdf-8701-9b17de5b4fcf,relaxed,,,,0
+warmup,81,direct,200,51.675,,,,,,
+warmup,82,gw_cold,200,72.079,7fd9503e-53bd-4add-966d-8bcff5f067b6,applied; entities=0,True,1,0,8
+warmup,83,direct,200,51.727,,,,,,
+warmup,84,gw_cached,200,64.897,5757dc52-79d1-4311-85b2-622aca6ed9ae,applied; entities=0,False,1,1,0
+warmup,85,gw_cached,200,67.061,0e26a23e-5778-4081-b362-b07d94407a74,applied; entities=0,False,1,1,0
+warmup,86,gw_cached,200,66.918,e3746c6e-11f1-45df-9684-923f9e965e13,applied; entities=0,False,1,1,0
+warmup,87,gw_cached,200,70.124,5888cca9-aee6-4fc4-b76a-949c40885c97,applied; entities=0,False,1,1,0
+warmup,88,gw_cold,200,83.606,028ccbf8-58a2-4397-8dd4-1fd2d5926fc9,applied; entities=0,True,1,0,11
+warmup,89,gw_cached,200,65.282,c45be64e-f6ae-4a48-a3f6-7d7a7fa47794,applied; entities=0,False,1,1,0
+warmup,90,gw_cached,200,66.563,a7316486-1200-4982-998d-6164b4a57494,applied; entities=0,False,1,1,0
+warmup,91,gw_cached,200,66.263,aecb1d36-c272-4863-9765-a5bab60db056,applied; entities=0,False,1,1,0
+warmup,92,gw_cold,200,73.945,32570f59-ab06-4b28-9c40-12acd87bf1ff,applied; entities=0,True,1,0,8
+warmup,93,direct,200,51.762,,,,,,
+warmup,94,direct,200,51.572,,,,,,
+warmup,95,gw_cold,200,73.269,5f573a0f-7440-475d-9e73-b225db821b79,applied; entities=0,True,1,0,8
+warmup,96,gw_cached,200,63.83,7f5d71d9-84ed-4d21-a230-840e9a3e6f75,applied; entities=0,False,1,1,0
+warmup,97,gw_noscan,200,65.038,ad7a06f2-574f-45b0-b2b0-5c45b275fe8c,relaxed,,,,0
+warmup,98,gw_cold,200,74.966,5963bbfe-e684-4a65-aa69-c0643312cb7b,applied; entities=0,True,1,0,7
+warmup,99,gw_cached,200,63.723,1300480f-16cc-4e92-868e-ab9851541edc,applied; entities=0,False,1,1,0
+warmup,100,gw_noscan,200,63.219,a6af316e-5ac4-48be-8cae-cf77cc69aec9,relaxed,,,,0
+warmup,101,direct,200,51.623,,,,,,
+warmup,102,gw_noscan,200,65.883,348defcb-b81c-477d-8023-3ea3f76feb8d,relaxed,,,,0
+warmup,103,gw_noscan,200,65.728,085f0e2d-e5d4-45fa-b6b9-a1f093a83ae3,relaxed,,,,0
+warmup,104,direct,200,52.1,,,,,,
+warmup,105,direct,200,51.876,,,,,,
+warmup,106,direct,200,51.848,,,,,,
+warmup,107,gw_cold,200,73.272,4ba3c16b-06f3-460e-876d-30a4f44261d0,applied; entities=0,True,1,0,8
+warmup,108,direct,200,52.967,,,,,,
+warmup,109,gw_cold,200,73.177,45136274-0937-4a06-b339-15adee425639,applied; entities=0,True,1,0,7
+warmup,110,gw_noscan,200,66.69,4057257e-e9bc-40ee-9aca-856778b0fac6,relaxed,,,,0
+warmup,111,direct,200,51.56,,,,,,
+warmup,112,gw_cold,200,70.138,05f94cc5-aed3-42c7-a228-86cfe407c556,applied; entities=0,True,1,0,8
+warmup,113,gw_cached,200,67.383,6cdaab0a-344d-472b-acb2-f578f8d54c42,applied; entities=0,False,1,1,0
+warmup,114,direct,200,51.687,,,,,,
+warmup,115,direct,200,51.511,,,,,,
+warmup,116,gw_cold,200,71.146,9649f3d2-c066-4523-bef9-ecaccda8633a,applied; entities=0,True,1,0,8
+warmup,117,gw_noscan,200,62.768,4df38431-4e92-4c91-a1bb-7743da065623,relaxed,,,,0
+warmup,118,direct,200,51.913,,,,,,
+warmup,119,gw_noscan,200,63.089,e37568cd-b824-4a5f-95f4-fac47aa2960a,relaxed,,,,0
+measured,0,gw_cached,200,65.239,12697b43-c851-4d92-bb16-1e4f630cfbae,applied; entities=0,False,1,1,0
+measured,1,direct,200,51.461,,,,,,
+measured,2,gw_cached,200,63.952,22991cdc-426a-4048-9aa3-e3d6163f2299,applied; entities=0,False,1,1,0
+measured,3,gw_noscan,200,68.068,a051b252-d3fc-42bb-a369-6e78b60fae1e,relaxed,,,,0
+measured,4,gw_noscan,200,64.109,aa151c75-d5e3-48b0-ab7c-dfba634f307d,relaxed,,,,0
+measured,5,gw_cold,200,73.403,10a40626-f94e-4f87-abb7-8fc9ed6f4ff5,applied; entities=1; unresolved=0,True,1,0,8
+measured,6,direct,200,51.74,,,,,,
+measured,7,gw_noscan,200,62.73,abe3d91f-d7b3-4183-beea-cd80fc31d1d4,relaxed,,,,0
+measured,8,direct,200,51.436,,,,,,
+measured,9,gw_cold,200,74.443,ea0f9b8c-1a3f-4e35-845f-83aa4ff3d910,applied; entities=0,True,1,0,10
+measured,10,gw_noscan,200,64.479,35f10b76-6886-4840-bc83-b75b8c7f2a6d,relaxed,,,,0
+measured,11,direct,200,51.558,,,,,,
+measured,12,gw_cold,200,72.214,c3a8093f-923e-48e6-90d2-d17f26ed81bc,applied; entities=0,True,1,0,8
+measured,13,gw_cold,200,78.34,1b5ab839-82a2-4ddf-beb8-fa87e7691339,applied; entities=0,True,1,0,11
+measured,14,gw_cached,200,66.362,2b955e9b-80bb-47ec-b6bb-4876fc3d7965,applied; entities=0,False,1,1,0
+measured,15,direct,200,51.299,,,,,,
+measured,16,gw_noscan,200,64.646,1575f0b2-a766-427f-ba97-2d91c9e278fb,relaxed,,,,0
+measured,17,gw_noscan,200,67.24,d08b40a7-7311-41cd-962b-9eef1e71f4b9,relaxed,,,,0
+measured,18,gw_cached,200,66.912,4cfa3c87-eeab-4b8d-825f-919337f774e3,applied; entities=0,False,1,1,0
+measured,19,gw_cached,200,65.578,a8a880f2-a7e7-4979-aaed-ceddb0016261,applied; entities=0,False,1,1,0
+measured,20,gw_cached,200,68.4,67ecd98e-fc05-4747-b71f-8c5cc6720eed,applied; entities=0,False,1,1,0
+measured,21,gw_cached,200,65.333,cb4eae5e-2859-40aa-b8d5-35470db1bc98,applied; entities=0,False,1,1,0
+measured,22,gw_cached,200,65.703,c95dd675-c767-4d38-aaa6-1ba7edf1826a,applied; entities=0,False,1,1,0
+measured,23,direct,200,51.605,,,,,,
+measured,24,direct,200,51.593,,,,,,
+measured,25,direct,200,51.434,,,,,,
+measured,26,gw_noscan,200,62.47,f1d2d360-6cb3-4033-bc49-8e84336b6e8d,relaxed,,,,0
+measured,27,gw_cached,200,64.542,0f722766-55dc-4347-8085-2ea699f3dbf8,applied; entities=0,False,1,1,0
+measured,28,gw_cached,200,65.916,9d937b76-b34c-466c-be97-a7c88e21ad9d,applied; entities=0,False,1,1,0
+measured,29,gw_noscan,200,64.196,03c09c62-8bbb-4036-b2d2-cb1ab87812e0,relaxed,,,,0
+measured,30,gw_noscan,200,64.438,9971479d-a1df-43f3-88e0-b4920aa695b7,relaxed,,,,0
+measured,31,gw_noscan,200,64.077,d9cc6677-6db1-4587-af30-8e6c6e39ad07,relaxed,,,,0
+measured,32,direct,200,51.38,,,,,,
+measured,33,direct,200,51.514,,,,,,
+measured,34,gw_cold,200,70.046,50d04adf-8eca-45db-9101-c43878bceb71,applied; entities=0,True,1,0,7
+measured,35,gw_noscan,200,68.544,11d37a25-7f18-468f-97e4-5ea31e7a3bc2,relaxed,,,,0
+measured,36,gw_noscan,200,66.166,ad34d794-d228-49b1-9f0b-d1afedb109b8,relaxed,,,,0
+measured,37,gw_cached,200,64.064,52b050f9-4306-46d8-b937-a1997b62b611,applied; entities=0,False,1,1,0
+measured,38,direct,200,51.536,,,,,,
+measured,39,gw_cold,200,73.182,812a4b6f-0c2c-4bae-a6da-0088e7851225,applied; entities=0,True,1,0,8
+measured,40,gw_noscan,200,65.561,2372cca2-c848-41a7-97fb-b56ac2cc425b,relaxed,,,,0
+measured,41,gw_noscan,200,63.612,c4e432b6-6591-491c-b487-55bca08f908f,relaxed,,,,0
+measured,42,direct,200,51.709,,,,,,
+measured,43,gw_noscan,200,65.244,60c2b30c-6cd3-47bb-a6cd-c58d463b0314,relaxed,,,,0
+measured,44,direct,200,51.531,,,,,,
+measured,45,gw_cached,200,62.82,71b8747a-2777-41bb-9f3c-ae8f0589df0e,applied; entities=0,False,1,1,0
+measured,46,gw_noscan,200,67.345,1b23df1b-565c-4ba7-8706-0851d8756774,relaxed,,,,0
+measured,47,gw_cold,200,90.655,3f186a67-35fa-4120-ba79-2e767dec90ec,applied; entities=0,True,1,0,9
+measured,48,gw_cached,200,64.012,5b270122-c7bf-4c09-a657-a2e73c62e702,applied; entities=0,False,1,1,0
+measured,49,gw_cached,200,64.753,911c087f-559e-4a27-be21-ed0da8f9f8ed,applied; entities=0,False,1,1,0
+measured,50,gw_cold,200,72.664,572e0bfa-50c2-4ff1-b0d9-72f79e302187,applied; entities=0,True,1,0,8
+measured,51,gw_cold,200,72.776,cd8c9407-7b61-4868-8cb7-513d4839fab6,applied; entities=0,True,1,0,8
+measured,52,gw_cached,200,64.665,10797bbd-fd2b-4e07-bb08-e189fadc7c68,applied; entities=0,False,1,1,0
+measured,53,direct,200,51.91,,,,,,
+measured,54,direct,200,51.755,,,,,,
+measured,55,gw_cached,200,62.622,910b5358-aa6f-4b1b-a0fe-d3126279097d,applied; entities=0,False,1,1,0
+measured,56,gw_cold,200,73.379,400ba539-1823-4393-b839-80cbc955df53,applied; entities=0,True,1,0,7
+measured,57,gw_noscan,200,64.871,40a15ed6-8e0d-4dbc-a1ad-6b363335a9fd,relaxed,,,,0
+measured,58,gw_cold,200,76.388,dd30cdbc-9eac-410e-8816-b2ab436fbdab,applied; entities=0,True,1,0,10
+measured,59,gw_noscan,200,64.899,d9839702-390a-4cfe-b4c5-9a270ea4e75c,relaxed,,,,0
+measured,60,direct,200,51.324,,,,,,
+measured,61,gw_noscan,200,62.331,17a4b484-bae0-40a8-8c23-74be8383962d,relaxed,,,,0
+measured,62,gw_cold,200,72.42,541a7de5-4b0f-43ae-ab5f-9fdd9e46500f,applied; entities=0,True,1,0,8
+measured,63,gw_cached,200,65.247,63c2c1c2-1cce-4641-9e06-44b867a78938,applied; entities=0,False,1,1,0
+measured,64,direct,200,51.541,,,,,,
+measured,65,gw_cached,200,63.585,bf20d9e8-6d3e-457f-aaef-63a18498fc9c,applied; entities=0,False,1,1,0
+measured,66,gw_noscan,200,65.435,62c12d77-95c1-40f9-acf5-1f0c5b87cf1a,relaxed,,,,0
+measured,67,gw_cold,200,78.826,9c5805b3-4abf-45a8-9946-04549a2160ab,applied; entities=0,True,1,0,9
+measured,68,gw_noscan,200,66.245,0ca28392-2fc7-451c-bcfe-0a1deb3beba6,relaxed,,,,0
+measured,69,direct,200,51.51,,,,,,
+measured,70,gw_cold,200,76.267,0db803ee-1c23-4bae-828d-4cdf843d3c27,applied; entities=0,True,1,0,12
+measured,71,gw_cold,200,71.293,78b4f894-917e-4de6-908b-17eb3d36daeb,applied; entities=0,True,1,0,8
+measured,72,gw_noscan,200,65.541,8549fa54-a326-48d3-a740-5adb20a1a4d9,relaxed,,,,0
+measured,73,gw_cached,200,69.955,273a8230-e4b0-449d-a0e6-8b3e3a3da616,applied; entities=0,False,1,1,0
+measured,74,direct,200,51.391,,,,,,
+measured,75,gw_cold,200,74.819,c1bea78d-01b2-412e-9d84-ac727e53a283,applied; entities=0,True,1,0,7
+measured,76,gw_cold,200,70.524,2eb58e2e-fbf0-47be-93fc-6167bb3a399b,applied; entities=0,True,1,0,7
+measured,77,direct,200,51.424,,,,,,
+measured,78,direct,200,51.438,,,,,,
+measured,79,gw_noscan,200,62.157,45c1d1ce-9818-415b-a88d-0d7debb0838d,relaxed,,,,0
+measured,80,gw_cold,200,75.247,0f2eddd3-51a8-437a-bfe6-711ac1e97288,applied; entities=0,True,1,0,9
+measured,81,gw_cold,200,70.957,72418190-ef17-4a25-9e97-e745c228c191,applied; entities=0,True,1,0,7
+measured,82,gw_cold,200,71.852,3bf00041-1a94-412e-83fd-0047d5f63d79,applied; entities=0,True,1,0,7
+measured,83,direct,200,51.546,,,,,,
+measured,84,gw_cold,200,70.169,22cc2b88-c66f-49a1-a071-4d03ae642046,applied; entities=0,True,1,0,8
+measured,85,gw_cached,200,63.933,b293cbb5-9206-4cf7-972d-aaf24dc497db,applied; entities=0,False,1,1,0
+measured,86,direct,200,51.782,,,,,,
+measured,87,gw_noscan,200,65.352,f3aa1b49-bf26-4362-b25a-7cb03834a11a,relaxed,,,,0
+measured,88,gw_cold,200,73.973,7dabcef3-92ec-4a26-b0f5-33e0ec04d821,applied; entities=0,True,1,0,9
+measured,89,gw_cached,200,65.28,3746762f-cf50-493b-b963-60f7f240987d,applied; entities=0,False,1,1,0
+measured,90,direct,200,51.437,,,,,,
+measured,91,gw_cold,200,72.121,53166eda-14c1-4ad9-8905-9e5b93724330,applied; entities=0,True,1,0,7
+measured,92,direct,200,51.588,,,,,,
+measured,93,gw_noscan,200,65.032,70ca82e0-1091-4e6b-9912-1f0703f7f16c,relaxed,,,,0
+measured,94,gw_cold,200,76.521,cec054b5-1e99-4fb8-9471-bf98fe73c0ba,applied; entities=0,True,1,0,10
+measured,95,direct,200,51.369,,,,,,
+measured,96,gw_cold,200,72.171,3b31f06b-2853-454a-a2e7-debeabd76352,applied; entities=0,True,1,0,8
+measured,97,direct,200,51.612,,,,,,
+measured,98,gw_cold,200,73.118,db7ada02-c255-4ebc-9db2-096b419f02e4,applied; entities=0,True,1,0,8
+measured,99,direct,200,52.137,,,,,,
+measured,100,gw_cached,200,62.6,409add9b-526d-4369-99a9-16467087112d,applied; entities=0,False,1,1,0
+measured,101,gw_noscan,200,65.132,50802708-1ee8-4a24-bc89-fbdf1630b296,relaxed,,,,0
+measured,102,gw_cached,200,65.718,c508ff7f-830a-44b1-92df-4ca6d92edfdc,applied; entities=0,False,1,1,0
+measured,103,gw_cold,200,73.073,976ec2b0-3c9d-4f30-9416-eff5e36cd6ce,applied; entities=0,True,1,0,8
+measured,104,direct,200,51.729,,,,,,
+measured,105,direct,200,51.774,,,,,,
+measured,106,gw_cached,200,63.319,ea52c2b5-9681-4d36-b734-da8f4db1bde0,applied; entities=0,False,1,1,0
+measured,107,gw_noscan,200,72.998,bf9ee42d-c361-428c-ba1f-bce14af881ef,relaxed,,,,0
+measured,108,gw_noscan,200,75.287,fc6229d3-fc04-4e07-9b7c-c6daa1d88595,relaxed,,,,0
+measured,109,direct,200,51.856,,,,,,
+measured,110,gw_noscan,200,65.705,a4f77c69-213a-4182-98b3-4d9b5c676ec9,relaxed,,,,0
+measured,111,gw_noscan,200,70.905,74e63a5e-b533-4c56-a3e9-c844cdc62ce0,relaxed,,,,0
+measured,112,gw_cached,200,64.154,8ce24e45-533d-4116-a620-9b156975bd78,applied; entities=0,False,1,1,0
+measured,113,gw_cached,200,65.723,d46da9fd-0d11-49f6-9cc6-5e8414dd70f4,applied; entities=0,False,1,1,0
+measured,114,gw_cached,200,65.068,91ce851f-b6b0-40d6-abf2-6e38b65a8837,applied; entities=0,False,1,1,0
+measured,115,direct,200,51.283,,,,,,
+measured,116,gw_noscan,200,64.87,d5d88066-95f9-43d5-9f54-af82100556d4,relaxed,,,,0
+measured,117,gw_cold,200,79.472,08a63e54-e0cc-4e4b-8753-05df37758da7,applied; entities=0,True,1,0,12
+measured,118,direct,200,51.382,,,,,,
+measured,119,gw_cold,200,77.632,fe0efc4a-c66e-42bf-9682-7dc5f70678a5,applied; entities=0,True,1,0,12
+measured,120,direct,200,51.921,,,,,,
+measured,121,gw_cached,200,64.928,e49cf3a0-bf1a-4f92-be9d-04b62e37dac8,applied; entities=0,False,1,1,0
+measured,122,gw_noscan,200,69.405,0b3d185c-34e8-4dc4-b474-ee664be024d3,relaxed,,,,0
+measured,123,gw_cold,200,75.473,73d69b81-a2d8-47fa-b142-966081e7e898,applied; entities=0,True,1,0,10
+measured,124,gw_noscan,200,69.426,6182fe21-d0d2-4686-ba15-98f9d802d337,relaxed,,,,0
+measured,125,gw_noscan,200,70.887,14f8c188-863c-4911-a761-5dfe3f7c4a24,relaxed,,,,0
+measured,126,gw_cold,200,77.673,e3ade02c-6441-40a3-ad7c-eb781e896d33,applied; entities=1; unresolved=0,True,1,0,11
+measured,127,gw_cold,200,73.898,0aad3e93-cfda-4038-84d3-973074270119,applied; entities=0,True,1,0,8
+measured,128,gw_cold,200,76.681,5b44b911-7443-41df-ab14-00536c98b097,applied; entities=0,True,1,0,11
+measured,129,gw_cold,200,73.328,62372e42-cb6c-4ab9-9e69-3e8250890843,applied; entities=0,True,1,0,8
+measured,130,gw_noscan,200,63.1,22c452d4-fa12-4870-b42e-6cd166ab66c0,relaxed,,,,0
+measured,131,gw_noscan,200,63.819,927ab339-5476-4b85-a0b4-9b5465b5f317,relaxed,,,,0
+measured,132,gw_cold,200,71.201,54b5857f-5e67-4483-a517-693b80eb0659,applied; entities=0,True,1,0,7
+measured,133,gw_cold,200,71.49,72a5c02c-60eb-421b-9abe-a2d75d4c54ce,applied; entities=0,True,1,0,8
+measured,134,gw_cached,200,65.024,0a4c774a-ee1c-41cc-abcc-149f25ddb0b3,applied; entities=0,False,1,1,0
+measured,135,gw_cached,200,65.322,445ac8b8-a0cf-49d7-a282-03136802db6c,applied; entities=0,False,1,1,0
+measured,136,gw_cached,200,63.275,0c06ad52-2608-4b9f-a6c9-df5261a4eb5d,applied; entities=0,False,1,1,0
+measured,137,gw_cold,200,71.707,531115cf-58fb-4914-8135-34d23fd93d76,applied; entities=0,True,1,0,7
+measured,138,gw_cached,200,64.619,e9a03ab5-8566-4550-86ec-c09a42423340,applied; entities=0,False,1,1,0
+measured,139,gw_cold,200,76.893,204add42-532e-48ab-adbf-e8a0129c875f,applied; entities=0,True,1,0,8
+measured,140,gw_cold,200,84.58,912d2d78-193c-4e99-8b65-6cad59496b4d,applied; entities=0,True,1,0,8
+measured,141,gw_noscan,200,64.739,2876c61d-43f6-4c08-8134-8c27887b871a,relaxed,,,,0
+measured,142,direct,200,51.501,,,,,,
+measured,143,gw_cached,200,61.831,329d4dd5-6933-43a7-abfd-88cabf3e7f13,applied; entities=0,False,1,1,0
+measured,144,direct,200,51.914,,,,,,
+measured,145,gw_cold,200,71.087,30f29c21-3d52-4be8-b200-ce682b7f1c9d,applied; entities=0,True,1,0,7
+measured,146,direct,200,51.54,,,,,,
+measured,147,gw_cold,200,72.139,8d332c37-45ac-42cb-8861-317e3c40942b,applied; entities=0,True,1,0,8
+measured,148,gw_noscan,200,65.053,28d52815-32a5-4c90-b907-c324847994ec,relaxed,,,,0
+measured,149,direct,200,51.597,,,,,,
+measured,150,gw_cold,200,70.614,e31022f0-723c-4cea-804d-333f8961cd3e,applied; entities=0,True,1,0,8
+measured,151,gw_noscan,200,66.615,20dc36eb-9c41-4781-a536-5a1b754cf841,relaxed,,,,0
+measured,152,gw_noscan,200,66.018,4cf3a494-f489-431e-8f7a-84bc064565ca,relaxed,,,,0
+measured,153,gw_cached,200,67.373,3eb61c2b-8f90-4e92-a51d-beac3ffebc79,applied; entities=0,False,1,1,0
+measured,154,gw_cold,200,78.927,8201c4df-22e4-4977-8195-bc20604847c5,applied; entities=0,True,1,0,10
+measured,155,gw_cached,200,64.783,fa3de301-be4d-46e3-af9a-265260f7ec35,applied; entities=0,False,1,1,0
+measured,156,direct,200,51.483,,,,,,
+measured,157,direct,200,51.336,,,,,,
+measured,158,gw_cached,200,63.774,87689b6a-64b0-4b04-a68d-793663984c71,applied; entities=0,False,1,1,0
+measured,159,gw_cached,200,63.018,e057e296-52ee-4845-bc56-e09a6a2d1fba,applied; entities=0,False,1,1,0
+measured,160,gw_cold,200,73.638,d1ff4dcd-c4ce-46da-9d1a-f998d70b24c5,applied; entities=0,True,1,0,9
+measured,161,gw_noscan,200,66.424,e5268560-10c0-47e3-8971-0bcfdf163847,relaxed,,,,0
+measured,162,direct,200,51.625,,,,,,
+measured,163,gw_cold,200,73.535,aeefa8ee-ee5e-4952-a328-29635b2c8197,applied; entities=0,True,1,0,8
+measured,164,gw_cached,200,64.788,8c808c8a-b382-403a-9312-938da93a61a1,applied; entities=0,False,1,1,0
+measured,165,gw_cached,200,65.448,beedcd48-3c7f-4a26-a538-ec79f87979be,applied; entities=0,False,1,1,0
+measured,166,gw_noscan,200,69.769,c362f13c-2028-43e4-bc6d-3f4a67b21cff,relaxed,,,,0
+measured,167,gw_cold,200,75.643,c4811457-3b64-4472-a506-b16f99b34878,applied; entities=0,True,1,0,8
+measured,168,direct,200,51.321,,,,,,
+measured,169,gw_cached,200,63.679,0625ce78-d0c8-4a6f-9f5d-1813145cfa23,applied; entities=0,False,1,1,0
+measured,170,gw_cold,200,79.813,36a5bf98-9088-4656-af44-f18c6550fdf4,applied; entities=0,True,1,0,8
+measured,171,gw_cached,200,66.232,0d793dc9-0b53-4457-a3b2-769c84d68c05,applied; entities=0,False,1,1,0
+measured,172,gw_noscan,200,67.735,159391d5-b9e6-4ae3-9552-9252f4e1b400,relaxed,,,,0
+measured,173,direct,200,51.472,,,,,,
+measured,174,direct,200,51.631,,,,,,
+measured,175,gw_noscan,200,64.364,7c691851-c7df-4a0f-a7c0-fefbe8798b62,relaxed,,,,0
+measured,176,gw_cold,200,70.91,a6413e8e-4d6d-4f45-9d97-4d4cdf4b21c4,applied; entities=1; unresolved=0,True,1,0,8
+measured,177,direct,200,51.568,,,,,,
+measured,178,direct,200,51.623,,,,,,
+measured,179,direct,200,51.482,,,,,,
+measured,180,direct,200,51.463,,,,,,
+measured,181,gw_cached,200,63.098,d5d729c6-bc12-4bce-a671-da0304e82a30,applied; entities=0,False,1,1,0
+measured,182,gw_cached,200,64.383,2150bf3a-0482-44b5-b89e-4cdde9e935c7,applied; entities=0,False,1,1,0
+measured,183,gw_cached,200,64.974,12b44770-1986-44bd-9fe3-48a30923c5ce,applied; entities=0,False,1,1,0
+measured,184,gw_noscan,200,64.984,3d1ff97a-dd4f-4996-9e2e-5ca1c7f9dda4,relaxed,,,,0
+measured,185,direct,200,51.669,,,,,,
+measured,186,gw_cold,200,72.664,73ecde19-5971-444d-bef1-537a2762f80d,applied; entities=0,True,1,0,7
+measured,187,gw_cold,200,73.617,2dc0c274-16b2-4d70-9459-90cf8b614574,applied; entities=0,True,1,0,8
+measured,188,gw_cached,200,65.417,70608ba7-648e-4208-8781-c764d4024bbb,applied; entities=0,False,1,1,0
+measured,189,direct,200,51.312,,,,,,
+measured,190,direct,200,51.284,,,,,,
+measured,191,gw_noscan,200,63.437,bc900339-2471-458f-ab9f-7947b9f5e17c,relaxed,,,,0
+measured,192,gw_cached,200,65.44,bb2ef6ec-a24d-4883-b8ef-89fa237c4293,applied; entities=0,False,1,1,0
+measured,193,direct,200,51.395,,,,,,
+measured,194,direct,200,51.307,,,,,,
+measured,195,gw_cached,200,64.553,46427f78-2ad0-43c4-9fbe-a94981221daf,applied; entities=0,False,1,1,0
+measured,196,gw_noscan,200,64.991,15c8c019-ed8b-4a9f-b698-bdab53722f77,relaxed,,,,0
+measured,197,gw_cold,200,72.975,59e3363e-af04-4a99-9a3a-6e9f178fe66e,applied; entities=0,True,1,0,9
+measured,198,direct,200,51.633,,,,,,
+measured,199,gw_noscan,200,63.655,b507c989-2136-4976-ac5b-c4689cdaa818,relaxed,,,,0
+measured,200,direct,200,51.415,,,,,,
+measured,201,gw_cached,200,63.344,ed16ccc6-93bf-4480-89fc-d358da9c43a6,applied; entities=0,False,1,1,0
+measured,202,direct,200,51.511,,,,,,
+measured,203,gw_noscan,200,62.41,a22b9982-7d58-4fa5-9d61-bf3b9354a28f,relaxed,,,,0
+measured,204,gw_cached,200,64.871,b967ec3d-7a4b-4022-a3a9-37251064c496,applied; entities=0,False,1,1,0
+measured,205,gw_noscan,200,62.507,4df5c8cc-eb2f-4440-9adc-dcf01d249ab4,relaxed,,,,0
+measured,206,direct,200,51.527,,,,,,
+measured,207,gw_noscan,200,61.939,b43cb39f-d670-443d-a5be-3d5f142945a2,relaxed,,,,0
+measured,208,gw_noscan,200,65.802,4a5f82cc-bde5-437c-ab32-8550b241f541,relaxed,,,,0
+measured,209,gw_noscan,200,65.933,e5f48363-9c3f-40ea-84fb-f80ae73d389d,relaxed,,,,0
+measured,210,gw_noscan,200,65.912,e177c845-c755-45a4-adca-b410aaaffee8,relaxed,,,,0
+measured,211,gw_cold,200,73.824,7cda1d01-7881-4e89-98b8-8e57aea0c260,applied; entities=0,True,1,0,7
+measured,212,gw_cached,200,63.469,e8df0e6a-9e8b-4d3f-b304-9520ec422d97,applied; entities=0,False,1,1,0
+measured,213,direct,200,51.648,,,,,,
+measured,214,gw_noscan,200,62.543,0d0502b8-d91a-4306-be57-73ed7b4ba51b,relaxed,,,,0
+measured,215,direct,200,51.28,,,,,,
+measured,216,gw_noscan,200,62.863,f9f102a6-7deb-488b-bf44-bedcd34d5e56,relaxed,,,,0
+measured,217,gw_noscan,200,64.342,d70fb964-9933-4d78-8f79-6aabc531cf23,relaxed,,,,0
+measured,218,gw_cold,200,70.775,4a0b26f9-8d43-4785-a1ee-a28eaa3e90ea,applied; entities=0,True,1,0,7
+measured,219,gw_cold,200,81.945,ed9e8447-ec13-463c-b245-95c3e96645dc,applied; entities=0,True,1,0,13
+measured,220,gw_cold,200,74.857,15f786ed-0e13-4345-ac4b-14c14fb507e7,applied; entities=0,True,1,0,8
+measured,221,gw_cached,200,67.561,f9eeacdd-322a-4292-bb1e-b1c4e1fa539d,applied; entities=0,False,1,1,0
+measured,222,direct,200,51.407,,,,,,
+measured,223,gw_cached,200,65.189,808e561e-c8e5-448c-8f52-8bb55c5cfd59,applied; entities=0,False,1,1,0
+measured,224,gw_cold,200,73.32,ba9946a0-996e-42de-9971-93bd4a5ece09,applied; entities=0,True,1,0,8
+measured,225,gw_noscan,200,67.128,6b17f49a-050b-4973-98f1-d5568ede2cd3,relaxed,,,,0
+measured,226,direct,200,51.786,,,,,,
+measured,227,gw_cached,200,65.017,0f17953d-d4a4-45bc-8d63-5f1145054a73,applied; entities=0,False,1,1,0
+measured,228,gw_cached,200,64.395,93cc300c-da0f-4711-8e8c-8b816d42928b,applied; entities=0,False,1,1,0
+measured,229,gw_noscan,200,65.127,d6ee6053-7468-4d66-b7e0-decabfde31ea,relaxed,,,,0
+measured,230,direct,200,51.757,,,,,,
+measured,231,direct,200,51.583,,,,,,
+measured,232,gw_cold,200,71.66,813b8c4d-f399-49ce-989f-fbaee404940d,applied; entities=0,True,1,0,9
+measured,233,gw_cached,200,64.827,1579a53e-8afb-4847-9fa6-fd98d873cec5,applied; entities=0,False,1,1,0
+measured,234,gw_noscan,200,69.116,295e684d-14b3-4c1f-b68a-b227cdb73a61,relaxed,,,,0
+measured,235,direct,200,51.656,,,,,,
+measured,236,gw_cold,200,76.721,d9fafb0f-6a10-4ee7-bba3-e4c15c8c8023,applied; entities=0,True,1,0,9
+measured,237,gw_cold,200,77.509,ca2f0402-1591-4e18-ae05-260c35bd0fe5,applied; entities=0,True,1,0,7
+measured,238,direct,200,51.571,,,,,,
+measured,239,direct,200,51.799,,,,,,
+measured,240,gw_noscan,200,63.54,e8b9c6b0-bcbc-4d2d-b84b-5343acb858c9,relaxed,,,,0
+measured,241,gw_noscan,200,64.881,1740d6f2-3032-4a9c-ab61-a94a6335b6cc,relaxed,,,,0
+measured,242,gw_noscan,200,64.875,b349161d-bb0f-40ce-a074-b48aaaf01a86,relaxed,,,,0
+measured,243,direct,200,51.885,,,,,,
+measured,244,gw_cold,200,72.792,1ad15cd9-072e-4833-a818-a8f887f8575e,applied; entities=0,True,1,0,8
+measured,245,gw_cached,200,68.781,779c8f20-9123-42d5-8b7e-8e41e398b0ad,applied; entities=0,False,1,1,0
+measured,246,gw_cold,200,78.979,7749068d-90e1-4eb1-8f6a-6e79e4e0c868,applied; entities=0,True,1,0,10
+measured,247,gw_noscan,200,64.982,37c3771b-2502-4bad-b35e-f35c9e5e5e9e,relaxed,,,,0
+measured,248,gw_cold,200,75.66,8a5388a7-dd72-44d5-81c5-b827a5988a9b,applied; entities=0,True,1,0,9
+measured,249,direct,200,51.694,,,,,,
+measured,250,gw_cold,200,72.066,ee4065ab-5607-4801-b670-496a6952fdd9,applied; entities=0,True,1,0,7
+measured,251,gw_cold,200,72.945,e50886e4-7f55-4263-a279-e186b5cfdda1,applied; entities=0,True,1,0,8
+measured,252,gw_noscan,200,62.934,21e815a4-ed7d-4eed-879c-486e1160dcc7,relaxed,,,,0
+measured,253,gw_cached,200,64.564,16606bff-7b3a-4f04-987a-c500e221fec5,applied; entities=0,False,1,1,0
+measured,254,direct,200,51.434,,,,,,
+measured,255,gw_cached,200,61.778,45d9ef5f-86c2-409c-873d-25ba09e9a065,applied; entities=0,False,1,1,0
+measured,256,direct,200,51.557,,,,,,
+measured,257,gw_cold,200,71.037,44a0b4a8-3767-4aa1-91c4-165a223ecf8c,applied; entities=0,True,1,0,8
+measured,258,gw_cold,200,71.625,c44da9be-312a-40a1-8fff-88c8f1d32b47,applied; entities=0,True,1,0,8
+measured,259,gw_cold,200,71.936,539cfd26-9e25-4127-877a-211ab1cace46,applied; entities=0,True,1,0,6
+measured,260,gw_cold,200,70.392,e1d74b2d-45ef-49d0-868b-faccf6af578d,applied; entities=0,True,1,0,6
+measured,261,gw_noscan,200,64.265,9ddb5989-1d7f-4696-8d25-0636d2a546c3,relaxed,,,,0
+measured,262,gw_cold,200,71.07,2cc32c9e-b7ec-4adf-8cde-3140c1b7fb5b,applied; entities=0,True,1,0,7
+measured,263,direct,200,51.911,,,,,,
+measured,264,gw_noscan,200,69.263,ffda6175-e292-4d76-bac2-18d3164e1b95,relaxed,,,,0
+measured,265,gw_noscan,200,74.262,84e6a632-f0ed-4ab7-b132-786a69b867b5,relaxed,,,,0
+measured,266,direct,200,51.389,,,,,,
+measured,267,gw_cached,200,63.068,c4a9b977-e353-4882-9a57-99834261d5e8,applied; entities=0,False,1,1,0
+measured,268,gw_cached,200,66.356,21c61e73-4a25-4e43-93a0-23f2b1c6c183,applied; entities=0,False,1,1,0
+measured,269,direct,200,51.463,,,,,,
+measured,270,direct,200,51.5,,,,,,
+measured,271,gw_noscan,200,65.5,81cfa749-34ef-4675-980a-1fde7dc4f937,relaxed,,,,0
+measured,272,direct,200,51.746,,,,,,
+measured,273,gw_noscan,200,63.229,84d22df5-72e2-482e-b07f-55d43e611650,relaxed,,,,0
+measured,274,gw_cached,200,67.337,3c29b3a6-fcf9-4ea3-9c2c-f4c43c6466c1,applied; entities=0,False,1,1,0
+measured,275,gw_cached,200,65.083,f9231f01-4805-4e0c-810e-5b618692f5ce,applied; entities=0,False,1,1,0
+measured,276,gw_noscan,200,65.383,8513ce07-844d-4f21-aaf5-f6ad1c554aa9,relaxed,,,,0
+measured,277,direct,200,51.329,,,,,,
+measured,278,gw_cached,200,63.015,9198d435-ee56-4a8b-9316-3b30e592b6ce,applied; entities=0,False,1,1,0
+measured,279,direct,200,51.462,,,,,,
+measured,280,gw_noscan,200,63.246,7829b813-b9b0-4b9c-8d44-00e0506ea726,relaxed,,,,0
+measured,281,gw_cached,200,64.78,ce8a54ff-66bc-4fe3-8b55-a56ec07dad51,applied; entities=0,False,1,1,0
+measured,282,gw_noscan,200,66.794,604e95db-b415-4786-b744-2a6f1a15ca9f,relaxed,,,,0
+measured,283,gw_noscan,200,63.329,608148f7-f31b-4a95-bd0f-77cccabe8062,relaxed,,,,0
+measured,284,gw_cached,200,63.818,fa9b0a36-8fdd-46fe-82f9-26d0fb159d29,applied; entities=0,False,1,1,0
+measured,285,gw_cold,200,71.998,9e1d4d37-e1aa-4dc3-acbe-9d8bf8d0c4f7,applied; entities=0,True,1,0,7
+measured,286,gw_cached,200,64.32,9e77ee48-0e62-4c81-97dc-85de172bc2de,applied; entities=0,False,1,1,0
+measured,287,gw_noscan,200,63.664,6f9ab454-e8d0-45b9-ada0-b4204039fc10,relaxed,,,,0
+measured,288,gw_cold,200,74.981,d168c03b-778f-4a60-8509-787023585355,applied; entities=0,True,1,0,9
+measured,289,gw_cold,200,74.477,e095156e-9b32-4223-936c-c2c3aa60b522,applied; entities=0,True,1,0,7
+measured,290,gw_noscan,200,64.155,44053ead-417e-4c01-a751-137b707ba017,relaxed,,,,0
+measured,291,gw_noscan,200,63.947,7965b807-1fa7-49c2-af61-fdcb0996416d,relaxed,,,,0
+measured,292,gw_noscan,200,64.448,00844ea4-5c84-4cfc-a84d-f585cf873058,relaxed,,,,0
+measured,293,direct,200,51.718,,,,,,
+measured,294,gw_cached,200,63.009,7404ac0c-c83d-41c6-b000-d12dce669d6c,applied; entities=0,False,1,1,0
+measured,295,gw_cold,200,71.228,a87db920-8126-46d3-a255-64f946f92b4e,applied; entities=0,True,1,0,7
+measured,296,gw_noscan,200,73.737,d173ec68-5d49-42b9-bb65-e692e5f0e3d0,relaxed,,,,0
+measured,297,direct,200,51.522,,,,,,
+measured,298,gw_cold,200,84.103,e8b17c4a-7a06-43c4-9190-811b3152a3c0,applied; entities=0,True,1,0,17
+measured,299,gw_noscan,200,68.172,e223db3e-97ed-409b-8142-b1da39115fc4,relaxed,,,,0
+measured,300,gw_cold,200,75.559,f6fe8711-9581-49b6-9833-53e9ad3a8123,applied; entities=0,True,1,0,8
+measured,301,direct,200,51.752,,,,,,
+measured,302,gw_cold,200,72.361,7f19c9b6-f308-4cfe-985c-f4d46d46dc0b,applied; entities=0,True,1,0,9
+measured,303,direct,200,51.472,,,,,,
+measured,304,gw_noscan,200,65.875,b5413d02-fb28-4bb4-bc2c-321d97d885d9,relaxed,,,,0
+measured,305,gw_cached,200,68.343,e46d6175-8ba7-4513-b283-024bdf6f41c5,applied; entities=0,False,1,1,0
+measured,306,gw_cold,200,73.112,4689c68a-6d4b-45ea-9a96-842268c43564,applied; entities=0,True,1,0,7
+measured,307,gw_cold,200,76.258,c1d9f5ba-8591-42fc-8300-4cac41b30497,applied; entities=0,True,1,0,9
+measured,308,gw_noscan,200,68.092,e2aab19d-0542-4954-b7f9-1bd8f25ae68b,relaxed,,,,0
+measured,309,gw_cold,200,78.509,d12494b8-e6af-40e0-92ac-6b6a5806f450,applied; entities=0,True,1,0,10
+measured,310,gw_cold,200,74.105,f663dd41-c94f-415b-af88-93bfa766cf82,applied; entities=0,True,1,0,11
+measured,311,gw_cold,200,76.426,d52deaad-8267-4406-9546-b87763d64949,applied; entities=0,True,1,0,9
+measured,312,gw_cached,200,68.979,4fb130b9-e942-4817-80dd-e7b5591d661e,applied; entities=0,False,1,1,0
+measured,313,gw_cached,200,67.851,78c3ad11-02c1-4687-9b67-51dbf247962d,applied; entities=0,False,1,1,0
+measured,314,gw_cached,200,68.302,037e7a7d-9898-422d-96be-a0b30b3ecc77,applied; entities=0,False,1,1,0
+measured,315,direct,200,51.572,,,,,,
+measured,316,gw_cached,200,66.098,db7f68de-e8ae-45aa-9a20-7b0ac22c9e9f,applied; entities=0,False,1,1,0
+measured,317,gw_cached,200,69.137,582b3b8d-d699-481f-afaa-4aadee26f25e,applied; entities=0,False,1,1,0
+measured,318,gw_noscan,200,68.402,80ae2570-05fd-4657-849f-a292942d9d86,relaxed,,,,0
+measured,319,gw_cached,200,63.876,48687fb7-74ee-4294-b2ed-03d76d927fb2,applied; entities=0,False,1,1,0
+measured,320,gw_cold,200,80.196,e58747df-cc89-47fd-b9d2-4dac27dfe8ab,applied; entities=0,True,1,0,10
+measured,321,gw_cached,200,69.328,58541750-8489-4d99-a0c7-4f0fb81081ef,applied; entities=0,False,1,1,0
+measured,322,gw_cached,200,66.898,40728ee3-79e5-4ed4-a273-b26946b41d08,applied; entities=0,False,1,1,0
+measured,323,gw_cold,200,76.438,a0e24e9f-a3a5-4082-8d9c-d8b14fea15c6,applied; entities=0,True,1,0,8
+measured,324,gw_cold,200,82.405,254982bf-9cbf-4b84-b257-e310f0adc421,applied; entities=0,True,1,0,11
+measured,325,gw_cold,200,72.508,86a451b0-28d2-4e04-84df-6eae26558e1b,applied; entities=0,True,1,0,8
+measured,326,gw_cached,200,67.219,fd8c9388-81de-4f25-bfa7-f33d7ecb4ae3,applied; entities=0,False,1,1,0
+measured,327,gw_cold,200,75.423,9d427112-3bea-4843-a047-c3229d1a1161,applied; entities=0,True,1,0,9
+measured,328,gw_noscan,200,63.21,c64f6516-754a-4043-b964-2f74ebe45bf2,relaxed,,,,0
+measured,329,gw_noscan,200,63.367,59d1608d-64e9-4197-9dd0-8caa9f26959f,relaxed,,,,0
+measured,330,gw_noscan,200,65.141,a79a4ed6-a788-4cfc-bcc6-f1262a5b94c1,relaxed,,,,0
+measured,331,gw_cold,200,78.664,271d6d77-90f2-4299-90b1-6a13700d9b75,applied; entities=0,True,1,0,8
+measured,332,gw_noscan,200,67.541,665c73a2-82ed-48bc-a32b-6363edd00856,relaxed,,,,0
+measured,333,gw_noscan,200,70.641,97fc86d2-a10f-4aee-8a0d-c4ad9245bcc1,relaxed,,,,0
+measured,334,gw_cached,200,66.6,4e6b564b-ea38-4967-9c38-8be77daf6e44,applied; entities=0,False,1,1,0
+measured,335,direct,200,51.654,,,,,,
+measured,336,gw_cold,200,77.408,6146d497-20ab-4e8e-9ae0-088163d7b5b7,applied; entities=0,True,1,0,11
+measured,337,gw_cold,200,80.702,8ab9c746-bf13-4d8b-800c-0b38220bf7f3,applied; entities=0,True,1,0,10
+measured,338,direct,200,51.664,,,,,,
+measured,339,gw_noscan,200,64.369,e12ae103-6c89-4398-89cc-40d1a27a78de,relaxed,,,,0
+measured,340,gw_noscan,200,65.084,ba73b154-a51d-44fb-8a84-fcfe506d8385,relaxed,,,,0
+measured,341,direct,200,51.43,,,,,,
+measured,342,gw_cold,200,71.415,d10815ae-3d22-42bc-aff4-3727ff7682d6,applied; entities=0,True,1,0,8
+measured,343,gw_cached,200,66.203,46ff1ef1-8d64-4ef3-89a0-97d8d59d7d32,applied; entities=0,False,1,1,0
+measured,344,gw_cold,200,74.366,35d7eee4-85dd-440d-b81c-b5c77b2aa939,applied; entities=0,True,1,0,7
+measured,345,gw_noscan,200,66.92,7a2836a3-af13-47e0-b8ac-8b8057e7517f,relaxed,,,,0
+measured,346,gw_cached,200,67.059,c2ecf6fb-9113-4f15-a1d2-f2313b73291f,applied; entities=0,False,1,1,0
+measured,347,gw_noscan,200,64.435,b08bf33c-de3e-461a-9dc8-ffe31072e27d,relaxed,,,,0
+measured,348,gw_cached,200,63.279,f8614936-f339-4d9b-b05f-64051d67352b,applied; entities=0,False,1,1,0
+measured,349,direct,200,51.393,,,,,,
+measured,350,direct,200,51.488,,,,,,
+measured,351,gw_noscan,200,63.103,30874571-6603-4145-adf0-6e783217c832,relaxed,,,,0
+measured,352,gw_noscan,200,64.606,a9fadc7d-ae89-448c-a736-1a9dbf1b9505,relaxed,,,,0
+measured,353,gw_cached,200,66.026,64c083ed-857d-4a3a-9240-46e8a49b4850,applied; entities=0,False,1,1,0
+measured,354,direct,200,51.481,,,,,,
+measured,355,gw_cold,200,71.42,ea476632-4a98-4270-a961-ef92d1634d3e,applied; entities=0,True,1,0,8
+measured,356,gw_noscan,200,67.952,2d5a3f53-2625-4350-9d5e-7f01e285065b,relaxed,,,,1
+measured,357,gw_cached,200,69.316,ec08ee21-1549-4f52-a6b5-ad94065ee0fd,applied; entities=0,False,1,1,0
+measured,358,gw_cold,200,74.928,4a53f42e-842e-4625-a930-f98271dec238,applied; entities=0,True,1,0,10
+measured,359,gw_cached,200,65.347,761ed599-d72f-4aab-8516-2291e8760f92,applied; entities=0,False,1,1,0
+measured,360,direct,200,51.501,,,,,,
+measured,361,gw_cold,200,73.122,3a3163ef-fc08-4fc6-989a-ba835768a055,applied; entities=0,True,1,0,8
+measured,362,gw_cold,200,73.913,650c4fb9-b32b-4f1d-b331-146933ae6b20,applied; entities=0,True,1,0,8
+measured,363,gw_cold,200,74.49,8fd21282-a83d-49b7-a8ed-d593d5103b66,applied; entities=0,True,1,0,8
+measured,364,direct,200,51.901,,,,,,
+measured,365,gw_cold,200,71.886,968d8717-05db-48d6-932a-f06f3e72ec75,applied; entities=0,True,1,0,8
+measured,366,direct,200,51.621,,,,,,
+measured,367,direct,200,51.639,,,,,,
+measured,368,gw_cold,200,76.048,f1fa807b-a935-42d8-abc7-e19edf84a352,applied; entities=0,True,1,0,10
+measured,369,gw_cached,200,70.554,56687bae-b65b-439f-b93e-a5ebab1faba8,applied; entities=0,False,1,1,0
+measured,370,gw_cold,200,74.005,17b7e6b5-fc68-48f0-b075-d363325ffb50,applied; entities=0,True,1,0,8
+measured,371,gw_noscan,200,65.637,0e3eefde-96b6-46b9-a88f-59541d3fa5f4,relaxed,,,,0
+measured,372,gw_noscan,200,65.59,728a27f2-9366-415f-8138-2aedd83177c5,relaxed,,,,0
+measured,373,gw_cached,200,66.05,80e7ca3a-40f8-4b4a-b8b5-4ce7979668c7,applied; entities=0,False,1,1,0
+measured,374,gw_cached,200,65.713,5ad6e561-8cdc-4da4-9d29-dddb6d448396,applied; entities=0,False,1,1,0
+measured,375,gw_cold,200,72.528,de99b08f-3d36-48ef-bb5d-cea3b233d16e,applied; entities=0,True,1,0,7
+measured,376,gw_cold,200,71.157,8ff6cc5d-b25b-4747-a621-07770f0664a9,applied; entities=0,True,1,0,7
+measured,377,gw_cached,200,63.876,37877e78-290a-4d0a-9b02-4a02bf239dfd,applied; entities=0,False,1,1,0
+measured,378,gw_cached,200,65.448,7422b454-1f49-4e76-b96e-16d7dde90492,applied; entities=0,False,1,1,0
+measured,379,gw_noscan,200,63.435,b6bfbe87-9d3b-4ec5-a404-b6a4d6d524ac,relaxed,,,,0
+measured,380,gw_cold,200,74.424,476dd2be-50fe-446a-800e-361f68854037,applied; entities=0,True,1,0,8
+measured,381,direct,200,51.325,,,,,,
+measured,382,direct,200,51.43,,,,,,
+measured,383,direct,200,51.332,,,,,,
+measured,384,gw_cold,200,75.457,2b14c232-aaed-4ff4-9fa4-c311ad42b475,applied; entities=0,True,1,0,10
+measured,385,gw_noscan,200,67.121,db24edc8-6378-4c11-b3f4-9e86b64c8d84,relaxed,,,,0
+measured,386,gw_cached,200,64.659,f15123e1-4b55-4647-b1d2-96962d089af9,applied; entities=0,False,1,1,0
+measured,387,direct,200,51.585,,,,,,
+measured,388,direct,200,51.588,,,,,,
+measured,389,direct,200,51.312,,,,,,
+measured,390,gw_cached,200,63.144,f5191260-6c28-4ae5-9150-ac8da03470b1,applied; entities=0,False,1,1,0
+measured,391,gw_cached,200,67.551,4775d22d-8780-49f4-bdbd-8b9a3f001657,applied; entities=0,False,1,1,0
+measured,392,gw_cold,200,75.222,a4cc3196-99d1-4b34-831b-275ad56e561e,applied; entities=0,True,1,0,8
+measured,393,direct,200,51.436,,,,,,
+measured,394,gw_cold,200,73.623,23ec63f0-ac3f-48c6-be53-e4778ae9d34b,applied; entities=0,True,1,0,8
+measured,395,gw_noscan,200,64.665,8c95199b-554d-4327-b61c-844584bf3c9a,relaxed,,,,0
+measured,396,gw_cached,200,64.56,ff2662c7-46de-4058-8b79-c50f158f3446,applied; entities=0,False,1,1,0
+measured,397,gw_cached,200,72.879,b861943a-66f2-4642-a0c9-8e32ed9675d0,applied; entities=0,False,1,1,0
+measured,398,direct,200,51.786,,,,,,
+measured,399,gw_cold,200,74.824,51ba2f68-7af9-4035-81e1-8065730265c2,applied; entities=0,True,1,0,10
+measured,400,gw_noscan,200,65.29,d43b78ff-297c-4cdd-8aed-63d0b038cf2a,relaxed,,,,0
+measured,401,gw_cached,200,70.229,5a73629a-7b33-447b-8f60-61cedba790da,applied; entities=0,False,1,1,0
+measured,402,gw_cached,200,66.513,695ef47a-9dcc-4353-8786-9bc720851023,applied; entities=0,False,1,1,0
+measured,403,gw_cold,200,73.058,854a9c9f-cec6-48aa-8f19-1089334e865c,applied; entities=0,True,1,0,8
+measured,404,gw_cached,200,65.22,cb3b3ea4-584c-4aba-a735-7f000ae805ce,applied; entities=0,False,1,1,0
+measured,405,gw_noscan,200,64.945,a0c42d6b-7ff1-4360-a136-7ffebf59a19a,relaxed,,,,0
+measured,406,gw_cached,200,65.526,107abf12-fa76-407e-8039-5f42744ac9b1,applied; entities=0,False,1,1,0
+measured,407,gw_noscan,200,63.698,01d62348-2fe2-402f-9805-755fe98d8cf1,relaxed,,,,0
+measured,408,gw_cached,200,64.289,347972d7-cca4-4e18-8a60-2d2d8de07c71,applied; entities=0,False,1,1,0
+measured,409,direct,200,51.789,,,,,,
+measured,410,gw_cached,200,62.465,032ac4a7-aedc-4113-846f-9f97ea5dbf8e,applied; entities=0,False,1,1,0
+measured,411,gw_noscan,200,65.021,8fc5b3b5-03ab-4524-bb8b-f9ff9292e16f,relaxed,,,,0
+measured,412,gw_cold,200,73.311,2f82e657-1648-49e1-94a9-14cffc613089,applied; entities=0,True,1,0,8
+measured,413,direct,200,52.005,,,,,,
+measured,414,direct,200,51.617,,,,,,
+measured,415,gw_noscan,200,63.567,5c12cc0a-4899-44ea-b44f-d04611b5ddef,relaxed,,,,0
+measured,416,gw_cold,200,82.098,aa179d9d-6dee-4c7c-a534-6964f0c13a38,applied; entities=0,True,1,0,11
+measured,417,gw_noscan,200,77.412,3d83bde5-afa2-4826-a6f4-0eb150b97e1f,relaxed,,,,0
+measured,418,gw_noscan,200,80.397,1717030c-dcc5-4514-9438-5a466ee65c4e,relaxed,,,,0
+measured,419,gw_noscan,200,66.529,9e0a96d4-35f3-4552-b28b-228bf9e0b9e7,relaxed,,,,0
+measured,420,gw_noscan,200,65.673,4040a5e2-4f1a-4fbd-bcde-3d1c976b61fc,relaxed,,,,0
+measured,421,gw_cold,200,74.537,1cb722ad-ba68-47de-b339-1a30e53aac02,applied; entities=0,True,1,0,8
+measured,422,gw_cold,200,77.81,bce3cb84-f184-4af9-8e2e-4ee61c2e05f8,applied; entities=0,True,1,0,9
+measured,423,gw_cached,200,70.269,913a5f43-9875-49e8-930b-77956e8eeb03,applied; entities=0,False,1,1,0
+measured,424,gw_noscan,200,73.396,6e0fe1d3-348e-4d50-ac8b-1d039752f1c7,relaxed,,,,0
+measured,425,gw_cached,200,69.927,18a0e61e-a7a0-4ad2-90c9-c6077024905c,applied; entities=0,False,1,1,0
+measured,426,direct,200,51.559,,,,,,
+measured,427,gw_cached,200,65.598,87f4367b-d761-424b-b1a2-5d54752eec79,applied; entities=0,False,1,1,0
+measured,428,gw_noscan,200,63.25,2a639bb1-cdcf-4474-bb51-ff6baddd1643,relaxed,,,,0
+measured,429,gw_noscan,200,64.035,298c4633-954a-4c61-ab2e-a47c47db9f2a,relaxed,,,,0
+measured,430,direct,200,52.318,,,,,,
+measured,431,gw_noscan,200,66.158,509833f0-0190-4260-b862-ecc850bfc3e1,relaxed,,,,0
+measured,432,gw_cached,200,69.797,cded2edc-6151-4998-8bff-2a90111ea449,applied; entities=0,False,1,1,0
+measured,433,gw_noscan,200,68.45,2ff1c792-6bf3-4b25-a480-64f4c2dacbbc,relaxed,,,,0
+measured,434,direct,200,52.009,,,,,,
+measured,435,gw_noscan,200,67.12,1a21b4b7-c2a5-42c1-bc64-d69734753b22,relaxed,,,,0
+measured,436,gw_cold,200,79.333,40278eaa-a0ee-45bb-8057-f4b55f0d600e,applied; entities=0,True,1,0,10
+measured,437,gw_cold,200,72.762,f4a602e5-cfcb-4f3f-83c9-e6f224e38643,applied; entities=0,True,1,0,8
+measured,438,gw_cold,200,77.754,280fa147-08ee-411f-a6a0-2c6754e7c022,applied; entities=0,True,1,0,10
+measured,439,gw_cold,200,71.595,1bc3d96f-921a-4dc7-b7e5-8087276bedd7,applied; entities=0,True,1,0,8
+measured,440,gw_noscan,200,66.095,358eb54d-e500-4f56-a2d4-e3976bdba974,relaxed,,,,0
+measured,441,gw_cached,200,65.075,27aa07ee-e65f-4444-ac6c-adddd3b3229e,applied; entities=0,False,1,1,0
+measured,442,gw_cached,200,65.502,6c7d6640-191a-4048-978e-d5b7b6836e8c,applied; entities=0,False,1,1,0
+measured,443,gw_noscan,200,66.112,b4b4345c-72c4-409a-80bc-5c563be276be,relaxed,,,,0
+measured,444,direct,200,51.403,,,,,,
+measured,445,gw_cold,200,72.006,3558c7c4-907c-4bd3-8d95-7740702da6f8,applied; entities=0,True,1,0,9
+measured,446,gw_cached,200,67.934,1305ecbc-fe0b-45a1-9a93-129693fc0601,applied; entities=0,False,1,1,0
+measured,447,gw_cached,200,72.413,9035d9fb-d77b-451a-ae15-1523345b85aa,applied; entities=0,False,1,1,3
+measured,448,direct,200,51.52,,,,,,
+measured,449,gw_noscan,200,70.744,caca7972-8f9d-4024-996b-8a091c56751a,relaxed,,,,0
+measured,450,direct,200,51.688,,,,,,
+measured,451,gw_cold,200,75.032,b00844ab-15d8-4860-a91b-fb637dfe442e,applied; entities=0,True,1,0,9
+measured,452,gw_cold,200,76.759,0d011c51-7b2a-4e78-bf32-e2cdb65e6636,applied; entities=0,True,1,0,8
+measured,453,gw_cached,200,64.632,9d627549-3d73-4384-ad90-d6a8a0125e1f,applied; entities=0,False,1,1,0
+measured,454,gw_cached,200,64.979,c44d5fc4-8eef-47d8-906b-813906064e74,applied; entities=0,False,1,1,0
+measured,455,gw_cold,200,75.869,64aca69d-3924-4ce7-9d9d-2979f7536f3c,applied; entities=0,True,1,0,9
+measured,456,gw_noscan,200,63.101,346bee36-f296-443c-961a-a7d80ef3d047,relaxed,,,,0
+measured,457,gw_noscan,200,66.382,4cf68a2e-6388-4171-bace-af7f72e4460d,relaxed,,,,0
+measured,458,gw_cold,200,73.125,271791a4-a203-4e06-8553-2c9c9284c2a6,applied; entities=0,True,1,0,7
+measured,459,gw_noscan,200,63.987,47467448-d69a-4749-af1d-5c778452473a,relaxed,,,,0
+measured,460,gw_noscan,200,63.505,03056fd9-0d17-47c3-a031-9d6178b1cf91,relaxed,,,,0
+measured,461,gw_noscan,200,66.601,a9b50604-c2c3-44df-9018-1780e2c383e3,relaxed,,,,0
+measured,462,gw_cached,200,67.087,d3bbcaad-ba33-46b3-9413-7b33fe4bb587,applied; entities=0,False,1,1,0
+measured,463,gw_cached,200,64.503,9e63c53c-cf97-4148-b7fd-5917f5bd658f,applied; entities=0,False,1,1,0
+measured,464,gw_cold,200,71.209,54d77948-b383-41de-90e0-a2f0dec908a4,applied; entities=0,True,1,0,7
+measured,465,direct,200,51.613,,,,,,
+measured,466,direct,200,51.513,,,,,,
+measured,467,direct,200,51.418,,,,,,
+measured,468,gw_noscan,200,63.276,1efc089c-764e-4bf5-9f91-e7e96f558d24,relaxed,,,,0
+measured,469,gw_cold,200,72.386,36f59633-9535-4cfe-a23e-e2c931b87a93,applied; entities=0,True,1,0,7
+measured,470,gw_cached,200,64.853,8d402984-184a-44fe-9537-164d5fa45072,applied; entities=0,False,1,1,0
+measured,471,gw_cold,200,71.843,ce4291fd-7c5c-44be-948b-6eeac2c1567b,applied; entities=0,True,1,0,7
+measured,472,gw_noscan,200,64.843,895f984f-5ec4-4746-8d7a-814ccd433bf5,relaxed,,,,0
+measured,473,gw_noscan,200,65.383,702dde71-5c51-4f37-ab88-28a218cbac67,relaxed,,,,0
+measured,474,gw_noscan,200,66.523,5c214ada-53b6-4b86-a65f-346e83877943,relaxed,,,,0
+measured,475,gw_noscan,200,65.497,7431321e-0ad3-45ca-9cce-68e9605621ac,relaxed,,,,0
+measured,476,gw_cold,200,74.781,1a752d41-201c-4ca4-8b6d-7509f55cc122,applied; entities=0,True,1,0,9
+measured,477,gw_cold,200,86.725,d74caf6c-4452-452e-9e67-c33ccc46105d,applied; entities=0,True,1,0,7
+measured,478,gw_noscan,200,68.077,19cf88cc-b89e-49d2-8664-8f0ce3d0bb8e,relaxed,,,,0
+measured,479,gw_cached,200,69.358,f2c6fd92-d6d8-4a29-822e-51c1541ed788,applied; entities=0,False,1,1,0
+measured,480,gw_cold,200,75.242,766c4f5d-904f-4ff3-a2e6-f16f7b726aba,applied; entities=0,True,1,0,9
+measured,481,direct,200,51.683,,,,,,
+measured,482,gw_noscan,200,62.829,7627296b-bea4-4d8a-83fe-fb4afd3cc033,relaxed,,,,0
+measured,483,gw_noscan,200,63.434,9e7ff892-4e51-4e9f-9198-149723edd47b,relaxed,,,,0
+measured,484,direct,200,51.47,,,,,,
+measured,485,gw_cold,200,71.736,887e49a2-08a9-4e71-b3a2-50b5b9b04527,applied; entities=0,True,1,0,8
+measured,486,gw_cold,200,71.844,c842c0bb-292d-4c8f-be6f-fac70997f6f1,applied; entities=0,True,1,0,7
+measured,487,gw_cold,200,74.229,85dc4e20-a429-4e89-9734-c2a93e66bd4f,applied; entities=0,True,1,0,10
+measured,488,direct,200,51.859,,,,,,
+measured,489,direct,200,51.862,,,,,,
+measured,490,gw_cold,200,69.989,acdf9f68-005c-47c9-909e-c9b7e376cc5c,applied; entities=0,True,1,0,7
+measured,491,direct,200,51.386,,,,,,
+measured,492,direct,200,51.363,,,,,,
+measured,493,gw_noscan,200,62.593,1d0bd207-ac5b-4199-95b4-1265002c8aa8,relaxed,,,,0
+measured,494,gw_noscan,200,63.758,3b2ccaa0-76c5-44e9-85ea-c1f9c0454598,relaxed,,,,0
+measured,495,gw_cached,200,63.614,4f3a5781-57fa-4b9d-8064-7a6b876c78c5,applied; entities=0,False,1,1,0
+measured,496,direct,200,51.482,,,,,,
+measured,497,gw_noscan,200,61.729,209881de-0d9f-4c6f-b0d6-c8ac0ecfb17e,relaxed,,,,0
+measured,498,gw_noscan,200,64.606,019a9e00-20ba-4e28-8077-57dbbc46d73c,relaxed,,,,0
+measured,499,gw_cold,200,70.618,93fc6fa8-8da5-42a4-b97c-c9a9d451f075,applied; entities=0,True,1,0,8
+measured,500,gw_noscan,200,65.484,9ac409cb-9012-4b19-919f-724016e392d0,relaxed,,,,0
+measured,501,direct,200,51.388,,,,,,
+measured,502,gw_cached,200,64.189,ba8e7332-8314-4e22-81d7-6c852fccd2cc,applied; entities=0,False,1,1,0
+measured,503,gw_cached,200,64.455,4e4ddd83-a257-40da-80d6-21f266232097,applied; entities=0,False,1,1,0
+measured,504,direct,200,51.348,,,,,,
+measured,505,gw_cold,200,69.213,7efacb88-fd0a-46c3-a427-97c48b55aacd,applied; entities=0,True,1,0,7
+measured,506,gw_cold,200,73.097,62b5592b-d40a-4d2a-a904-14ac2bc5f9db,applied; entities=0,True,1,0,7
+measured,507,gw_cold,200,73.706,5a7da466-6d18-4212-b484-445564e554ec,applied; entities=0,True,1,0,8
+measured,508,gw_cold,200,71.809,71f5b603-3a52-43cd-ba92-792acf7cdaba,applied; entities=0,True,1,0,7
+measured,509,direct,200,51.333,,,,,,
+measured,510,gw_noscan,200,62.413,6baf4bac-0aa6-4a2d-810f-430ac7c44675,relaxed,,,,0
+measured,511,direct,200,51.425,,,,,,
+measured,512,gw_noscan,200,62.976,b51f6d64-c08d-46d9-be8b-59fadf1f69d4,relaxed,,,,0
+measured,513,direct,200,51.535,,,,,,
+measured,514,gw_cold,200,70.096,63679285-653d-400e-9833-a66f54c23377,applied; entities=0,True,1,0,7
+measured,515,gw_cached,200,65.326,812e7a82-303d-4dad-a135-80b7045324db,applied; entities=0,False,1,1,0
+measured,516,gw_cold,200,73.487,9dc21099-9b7b-4244-8f4a-66f77f4aeca4,applied; entities=0,True,1,0,7
+measured,517,gw_noscan,200,68.145,12c410d6-fc83-47a3-9602-f810bdb967af,relaxed,,,,0
+measured,518,gw_cold,200,71.23,c59902cf-27dc-4b1b-8c44-25d44b08123f,applied; entities=0,True,1,0,7
+measured,519,direct,200,51.539,,,,,,
+measured,520,gw_cached,200,63.371,25ee0546-49c9-443a-87d7-4fb661823aba,applied; entities=0,False,1,1,0
+measured,521,gw_cached,200,63.844,a52d228d-4cb8-40a7-81e0-913554006eb5,applied; entities=0,False,1,1,0
+measured,522,gw_noscan,200,62.608,962c9b8f-25ab-4a09-ba58-cf10259e095d,relaxed,,,,0
+measured,523,direct,200,51.571,,,,,,
+measured,524,gw_cold,200,71.751,9ed33c35-7d67-4309-bc0e-ef5bd7ae3a7c,applied; entities=0,True,1,0,7
+measured,525,gw_cached,200,65.955,e5dd9e85-d8c2-4422-a4ba-8191dd7bf035,applied; entities=0,False,1,1,0
+measured,526,direct,200,51.672,,,,,,
+measured,527,gw_cached,200,64.01,0aa7e094-09f0-48b8-b49f-c0295c727428,applied; entities=0,False,1,1,0
+measured,528,gw_noscan,200,69.976,aa365680-323b-4e54-b808-66a8cebf630e,relaxed,,,,0
+measured,529,gw_noscan,200,68.909,c24337f8-c39b-44a2-8213-b83709bf94d3,relaxed,,,,0
+measured,530,gw_cached,200,66.035,9b46f842-0f30-4c52-aa81-a246e8f2db7c,applied; entities=0,False,1,1,0
+measured,531,gw_cached,200,65.762,5d5fcc2b-cd3e-464e-9605-c5f65ae56646,applied; entities=0,False,1,1,0
+measured,532,gw_cold,200,70.89,7236de08-8dc7-49fe-9036-a9be98a24f96,applied; entities=0,True,1,0,7
+measured,533,gw_noscan,200,66.789,8fd10fb5-d7a0-4e89-b542-7198526f5ec2,relaxed,,,,0
+measured,534,direct,200,51.828,,,,,,
+measured,535,gw_cold,200,71.329,386563ae-4059-4636-abad-20a51fd1a995,applied; entities=0,True,1,0,7
+measured,536,gw_noscan,200,65.448,55bc00f5-a0c9-4119-ba22-1b4161abfdc1,relaxed,,,,0
+measured,537,gw_noscan,200,62.396,34c145a0-7643-4699-b703-19046927ff7e,relaxed,,,,0
+measured,538,gw_cold,200,74.696,5c1a9589-a293-45d3-ad77-572d79425a43,applied; entities=0,True,1,0,7
+measured,539,gw_cold,200,73.083,9d9b67c2-b736-4c45-ae89-662d7a3c0e83,applied; entities=0,True,1,0,8
+measured,540,direct,200,51.379,,,,,,
+measured,541,gw_cold,200,76.761,a95403f4-7f91-430d-9692-5ec8c5ecf212,applied; entities=0,True,1,0,7
+measured,542,gw_noscan,200,66.852,b64bc717-9854-4bfb-bccc-82a23fa6e5df,relaxed,,,,0
+measured,543,direct,200,51.529,,,,,,
+measured,544,gw_cached,200,64.598,393ccaca-3856-4780-be71-94cc27f9ef18,applied; entities=0,False,1,1,0
+measured,545,direct,200,51.946,,,,,,
+measured,546,gw_cached,200,63.777,75766d61-71b4-4434-bf24-c30f476b025c,applied; entities=0,False,1,1,0
+measured,547,gw_cold,200,72.484,30216416-5eee-4e27-a3d2-f782343d26af,applied; entities=0,True,1,0,7
+measured,548,gw_cold,200,73.196,950221c1-dfcf-48f2-8353-52e66879b1b7,applied; entities=0,True,1,0,7
+measured,549,gw_cached,200,64.373,7ec68dc8-afc3-4811-8a73-263593f02fc6,applied; entities=0,False,1,1,0
+measured,550,gw_cached,200,67.278,f3d43d0e-5000-4985-9326-840110b17433,applied; entities=0,False,1,1,0
+measured,551,gw_noscan,200,65.435,8531024c-f3ab-434e-b58e-cdb4f6a7adeb,relaxed,,,,0
+measured,552,gw_cold,200,73.2,28323b17-a61e-4646-bc6b-22625887e0be,applied; entities=0,True,1,0,7
+measured,553,direct,200,51.341,,,,,,
+measured,554,gw_cold,200,71.839,5c2129c4-21d5-4df6-90e9-2fa71d47b127,applied; entities=0,True,1,0,9
+measured,555,gw_noscan,200,64.831,ffb73628-8e5e-4b4f-98bb-1de08e781cf1,relaxed,,,,0
+measured,556,gw_cached,200,66.372,f0b4a37c-456e-4974-a7b2-5959dab16bbb,applied; entities=0,False,1,1,0
+measured,557,direct,200,51.616,,,,,,
+measured,558,direct,200,51.384,,,,,,
+measured,559,gw_cold,200,70.421,20a7e8b2-57fb-43e7-bbda-c49ebde09d13,applied; entities=0,True,1,0,7
+measured,560,direct,200,51.549,,,,,,
+measured,561,gw_noscan,200,64.054,f9be8edb-0601-4288-b10a-f2332a845861,relaxed,,,,0
+measured,562,direct,200,51.631,,,,,,
+measured,563,gw_noscan,200,62.239,b8fc10e1-154e-4463-b459-b3de4cb33a93,relaxed,,,,0
+measured,564,direct,200,51.353,,,,,,
+measured,565,direct,200,51.72,,,,,,
+measured,566,gw_noscan,200,63.303,883cf8f3-c4dd-4470-86d7-c91d5e4ead68,relaxed,,,,0
+measured,567,direct,200,51.471,,,,,,
+measured,568,direct,200,51.92,,,,,,
+measured,569,gw_noscan,200,63.583,7f7c6727-2d8c-4d0e-a69f-c4925bddfcac,relaxed,,,,0
+measured,570,gw_noscan,200,64.361,b1d42297-5069-4fa4-be57-10aef4d0faaa,relaxed,,,,0
+measured,571,gw_cached,200,69.105,b1016b56-2e23-4616-8fba-97a9b49cabc6,applied; entities=0,False,1,1,0
+measured,572,gw_cached,200,74.896,04fbec2e-fcad-46a8-859d-291f40410876,applied; entities=0,False,1,1,0
+measured,573,gw_noscan,200,73.433,0c2a9e96-45f9-4bdc-a3c9-6a213c6f60d7,relaxed,,,,0
+measured,574,gw_noscan,200,67.481,6518a811-03ca-47ba-b2ed-739fddb2d95f,relaxed,,,,0
+measured,575,direct,200,51.591,,,,,,
+measured,576,gw_cached,200,65.274,dd7b0a96-1582-4533-ad19-9c18eef617e0,applied; entities=0,False,1,1,0
+measured,577,gw_noscan,200,65.638,4bf47164-9be7-4a26-b365-00a362a1ea86,relaxed,,,,0
+measured,578,gw_noscan,200,68.59,ec7d4ec6-641b-40de-959a-373f77369b00,relaxed,,,,0
+measured,579,gw_noscan,200,65.837,ba913702-a6ba-4fd3-a49a-f6b42b7c840f,relaxed,,,,0
+measured,580,gw_cold,200,74.39,1fccac09-ae69-4b4d-bed5-d3c43a992c70,applied; entities=0,True,1,0,8
+measured,581,direct,200,51.537,,,,,,
+measured,582,direct,200,51.677,,,,,,
+measured,583,direct,200,52.039,,,,,,
+measured,584,gw_cached,200,65.976,89bbd2c7-0e0a-4001-9cff-28390d7101dd,applied; entities=0,False,1,1,0
+measured,585,gw_cached,200,67.636,3d46c964-bbac-4ac7-9830-75d8065c5c0d,applied; entities=0,False,1,1,0
+measured,586,direct,200,51.849,,,,,,
+measured,587,gw_cached,200,63.572,852c7b55-2244-4f28-ad30-0fbdbe521611,applied; entities=0,False,1,1,0
+measured,588,direct,200,51.416,,,,,,
+measured,589,gw_cold,200,70.288,73f946b7-df6b-4dc3-b38c-6992ae8ac022,applied; entities=0,True,1,0,8
+measured,590,direct,200,51.466,,,,,,
+measured,591,gw_cached,200,64.866,ff648a6c-9b47-410c-b0b2-1c9531711c92,applied; entities=0,False,1,1,0
+measured,592,gw_cold,200,73.786,aa4184ee-4e7e-4110-9eae-4c584f270ba6,applied; entities=0,True,1,0,10
+measured,593,gw_cold,200,71.545,ad788fa1-a4ec-4513-b23d-803732cb68d7,applied; entities=0,True,1,0,7
+measured,594,gw_cached,200,66.776,371c3b78-9975-40f0-bc8d-924609346a47,applied; entities=0,False,1,1,0
+measured,595,gw_noscan,200,66.398,b4d3e93b-92bd-4af4-9c3b-f5f047f690ad,relaxed,,,,0
+measured,596,gw_noscan,200,66.458,41bfa704-42d1-4fa8-b823-9d7e4f2ce826,relaxed,,,,0
+measured,597,direct,200,51.521,,,,,,
+measured,598,direct,200,51.44,,,,,,
+measured,599,gw_cold,200,70.936,6511aeb8-eb2e-4b40-8d81-8b3f9c6d847a,applied; entities=0,True,1,0,8
+measured,600,direct,200,51.931,,,,,,
+measured,601,gw_cold,200,71.248,d9b99db0-cbd7-40a2-8170-a1b39095a627,applied; entities=0,True,1,0,7
+measured,602,direct,200,51.565,,,,,,
+measured,603,gw_noscan,200,66.176,58a6d3a1-2690-41e6-a871-657586f49881,relaxed,,,,0
+measured,604,gw_cached,200,65.696,64099875-97d2-48e1-aa2b-e12bda57aaef,applied; entities=0,False,1,1,0
+measured,605,direct,200,51.555,,,,,,
+measured,606,direct,200,51.511,,,,,,
+measured,607,gw_cached,200,67.512,4813b6d6-6fa1-4ca2-873b-57ebabee62b4,applied; entities=0,False,1,1,0
+measured,608,gw_cold,200,79.105,49cb2455-de99-4ce1-bda9-356f1a2f2f82,applied; entities=0,True,1,0,9
+measured,609,gw_cold,200,78.903,8bda6f92-6d48-42f8-a889-2cb044a73090,applied; entities=0,True,1,0,9
+measured,610,direct,200,51.678,,,,,,
+measured,611,direct,200,51.336,,,,,,
+measured,612,gw_noscan,200,61.459,22feaa34-f185-4192-a1cd-a1594b7657de,relaxed,,,,0
+measured,613,direct,200,51.64,,,,,,
+measured,614,gw_cached,200,62.224,3e236a22-cb5c-4f61-b0ac-63197fdd7ab2,applied; entities=0,False,1,1,0
+measured,615,gw_cold,200,74.625,397b25f4-fb15-4e4e-8492-204a51035fdc,applied; entities=0,True,1,0,7
+measured,616,gw_cold,200,72.992,07600c9e-4d1c-4505-80a9-92137ad23834,applied; entities=0,True,1,0,9
+measured,617,direct,200,51.519,,,,,,
+measured,618,gw_cold,200,69.786,5c43eda7-baa8-40be-9159-f2e2fd70b899,applied; entities=0,True,1,0,7
+measured,619,direct,200,51.815,,,,,,
+measured,620,direct,200,51.695,,,,,,
+measured,621,direct,200,51.384,,,,,,
+measured,622,direct,200,51.639,,,,,,
+measured,623,direct,200,51.381,,,,,,
+measured,624,gw_cold,200,73.969,50341f76-34fd-40ef-a2c1-913f408596e3,applied; entities=0,True,1,0,8
+measured,625,gw_cached,200,67.524,a3ef0e6f-da71-44df-a7e7-b75344dcd71f,applied; entities=0,False,1,1,0
+measured,626,gw_cached,200,68.59,0e47d5e4-590b-4a20-aa09-92b1113adfc8,applied; entities=0,False,1,1,0
+measured,627,gw_cold,200,72.903,c504d83b-eb7e-4201-a925-88a6134b9479,applied; entities=0,True,1,0,8
+measured,628,direct,200,51.775,,,,,,
+measured,629,direct,200,52.019,,,,,,
+measured,630,gw_noscan,200,65.676,97ffb92d-07cc-4a00-b632-5b75f31af68a,relaxed,,,,0
+measured,631,gw_noscan,200,66.0,3caaa20c-a330-4663-9866-b71a227b340a,relaxed,,,,0
+measured,632,gw_noscan,200,66.725,b1d37436-21d3-4749-aa12-9d5d4de2e565,relaxed,,,,0
+measured,633,gw_noscan,200,67.499,1dc867fb-5427-4a84-ae53-fbe5bfae4f9d,relaxed,,,,0
+measured,634,gw_cold,200,74.624,852140bf-6351-40fa-a353-d76c68f81a7b,applied; entities=0,True,1,0,8
+measured,635,direct,200,51.746,,,,,,
+measured,636,gw_noscan,200,61.825,91e7ffa4-7519-4403-8237-0dcf65de3526,relaxed,,,,0
+measured,637,gw_cold,200,74.803,c70fe0c3-488d-4351-a472-85df1fd9efea,applied; entities=0,True,1,0,8
+measured,638,gw_cold,200,70.631,3a6bc6fb-c390-44bf-974e-063966a598b5,applied; entities=0,True,1,0,7
+measured,639,gw_noscan,200,64.939,33583b15-1d15-438e-a749-f02cb3cb20c4,relaxed,,,,0
+measured,640,gw_cached,200,64.679,8e1d34d6-94fa-4401-aa21-73ec000ff47e,applied; entities=0,False,1,1,0
+measured,641,gw_noscan,200,62.927,10e76eb4-f0dc-461e-9089-9a4ab14b2cb3,relaxed,,,,0
+measured,642,gw_cached,200,63.785,1caa9b6c-097a-4cdf-9bbb-c6b16a895e13,applied; entities=0,False,1,1,0
+measured,643,gw_cold,200,70.46,503fc2ea-fe53-440d-828d-449dcde29e61,applied; entities=0,True,1,0,6
+measured,644,gw_cached,200,63.802,4733cd04-9a0c-4a40-bbcb-b61a0dcd5e26,applied; entities=0,False,1,1,0
+measured,645,gw_noscan,200,64.488,cd5412a1-7d49-4149-af88-6a1855722969,relaxed,,,,0
+measured,646,direct,200,51.999,,,,,,
+measured,647,gw_cached,200,63.524,05e7cdbf-9d61-4dc2-a1c1-4cd724886571,applied; entities=0,False,1,1,0
+measured,648,gw_noscan,200,66.612,79685771-e5a2-499b-b0f2-93d869c8d4d9,relaxed,,,,0
+measured,649,gw_noscan,200,64.7,95d88725-9f60-4136-9b9e-8e753ff61527,relaxed,,,,0
+measured,650,gw_noscan,200,65.983,260ab073-8b71-4bda-9c2e-f98affa3a7d4,relaxed,,,,0
+measured,651,gw_noscan,200,63.135,183bb503-ab1b-4951-8be5-30f39f35c6cb,relaxed,,,,0
+measured,652,gw_cold,200,73.432,be67a55a-9232-41f2-9c1e-d91e1f925de0,applied; entities=0,True,1,0,10
+measured,653,gw_noscan,200,63.803,415afedb-f768-424d-b830-914e28c6661b,relaxed,,,,0
+measured,654,gw_cached,200,67.177,6aae11e8-e432-4c12-a1d1-47e6cdb5164e,applied; entities=0,False,1,1,0
+measured,655,gw_cold,200,79.991,fa85a614-937f-43ca-9ab6-f936fd758c70,applied; entities=0,True,1,0,10
+measured,656,direct,200,51.623,,,,,,
+measured,657,gw_cached,200,65.155,1340f03b-3de9-467e-9c10-e56500614075,applied; entities=0,False,1,1,0
+measured,658,gw_cached,200,65.688,8dfdaa0d-d524-476e-806f-c56a45e1d74d,applied; entities=0,False,1,1,0
+measured,659,direct,200,51.675,,,,,,
+measured,660,gw_cached,200,62.673,459c03d5-55e2-49e5-97cf-d7356ed00c6e,applied; entities=0,False,1,1,0
+measured,661,gw_cached,200,64.561,a90c3183-266f-4038-a21b-8cc562447fa4,applied; entities=0,False,1,1,0
+measured,662,direct,200,51.671,,,,,,
+measured,663,gw_noscan,200,63.709,2af33312-c3b6-41e1-99fc-3d5fd8de620c,relaxed,,,,0
+measured,664,direct,200,51.795,,,,,,
+measured,665,gw_cold,200,69.763,62c5fdd6-5aa9-46a6-93e3-d682ec5d936f,applied; entities=0,True,1,0,6
+measured,666,gw_cold,200,70.959,88c0e79e-64bc-46db-b690-79a69d42ec4c,applied; entities=0,True,1,0,7
+measured,667,direct,200,51.472,,,,,,
+measured,668,gw_noscan,200,64.392,877a2266-5e8b-4857-a2d9-f81a6bbd9f81,relaxed,,,,0
+measured,669,gw_cold,200,77.181,05f1edac-4a0e-47ea-aa9c-d3863136a3d3,applied; entities=0,True,1,0,7
+measured,670,gw_cached,200,64.53,e3e5db2a-b8da-4d8b-a7ff-258ad0f90b5e,applied; entities=0,False,1,1,0
+measured,671,gw_cached,200,63.358,7ef6dbdc-013d-44c6-81ec-d632ceb52523,applied; entities=0,False,1,1,0
+measured,672,gw_cached,200,64.809,31f83ca6-8267-4b80-9b5b-4932a408d771,applied; entities=0,False,1,1,0
+measured,673,gw_cached,200,64.755,fba1993b-a3fb-4544-bdf0-a1b7d9761de8,applied; entities=0,False,1,1,0
+measured,674,gw_cold,200,70.524,3d5b23ae-711a-40b4-b467-a27c96fbb134,applied; entities=0,True,1,0,7
+measured,675,gw_cold,200,71.622,9ad21ae9-bac4-4782-aea4-2833f553ea6a,applied; entities=0,True,1,0,6
+measured,676,gw_noscan,200,64.231,1c072411-1516-4c7d-b61e-be37167111ca,relaxed,,,,0
+measured,677,gw_noscan,200,62.571,09e66661-a471-4901-965a-fd33d4e6ea0e,relaxed,,,,0
+measured,678,gw_cold,200,72.565,868a8a62-f517-4f7e-baf3-aa0b655a9183,applied; entities=0,True,1,0,7
+measured,679,direct,200,51.423,,,,,,
+measured,680,gw_cold,200,71.023,bf64a07d-c011-499f-9a65-7f33b05f02a6,applied; entities=0,True,1,0,8
+measured,681,gw_cached,200,64.285,3906e415-c38b-42b8-8727-270314a51bb5,applied; entities=0,False,1,1,0
+measured,682,direct,200,51.504,,,,,,
+measured,683,gw_cold,200,71.546,d11b9f2a-b418-45d1-b293-697426457414,applied; entities=0,True,1,0,9
+measured,684,gw_cached,200,67.783,44cd7ee3-cae3-4963-a7f9-4b45c0f2c27a,applied; entities=0,False,1,1,0
+measured,685,gw_cached,200,69.346,67c78558-b8eb-418a-a4df-851bbffe08d0,applied; entities=0,False,1,1,0
+measured,686,gw_cached,200,67.715,770b6d83-4055-4256-bc0c-d133678288dd,applied; entities=0,False,1,1,0
+measured,687,direct,200,51.73,,,,,,
+measured,688,gw_cold,200,72.524,fd70eb19-ffbe-4bd3-bd02-cdc866f0dd34,applied; entities=0,True,1,0,8
+measured,689,gw_noscan,200,64.427,7323e453-38eb-4e8e-9e27-8709926f2402,relaxed,,,,0
+measured,690,gw_noscan,200,64.169,0d5cbcf8-91a4-4c52-ac5b-f89f3f2cf3fc,relaxed,,,,0
+measured,691,gw_cold,200,71.139,fe02d207-bc2c-4e72-bb89-9cc77c3fc65e,applied; entities=0,True,1,0,8
+measured,692,gw_cached,200,63.833,769ca806-abe5-4729-9c28-de8733676161,applied; entities=0,False,1,1,1
+measured,693,gw_cold,200,75.249,20241274-738d-43ff-b156-367126474f54,applied; entities=0,True,1,0,9
+measured,694,gw_cached,200,63.519,edc01ede-6e20-4cfb-abfc-17d659a58278,applied; entities=0,False,1,1,0
+measured,695,gw_noscan,200,64.857,37b91bfb-fdbb-435f-9a7c-5b8dd3811be3,relaxed,,,,0
+measured,696,direct,200,51.449,,,,,,
+measured,697,gw_noscan,200,63.897,d36105db-c1f2-4fe4-91f5-74e99292fc16,relaxed,,,,0
+measured,698,gw_noscan,200,64.021,02b79511-2468-4bbc-aac2-2be0b6bc77d0,relaxed,,,,0
+measured,699,gw_noscan,200,63.385,51ceb5e2-a3d7-4aef-ae9e-d31ed101677d,relaxed,,,,0
+measured,700,gw_cached,200,62.726,a73cca6f-1ebe-4f9e-bee4-5dd113824440,applied; entities=0,False,1,1,0
+measured,701,gw_cold,200,72.5,bed4aa65-05f3-45db-89f2-301985ffe1ba,applied; entities=0,True,1,0,7
+measured,702,gw_noscan,200,64.531,a8b5a2f0-753b-49c4-82dc-5782ad0bd1ea,relaxed,,,,0
+measured,703,gw_cached,200,66.11,1a447873-27e8-4927-b9ce-9c2b928e0a0c,applied; entities=0,False,1,1,0
+measured,704,direct,200,51.59,,,,,,
+measured,705,gw_cold,200,72.899,d54349d4-c944-4889-ab35-e1cbc22b1e27,applied; entities=0,True,1,0,8
+measured,706,direct,200,51.492,,,,,,
+measured,707,gw_cold,200,76.009,6cff2126-130d-4f08-acb7-872811cfc73e,applied; entities=0,True,1,0,9
+measured,708,gw_cached,200,66.186,f942b656-a2f5-46b5-b847-76e4b0d35d75,applied; entities=0,False,1,1,0
+measured,709,direct,200,51.508,,,,,,
+measured,710,gw_cold,200,72.165,edb41ce5-bd06-4923-984a-bd35e7da1f45,applied; entities=0,True,1,0,8
+measured,711,gw_noscan,200,65.562,09cf3e88-e3f1-4411-b566-3e7a95259415,relaxed,,,,0
+measured,712,gw_cold,200,74.71,3cd23b5a-9b8c-4a5b-bacb-5277da217ef8,applied; entities=0,True,1,0,8
+measured,713,gw_cached,200,66.34,c8d6093c-12a3-4265-8c80-c7d33d213bcc,applied; entities=0,False,1,1,0
+measured,714,direct,200,51.657,,,,,,
+measured,715,gw_noscan,200,62.658,e98b2f72-394f-42cd-ba13-05e05ff9d0cf,relaxed,,,,0
+measured,716,gw_cached,200,65.004,769c4557-b7e6-4955-93e8-5e0ecdb207f1,applied; entities=0,False,1,1,0
+measured,717,gw_cached,200,65.571,9484a498-6c5a-40ca-945c-b1965513cafa,applied; entities=0,False,1,1,0
+measured,718,gw_cached,200,65.913,84ad4d60-e9c9-4dc8-ad0b-68daa92b2c64,applied; entities=0,False,1,1,0
+measured,719,direct,200,51.98,,,,,,
+measured,720,gw_cached,200,63.641,7a0af1d3-5d2d-4ecb-a83c-908031f82076,applied; entities=0,False,1,1,0
+measured,721,gw_cold,200,73.781,315728ec-4914-481f-832a-fb6266d135a2,applied; entities=0,True,1,0,7
+measured,722,gw_cold,200,72.449,2a9a54f6-dcc9-420d-ba1d-720f05eb6ab3,applied; entities=0,True,1,0,7
+measured,723,gw_cached,200,63.198,c7b90436-bfe3-416d-bb18-0067b44f2663,applied; entities=0,False,1,1,0
+measured,724,gw_noscan,200,62.456,76575c04-3e9e-4ec6-9ebc-6b85535067a6,relaxed,,,,0
+measured,725,gw_cold,200,71.151,ee6d7b7c-6961-4833-8666-0ebb49c3233d,applied; entities=0,True,1,0,6
+measured,726,direct,200,51.508,,,,,,
+measured,727,gw_cached,200,62.85,d63ea33c-c824-4dab-a61d-851f5e731c91,applied; entities=0,False,1,1,0
+measured,728,gw_noscan,200,70.489,1944fe57-68fc-47aa-a39c-37a5024812b4,relaxed,,,,0
+measured,729,direct,200,52.325,,,,,,
+measured,730,gw_noscan,200,80.459,3c873314-b0d3-4316-b45a-a2fead08865c,relaxed,,,,1
+measured,731,gw_cached,200,72.859,535b6a68-4af0-4e6c-a666-138281ec5b5b,applied; entities=0,False,1,1,0
+measured,732,direct,200,51.521,,,,,,
+measured,733,gw_cached,200,63.686,e8d15c33-0ff1-4f84-b0b9-c27bbb182a04,applied; entities=0,False,1,1,0
+measured,734,gw_cold,200,76.045,30b87aa0-10b3-4d14-afd0-c9bebcb39074,applied; entities=0,True,1,0,8
+measured,735,gw_cached,200,69.641,9068abd7-5385-45c2-b159-8c4dc8f978a8,applied; entities=0,False,1,1,0
+measured,736,gw_cached,200,66.548,789950c7-96c9-4137-aacf-e66823806dc0,applied; entities=0,False,1,1,0
+measured,737,gw_noscan,200,69.319,58cc32a4-39b9-428b-9078-ea9be9013b27,relaxed,,,,0
+measured,738,direct,200,51.611,,,,,,
+measured,739,gw_cold,200,73.173,fc3fd645-7d8d-49dc-bacd-b3cfeabf954a,applied; entities=0,True,1,0,9
+measured,740,gw_cached,200,64.002,2c92557b-cbb5-40f2-afa5-aaa70666a471,applied; entities=0,False,1,1,0
+measured,741,direct,200,51.562,,,,,,
+measured,742,gw_cold,200,70.756,72474bfe-5ca5-4dd5-b291-06c4d6dbd34e,applied; entities=0,True,1,0,7
+measured,743,direct,200,51.53,,,,,,
+measured,744,gw_noscan,200,65.464,753d8add-2c03-4f0d-9d4b-8aaad5552ee5,relaxed,,,,0
+measured,745,gw_cold,200,74.514,28307b9a-f483-438b-a2e7-97556511f7d2,applied; entities=0,True,1,0,7
+measured,746,gw_cached,200,63.495,f184fdb0-daa7-4b18-9ca2-8f0c44c9a180,applied; entities=0,False,1,1,0
+measured,747,gw_cold,200,71.387,6d50d01f-eb90-4d01-9c45-e4963c3699e9,applied; entities=0,True,1,0,8
+measured,748,gw_cold,200,72.675,5a46827c-1fdb-4fc8-8d81-2e389fdf887d,applied; entities=0,True,1,0,7
+measured,749,direct,200,51.941,,,,,,
+measured,750,gw_noscan,200,62.715,1beb173e-6316-427a-8650-17b3f2b85aee,relaxed,,,,0
+measured,751,gw_cached,200,64.29,7808c4ac-83af-4adf-8fef-36370e92dbaa,applied; entities=0,False,1,1,0
+measured,752,direct,200,52.282,,,,,,
+measured,753,gw_cold,200,72.146,43ba2f68-f6e5-4e3d-b201-40303e372bc2,applied; entities=0,True,1,0,8
+measured,754,direct,200,51.403,,,,,,
+measured,755,gw_cold,200,70.696,a06479d1-b6ab-4722-b50a-2185fab51337,applied; entities=0,True,1,0,8
+measured,756,gw_cached,200,63.334,9b4ff86a-9ccd-427f-b0c7-2d4139e8f079,applied; entities=0,False,1,1,0
+measured,757,gw_cold,200,72.658,ee7baa79-b28c-4063-b682-c112f5f0bff7,applied; entities=0,True,1,0,8
+measured,758,gw_cached,200,66.526,1316b934-0d10-4a1d-b963-869e901b9515,applied; entities=0,False,1,1,0
+measured,759,gw_cached,200,65.298,4ae2296b-a773-4aca-af0f-22936a2eef23,applied; entities=0,False,1,1,0
+measured,760,direct,200,51.253,,,,,,
+measured,761,gw_noscan,200,62.845,f6800515-4415-4105-97a6-e149768816f6,relaxed,,,,0
+measured,762,gw_cold,200,72.042,5c775a9b-2c69-4a4e-bf8a-5e5951c6bd21,applied; entities=0,True,1,0,7
+measured,763,direct,200,51.863,,,,,,
+measured,764,direct,200,51.46,,,,,,
+measured,765,gw_noscan,200,62.249,356411c9-aa0b-4e72-ae1d-623d85ad0979,relaxed,,,,0
+measured,766,direct,200,51.851,,,,,,
+measured,767,direct,200,51.799,,,,,,
+measured,768,gw_noscan,200,61.967,c739e938-6f1d-4f72-896b-6294123ef203,relaxed,,,,0
+measured,769,direct,200,51.386,,,,,,
+measured,770,gw_noscan,200,63.851,77a90174-9bd9-4ffe-9e8f-d69835175da9,relaxed,,,,0
+measured,771,gw_noscan,200,63.849,f3836824-67f6-443a-929e-b873a7b2d22f,relaxed,,,,0
+measured,772,gw_cold,200,70.592,02f5898e-4ba6-4136-9fb4-68ccc95bf791,applied; entities=0,True,1,0,7
+measured,773,gw_cached,200,63.894,3ec66187-a7b8-4d1a-aceb-06f20f1230f6,applied; entities=0,False,1,1,0
+measured,774,gw_cold,200,73.757,545c5b37-2075-4c92-b9ed-faa9f4b75d1b,applied; entities=0,True,1,0,8
+measured,775,direct,200,52.07,,,,,,
+measured,776,gw_cold,200,69.084,b408ac09-267a-4d29-b98c-2be2234dfc4a,applied; entities=0,True,1,0,6
+measured,777,gw_noscan,200,65.592,1141875f-2120-40f4-b7c6-ccd73137c3a7,relaxed,,,,0
+measured,778,gw_noscan,200,62.309,896f5e6e-bd70-454e-8250-a03807320d57,relaxed,,,,0
+measured,779,direct,200,51.913,,,,,,
+measured,780,gw_noscan,200,62.48,e3235e76-d665-4cb8-87e3-7cd677ad3a83,relaxed,,,,0
+measured,781,gw_cached,200,68.165,8106e757-071e-4c58-b88f-a4797d34ae06,applied; entities=0,False,1,1,0
+measured,782,gw_cold,200,77.516,62e1494c-3ddd-44b4-8537-198cbbbacb86,applied; entities=0,True,1,0,7
+measured,783,gw_cold,200,70.587,6da8d46a-6341-4b3c-8862-116a1c641d48,applied; entities=0,True,1,0,7
+measured,784,direct,200,52.092,,,,,,
+measured,785,gw_cached,200,66.522,16bc9cdd-9e81-4b63-b192-98a71dc1b860,applied; entities=0,False,1,1,0
+measured,786,gw_cold,200,84.983,27c158f5-d3b2-4a01-8efd-a63e3fc1ba76,applied; entities=0,True,1,0,13
+measured,787,gw_cached,200,69.892,9db0732d-f995-4a34-9a44-dee4adf775c4,applied; entities=0,False,1,1,0
+measured,788,direct,200,51.524,,,,,,
+measured,789,gw_cached,200,66.562,e2721609-c427-4fe7-9f03-fee2ae02655a,applied; entities=0,False,1,1,0
+measured,790,gw_cached,200,69.336,e75a5f3d-772c-480b-8c0d-dc8eb820d3d8,applied; entities=0,False,1,1,0
+measured,791,gw_cold,200,79.037,be35b422-9664-4aa6-afb5-26968017b94c,applied; entities=0,True,1,0,7
+measured,792,direct,200,51.727,,,,,,
+measured,793,gw_cached,200,74.665,96590d19-668d-4967-8d76-d9210cc4a152,applied; entities=0,False,1,1,0
+measured,794,gw_cold,200,71.456,86661560-dd79-46ed-9f9b-0669b4abe33b,applied; entities=0,True,1,0,7
+measured,795,gw_cached,200,65.165,b2791ced-04b9-4a2a-a80c-e32910aac17d,applied; entities=0,False,1,1,0
+measured,796,gw_cached,200,63.801,e9b06932-e31b-4b64-8176-b8c378464a9c,applied; entities=0,False,1,1,0
+measured,797,gw_cached,200,65.654,9fc0f8e9-ec5f-4a57-972d-ff4e85cd279c,applied; entities=0,False,1,1,0
+measured,798,direct,200,52.314,,,,,,
+measured,799,gw_cached,200,63.16,db9057ce-a5cc-46f6-8f09-bd92cc9874bb,applied; entities=0,False,1,1,0
+measured,800,direct,200,51.278,,,,,,
+measured,801,gw_cached,200,64.394,195be2ec-9ba5-43d5-b005-209884ac8b21,applied; entities=0,False,1,1,0
+measured,802,gw_cached,200,65.111,4d5ab9b1-d198-4a47-874c-61309357bfad,applied; entities=0,False,1,1,0
+measured,803,gw_cached,200,65.287,474d3110-7231-4e21-8582-8a1ffb1173c8,applied; entities=0,False,1,1,0
+measured,804,gw_cold,200,73.409,478c80d1-7efe-4674-9059-a7dc7a833142,applied; entities=0,True,1,0,7
+measured,805,direct,200,51.638,,,,,,
+measured,806,direct,200,51.666,,,,,,
+measured,807,gw_noscan,200,68.151,5a672631-c158-403c-a1f2-90a2f1348995,relaxed,,,,0
+measured,808,gw_noscan,200,65.003,ad61c656-c935-42dc-ae51-fb6d0b0cf075,relaxed,,,,0
+measured,809,gw_cached,200,73.039,f71f8e93-a7ff-4e00-86df-6a89fb33452d,applied; entities=0,False,1,1,0
+measured,810,gw_cached,200,66.924,1bd37c20-3851-4012-b740-34f7972cd328,applied; entities=0,False,1,1,0
+measured,811,direct,200,51.386,,,,,,
+measured,812,gw_cold,200,76.072,188255dc-aca2-4c0b-932f-8b2f015329da,applied; entities=0,True,1,0,9
+measured,813,gw_cold,200,82.552,34dbb002-b95b-4746-9da2-d55451acc09d,applied; entities=0,True,1,0,10
+measured,814,gw_noscan,200,74.237,32f2e6e9-25df-43c6-9efa-8c4cb65353a2,relaxed,,,,0
+measured,815,gw_noscan,200,66.509,1bcc3c38-73dd-4443-a511-8eb029e6f953,relaxed,,,,0
+measured,816,gw_cached,200,65.693,38960788-e87b-483b-86ca-6f12c7d8dfde,applied; entities=0,False,1,1,0
+measured,817,gw_cold,200,74.039,2b759994-35d3-4a1e-84a0-4de679afc392,applied; entities=0,True,1,0,9
+measured,818,gw_noscan,200,65.089,c02b75b5-155e-4c00-8503-d1f68e8b2f87,relaxed,,,,0
+measured,819,direct,200,51.843,,,,,,
+measured,820,gw_noscan,200,64.323,3dbbaed8-176a-4a48-a072-47fb74b7ba38,relaxed,,,,0
+measured,821,gw_noscan,200,65.204,7bafbd44-88db-4fef-9088-5ed396a84bd4,relaxed,,,,0
+measured,822,gw_cold,200,74.413,a519f501-56ae-43d9-8f05-adad617165d3,applied; entities=0,True,1,0,7
+measured,823,direct,200,51.863,,,,,,
+measured,824,gw_noscan,200,61.893,d0a68404-a378-4a65-af10-4fdfe9f45bc2,relaxed,,,,0
+measured,825,gw_noscan,200,63.249,9ef60462-7ec9-4721-8617-a010748e306b,relaxed,,,,0
+measured,826,direct,200,52.087,,,,,,
+measured,827,direct,200,51.727,,,,,,
+measured,828,direct,200,51.599,,,,,,
+measured,829,direct,200,51.56,,,,,,
+measured,830,gw_cold,200,72.908,073f8087-e418-4e39-8702-939e0e3d5e78,applied; entities=0,True,1,0,8
+measured,831,gw_cold,200,73.893,b3d2afff-68f5-48c2-96cf-3b29d2a13413,applied; entities=0,True,1,0,9
+measured,832,direct,200,51.822,,,,,,
+measured,833,direct,200,51.517,,,,,,
+measured,834,gw_noscan,200,63.519,774c9323-1e3e-4278-b7a5-9c6be9b4a5e7,relaxed,,,,0
+measured,835,gw_noscan,200,68.062,ad7b32c0-2fa3-47bb-83dd-d7069b794ece,relaxed,,,,0
+measured,836,direct,200,51.726,,,,,,
+measured,837,direct,200,51.256,,,,,,
+measured,838,gw_cold,200,74.821,5db919f3-c97c-4b7a-be3a-bdb5bf0e34a5,applied; entities=0,True,1,0,11
+measured,839,gw_noscan,200,69.569,e58c0337-8055-4ca7-8415-7f32edac8fd9,relaxed,,,,0
+measured,840,gw_cached,200,64.341,12484111-8755-47cc-8520-f75d2e337893,applied; entities=0,False,1,1,0
+measured,841,direct,200,52.348,,,,,,
+measured,842,gw_cached,200,62.262,5c47d765-5000-4c6e-8820-ed73fe7bb2cc,applied; entities=0,False,1,1,0
+measured,843,gw_cold,200,72.551,6aadcf3c-1b08-49b1-bb2e-d2a0d40fe5f5,applied; entities=0,True,1,0,7
+measured,844,gw_cached,200,65.232,ccc6bc84-e932-4aa1-aaec-5fe7c9697e2f,applied; entities=0,False,1,1,0
+measured,845,gw_cached,200,65.043,5f525622-d6b5-451a-8355-4692792d133c,applied; entities=0,False,1,1,0
+measured,846,gw_noscan,200,63.892,83a52e92-fba6-4e0d-9112-54915753d7bb,relaxed,,,,0
+measured,847,gw_noscan,200,64.416,18f3c86b-93dd-423c-bb40-b204f56d3724,relaxed,,,,0
+measured,848,gw_cached,200,64.947,5e0de417-de62-46b8-a386-00f3b88e573b,applied; entities=0,False,1,1,0
+measured,849,gw_cached,200,63.581,379de414-1f70-4a13-8c53-29d61e84487e,applied; entities=0,False,1,1,0
+measured,850,gw_cached,200,68.12,e4a37e5f-ef8a-4495-b393-091cf039e851,applied; entities=0,False,1,1,0
+measured,851,gw_cold,200,73.698,3ce5ed41-ce3c-4185-a097-f2ef4186d8a2,applied; entities=0,True,1,0,8
+measured,852,gw_cached,200,65.989,f628a8ab-7a99-47e6-ad25-e0955a70ddba,applied; entities=0,False,1,1,0
+measured,853,gw_noscan,200,67.455,6824452d-6b53-4ef5-94e0-38819d67c96a,relaxed,,,,0
+measured,854,gw_cached,200,66.333,a6acf953-3f69-4846-b1c8-5478c8b96083,applied; entities=0,False,1,1,0
+measured,855,gw_cached,200,65.871,8a33d5d1-2aad-4880-b7d9-fff1fceea368,applied; entities=0,False,1,1,0
+measured,856,gw_cached,200,65.872,13d2f33c-16dc-4b63-832f-c9fa176ccb59,applied; entities=0,False,1,1,0
+measured,857,gw_cached,200,66.826,d7935103-84be-47ba-ac77-44e016eb9e7b,applied; entities=0,False,1,1,0
+measured,858,direct,200,51.43,,,,,,
+measured,859,gw_noscan,200,63.726,a0d264aa-8507-42e6-8bed-8704af4421c5,relaxed,,,,0
+measured,860,gw_cached,200,65.022,5ba78389-d9c5-42ee-84c4-d3d0331984b8,applied; entities=0,False,1,1,0
+measured,861,gw_cold,200,78.102,a53b3508-458c-4fad-a8ee-6ab75e3d2db2,applied; entities=0,True,1,0,10
+measured,862,direct,200,51.915,,,,,,
+measured,863,gw_noscan,200,64.039,738559f4-d19e-4638-a646-ff89d99e9482,relaxed,,,,0
+measured,864,gw_cold,200,80.641,9cdcc996-8795-4402-bd19-e2b6bf2b1029,applied; entities=0,True,1,0,9
+measured,865,gw_cold,200,75.154,ddf2359e-3222-4e34-9375-ac955d120463,applied; entities=0,True,1,0,8
+measured,866,direct,200,51.573,,,,,,
+measured,867,gw_noscan,200,64.224,c754ef11-c1a9-4786-b2bd-5b573de920d0,relaxed,,,,0
+measured,868,gw_cold,200,75.79,0eb6e9ac-634a-487c-a319-6e17f7805ed3,applied; entities=0,True,1,0,8
+measured,869,gw_cold,200,74.869,89246d8a-9e22-45e7-8fb0-6e54dea3eb58,applied; entities=0,True,1,0,7
+measured,870,gw_cached,200,65.851,77c6717e-6f9c-4e9a-a7df-4c206cb26796,applied; entities=0,False,1,1,0
+measured,871,gw_cold,200,74.69,410dd1f1-f85d-4c4a-bc1a-95ecb093185f,applied; entities=0,True,1,0,8
+measured,872,gw_noscan,200,65.622,49309a96-9cbd-48c7-b35c-1bec0d0d2991,relaxed,,,,0
+measured,873,gw_cold,200,77.124,b214ab7d-7d36-4e3e-a8f2-4945d1c376c2,applied; entities=0,True,1,0,7
+measured,874,gw_cold,200,73.289,cdc980b7-d0e8-44d6-adce-81a5e017ebcc,applied; entities=0,True,1,0,8
+measured,875,gw_cached,200,67.263,873d387d-f2bd-4d8c-8f38-e98ef9cfc0b0,applied; entities=0,False,1,1,0
+measured,876,gw_cold,200,75.058,b7c08dd2-ee7a-4de6-a120-a500b507769f,applied; entities=0,True,1,0,8
+measured,877,gw_noscan,200,65.306,9792156b-9eba-475b-a58d-9a8c5366830f,relaxed,,,,0
+measured,878,gw_noscan,200,66.552,1e8157a8-e769-405e-876b-571a90b2c8a3,relaxed,,,,0
+measured,879,gw_noscan,200,65.02,7e8b6608-f671-4629-bf49-25b04c3317f1,relaxed,,,,0
+measured,880,direct,200,51.464,,,,,,
+measured,881,gw_noscan,200,63.928,9a72e97f-dff6-404d-936f-85ee0b720ea6,relaxed,,,,0
+measured,882,gw_noscan,200,63.702,559ac64d-4216-441c-81ac-8640a81485f8,relaxed,,,,0
+measured,883,gw_noscan,200,66.059,6389342b-0082-48f6-9fbb-46ee89651f3c,relaxed,,,,0
+measured,884,direct,200,52.82,,,,,,
+measured,885,gw_cached,200,71.584,b40b8d51-b9af-40ee-81dc-03708a15997f,applied; entities=0,False,1,1,0
+measured,886,gw_noscan,200,70.799,043a21a9-5664-47a4-8180-d79da51a7636,relaxed,,,,0
+measured,887,gw_cached,200,78.411,22ee5664-a8f9-4a1f-a0ae-2683231c231d,applied; entities=0,False,1,1,0
+measured,888,gw_cold,200,77.666,7f0141ee-f164-4196-9857-b2194139178a,applied; entities=0,True,1,0,8
+measured,889,gw_noscan,200,67.693,1df24a70-4022-42d1-b856-471e5138b71f,relaxed,,,,0
+measured,890,gw_cold,200,73.075,ffe33858-3a28-48f5-b170-c3cba40ae12a,applied; entities=0,True,1,0,8
+measured,891,gw_cold,200,74.993,83226795-5c32-430e-9f5b-88e808811c0b,applied; entities=0,True,1,0,8
+measured,892,gw_cached,200,67.192,36f1fb42-7cd1-47fe-a7a0-79eefe78bc6c,applied; entities=0,False,1,1,0
+measured,893,direct,200,51.682,,,,,,
+measured,894,gw_cached,200,64.085,48ac8a33-5858-4202-92c0-b61881f396fb,applied; entities=0,False,1,1,0
+measured,895,gw_cold,200,78.787,253e6aa7-d000-40d9-9ab5-1da4c7b60453,applied; entities=0,True,1,0,9
+measured,896,gw_cold,200,80.401,cc4c5b03-05cc-4d1d-a271-8030e5226572,applied; entities=0,True,1,0,11
+measured,897,direct,200,51.403,,,,,,
+measured,898,gw_cached,200,65.644,2a60c0b0-cceb-47a9-be56-213142192c75,applied; entities=0,False,1,1,0
+measured,899,gw_cached,200,68.666,a3e024a1-de0e-401e-b261-7c92d949291c,applied; entities=0,False,1,1,0
+measured,900,gw_cached,200,68.419,14cb50ca-f96c-451c-beb3-412978b085f1,applied; entities=0,False,1,1,0
+measured,901,gw_cached,200,65.588,48d21cbd-c3dc-4687-bc93-c7ca24bc868c,applied; entities=0,False,1,1,0
+measured,902,gw_noscan,200,63.172,1d0d660e-5878-4249-9161-91c03c308cb4,relaxed,,,,0
+measured,903,gw_noscan,200,63.862,2ccbdc19-298d-4791-8357-de11c6fa8e61,relaxed,,,,0
+measured,904,direct,200,51.487,,,,,,
+measured,905,gw_cached,200,64.069,bc084307-6dec-4052-b3c2-e1e6a07f686d,applied; entities=0,False,1,1,0
+measured,906,gw_noscan,200,66.5,705fe40a-2352-4d91-aa74-88610586f8b4,relaxed,,,,0
+measured,907,gw_cold,200,74.822,264cca5e-7525-4fba-980d-c86dfdb30342,applied; entities=0,True,1,0,8
+measured,908,direct,200,51.692,,,,,,
+measured,909,gw_noscan,200,63.229,e3ab02e4-a2d8-4d34-a3f1-80f001a11072,relaxed,,,,0
+measured,910,direct,200,51.408,,,,,,
+measured,911,gw_cold,200,72.089,5dbb1a87-8b92-4537-915b-cecabd655089,applied; entities=0,True,1,0,7
+measured,912,direct,200,51.394,,,,,,
+measured,913,direct,200,51.723,,,,,,
+measured,914,gw_noscan,200,63.643,d70f2001-b640-43c7-95fd-ec1b9e5f8c67,relaxed,,,,0
+measured,915,gw_cold,200,72.504,c8a113d8-a220-49cb-b5eb-2f119bf5bcd5,applied; entities=0,True,1,0,8
+measured,916,gw_cached,200,68.736,3238d88d-6f89-45ed-87b7-16b1a32bd534,applied; entities=0,False,1,1,1
+measured,917,gw_cold,200,84.085,44e3adda-6802-4651-8fee-c46a2de3de28,applied; entities=0,True,1,0,11
+measured,918,gw_noscan,200,66.663,901a8217-87f8-4415-9a44-129f9cd9d7f1,relaxed,,,,0
+measured,919,gw_cached,200,67.574,c0bc9c04-6d9e-4363-9aaf-bb6fd483e58b,applied; entities=0,False,1,1,0
+measured,920,direct,200,51.619,,,,,,
+measured,921,direct,200,51.823,,,,,,
+measured,922,gw_cached,200,63.772,b5125ebd-2618-4d7e-943b-05bafd34e1c7,applied; entities=0,False,1,1,0
+measured,923,direct,200,51.419,,,,,,
+measured,924,direct,200,51.772,,,,,,
+measured,925,gw_noscan,200,63.052,84313d2d-517c-4562-ae76-f130932c1054,relaxed,,,,0
+measured,926,direct,200,51.462,,,,,,
+measured,927,gw_noscan,200,64.272,bf93cac9-016c-4135-9c69-6644707b897d,relaxed,,,,0
+measured,928,gw_noscan,200,65.042,74f6d5af-61fa-4eea-a9ba-e2626efdd884,relaxed,,,,0
+measured,929,gw_noscan,200,65.766,b1588dff-187b-41ff-af91-b3a65ef19ad6,relaxed,,,,0
+measured,930,gw_cached,200,68.376,f7ca5898-ac73-4986-b38c-f8e0448c7ba8,applied; entities=0,False,1,1,0
+measured,931,gw_cached,200,69.151,09aff35b-9e4b-4a7b-9b81-c1eb48f9c51d,applied; entities=0,False,1,1,0
+measured,932,gw_noscan,200,66.562,49c3b10b-592e-4d6b-b566-447be945da62,relaxed,,,,0
+measured,933,gw_cached,200,70.076,b74bff1e-69ce-4e26-9669-9dae6d9856f8,applied; entities=0,False,1,1,0
+measured,934,direct,200,51.752,,,,,,
+measured,935,gw_cold,200,74.146,41e82a80-0279-4523-acd8-5b468e59d155,applied; entities=0,True,1,0,9
+measured,936,gw_cached,200,64.79,11c29df6-e790-41e8-8e46-fbf96f17f1cd,applied; entities=0,False,1,1,0
+measured,937,gw_cached,200,64.542,45f51411-bec6-4ec5-89ac-5e88a86767a5,applied; entities=0,False,1,1,0
+measured,938,gw_noscan,200,66.472,66e0ef12-f413-4eb2-ab6c-f7fb6c6712e3,relaxed,,,,0
+measured,939,gw_cached,200,70.424,1f1abdb1-7a33-469f-ba85-fd1f4baf90e5,applied; entities=0,False,1,1,0
+measured,940,gw_cold,200,79.918,2f127517-9df8-4425-84ce-55388cc82ca8,applied; entities=0,True,1,0,10
+measured,941,gw_cached,200,69.033,005987f7-fbeb-4859-b12e-417d26b424f1,applied; entities=0,False,1,1,0
+measured,942,gw_noscan,200,68.773,4b1d051e-d4cc-4e1f-af45-d42a6cf4d0af,relaxed,,,,0
+measured,943,direct,200,52.058,,,,,,
+measured,944,gw_cached,200,63.139,1d631083-d84c-458b-9e8c-2db3979b3461,applied; entities=0,False,1,1,0
+measured,945,gw_cold,200,73.198,c25129f3-2613-43b0-b7d4-999853386b67,applied; entities=0,True,1,0,8
+measured,946,gw_noscan,200,63.57,9874f2e6-94db-4b64-915d-fc296bbf50e1,relaxed,,,,0
+measured,947,direct,200,51.587,,,,,,
+measured,948,direct,200,52.338,,,,,,
+measured,949,gw_cached,200,64.441,07cbc056-62c2-45a1-8a45-f7117e3228dd,applied; entities=0,False,1,1,0
+measured,950,gw_cold,200,75.389,f1e8a7ff-0175-4212-9b26-918c3afc2af0,applied; entities=0,True,1,0,9
+measured,951,gw_cold,200,72.615,bb35e7e3-29b3-49e6-9299-9e8adffa334b,applied; entities=0,True,1,0,9
+measured,952,gw_cached,200,66.142,ba0fb793-67d5-4248-bed5-83b0b6de6f0e,applied; entities=0,False,1,1,0
+measured,953,gw_noscan,200,64.356,5c956fb9-0b95-40ff-8c32-a8716c5dc25f,relaxed,,,,0
+measured,954,gw_noscan,200,65.161,53f8cb07-c2f2-4027-9f49-5650d62bc29a,relaxed,,,,0
+measured,955,gw_cached,200,65.287,f1ab6d87-debb-4126-991a-35d6383c9ae3,applied; entities=0,False,1,1,0
+measured,956,gw_cold,200,73.482,d5c7173b-f53c-444d-8080-53df99591bf9,applied; entities=0,True,1,0,10
+measured,957,gw_noscan,200,64.655,82fd621a-5ecb-4deb-bdc3-9a5272fcc01a,relaxed,,,,0
+measured,958,gw_cached,200,64.679,62a9df77-e94e-4828-ba9a-2434768a1392,applied; entities=0,False,1,1,0
+measured,959,gw_cold,200,73.472,84614605-c728-4330-955a-2f5ec5c916ce,applied; entities=0,True,1,0,8
+measured,960,gw_cold,200,76.775,5eada178-d8f9-4c67-b58f-ad862f94baf0,applied; entities=0,True,1,0,9
+measured,961,direct,200,51.615,,,,,,
+measured,962,gw_noscan,200,63.527,b0da4b35-d6cb-4fe3-b863-605b270733bf,relaxed,,,,0
+measured,963,direct,200,51.496,,,,,,
+measured,964,gw_noscan,200,63.482,3776a67c-5446-4672-b401-ef970e7654b3,relaxed,,,,0
+measured,965,gw_noscan,200,65.568,3a0bfd7e-615b-46b4-a99c-5f404019c41b,relaxed,,,,0
+measured,966,gw_cold,200,73.647,e6a61cc0-6ca8-4bbc-a8b0-3f7dfc06450b,applied; entities=0,True,1,0,8
+measured,967,gw_cached,200,65.711,b91612a7-e5c6-4d06-a0b0-4899277f5464,applied; entities=0,False,1,1,0
+measured,968,gw_cold,200,76.713,36a2b999-c6c1-4761-8c08-b1c3e9e31a9a,applied; entities=0,True,1,0,8
+measured,969,gw_noscan,200,63.493,c5086eb2-a973-4ad9-9aca-376db794cfef,relaxed,,,,0
+measured,970,direct,200,51.574,,,,,,
+measured,971,direct,200,51.492,,,,,,
+measured,972,gw_cached,200,63.761,e46b28b3-6445-4955-9be6-ee64fb71179c,applied; entities=0,False,1,1,0
+measured,973,direct,200,51.768,,,,,,
+measured,974,gw_cached,200,63.158,18d3fff3-2ddf-4d06-aed4-dff9fcee2e5f,applied; entities=0,False,1,1,0
+measured,975,gw_cached,200,68.219,6592b323-69b4-4cf6-8a75-c2ff8a3d4461,applied; entities=0,False,1,1,0
+measured,976,gw_cached,200,65.5,47bb6b50-fbe9-49d6-a702-a24f10bfcbc2,applied; entities=0,False,1,1,0
+measured,977,gw_cold,200,79.785,70dadbfd-bce3-419f-812b-7c82133204fa,applied; entities=0,True,1,0,8
+measured,978,direct,200,51.563,,,,,,
+measured,979,direct,200,51.789,,,,,,
+measured,980,gw_cold,200,74.862,1835ccbe-cec2-40eb-b288-bce88f86d67e,applied; entities=0,True,1,0,8
+measured,981,gw_cold,200,74.484,820fb6d8-eac6-4508-b79e-1d910996e68c,applied; entities=0,True,1,0,8
+measured,982,gw_cached,200,65.418,31d1b36b-fa6e-47b2-aa93-7c55f3512634,applied; entities=0,False,1,1,0
+measured,983,direct,200,52.131,,,,,,
+measured,984,gw_cached,200,64.072,37a5e597-700e-45bf-8168-26938eb43736,applied; entities=0,False,1,1,0
+measured,985,gw_cold,200,72.592,0b55266d-ee7a-45b0-a07a-88625704432d,applied; entities=0,True,1,0,7
+measured,986,direct,200,51.577,,,,,,
+measured,987,gw_cold,200,72.519,37d1c236-fcfe-4d03-83cb-7b50c731113a,applied; entities=0,True,1,0,9
+measured,988,gw_cached,200,65.02,088d658b-5797-43ee-956c-12eec0111cc5,applied; entities=0,False,1,1,0
+measured,989,gw_noscan,200,65.404,677e758e-fbd8-4fe9-91a9-e80b89ab022a,relaxed,,,,0
+measured,990,gw_noscan,200,71.059,c77f047c-7c5a-4327-b902-474f39284cd7,relaxed,,,,0
+measured,991,gw_cold,200,78.985,3c7307e6-c108-4c47-8d4a-9be301708537,applied; entities=0,True,1,0,8
+measured,992,gw_cold,200,81.186,c5a49bc6-84d0-4070-ad90-95722b2cba28,applied; entities=0,True,1,0,9
+measured,993,gw_cold,200,75.73,486fa3e7-cbf8-4c69-b9c6-9c145fd0cce0,applied; entities=0,True,1,0,8
+measured,994,gw_cold,200,76.838,59e3cae4-e9da-4ca3-98a4-ee57ae487212,applied; entities=0,True,1,0,10
+measured,995,gw_cached,200,64.722,d587d02f-539e-42eb-b662-4be2414100c9,applied; entities=0,False,1,1,0
+measured,996,direct,200,51.539,,,,,,
+measured,997,gw_noscan,200,65.773,3e78d468-e477-4b35-84ee-be10cb01e39a,relaxed,,,,0
+measured,998,gw_noscan,200,68.299,1f4e1b26-23c6-4645-887b-4f6c49c201f8,relaxed,,,,0
+measured,999,direct,200,52.274,,,,,,
+measured,1000,gw_cold,200,74.966,4997a3a9-70ae-4990-8240-94323988c743,applied; entities=0,True,1,0,8
+measured,1001,direct,200,51.776,,,,,,
+measured,1002,gw_cached,200,65.31,4b82a5c7-ef8b-4913-94f6-9a48716d5dbf,applied; entities=0,False,1,1,0
+measured,1003,gw_noscan,200,69.595,d28f5253-227e-46dc-ab72-ebdbba914593,relaxed,,,,0
+measured,1004,gw_cached,200,67.255,8c60f85d-0676-4164-88d7-841b51732846,applied; entities=0,False,1,1,0
+measured,1005,direct,200,51.402,,,,,,
+measured,1006,gw_cached,200,65.273,615d3267-0616-4b4b-84f7-37592f500d94,applied; entities=0,False,1,1,0
+measured,1007,direct,200,51.92,,,,,,
+measured,1008,gw_noscan,200,64.357,d966a49c-78cb-47d4-b79c-7fdd56bcd530,relaxed,,,,0
+measured,1009,gw_cold,200,74.364,c755bb7f-9308-47f9-b619-9a614b2da8e8,applied; entities=0,True,1,0,10
+measured,1010,gw_cold,200,81.272,444d0bf3-6f9f-4426-9d1a-51560fd10a4c,applied; entities=0,True,1,0,10
+measured,1011,gw_cold,200,76.76,d482140a-982f-4f05-830d-f14d8a18bdfc,applied; entities=0,True,1,0,9
+measured,1012,gw_noscan,200,64.97,0ae156b1-d65d-4673-b91a-66afbedc2137,relaxed,,,,0
+measured,1013,gw_cold,200,76.297,40742198-4b07-4c44-891d-3e48f50f258d,applied; entities=0,True,1,0,10
+measured,1014,gw_cached,200,66.114,1fc29ae5-13ea-4880-a008-d5effbdce57c,applied; entities=0,False,1,1,0
+measured,1015,gw_cold,200,74.172,2f6ae32c-08a8-4b46-b534-a63ececba5ff,applied; entities=0,True,1,0,7
+measured,1016,gw_cold,200,74.527,fbfcf945-9f4e-4619-9caf-99e58b7ae8f1,applied; entities=0,True,1,0,8
+measured,1017,gw_cached,200,63.945,d9d84459-680b-48d9-a1c9-b6e10d46bc46,applied; entities=0,False,1,1,0
+measured,1018,direct,200,51.837,,,,,,
+measured,1019,gw_cached,200,63.417,1ae4e097-1069-4b5b-b17c-02ccf0c5b18c,applied; entities=0,False,1,1,0
+measured,1020,gw_noscan,200,65.853,27d2427c-881d-4021-9b5d-5187dbbc21c2,relaxed,,,,0
+measured,1021,gw_cold,200,75.099,a508624d-42ab-45a2-9158-35bd8e136161,applied; entities=0,True,1,0,8
+measured,1022,gw_cold,200,72.492,96b70f7c-6e0d-4db6-af0a-ea6e5ee042ba,applied; entities=0,True,1,0,7
+measured,1023,direct,200,51.758,,,,,,
+measured,1024,gw_cached,200,65.217,6f582c36-253b-4711-b45d-13010f58f890,applied; entities=0,False,1,1,0
+measured,1025,gw_noscan,200,65.213,f4117f4f-bf3b-47d2-847e-328fcf99577d,relaxed,,,,0
+measured,1026,gw_cold,200,78.008,d4e0956a-ed99-4dd2-83d6-55cd26fa842c,applied; entities=0,True,1,0,11
+measured,1027,gw_noscan,200,69.573,3caa22b0-342b-4f48-b070-7aa59cbc9ecb,relaxed,,,,0
+measured,1028,direct,200,52.027,,,,,,
+measured,1029,direct,200,51.656,,,,,,
+measured,1030,gw_cold,200,75.408,8df9aaec-f535-4fb4-8c66-0e9e9d78e959,applied; entities=0,True,1,0,11
+measured,1031,direct,200,52.028,,,,,,
+measured,1032,gw_noscan,200,62.649,2454c8fd-a028-4853-ba5d-1ddb46eb44b8,relaxed,,,,0
+measured,1033,gw_cold,200,78.109,c9563956-c92f-43e4-9586-83ff9117c31c,applied; entities=0,True,1,0,7
+measured,1034,gw_noscan,200,69.524,3cf76a6e-a9ee-4fb0-b33f-8f92422819d1,relaxed,,,,0
+measured,1035,gw_noscan,200,63.844,cadbceb8-fd87-43bc-b1bf-067f54440d03,relaxed,,,,0
+measured,1036,gw_cached,200,67.722,bcfe9782-c679-4a8f-bc87-0db491f45575,applied; entities=0,False,1,1,0
+measured,1037,direct,200,51.823,,,,,,
+measured,1038,gw_cached,200,66.859,baaaef78-5392-4fef-93af-060e7da8ea3b,applied; entities=0,False,1,1,0
+measured,1039,gw_cold,200,122.144,e6e973d6-489e-46ff-be8f-f1839c819071,applied; entities=0,True,1,0,41
+measured,1040,gw_cached,200,70.817,6b873a52-748b-42ab-8c48-b4176008895b,applied; entities=0,False,1,1,0
+measured,1041,gw_noscan,200,66.278,1325f8ef-01f4-4462-a32e-6c5c0623e119,relaxed,,,,0
+measured,1042,direct,200,51.786,,,,,,
+measured,1043,direct,200,51.706,,,,,,
+measured,1044,gw_cached,200,65.364,f0c9ee68-c90e-48ae-873c-a779c922115e,applied; entities=0,False,1,1,0
+measured,1045,gw_noscan,200,66.535,b772956a-11e5-4870-8bb3-cd83ac233a77,relaxed,,,,0
+measured,1046,gw_cold,200,76.28,56de05be-de71-4e7f-b1d3-23d74bcae2af,applied; entities=0,True,1,0,9
+measured,1047,gw_cold,200,73.915,1b791d49-7ee4-4c63-8214-8e5c74f6b2c9,applied; entities=0,True,1,0,7
+measured,1048,direct,200,51.44,,,,,,
+measured,1049,direct,200,51.735,,,,,,
+measured,1050,direct,200,51.813,,,,,,
+measured,1051,gw_cached,200,62.888,8719db21-0f5e-41b7-96ed-13ed81631a04,applied; entities=0,False,1,1,0
+measured,1052,gw_cold,200,72.681,9d79f4d2-6ffd-4b1b-851f-440988556062,applied; entities=0,True,1,0,7
+measured,1053,direct,200,51.739,,,,,,
+measured,1054,direct,200,51.829,,,,,,
+measured,1055,gw_cold,200,71.815,a4b38870-f0c8-4fb3-b0fc-3e6135416b3c,applied; entities=0,True,1,0,7
+measured,1056,gw_cached,200,65.431,fc9e8cb9-a8c7-4b74-b8b9-8e00f4c722c2,applied; entities=0,False,1,1,0
+measured,1057,gw_cached,200,65.808,74443c09-b039-4e45-8141-66fd36670686,applied; entities=0,False,1,1,0
+measured,1058,direct,200,51.772,,,,,,
+measured,1059,gw_noscan,200,64.032,ecc41f08-748f-4a22-a591-4d305d37da97,relaxed,,,,0
+measured,1060,gw_cached,200,66.057,0fd74be4-e4dd-4f7e-9f34-ae10402e14d3,applied; entities=0,False,1,1,0
+measured,1061,gw_cached,200,65.383,60983a3c-7a2a-4867-842e-1ffe615c98e2,applied; entities=0,False,1,1,0
+measured,1062,direct,200,51.789,,,,,,
+measured,1063,gw_cold,200,72.467,5c0e3faf-98af-4aa3-817a-10241c7e363b,applied; entities=0,True,1,0,8
+measured,1064,gw_cold,200,74.482,d8a1b4a6-e229-4854-846d-73bb0b8b8081,applied; entities=0,True,1,0,8
+measured,1065,gw_noscan,200,65.98,b54a27de-2dbf-41b9-baa4-ec532169ed2c,relaxed,,,,0
+measured,1066,gw_cached,200,67.931,616af3a7-74a8-4c26-896b-a94166b43a9e,applied; entities=0,False,1,1,0
+measured,1067,direct,200,51.871,,,,,,
+measured,1068,gw_noscan,200,64.072,7a084cf4-ab12-42a3-84a9-18643e2dc99a,relaxed,,,,0
+measured,1069,gw_cold,200,76.872,f35dd38f-e0d3-4c5e-afc8-1c45d5256140,applied; entities=0,True,1,0,11
+measured,1070,gw_cached,200,65.446,7830651d-e13f-4a19-8877-e4cdfa23215e,applied; entities=0,False,1,1,0
+measured,1071,gw_cold,200,76.729,c8e4095a-6d2e-401b-b2bd-9c24a20aa547,applied; entities=0,True,1,0,8
+measured,1072,direct,200,52.387,,,,,,
+measured,1073,gw_cold,200,72.187,03f96707-4739-4721-8b7f-8ce152b61e48,applied; entities=0,True,1,0,9
+measured,1074,gw_cold,200,77.983,455d914e-9d28-46fd-b57e-1e7d4bac3cef,applied; entities=0,True,1,0,8
+measured,1075,direct,200,51.388,,,,,,
+measured,1076,gw_cold,200,70.763,2ec83e6d-1f7f-4119-9ae8-f311c693c9ae,applied; entities=1; unresolved=0,True,1,0,8
+measured,1077,gw_noscan,200,67.07,b6fbf4d8-f8a6-441a-b542-b8c56e22f794,relaxed,,,,0
+measured,1078,direct,200,52.083,,,,,,
+measured,1079,direct,200,51.699,,,,,,
+measured,1080,gw_noscan,200,63.314,b3976f77-464e-4a20-882b-c6c2debbe6ab,relaxed,,,,0
+measured,1081,gw_noscan,200,64.257,f54b80ab-f96a-458c-badf-fb02192231ee,relaxed,,,,0
+measured,1082,gw_cached,200,66.436,b359562d-a0d1-46fb-9df2-65f3ccba67ab,applied; entities=0,False,1,1,0
+measured,1083,gw_cold,200,73.432,e4af213a-699e-43be-87e2-870a8714d950,applied; entities=0,True,1,0,8
+measured,1084,direct,200,52.019,,,,,,
+measured,1085,gw_cached,200,63.008,cd623d22-1ff6-44be-9eb5-2f01b8b18fc8,applied; entities=0,False,1,1,0
+measured,1086,gw_cached,200,65.579,c7d05309-77a9-4d63-a9b9-cb75895a217c,applied; entities=0,False,1,1,0
+measured,1087,gw_noscan,200,64.051,12efce7f-18c2-4b84-bcc8-c87f30e8cf50,relaxed,,,,0
+measured,1088,gw_noscan,200,64.382,b0a9371b-1487-403c-beef-a85fd1ff6c81,relaxed,,,,0
+measured,1089,direct,200,51.501,,,,,,
+measured,1090,gw_noscan,200,63.364,86ad72a4-022b-45e2-b0f6-87b63fa7f251,relaxed,,,,0
+measured,1091,direct,200,53.373,,,,,,
+measured,1092,gw_noscan,200,66.938,166c0f3e-9c23-4b3f-bf83-cf3b5ff1be94,relaxed,,,,0
+measured,1093,gw_cold,200,74.072,1dd84ca4-ad42-4b97-85d4-27438788ec5b,applied; entities=0,True,1,0,8
+measured,1094,direct,200,52.375,,,,,,
+measured,1095,gw_cold,200,73.004,840b9a4b-639d-483a-8710-f2d56e213dc8,applied; entities=0,True,1,0,8
+measured,1096,gw_cold,200,73.855,a3a8f185-34be-4fdb-97e1-b9be26906f3a,applied; entities=0,True,1,0,8
+measured,1097,gw_noscan,200,68.206,f83b4b7b-a41c-46c7-85c8-cb7f7a205f00,relaxed,,,,0
+measured,1098,gw_noscan,200,64.694,39826769-1f38-4e3c-a546-94784be78740,relaxed,,,,0
+measured,1099,gw_cold,200,74.481,14025da0-be68-4d3b-8c4e-e4035a41fc66,applied; entities=0,True,1,0,7
+measured,1100,gw_noscan,200,67.703,f0b9f7f4-0cfe-4265-8eec-2d7614e06e85,relaxed,,,,0
+measured,1101,gw_cold,200,79.236,99c0589a-5710-41fd-b2a6-0d5a9edca53c,applied; entities=0,True,1,0,9
+measured,1102,gw_cold,200,73.769,02903156-914e-4010-ae20-bbaaa1a43f94,applied; entities=0,True,1,0,8
+measured,1103,gw_noscan,200,64.657,16249178-82d2-4956-a56f-d331c19a32e4,relaxed,,,,0
+measured,1104,gw_cold,200,75.043,49ee0280-570d-4474-bef4-da997e9f89a6,applied; entities=0,True,1,0,8
+measured,1105,gw_cold,200,75.389,b4764ec3-9af6-4296-8695-0179afb15cb6,applied; entities=0,True,1,0,8
+measured,1106,gw_cached,200,66.713,8b55d105-14af-44d2-b672-2deda6ec0493,applied; entities=0,False,1,1,0
+measured,1107,gw_noscan,200,66.473,891d3ba7-48e2-446b-b48a-747ea3c6f4a0,relaxed,,,,0
+measured,1108,gw_noscan,200,64.702,98f4d4a5-cd05-4ceb-b1ea-bf2e164b7045,relaxed,,,,0
+measured,1109,gw_cold,200,73.859,bb6427e6-0c1d-4ff4-a600-975367c5bd5e,applied; entities=0,True,1,0,9
+measured,1110,direct,200,52.744,,,,,,
+measured,1111,gw_cold,200,72.85,4f1b8aef-2e09-42d7-87ca-5507fcc9ccf1,applied; entities=0,True,1,0,8
+measured,1112,direct,200,51.434,,,,,,
+measured,1113,gw_cached,200,63.681,b2100b26-e652-410e-8e13-ebcfaa534afb,applied; entities=0,False,1,1,0
+measured,1114,gw_noscan,200,65.62,553aa6d1-07a8-427a-9727-f70450cff7fc,relaxed,,,,0
+measured,1115,direct,200,51.521,,,,,,
+measured,1116,gw_cold,200,71.602,841438bf-3272-4c91-abd8-47e18265f39e,applied; entities=0,True,1,0,8
+measured,1117,gw_noscan,200,68.209,4044dae9-2a82-4802-afd4-733fa5b453f1,relaxed,,,,0
+measured,1118,gw_cold,200,73.553,07792ab4-4ebf-44c5-9a05-43d70a488d7d,applied; entities=0,True,1,0,7
+measured,1119,gw_cold,200,76.146,bb9ab806-34bb-4570-b02c-342299f1bcfa,applied; entities=0,True,1,0,9
+measured,1120,direct,200,51.954,,,,,,
+measured,1121,gw_noscan,200,68.501,f1e906ae-92e0-4124-9399-38ac43c889fa,relaxed,,,,0
+measured,1122,gw_cold,200,76.626,af943146-3b47-40b7-b031-afb1d8593f4d,applied; entities=0,True,1,0,8
+measured,1123,gw_cached,200,63.932,2356afdb-821b-4352-98b1-d071f0e5688c,applied; entities=0,False,1,1,0
+measured,1124,direct,200,51.457,,,,,,
+measured,1125,gw_noscan,200,61.677,2f410b95-a1b0-4b2b-b035-d77b3370b477,relaxed,,,,0
+measured,1126,direct,200,51.662,,,,,,
+measured,1127,gw_cold,200,69.225,762f0d1d-785c-4aa6-9ce4-3c4dd28dac4b,applied; entities=0,True,1,0,6
+measured,1128,gw_cold,200,74.064,5ac1a725-cd35-43dc-8c0a-122c0d6a385a,applied; entities=0,True,1,0,9
+measured,1129,gw_cached,200,64.791,098d7a6c-2f75-4451-8499-988e471c829e,applied; entities=0,False,1,1,0
+measured,1130,direct,200,51.422,,,,,,
+measured,1131,gw_cold,200,71.271,c978a148-d554-4913-b89a-2c78e95e052b,applied; entities=0,True,1,0,7
+measured,1132,gw_cold,200,72.169,e3301671-0938-4099-83df-e5a47b5677fa,applied; entities=0,True,1,0,8
+measured,1133,gw_noscan,200,63.195,068afa99-0237-4569-af28-c25b0aa56009,relaxed,,,,0
+measured,1134,gw_cached,200,63.261,f6e94902-9e31-457d-920c-48ebdca28990,applied; entities=0,False,1,1,0
+measured,1135,gw_cold,200,71.8,5bbdbf62-7ce2-4312-bf8f-1e805f3c9b24,applied; entities=0,True,1,0,7
+measured,1136,direct,200,51.55,,,,,,
+measured,1137,gw_cached,200,63.128,f82d5790-af9c-421b-bd2b-a57eba843d62,applied; entities=0,False,1,1,0
+measured,1138,gw_cached,200,67.234,baa03a06-16c7-4723-8d5c-3bc01a66a7e9,applied; entities=0,False,1,1,0
+measured,1139,direct,200,51.514,,,,,,
+measured,1140,gw_cold,200,70.5,0b160422-26a9-469a-9775-347364edf7a7,applied; entities=0,True,1,0,8
+measured,1141,gw_cached,200,63.131,c75c6d43-ad9a-48b6-8c58-b8343dac6a77,applied; entities=0,False,1,1,0
+measured,1142,gw_noscan,200,65.89,44f1a896-a9ca-4936-ad3a-5d52a021629e,relaxed,,,,0
+measured,1143,gw_cached,200,66.187,d3a5c6f5-93db-4b9e-95ca-466ec040bfa6,applied; entities=0,False,1,1,0
+measured,1144,gw_noscan,200,65.729,f5ef0682-8cb5-44b5-ab37-1c8ed91a353d,relaxed,,,,0
+measured,1145,gw_cached,200,65.511,32113f8d-cfc6-4241-9769-c52f2976cc8b,applied; entities=0,False,1,1,0
+measured,1146,gw_cached,200,69.205,fed08a92-ccc2-4a53-8d76-04a64743977c,applied; entities=0,False,1,1,0
+measured,1147,gw_cold,200,73.14,64cf3271-4f36-4b44-8c7b-59007fadaea5,applied; entities=0,True,1,0,7
+measured,1148,gw_cached,200,66.607,68261cad-dec8-4c46-bf08-c323a9293cb4,applied; entities=0,False,1,1,0
+measured,1149,gw_noscan,200,64.965,94a9ae4d-9c9c-4221-9890-998ffad51daf,relaxed,,,,0
+measured,1150,direct,200,51.988,,,,,,
+measured,1151,gw_cached,200,63.731,b7e0c3b3-c0f7-4b7e-bddb-3d4c8ba359b2,applied; entities=0,False,1,1,0
+measured,1152,direct,200,51.623,,,,,,
+measured,1153,gw_noscan,200,63.178,d914a694-6684-492a-ab41-b99847a63961,relaxed,,,,0
+measured,1154,gw_noscan,200,65.398,808f362a-c08b-4827-a4a2-c274dbd9de56,relaxed,,,,0
+measured,1155,gw_cold,200,70.621,efd04cf4-0c37-4ec5-950c-54c83cfb98d9,applied; entities=0,True,1,0,7
+measured,1156,gw_cold,200,72.92,2b32cd82-3688-43ee-8b43-3e81afa898a3,applied; entities=0,True,1,0,8
+measured,1157,gw_cached,200,62.812,440dd166-6c5b-45f8-b12b-ba20bb059549,applied; entities=0,False,1,1,0
+measured,1158,gw_cached,200,65.447,e7fa01ee-e26f-4c21-bff7-b53f859b572a,applied; entities=0,False,1,1,0
+measured,1159,gw_noscan,200,66.682,669feb55-7bc8-475a-9607-338cb2e73bc9,relaxed,,,,0
+measured,1160,direct,200,51.567,,,,,,
+measured,1161,direct,200,51.556,,,,,,
+measured,1162,gw_cold,200,76.56,8154771d-d2fb-4a80-92f9-5187efc838db,applied; entities=0,True,1,0,10
+measured,1163,gw_cold,200,72.204,46fddf7b-9b35-4ca2-9a0d-df5441a0e08f,applied; entities=0,True,1,0,7
+measured,1164,gw_cached,200,64.543,52cf66c8-9470-41c2-977f-eb67da1ae431,applied; entities=0,False,1,1,0
+measured,1165,gw_noscan,200,67.6,a416e7f8-3ce9-404f-9f04-e7cc23cf0c8f,relaxed,,,,0
+measured,1166,gw_noscan,200,67.209,218b2eb4-310d-42dd-8e59-16df16be3bfe,relaxed,,,,0
+measured,1167,gw_cold,200,73.051,276d0fb9-4f27-4f93-bb84-9d6639b9b5b8,applied; entities=0,True,1,0,7
+measured,1168,gw_cached,200,63.351,1c807791-a022-4239-8160-9db21cca39ec,applied; entities=0,False,1,1,0
+measured,1169,gw_cached,200,66.815,8da5ade8-6d8f-4249-bed9-03dc2fe0265c,applied; entities=0,False,1,1,0
+measured,1170,gw_cached,200,65.766,cd23d73e-fd99-4abb-9e90-8693b049daa7,applied; entities=0,False,1,1,0
+measured,1171,gw_cold,200,75.327,b7099d56-b34f-470c-b169-6a19c5da4e61,applied; entities=0,True,1,0,8
+measured,1172,direct,200,51.459,,,,,,
+measured,1173,gw_cold,200,69.038,afe377b3-7b35-464f-b290-e9567f3fd4ec,applied; entities=0,True,1,0,7
+measured,1174,gw_noscan,200,64.761,5c72acaa-d1a0-431a-975d-37386fcfd663,relaxed,,,,0
+measured,1175,gw_noscan,200,63.165,8f551c7c-e9c6-4fd5-84e2-6187e8757996,relaxed,,,,0
+measured,1176,gw_noscan,200,63.746,471437db-acad-4837-b722-7deddfd120ee,relaxed,,,,0
+measured,1177,direct,200,51.435,,,,,,
+measured,1178,gw_cached,200,63.59,2847d0e7-3fe2-4a9e-9cf7-ae4a4b02bfd1,applied; entities=0,False,1,1,0
+measured,1179,gw_cold,200,73.645,749a60b5-f938-4d65-97f0-6df3832046a0,applied; entities=0,True,1,0,8
+measured,1180,gw_cached,200,64.851,68f8e89e-4234-4b5b-b02d-eecbb4585c16,applied; entities=0,False,1,1,0
+measured,1181,gw_noscan,200,63.619,f8bc3157-6847-4efd-9576-aa2c708d955c,relaxed,,,,0
+measured,1182,direct,200,51.509,,,,,,
+measured,1183,gw_noscan,200,62.899,73ef1e9b-a599-431b-8e61-6bd8ea7e32d5,relaxed,,,,0
+measured,1184,gw_cold,200,72.011,7e4c04f9-a3f1-478f-b1fd-8c853f7bc1f3,applied; entities=0,True,1,0,7
+measured,1185,gw_cold,200,71.891,11014efa-3e28-4bfb-bda7-b74faa32680d,applied; entities=0,True,1,0,8
+measured,1186,gw_noscan,200,65.484,e4c693e5-10a3-43f5-ba32-3ee6fceb7a28,relaxed,,,,0
+measured,1187,direct,200,52.099,,,,,,
+measured,1188,direct,200,51.594,,,,,,
+measured,1189,direct,200,51.613,,,,,,
+measured,1190,direct,200,51.698,,,,,,
+measured,1191,gw_cold,200,71.507,ba2d50f5-d76d-4038-ad81-54345483bed4,applied; entities=0,True,1,0,7
+measured,1192,gw_cold,200,86.583,65f808f6-a671-4244-9fc8-f89edecfbd7a,applied; entities=0,True,1,0,11
+measured,1193,gw_noscan,200,85.8,b2e0db5d-78f3-4fbf-b683-d54c5573eaae,relaxed,,,,0
+measured,1194,gw_noscan,200,82.361,246ea431-00fa-476e-9351-7f44c82941d7,relaxed,,,,0
+measured,1195,gw_noscan,200,72.944,7da6246f-8d90-485d-914a-00ec82b98afa,relaxed,,,,0
+measured,1196,gw_noscan,200,70.55,4a14e740-5832-41a4-8849-71158ede0ef8,relaxed,,,,0
+measured,1197,direct,200,51.908,,,,,,
+measured,1198,gw_cold,200,75.328,804e9d53-25e2-46b0-924a-6545c6bfd0e1,applied; entities=0,True,1,0,10
+measured,1199,gw_cold,200,75.869,1f43085d-fcab-4b0c-a918-1be7409f8812,applied; entities=0,True,1,0,9
+measured,1200,gw_cold,200,79.913,5ae5097e-f6b0-47ee-aa23-2ca7de3926e6,applied; entities=0,True,1,0,10
+measured,1201,gw_cached,200,65.051,cc2e79c5-bad6-4fe8-91f5-fa8cb276a559,applied; entities=0,False,1,1,0
+measured,1202,direct,200,51.397,,,,,,
+measured,1203,direct,200,51.611,,,,,,
+measured,1204,gw_cached,200,63.66,4bfd21ed-27ad-401d-99c6-4ce670779cf1,applied; entities=0,False,1,1,0
+measured,1205,gw_cold,200,72.699,d5d232a5-cc2d-4643-a6a3-7a042b506e83,applied; entities=0,True,1,0,8
+measured,1206,gw_cold,200,73.041,f122cfec-6b2f-40e9-8d7e-b2d7fc2914df,applied; entities=0,True,1,0,7
+measured,1207,gw_cold,200,76.184,c6c51a07-618e-49ba-b274-3d0e0bcde3b8,applied; entities=0,True,1,0,7
+measured,1208,gw_noscan,200,66.261,ddcaed9b-5969-4c81-b24f-c437d5c033aa,relaxed,,,,0
+measured,1209,gw_noscan,200,66.817,c7da093f-063e-4020-aea1-9fa3f10f4442,relaxed,,,,0
+measured,1210,gw_cached,200,64.971,8adde4a3-8c4f-449a-8449-b285d70339df,applied; entities=0,False,1,1,0
+measured,1211,gw_cached,200,65.145,b7274688-f7ff-412e-96b5-7309539dc0a7,applied; entities=0,False,1,1,0
+measured,1212,gw_noscan,200,63.202,c663e5e9-d620-42d9-a6fc-437a112bd7d3,relaxed,,,,0
+measured,1213,gw_cached,200,66.11,3ae13a2f-c846-4d7a-9498-a113451f5bfe,applied; entities=0,False,1,1,0
+measured,1214,gw_noscan,200,80.072,5a90794b-c476-4048-ab92-e18103845f5d,relaxed,,,,0
+measured,1215,gw_cached,200,66.795,635eb964-ad0f-44a7-a387-0989db063925,applied; entities=0,False,1,1,0
+measured,1216,gw_noscan,200,68.949,188620fb-7144-4a3b-94d6-f5dd4c4914b1,relaxed,,,,0
+measured,1217,gw_noscan,200,66.332,c2eeaffd-f263-4f8a-8457-c9ce0bd88f39,relaxed,,,,0
+measured,1218,gw_cached,200,65.458,a3f60cc8-6d20-4f26-acf4-7bb1b846f646,applied; entities=0,False,1,1,0
+measured,1219,direct,200,51.718,,,,,,
+measured,1220,gw_cached,200,62.779,951b6f1a-9a2c-4d9e-a646-d5af2c98dd26,applied; entities=0,False,1,1,0
+measured,1221,gw_cached,200,66.158,053b60d7-d0f4-4bc7-bfc7-7643fd9ebfe1,applied; entities=0,False,1,1,0
+measured,1222,direct,200,51.464,,,,,,
+measured,1223,gw_cold,200,69.606,2ad8b7f4-240c-4fbb-bee0-bfb4bb758ea2,applied; entities=0,True,1,0,6
+measured,1224,gw_noscan,200,69.76,53df108b-4b23-4747-9f74-443f58a11498,relaxed,,,,0
+measured,1225,direct,200,51.604,,,,,,
+measured,1226,gw_cold,200,71.884,a5ad627f-91ee-4960-a62c-9c0839d72500,applied; entities=0,True,1,0,8
+measured,1227,gw_noscan,200,64.429,3312bce3-5d80-4f47-b335-7888a207f8b1,relaxed,,,,0
+measured,1228,direct,200,51.384,,,,,,
+measured,1229,gw_cached,200,64.696,fd0c6ee9-33f8-4c41-acac-621bede4a60e,applied; entities=0,False,1,1,0
+measured,1230,direct,200,51.576,,,,,,
+measured,1231,gw_cold,200,72.768,1eb1dfac-2b93-4fd5-8dc8-7e7d1ec5a007,applied; entities=0,True,1,0,8
+measured,1232,gw_cached,200,65.675,cf3fc76c-4b61-49d7-a4b5-9f4b9b1919d9,applied; entities=0,False,1,1,0
+measured,1233,gw_noscan,200,66.038,b4800771-222a-4705-a88a-0e3962bf18d3,relaxed,,,,0
+measured,1234,gw_cached,200,65.432,5686d2f9-5eed-41a5-91f6-7b97217b64b3,applied; entities=0,False,1,1,0
+measured,1235,gw_cold,200,73.514,45a38cd9-9afb-47b7-a85b-1e92a8768b21,applied; entities=0,True,1,0,7
+measured,1236,gw_noscan,200,64.973,e1a38e37-5c2d-4d02-80b1-4851a3a56667,relaxed,,,,0
+measured,1237,gw_cold,200,72.946,46ff5a91-4080-4739-a730-168f0f61515b,applied; entities=0,True,1,0,7
+measured,1238,gw_noscan,200,66.738,a36bcaf3-a81a-401f-a73e-c3ce9bf459c2,relaxed,,,,0
+measured,1239,gw_cold,200,71.098,e607ea0d-a650-484d-9d2d-ab114942389f,applied; entities=0,True,1,0,8
+measured,1240,gw_noscan,200,66.348,eb49c8f7-de69-4635-8b1c-17e24219d6d2,relaxed,,,,0
+measured,1241,gw_noscan,200,67.879,957ac206-f3fc-480f-af90-74e063e2fae1,relaxed,,,,0
+measured,1242,gw_noscan,200,65.57,de4b0c99-fbd8-4031-86ad-e26778e40e4b,relaxed,,,,0
+measured,1243,gw_cached,200,66.002,fe17bfae-5cf7-4a7c-b28a-9356850690a1,applied; entities=0,False,1,1,0
+measured,1244,gw_cached,200,70.915,467291bd-e2c7-44c0-8c2c-95a2976c01a7,applied; entities=0,False,1,1,0
+measured,1245,direct,200,51.783,,,,,,
+measured,1246,direct,200,51.997,,,,,,
+measured,1247,gw_noscan,200,65.348,dc2376af-dc53-415b-8f9b-039a5633280f,relaxed,,,,0
+measured,1248,direct,200,52.018,,,,,,
+measured,1249,gw_noscan,200,63.552,0d8117df-98c4-4da6-a580-6de913e0ba42,relaxed,,,,0
+measured,1250,gw_noscan,200,62.153,810e2ba8-51d0-4ae1-b2b0-761737b5602d,relaxed,,,,0
+measured,1251,gw_cold,200,71.434,cd0abdc0-ed35-4bad-9538-0e6dd0e1f3cb,applied; entities=0,True,1,0,7
+measured,1252,gw_cold,200,72.554,769ead3b-ebc1-4497-830f-97f0694b9e61,applied; entities=0,True,1,0,7
+measured,1253,gw_cached,200,61.735,79f7f219-6f6a-44fd-a0d5-24112c173ca2,applied; entities=0,False,1,1,0
+measured,1254,gw_noscan,200,64.103,52bf2b23-09a2-46a4-8dc2-de048c41aed3,relaxed,,,,0
+measured,1255,gw_noscan,200,63.53,5f0afa7e-be73-41cf-a628-3be4be1b9aa3,relaxed,,,,0
+measured,1256,direct,200,51.449,,,,,,
+measured,1257,gw_noscan,200,63.109,54186a36-2759-4d3b-bd6f-093ab4003280,relaxed,,,,0
+measured,1258,gw_cached,200,64.444,8fcb1e30-f657-4b80-9272-0bfe8b5d75be,applied; entities=0,False,1,1,0
+measured,1259,gw_cold,200,72.931,e88699df-8b99-4df7-a40f-8f53448daf15,applied; entities=0,True,1,0,8
+measured,1260,gw_cached,200,63.307,d0018175-b1d8-4665-af81-e42768048cef,applied; entities=0,False,1,1,0
+measured,1261,gw_cached,200,66.013,f39bdccd-8b30-40c3-a67c-cc993d3b9580,applied; entities=0,False,1,1,0
+measured,1262,gw_cached,200,63.872,f9ac297b-f9c9-42a4-9002-8fee52db401f,applied; entities=0,False,1,1,0
+measured,1263,gw_cached,200,65.627,3d2e09af-1e67-4e25-acb8-13428f86e4ec,applied; entities=0,False,1,1,0
+measured,1264,gw_cached,200,65.266,ed06d1cd-a8d8-497e-94ab-ca39192cb2aa,applied; entities=0,False,1,1,0
+measured,1265,gw_noscan,200,64.659,74638ed3-1537-4e8d-a83f-175e3475722d,relaxed,,,,0
+measured,1266,gw_cached,200,63.502,9bad71c1-eacc-46d7-bb83-2e21126aff35,applied; entities=0,False,1,1,0
+measured,1267,gw_cached,200,65.994,7897f0d4-22c0-4d7a-9118-ec018cd250ce,applied; entities=0,False,1,1,0
+measured,1268,direct,200,51.362,,,,,,
+measured,1269,gw_cached,200,61.767,940c2d8b-f70e-4382-9adc-7ed1c2663d7e,applied; entities=0,False,1,1,0
+measured,1270,gw_cached,200,64.233,b484c320-7d7e-4bcf-b971-5f011ae2f867,applied; entities=0,False,1,1,0
+measured,1271,gw_cached,200,63.271,480bc854-1c4f-476b-9307-d2a4c707c93d,applied; entities=0,False,1,1,0
+measured,1272,gw_noscan,200,64.605,951f2d5f-1053-49ca-96cf-4fabc238e7b8,relaxed,,,,0
+measured,1273,direct,200,51.411,,,,,,
+measured,1274,gw_noscan,200,63.341,fffc1314-3eaf-4026-95da-e7ea7744b180,relaxed,,,,0
+measured,1275,gw_noscan,200,64.068,e2e8a465-cb01-44ba-af36-4c8c0eb1968f,relaxed,,,,0
+measured,1276,gw_noscan,200,63.197,fe2ac5c8-0f8c-4827-956b-b3884538a257,relaxed,,,,0
+measured,1277,gw_cold,200,72.067,9c1a304e-eede-49b2-9d0b-0f63b5ebf2e0,applied; entities=0,True,1,0,7
+measured,1278,gw_cached,200,62.764,140998b5-9e70-4915-b6d8-1f1e4b992905,applied; entities=0,False,1,1,0
+measured,1279,gw_cached,200,63.08,21ea3347-26b4-4537-98c3-013589e005da,applied; entities=0,False,1,1,0
+measured,1280,direct,200,51.705,,,,,,
+measured,1281,gw_cached,200,62.767,437bec39-5598-4a10-a6b9-89734f2105ac,applied; entities=0,False,1,1,0
+measured,1282,gw_noscan,200,64.687,0e82a9a8-b0ea-4750-ad0a-cc0332390402,relaxed,,,,0
+measured,1283,gw_cold,200,72.353,7358db83-37d4-4396-a9c3-9dba38abc222,applied; entities=0,True,1,0,8
+measured,1284,direct,200,51.479,,,,,,
+measured,1285,gw_noscan,200,63.081,d23a8770-06b4-4009-a159-ccc749514d66,relaxed,,,,0
+measured,1286,direct,200,51.328,,,,,,
+measured,1287,gw_cached,200,63.106,473e05ec-02ed-4169-945c-71333dfa5c3f,applied; entities=0,False,1,1,0
+measured,1288,gw_cold,200,73.334,37265ce0-3760-4ead-838f-6ff2833539ba,applied; entities=0,True,1,0,8
+measured,1289,gw_cold,200,74.472,ab4367b6-7102-400a-82d0-ab3a9ee4312d,applied; entities=0,True,1,0,7
+measured,1290,direct,200,51.247,,,,,,
+measured,1291,gw_noscan,200,62.995,cdee9c73-24cd-469a-9413-bdeaabdb26ab,relaxed,,,,0
+measured,1292,gw_cached,200,63.858,aa4eb27b-7fc8-4453-9c44-111d6aa5a3b2,applied; entities=0,False,1,1,0
+measured,1293,gw_cold,200,72.699,7de09f81-2881-4915-809e-cb2fd7800d35,applied; entities=0,True,1,0,8
+measured,1294,direct,200,51.386,,,,,,
+measured,1295,direct,200,51.296,,,,,,
+measured,1296,gw_cold,200,69.483,525e9f6d-6029-40fb-bbc6-7529b2d71c3f,applied; entities=0,True,1,0,7
+measured,1297,gw_cold,200,76.741,e66bd9bb-04b3-4f27-8958-787a444a0d7f,applied; entities=0,True,1,0,8
+measured,1298,direct,200,51.413,,,,,,
+measured,1299,direct,200,51.3,,,,,,
+measured,1300,gw_noscan,200,64.124,47e95507-e55a-4bd0-8d61-d5b85dedca45,relaxed,,,,0
+measured,1301,gw_cold,200,74.115,12841765-1827-4069-a5d4-043f005d42cf,applied; entities=0,True,1,0,9
+measured,1302,gw_noscan,200,62.614,be3bf5c2-63fe-4622-b8fc-572fc5850673,relaxed,,,,0
+measured,1303,gw_cold,200,74.564,8aa342ce-a2ef-4db2-946c-9bffbbbf37f0,applied; entities=0,True,1,0,7
+measured,1304,direct,200,51.564,,,,,,
+measured,1305,gw_cached,200,64.833,e4ac9f83-42e3-4e73-ae67-67bbf754bcaf,applied; entities=0,False,1,1,0
+measured,1306,gw_cached,200,62.146,fc79c280-9a6b-4ddf-b385-700df54d1367,applied; entities=0,False,1,1,0
+measured,1307,direct,200,51.965,,,,,,
+measured,1308,gw_noscan,200,61.677,17600791-45ab-4f87-a59d-067723bbe4ae,relaxed,,,,0
+measured,1309,gw_cached,200,64.006,424654ce-4b78-46df-a978-65e78c7f0d45,applied; entities=0,False,1,1,0
+measured,1310,gw_cached,200,64.169,dd5fc281-844e-4693-a87a-dc7437dfe413,applied; entities=0,False,1,1,0
+measured,1311,gw_cached,200,62.073,bcf2ea61-1104-41d7-84ca-b3d0814e17e1,applied; entities=0,False,1,1,0
+measured,1312,gw_cold,200,69.463,3d2064b2-a01b-450e-bfd7-e02be2323f32,applied; entities=0,True,1,0,6
+measured,1313,direct,200,51.223,,,,,,
+measured,1314,gw_noscan,200,61.502,eeb0b934-fc35-4802-8841-e07709bf4aa0,relaxed,,,,0
+measured,1315,gw_cached,200,62.184,8f272bf4-f2f0-4ec8-80fc-a609131797d6,applied; entities=0,False,1,1,0
+measured,1316,gw_noscan,200,64.174,27deca52-c09a-4556-858b-34963ef91d95,relaxed,,,,0
+measured,1317,gw_noscan,200,64.108,abb4e039-6051-44a3-976a-b29ea2afa42e,relaxed,,,,0
+measured,1318,gw_cached,200,62.804,3e701de9-78d1-4fbe-a7f2-195ac825f31f,applied; entities=0,False,1,1,0
+measured,1319,gw_noscan,200,67.8,1d4b3a9a-f49e-4f20-a47b-5233713e9823,relaxed,,,,0
+measured,1320,gw_cold,200,72.228,e8d75c50-6669-4097-bcf9-1665ae163b36,applied; entities=0,True,1,0,7
+measured,1321,direct,200,51.482,,,,,,
+measured,1322,direct,200,51.291,,,,,,
+measured,1323,gw_cold,200,80.446,cce7d93c-6046-4274-9ef9-434ac95bf51f,applied; entities=0,True,1,0,7
+measured,1324,gw_noscan,200,64.339,40f93b41-c225-48a3-9eee-ca3dc543a14c,relaxed,,,,0
+measured,1325,gw_cached,200,72.653,7e82c0da-ea1b-488a-92fa-0d179e562e82,applied; entities=0,False,1,1,0
+measured,1326,gw_noscan,200,63.523,ec0fa10f-876d-4981-9049-0e58ce6ed055,relaxed,,,,0
+measured,1327,direct,200,51.43,,,,,,
+measured,1328,direct,200,51.361,,,,,,
+measured,1329,gw_cold,200,70.024,c6841ba0-8efa-4074-b89a-7b62ca7928ea,applied; entities=0,True,1,0,7
+measured,1330,gw_cold,200,70.741,f1be67fe-31ee-4b17-86c7-a4a2ae2da01e,applied; entities=0,True,1,0,6
+measured,1331,gw_cold,200,71.714,93344956-6da8-46b5-a247-30eac0b2c7d5,applied; entities=0,True,1,0,7
+measured,1332,gw_noscan,200,63.907,ea1b4e1c-89ca-41a4-8384-a803aecc9944,relaxed,,,,0
+measured,1333,gw_noscan,200,70.791,4f092501-693f-4451-80f7-8cb7501fb698,relaxed,,,,0
+measured,1334,direct,200,51.494,,,,,,
+measured,1335,gw_cold,200,70.195,492bbca7-a47d-4fe6-9e81-84433b45e588,applied; entities=0,True,1,0,7
+measured,1336,direct,200,51.844,,,,,,
+measured,1337,gw_cold,200,69.748,cfc9bdf1-d6bf-406d-b666-5ed3f56cf31a,applied; entities=0,True,1,0,6
+measured,1338,gw_cached,200,66.928,877bdac3-af98-4c11-8816-242d4f627f3c,applied; entities=0,False,1,1,0
+measured,1339,gw_cold,200,71.597,ab0d7c2a-fd67-43dd-92ec-cefd9b1a3b35,applied; entities=0,True,1,0,8
+measured,1340,gw_cold,200,69.82,3b4bc444-bee1-429e-8625-5721778ed0ed,applied; entities=0,True,1,0,7
+measured,1341,direct,200,51.361,,,,,,
+measured,1342,gw_cached,200,61.714,66407c87-a661-48ac-8c82-ad0759cfb916,applied; entities=0,False,1,1,0
+measured,1343,gw_cached,200,63.851,e9aa3729-b124-433c-9e10-0b30a22917b1,applied; entities=0,False,1,1,0
+measured,1344,direct,200,51.421,,,,,,
+measured,1345,gw_noscan,200,64.573,3d37f1b5-398c-497c-859f-04f049276131,relaxed,,,,0
+measured,1346,gw_cached,200,65.404,e9cb2e1c-3a5f-4685-a759-4d0e327ec0e2,applied; entities=0,False,1,1,0
+measured,1347,gw_noscan,200,66.257,a0f9a807-f350-47f3-bf18-77d1186b7493,relaxed,,,,0
+measured,1348,gw_cold,200,114.815,64196ba9-c76f-4675-9d9e-7edf795a6c1a,applied; entities=0,True,1,0,12
+measured,1349,gw_cached,200,81.274,b7ae493c-625e-4ee5-ad50-6effea305dc9,applied; entities=0,False,1,1,0
+measured,1350,gw_cached,200,74.608,9763112b-40c6-4c35-8ca3-8d68e729a835,applied; entities=0,False,1,1,1
+measured,1351,direct,200,51.272,,,,,,
+measured,1352,gw_cached,200,62.469,5987a186-5b52-4c2b-a0b7-f957c298486c,applied; entities=0,False,1,1,0
+measured,1353,direct,200,51.524,,,,,,
+measured,1354,gw_cached,200,66.676,38309b43-aee3-49e5-b2f8-02b795f7940c,applied; entities=0,False,1,1,0
+measured,1355,gw_noscan,200,77.128,9e2e8d7a-1fd9-46fa-ae7a-8ea3bc76b4d3,relaxed,,,,0
+measured,1356,direct,200,51.871,,,,,,
+measured,1357,gw_cold,200,72.573,a72179f6-b2d1-4551-bcec-2783913e8e06,applied; entities=0,True,1,0,7
+measured,1358,gw_cold,200,80.464,12dc49f1-0a29-4869-ad21-257744daef1c,applied; entities=0,True,1,0,11
+measured,1359,gw_cached,200,69.642,7512d15d-ad7d-406f-80fc-eac21cab5327,applied; entities=0,False,1,1,0
+measured,1360,gw_cold,200,86.055,da4af67a-587c-4752-824d-e9a005f36c02,applied; entities=0,True,1,0,16
+measured,1361,gw_cold,200,75.706,2402ead5-cf4a-43ab-95e5-ce111416531d,applied; entities=0,True,1,0,11
+measured,1362,direct,200,51.412,,,,,,
+measured,1363,gw_cached,200,64.15,48b7742f-ae36-4aa9-82bd-7eb6a651d792,applied; entities=0,False,1,1,0
+measured,1364,direct,200,51.699,,,,,,
+measured,1365,gw_noscan,200,61.149,cdf026b2-cf76-4ceb-9ce7-d39d01f9cacc,relaxed,,,,0
+measured,1366,gw_cold,200,73.739,3a00a230-dbc7-4320-b905-be0327d5e690,applied; entities=0,True,1,0,7
+measured,1367,gw_cached,200,64.231,758510f5-6854-42bb-8dfb-33ed4ef3d66d,applied; entities=0,False,1,1,0
+measured,1368,gw_cold,200,71.569,73c11149-27ce-4c91-8581-445e54391c77,applied; entities=0,True,1,0,7
+measured,1369,gw_cold,200,72.495,ca2cfead-d8b2-4b96-813a-57713b8a03bb,applied; entities=0,True,1,0,8
+measured,1370,gw_cached,200,62.904,f5aa6ed7-6fea-429f-b906-0cb92d108025,applied; entities=0,False,1,1,0
+measured,1371,gw_cold,200,70.771,bcd3a019-45df-4a14-972a-0534b045bda5,applied; entities=0,True,1,0,7
+measured,1372,gw_cached,200,64.459,6fcb302f-e1dc-4f95-a87a-e0545337d8d8,applied; entities=0,False,1,1,0
+measured,1373,gw_cold,200,69.98,4e594042-0488-4788-a4d3-0b8228ff1f07,applied; entities=0,True,1,0,6
+measured,1374,gw_noscan,200,61.791,75e96f94-5448-484a-a187-a6085e6cf683,relaxed,,,,0
+measured,1375,gw_noscan,200,62.742,87539266-6e79-48fb-9e30-502b9607aad5,relaxed,,,,0
+measured,1376,gw_cached,200,65.647,5ff2fc46-1d27-465e-980a-6e5f24b32ebc,applied; entities=0,False,1,1,0
+measured,1377,gw_noscan,200,64.196,3addf3c5-589c-4d00-9ac7-1e4fcee56f35,relaxed,,,,0
+measured,1378,gw_cold,200,72.406,60753166-9630-4116-9129-9c2ca4a16b87,applied; entities=0,True,1,0,7
+measured,1379,direct,200,51.826,,,,,,
+measured,1380,gw_cold,200,70.208,53a93c04-2d50-42c6-ad94-01a2656f4f2a,applied; entities=0,True,1,0,7
+measured,1381,direct,200,52.133,,,,,,
+measured,1382,direct,200,51.707,,,,,,
+measured,1383,gw_cold,200,73.007,395f3c33-8a29-4498-8bda-88dbfb6ce5b7,applied; entities=0,True,1,0,8
+measured,1384,gw_cached,200,67.548,51e2cdc1-ff31-4cc4-9ccb-97cf5869e9f4,applied; entities=0,False,1,1,0
+measured,1385,gw_cold,200,78.189,bb5e643b-633c-42e4-b554-bf2250855f24,applied; entities=0,True,1,0,9
+measured,1386,direct,200,51.776,,,,,,
+measured,1387,gw_cold,200,77.834,8f214d42-abe6-485e-9f79-11eaa3a2feab,applied; entities=0,True,1,0,7
+measured,1388,gw_cold,200,70.548,207ef25c-1b63-4baa-8d51-3796209c140f,applied; entities=0,True,1,0,6
+measured,1389,gw_cached,200,65.36,f1c27a39-e004-478b-a248-682ee671a2a9,applied; entities=0,False,1,1,0
+measured,1390,gw_cached,200,62.378,799cde2e-d2d4-4732-a995-c7a58102b7f7,applied; entities=0,False,1,1,0
+measured,1391,gw_cold,200,70.546,e5accd80-b3b6-4813-8162-1612ee9a29fe,applied; entities=0,True,1,0,6
+measured,1392,gw_noscan,200,64.083,fb1b5c5e-8fba-4cfa-a910-d2e7a7dc0853,relaxed,,,,0
+measured,1393,gw_cold,200,71.644,6fbd5915-86eb-4bf9-bf88-a7f22bf1c0e7,applied; entities=0,True,1,0,8
+measured,1394,gw_cold,200,72.131,86bd3d40-d50a-475e-9d14-ce9334627e1b,applied; entities=0,True,1,0,8
+measured,1395,direct,200,51.386,,,,,,
+measured,1396,direct,200,51.299,,,,,,
+measured,1397,gw_cached,200,62.206,81d7f5bd-50a3-4fc5-8511-ede0f7ca78da,applied; entities=0,False,1,1,0
+measured,1398,gw_cached,200,63.731,dce4bb90-9257-4183-aaf3-b84baf7db191,applied; entities=0,False,1,1,0
+measured,1399,gw_noscan,200,71.872,da7d0b9c-6155-458d-bab3-e735aa8b1c7c,relaxed,,,,0
+measured,1400,gw_cached,200,66.035,04cabc30-05e1-485a-b5e1-183c77a7ce9b,applied; entities=0,False,1,1,0
+measured,1401,gw_cached,200,71.807,1cbb623d-9b55-4f0c-98f8-a7bed6e188e6,applied; entities=0,False,1,1,1
+measured,1402,gw_cached,200,72.136,c4d225d6-3e43-4058-90b4-369aa8aaca34,applied; entities=0,False,1,1,0
+measured,1403,gw_noscan,200,69.991,8bbc840d-b2ca-4230-b108-08058e4f7a71,relaxed,,,,0
+measured,1404,gw_cold,200,71.461,563e488a-04a6-418a-ac7f-ce65841132a7,applied; entities=0,True,1,0,7
+measured,1405,gw_cached,200,63.251,6b683e3a-10c3-495a-96b1-cbe3cbc11996,applied; entities=0,False,1,1,0
+measured,1406,direct,200,51.407,,,,,,
+measured,1407,gw_cold,200,70.201,6af0b2b3-eb34-4c38-9a5e-cb38966d368b,applied; entities=0,True,1,0,8
+measured,1408,gw_cold,200,72.466,20629858-6d0e-46d6-a210-083fbc023fe1,applied; entities=0,True,1,0,7
+measured,1409,gw_cold,200,72.596,650eca6a-2874-4f1e-a256-6b1b1162201d,applied; entities=0,True,1,0,9
+measured,1410,direct,200,51.287,,,,,,
+measured,1411,gw_cold,200,69.051,00e3fcbf-c21f-4b14-a6cb-760a9142965f,applied; entities=0,True,1,0,7
+measured,1412,gw_noscan,200,63.176,e02463c3-f047-40b5-a1ca-392a36b2a494,relaxed,,,,0
+measured,1413,gw_noscan,200,66.04,1cb98e3d-7919-43ff-a952-0f365d48874f,relaxed,,,,0
+measured,1414,direct,200,51.86,,,,,,
+measured,1415,gw_noscan,200,65.659,7763e117-ad35-448f-8b3d-04cd1c5fea9b,relaxed,,,,0
+measured,1416,direct,200,51.316,,,,,,
+measured,1417,gw_cached,200,63.214,d6cad0f9-d8a8-4f0b-ae62-50d0305b041c,applied; entities=0,False,1,1,0
+measured,1418,gw_noscan,200,64.271,b3d10bdd-7765-4ce2-be75-628398792c85,relaxed,,,,0
+measured,1419,direct,200,51.414,,,,,,
+measured,1420,gw_cached,200,62.5,e4c21573-ca18-4935-b667-8a201d6c645f,applied; entities=0,False,1,1,0
+measured,1421,gw_cached,200,62.878,f17381f8-2286-475a-af89-8f019958cace,applied; entities=0,False,1,1,0
+measured,1422,gw_cached,200,62.042,93bff475-ef2a-4802-92ed-f95641b04c14,applied; entities=0,False,1,1,0
+measured,1423,direct,200,51.362,,,,,,
+measured,1424,gw_cold,200,70.345,a3bb4ca1-2ce7-4a6a-96ba-f9961d775476,applied; entities=0,True,1,0,7
+measured,1425,gw_cached,200,64.303,aa5b42eb-d3c7-4e21-a9be-b98808e5ecd0,applied; entities=0,False,1,1,0
+measured,1426,direct,200,51.372,,,,,,
+measured,1427,gw_cached,200,62.783,8ee9b380-871e-461d-8350-8f35fab7a1fe,applied; entities=0,False,1,1,0
+measured,1428,gw_cached,200,65.494,8e611116-459e-4e3b-93df-91c0b44aaffd,applied; entities=0,False,1,1,0
+measured,1429,gw_cached,200,64.041,4c9ffdf0-ab7c-484f-89f6-931cceba56bc,applied; entities=0,False,1,1,0
+measured,1430,gw_cold,200,71.163,ef6152c0-2c29-453c-85d8-4207db2eac7f,applied; entities=0,True,1,0,8
+measured,1431,gw_cached,200,64.201,8ce70060-1cf8-414e-8e6b-5866cda89775,applied; entities=0,False,1,1,0
+measured,1432,gw_noscan,200,64.025,5cde7205-056b-4a57-97bb-9a366db15e6f,relaxed,,,,0
+measured,1433,gw_noscan,200,63.829,bd4e765d-de87-41ed-b2ec-7aa515f19008,relaxed,,,,0
+measured,1434,direct,200,51.493,,,,,,
+measured,1435,direct,200,51.302,,,,,,
+measured,1436,gw_cached,200,62.623,a4d228c4-b9cc-4d98-975a-c4e19f65bec5,applied; entities=0,False,1,1,0
+measured,1437,gw_cached,200,63.521,7497e1bf-9868-4897-99f0-f3e20fba4537,applied; entities=0,False,1,1,0
+measured,1438,gw_noscan,200,64.476,4f548e48-d6d6-4fd8-841c-565ceee44791,relaxed,,,,0
+measured,1439,direct,200,51.812,,,,,,
+measured,1440,gw_noscan,200,62.7,1bbf21fd-d916-459b-be55-1eeee50386c0,relaxed,,,,0
+measured,1441,gw_noscan,200,64.528,ee464394-6cda-4e70-9441-bac7468a2fde,relaxed,,,,0
+measured,1442,gw_cold,200,71.926,5a567bfa-e4ef-4ec7-b287-82cbdf4ede6f,applied; entities=0,True,1,0,7
+measured,1443,gw_noscan,200,64.016,a5668904-4ea3-4c18-9219-09e95604f2e0,relaxed,,,,0
+measured,1444,gw_cached,200,63.13,df1d6c64-58fe-4804-9bb7-0acb47dd592d,applied; entities=0,False,1,1,0
+measured,1445,gw_noscan,200,64.414,5a92ef87-9a4d-4ad7-bc0c-49a05c71b28e,relaxed,,,,0
+measured,1446,direct,200,51.43,,,,,,
+measured,1447,gw_noscan,200,63.878,4d61c903-3095-42a4-9ddd-b82ac84735af,relaxed,,,,0
+measured,1448,gw_cached,200,63.941,c95c3240-6ea5-433c-9e2f-43336fb4bd1d,applied; entities=0,False,1,1,0
+measured,1449,direct,200,51.601,,,,,,
+measured,1450,direct,200,51.399,,,,,,
+measured,1451,gw_noscan,200,61.744,437138ae-98f9-4f4a-8bde-8563870cfeae,relaxed,,,,0
+measured,1452,direct,200,51.568,,,,,,
+measured,1453,gw_noscan,200,64.537,69ab7d46-1386-4dd4-b075-00caab45b6a6,relaxed,,,,0
+measured,1454,gw_cached,200,66.266,5eb042b5-807a-450d-9c98-c5a5d903868d,applied; entities=0,False,1,1,0
+measured,1455,direct,200,51.471,,,,,,
+measured,1456,gw_cold,200,70.926,5a2a8318-ad17-4a04-9cb0-92c708fdd189,applied; entities=0,True,1,0,7
+measured,1457,gw_cached,200,64.204,cf06710d-5974-49e2-8ba1-75b30f7a78ff,applied; entities=0,False,1,1,0
+measured,1458,gw_cold,200,72.61,3591b767-f903-4854-92f8-3bc540adf023,applied; entities=0,True,1,0,7
+measured,1459,gw_cold,200,71.033,b6cbaa4a-bc27-4a5a-a4fa-448d3286c354,applied; entities=1; unresolved=0,True,1,0,7
+measured,1460,gw_noscan,200,65.603,2d2bbfbf-6ce2-462b-af88-e91b5513581a,relaxed,,,,0
+measured,1461,gw_cold,200,69.622,1fa05565-090f-43bd-937b-783a49a1f670,applied; entities=0,True,1,0,7
+measured,1462,gw_cached,200,62.956,81b8f01e-65a7-4a62-b8aa-32fe9fe83d86,applied; entities=0,False,1,1,0
+measured,1463,direct,200,51.428,,,,,,
+measured,1464,direct,200,51.71,,,,,,
+measured,1465,gw_noscan,200,61.803,ad2dce03-4751-496e-aae5-7c7437669d67,relaxed,,,,0
+measured,1466,gw_noscan,200,63.741,ca112754-c7f6-4869-8119-5802d92b945e,relaxed,,,,0
+measured,1467,gw_cold,200,69.799,9277f4f4-4f7f-43a5-8692-e6ade743f47d,applied; entities=0,True,1,0,7
+measured,1468,gw_cached,200,66.592,638097f9-2c82-4d7b-8a0f-01365a65cbb8,applied; entities=0,False,1,1,0
+measured,1469,gw_cached,200,68.574,1b62499b-a27f-4a08-9859-7e314c9da753,applied; entities=0,False,1,1,0
+measured,1470,gw_cached,200,68.908,481294d9-7c50-4039-bccb-2372ea844cee,applied; entities=0,False,1,1,0
+measured,1471,direct,200,51.469,,,,,,
+measured,1472,gw_cached,200,62.0,eef0e360-de6a-4519-afd7-010c6f4fd846,applied; entities=0,False,1,1,0
+measured,1473,gw_noscan,200,67.078,0c7af0d7-93f6-4539-813d-0efa555de593,relaxed,,,,0
+measured,1474,direct,200,51.498,,,,,,
+measured,1475,gw_cached,200,62.865,a59643a9-3b44-4a3d-9854-50e6708f351f,applied; entities=0,False,1,1,0
+measured,1476,gw_cold,200,69.659,540b5708-65ba-4933-b6f4-253bb9a7593e,applied; entities=0,True,1,0,7
+measured,1477,direct,200,51.188,,,,,,
+measured,1478,gw_cached,200,62.901,bafbce13-b67f-4ea3-bfdc-c60d39165ed9,applied; entities=0,False,1,1,0
+measured,1479,direct,200,51.512,,,,,,
+measured,1480,direct,200,51.186,,,,,,
+measured,1481,gw_cold,200,68.596,86fdcc77-9dc9-4591-a9bd-0a1ad264d0a9,applied; entities=0,True,1,0,6
+measured,1482,gw_noscan,200,63.474,92711792-bb79-4ebb-bf0c-c6b3590c884a,relaxed,,,,0
+measured,1483,gw_cold,200,70.633,cfaeef4f-c9cd-4d9e-999b-2028c803382f,applied; entities=0,True,1,0,6
+measured,1484,gw_noscan,200,62.212,e58d530a-caab-48b6-a57e-d3dec7b55f73,relaxed,,,,0
+measured,1485,gw_cold,200,70.751,be909ddc-ceff-45b1-a25f-23258cdb687c,applied; entities=0,True,1,0,7
+measured,1486,gw_cold,200,70.174,057ad267-f6e0-41f3-8592-f3d42c622598,applied; entities=0,True,1,0,6
+measured,1487,gw_cold,200,70.768,4cc10e7b-e8e4-48af-a195-72da7c17993a,applied; entities=0,True,1,0,6
+measured,1488,gw_noscan,200,62.997,9583a490-2dae-40f6-a02e-94f0eddb3e94,relaxed,,,,0
+measured,1489,gw_cold,200,69.802,4cbe4ab6-6afc-4f56-acd2-2a70ab52a17f,applied; entities=0,True,1,0,6
+measured,1490,gw_cached,200,62.737,21e27206-1917-4be8-9323-35d186a51cd1,applied; entities=0,False,1,1,0
+measured,1491,gw_cached,200,61.623,80c52bd0-a67b-4620-9d48-5c8b3cb009e2,applied; entities=0,False,1,1,0
+measured,1492,gw_cached,200,63.379,c72dc942-ad26-4aab-acc9-3e62c44bd11f,applied; entities=0,False,1,1,0
+measured,1493,gw_noscan,200,62.95,4e4be994-a33e-4549-9a92-b6a0ace518d0,relaxed,,,,0
+measured,1494,gw_noscan,200,62.642,ce9998ea-457c-4662-b34d-20ded98f70e6,relaxed,,,,0
+measured,1495,gw_cold,200,71.906,1eb8537f-8383-4fac-952f-c5fbd12d216d,applied; entities=0,True,1,0,7
+measured,1496,direct,200,51.462,,,,,,
+measured,1497,gw_cold,200,67.905,4c201cac-dbd4-44ac-8226-6bfc3bdeeff8,applied; entities=0,True,1,0,7
+measured,1498,gw_cached,200,64.518,1c8f48ea-e665-4bb5-9e17-b464e717980f,applied; entities=0,False,1,1,0
+measured,1499,gw_cached,200,65.72,2b6dc944-5a7a-42a1-966a-006973290ee1,applied; entities=0,False,1,1,0
+measured,1500,direct,200,51.474,,,,,,
+measured,1501,direct,200,51.352,,,,,,
+measured,1502,gw_noscan,200,63.581,936bb3e0-c482-4de8-948a-434746225ca1,relaxed,,,,0
+measured,1503,gw_cached,200,64.884,d51f00fe-1d96-4e00-ae6e-c5cc9623cf33,applied; entities=0,False,1,1,0
+measured,1504,gw_noscan,200,84.134,ba8825f4-2d8f-491f-b51d-2d7507221967,relaxed,,,,0
+measured,1505,gw_noscan,200,73.778,e81ed567-4293-480b-a104-04b361253aac,relaxed,,,,0
+measured,1506,direct,200,52.08,,,,,,
+measured,1507,gw_cold,200,81.312,34232e76-5cf4-435f-92fb-def507d39023,applied; entities=0,True,1,0,13
+measured,1508,gw_cold,200,78.18,b225cc72-03c8-4bd1-9efc-6ca5e17fbc81,applied; entities=0,True,1,0,9
+measured,1509,gw_noscan,200,64.616,03d43e1b-f1db-4e03-a403-af812d4334b1,relaxed,,,,0
+measured,1510,gw_noscan,200,64.427,ef769032-2716-49d5-ade5-c8cc7591daa7,relaxed,,,,0
+measured,1511,direct,200,51.437,,,,,,
+measured,1512,gw_cold,200,69.402,bf3705f7-0806-4df6-b252-153f96bdb5da,applied; entities=0,True,1,0,7
+measured,1513,gw_noscan,200,63.673,432ed0c1-1090-4c5a-901a-58d4d9f0ca49,relaxed,,,,0
+measured,1514,gw_cold,200,71.318,e48b875e-28e8-409e-82d9-afa17f087465,applied; entities=0,True,1,0,8
+measured,1515,gw_cached,200,63.539,e5e4ddf1-c8db-417a-9515-89145b59bf32,applied; entities=0,False,1,1,0
+measured,1516,direct,200,51.289,,,,,,
+measured,1517,direct,200,51.379,,,,,,
+measured,1518,direct,200,51.308,,,,,,
+measured,1519,gw_noscan,200,63.073,8a53f522-d4a6-405f-900d-1edc80e44cd6,relaxed,,,,0
+measured,1520,gw_cached,200,64.305,89ed2b29-e10d-42c8-9227-0531d1c73e72,applied; entities=0,False,1,1,0
+measured,1521,direct,200,51.458,,,,,,
+measured,1522,direct,200,51.412,,,,,,
+measured,1523,gw_cold,200,71.839,7f7dd419-3094-4f53-a15d-d77a24edd389,applied; entities=0,True,1,0,9
+measured,1524,gw_cold,200,71.487,10b1302d-dc1b-43e8-a5a8-b21f91da5660,applied; entities=0,True,1,0,7
+measured,1525,direct,200,51.342,,,,,,
+measured,1526,gw_cached,200,61.927,983e99d1-267b-4f55-b18e-f3b0be11e945,applied; entities=0,False,1,1,0
+measured,1527,gw_cold,200,71.925,24732bdc-38bd-4ff5-89a7-d417163cb6b3,applied; entities=0,True,1,0,7
+measured,1528,gw_noscan,200,62.316,805f2fac-8722-4256-bc9f-5c3c5020fba7,relaxed,,,,0
+measured,1529,gw_noscan,200,62.393,9bbd29bb-b788-4eae-9dc0-f30d98a998c5,relaxed,,,,0
+measured,1530,gw_cold,200,70.537,37a8511b-89a5-4637-ad3d-e4d5546bd12a,applied; entities=0,True,1,0,6
+measured,1531,gw_cached,200,63.901,a9b1e3f3-e37f-442e-b6a2-3bd683928ae4,applied; entities=0,False,1,1,0
+measured,1532,direct,200,51.756,,,,,,
+measured,1533,gw_noscan,200,62.188,96f37f0b-cf77-43fc-8e55-997b8ca13ec4,relaxed,,,,0
+measured,1534,gw_cached,200,64.123,e19b0b1d-42ed-4cf7-94c9-ff8314e2aca3,applied; entities=0,False,1,1,0
+measured,1535,gw_noscan,200,64.475,6052036d-a0a5-4d8f-a478-b7bc577b19a8,relaxed,,,,0
+measured,1536,direct,200,51.458,,,,,,
+measured,1537,direct,200,51.851,,,,,,
+measured,1538,gw_cold,200,76.615,d9d72498-f9e6-47c4-838b-52b05afdf34f,applied; entities=0,True,1,0,11
+measured,1539,direct,200,51.425,,,,,,
+measured,1540,gw_noscan,200,62.436,8f96bf3c-0bad-4ea6-9c33-cae11d89c87c,relaxed,,,,0
+measured,1541,direct,200,51.774,,,,,,
+measured,1542,gw_cached,200,62.213,549a5509-2c7d-49c9-b6d5-ae8fcd683b2f,applied; entities=0,False,1,1,0
+measured,1543,direct,200,51.674,,,,,,
+measured,1544,gw_noscan,200,61.132,1627488c-3727-4133-a77b-f32eaa010228,relaxed,,,,0
+measured,1545,gw_cached,200,63.967,e8b01454-ae04-43b3-9959-f61de3c90a1c,applied; entities=0,False,1,1,0
+measured,1546,gw_noscan,200,63.85,4af73b1d-126d-4a99-8435-8e25df286f6a,relaxed,,,,0
+measured,1547,gw_cached,200,65.232,cf3fd9b4-21e8-4c0a-9b8c-cadca775c7e5,applied; entities=0,False,1,1,0
+measured,1548,gw_cold,200,80.891,25350336-4d6e-47e3-bd49-692901b1fe17,applied; entities=0,True,1,0,13
+measured,1549,direct,200,52.395,,,,,,
+measured,1550,gw_noscan,200,64.253,074cd5d0-525c-4fb5-af35-68d1590a6dfb,relaxed,,,,0
+measured,1551,direct,200,51.47,,,,,,
+measured,1552,gw_noscan,200,64.56,6cbba2d2-8cc0-40f0-b01b-c35d5021bdaa,relaxed,,,,0
+measured,1553,gw_cold,200,73.3,dd2e2b44-5151-4e68-a727-5255529bdc7e,applied; entities=0,True,1,0,7
+measured,1554,gw_cold,200,74.846,2f98a56e-be75-41be-9f21-5de192a60874,applied; entities=0,True,1,0,9
+measured,1555,gw_cold,200,73.647,8ebaba05-1cfc-4e8b-bd77-e7c5f1c25744,applied; entities=0,True,1,0,7
+measured,1556,gw_cold,200,74.335,1656d6a4-b6f8-4878-bd97-f95ec0abfd26,applied; entities=0,True,1,0,8
+measured,1557,gw_cached,200,64.855,707797c5-6182-4a91-831c-8d008320a107,applied; entities=0,False,1,1,0
+measured,1558,direct,200,51.564,,,,,,
+measured,1559,gw_noscan,200,64.578,a46a2119-e9a8-4581-8a68-f81ca84be266,relaxed,,,,0
+measured,1560,gw_noscan,200,64.544,c1426048-c8b9-4048-b008-1b3904f8578f,relaxed,,,,0
+measured,1561,gw_cached,200,68.051,22b2266c-8b45-4bd0-9a82-663e14ea0781,applied; entities=0,False,1,1,0
+measured,1562,gw_noscan,200,66.442,a852a8f5-5533-43c5-95af-7f2a7fa74643,relaxed,,,,0
+measured,1563,direct,200,51.472,,,,,,
+measured,1564,gw_cached,200,62.031,d4c307be-d0b8-40d8-8dd0-f028c30caa2c,applied; entities=0,False,1,1,0
+measured,1565,gw_noscan,200,63.094,eb659329-e93a-45ba-b574-476205688ea5,relaxed,,,,0
+measured,1566,direct,200,51.612,,,,,,
+measured,1567,direct,200,51.346,,,,,,
+measured,1568,gw_noscan,200,62.964,323c6adb-2251-4226-b348-92b10d4e24dc,relaxed,,,,0
+measured,1569,gw_noscan,200,64.925,5eeceff7-7fc3-42f9-ba63-b7c24b2b5ccf,relaxed,,,,0
+measured,1570,direct,200,51.726,,,,,,
+measured,1571,direct,200,51.501,,,,,,
+measured,1572,direct,200,51.298,,,,,,
+measured,1573,direct,200,51.271,,,,,,
+measured,1574,direct,200,51.307,,,,,,
+measured,1575,gw_cold,200,68.795,7681a236-a841-4ced-8e85-89ac1660b5e2,applied; entities=0,True,1,0,7
+measured,1576,gw_noscan,200,65.259,255422f2-c547-4e1f-a9bd-3305f0fc9078,relaxed,,,,1
+measured,1577,gw_cold,200,70.977,797942ff-4d9b-477e-84db-89e9464a5de7,applied; entities=0,True,1,0,8
+measured,1578,gw_cold,200,70.758,defdf7d5-b18a-4831-bf6b-d033b87aba35,applied; entities=0,True,1,0,6
+measured,1579,gw_noscan,200,63.015,15ca6333-eb7f-4194-a636-838d7678af77,relaxed,,,,0
+measured,1580,gw_noscan,200,64.008,6206a86d-1f21-4743-bbba-6f054472f9d6,relaxed,,,,0
+measured,1581,direct,200,51.228,,,,,,
+measured,1582,gw_cold,200,69.117,1a67ca37-b86c-49f7-ac5a-766c2a5aa7f2,applied; entities=0,True,1,0,6
+measured,1583,gw_cached,200,63.742,4730ebf2-318a-4b17-855e-0baf6ab915d0,applied; entities=0,False,1,1,0
+measured,1584,gw_noscan,200,63.761,e0ee76aa-4a99-43c7-87f4-35b15f81eec1,relaxed,,,,0
+measured,1585,gw_cold,200,70.04,63812984-b41e-4f5d-9568-2d7c2e586666,applied; entities=0,True,1,0,7
+measured,1586,gw_noscan,200,63.935,4e33a125-a365-48e5-b4c7-f57e9f18a6c1,relaxed,,,,0
+measured,1587,direct,200,51.38,,,,,,
+measured,1588,gw_cached,200,62.726,db809010-1237-4220-b83a-938e1dffe0c8,applied; entities=0,False,1,1,0
+measured,1589,gw_cached,200,62.454,ceb97a22-a07f-48f5-90f2-96bcd7228a37,applied; entities=0,False,1,1,0
+measured,1590,direct,200,51.45,,,,,,
+measured,1591,gw_cached,200,61.713,e048d2ab-c117-4edf-a675-008ccf9a02a5,applied; entities=0,False,1,1,0
+measured,1592,gw_noscan,200,62.558,52f72159-cc58-4589-b24f-e00026c6985b,relaxed,,,,0
+measured,1593,direct,200,51.412,,,,,,
+measured,1594,gw_noscan,200,62.942,d70aeb41-77e7-47f4-b957-fb3042e9b1b6,relaxed,,,,0
+measured,1595,gw_noscan,200,64.262,10c7c773-36a3-4d3c-bddd-ccce0c709468,relaxed,,,,0
+measured,1596,gw_noscan,200,62.963,072b72ce-7b62-4596-8ec8-7922f372bc19,relaxed,,,,0
+measured,1597,gw_cached,200,63.307,231e4501-5ed7-4a33-9175-4ddd15b5ce80,applied; entities=0,False,1,1,0
+measured,1598,gw_noscan,200,64.026,4da4a9fc-d4a9-40d7-b120-1b2119ce426e,relaxed,,,,0
+measured,1599,gw_cached,200,64.2,1b315f74-7061-43ea-935e-6c2184a4ad99,applied; entities=0,False,1,1,0
+measured,1600,gw_cached,200,63.734,80455362-d84a-4af9-874f-4452b1e92b69,applied; entities=0,False,1,1,0
+measured,1601,direct,200,51.49,,,,,,
+measured,1602,gw_cold,200,70.445,62bdedae-c9c4-4235-889e-e62d62e90418,applied; entities=0,True,1,0,8
+measured,1603,direct,200,51.609,,,,,,
+measured,1604,gw_noscan,200,62.076,9477bc76-ae09-426a-b94d-79618cc89a87,relaxed,,,,0
+measured,1605,gw_cached,200,64.52,31a85064-08b0-4ebe-8e5e-6cd93d0857a9,applied; entities=0,False,1,1,0
+measured,1606,direct,200,51.446,,,,,,
+measured,1607,gw_cached,200,63.239,e8ab34cc-2ef4-4c1c-91d0-1b7c162d7294,applied; entities=0,False,1,1,0
+measured,1608,direct,200,51.72,,,,,,
+measured,1609,gw_noscan,200,64.072,316e5207-1467-42e9-8c5d-9f3432eac35e,relaxed,,,,0
+measured,1610,direct,200,51.466,,,,,,
+measured,1611,gw_noscan,200,64.372,604dc71e-21ab-417d-9d08-6b94bc33598b,relaxed,,,,0
+measured,1612,direct,200,51.729,,,,,,
+measured,1613,gw_noscan,200,68.156,c088d3d1-98b4-4449-89ff-842ee2e96ec7,relaxed,,,,0
+measured,1614,gw_cached,200,66.524,99e70ed6-681c-49be-8837-bb44e253701f,applied; entities=0,False,1,1,0
+measured,1615,gw_cached,200,67.63,636dc7fe-b4fd-4dbb-bf7b-45fa3596d43a,applied; entities=0,False,1,1,0
+measured,1616,gw_cold,200,77.153,2e55fc4c-52d8-4567-8e8b-950f4204e145,applied; entities=0,True,1,0,9
+measured,1617,direct,200,51.671,,,,,,
+measured,1618,gw_cached,200,63.034,9e1d4f7d-c449-4b78-9eed-2e110d0b6ac5,applied; entities=0,False,1,1,0
+measured,1619,direct,200,51.556,,,,,,
+measured,1620,gw_cached,200,62.266,4efa1221-ba10-4034-8f84-3303c0a0642e,applied; entities=0,False,1,1,0
+measured,1621,gw_noscan,200,64.939,3bcdb974-e787-4516-940d-b22b4278062a,relaxed,,,,0
+measured,1622,gw_cold,200,72.467,badd6eae-3614-4ba6-987e-279a59ed01fb,applied; entities=0,True,1,0,7
+measured,1623,gw_cached,200,63.506,87b2bfb6-4b40-4071-bb11-3e4802049410,applied; entities=0,False,1,1,0
+measured,1624,direct,200,51.672,,,,,,
+measured,1625,gw_noscan,200,62.364,fb78099d-96c5-4183-9b74-e48fc6fe0506,relaxed,,,,0
+measured,1626,gw_cached,200,64.188,b2966c83-f3a0-4808-9388-b6d18bf22dfb,applied; entities=0,False,1,1,0
+measured,1627,gw_cold,200,74.425,8bd498b9-f292-47a8-8313-414de426266e,applied; entities=0,True,1,0,7
+measured,1628,direct,200,52.055,,,,,,
+measured,1629,gw_noscan,200,63.033,e7ac681d-3613-49ad-9898-da2660416979,relaxed,,,,0
+measured,1630,gw_noscan,200,65.528,c888c289-8daf-40fe-8360-45aa1e7b0406,relaxed,,,,0
+measured,1631,gw_cached,200,63.601,0ae20a1e-949a-4e03-b562-dd7a6ad4436c,applied; entities=0,False,1,1,0
+measured,1632,direct,200,51.56,,,,,,
+measured,1633,gw_noscan,200,62.784,669eff75-bea6-47e9-ac9e-273115153a00,relaxed,,,,0
+measured,1634,gw_cached,200,64.548,c7911160-c127-4d18-8aa6-b2ff70163a73,applied; entities=0,False,1,1,0
+measured,1635,gw_noscan,200,64.175,4d8e034e-8dbe-4e2f-9c03-4c1203528d91,relaxed,,,,0
+measured,1636,direct,200,51.611,,,,,,
+measured,1637,gw_cached,200,63.237,96c9980b-c4e7-464b-9cae-755446243985,applied; entities=0,False,1,1,0
+measured,1638,gw_cached,200,64.054,beacb2c7-62f4-454d-bc8a-5f697dcfa636,applied; entities=0,False,1,1,0
+measured,1639,gw_cold,200,70.909,1c371de7-9299-4297-beb6-2d482c7fc4a6,applied; entities=0,True,1,0,7
+measured,1640,gw_cold,200,72.567,8cf298ae-6516-45a8-ab72-24fc5a945a23,applied; entities=0,True,1,0,9
+measured,1641,gw_cached,200,63.168,a1e18f7e-1c16-40c3-b287-30ca96d9710c,applied; entities=0,False,1,1,0
+measured,1642,gw_cached,200,63.851,13756f03-63c9-4343-a7aa-ace4bab0e076,applied; entities=0,False,1,1,0
+measured,1643,gw_cached,200,62.996,107225fb-9dca-44f7-a999-ba3522b564a7,applied; entities=0,False,1,1,0
+measured,1644,gw_cold,200,70.314,cd75445e-be4c-4f54-adeb-e7d738c2f6af,applied; entities=0,True,1,0,6
+measured,1645,gw_cold,200,69.766,5658e468-d260-42aa-a919-9534847b807c,applied; entities=0,True,1,0,7
+measured,1646,gw_cached,200,65.984,597e7bd3-38df-4088-9d63-d985265e2154,applied; entities=0,False,1,1,0
+measured,1647,gw_cached,200,63.181,cce47990-8095-4c67-aa8d-d64ed89c325e,applied; entities=0,False,1,1,0
+measured,1648,gw_cached,200,65.847,5c5da718-7e02-434c-b911-00a71183fd9a,applied; entities=0,False,1,1,0
+measured,1649,gw_cached,200,62.907,aae2f338-b39a-478b-aaa9-03b851e07b11,applied; entities=0,False,1,1,0
+measured,1650,gw_cold,200,71.979,93d0129c-1407-4c10-aefc-38ae2a13241c,applied; entities=0,True,1,0,7
+measured,1651,gw_cold,200,73.672,b221f6bc-45cf-4e70-af3c-e50808e425c2,applied; entities=0,True,1,0,9
+measured,1652,gw_cold,200,73.73,b1c6832f-9657-4530-be1c-6363c971f672,applied; entities=0,True,1,0,7
+measured,1653,gw_cold,200,71.067,c8d7ea3d-813f-4acd-8148-ad352747949a,applied; entities=0,True,1,0,7
+measured,1654,gw_noscan,200,66.491,6aea5855-8c4b-4a9c-8d0e-e19c77be1bf6,relaxed,,,,0
+measured,1655,gw_noscan,200,68.219,c03f6039-1f8a-4818-a778-3dda76afbd6a,relaxed,,,,0
+measured,1656,direct,200,51.356,,,,,,
+measured,1657,gw_cached,200,62.8,a3160d3f-9361-41da-a9ee-fbe6f7fc6fa0,applied; entities=0,False,1,1,0
+measured,1658,gw_cached,200,66.337,79df7d9b-0503-472c-be2a-796912e1ce60,applied; entities=0,False,1,1,0
+measured,1659,gw_cold,200,72.938,7374b7c8-7c9d-404a-afce-18fa16310666,applied; entities=0,True,1,0,9
+measured,1660,gw_noscan,200,66.656,59eea62f-1383-43bc-83dc-e133e8fb37cb,relaxed,,,,0
+measured,1661,gw_cold,200,73.754,6e671f06-c5b5-4c45-949b-c011666e08cd,applied; entities=0,True,1,0,7
+measured,1662,direct,200,51.547,,,,,,
+measured,1663,gw_cached,200,70.39,349fcc5a-d724-4010-8ddd-a0f0531f0882,applied; entities=0,False,1,1,0
+measured,1664,direct,200,52.283,,,,,,
+measured,1665,gw_noscan,200,110.797,c0396040-5717-4f12-894a-5dbcda9d5dc2,relaxed,,,,0
+measured,1666,direct,200,52.874,,,,,,
+measured,1667,gw_noscan,200,67.136,26bec572-1dbf-45a4-a764-f5fb7a474700,relaxed,,,,0
+measured,1668,direct,200,51.622,,,,,,
+measured,1669,gw_cold,200,73.244,6a504951-1abc-4942-b9bc-8b588db8d642,applied; entities=0,True,1,0,7
+measured,1670,direct,200,51.827,,,,,,
+measured,1671,gw_cached,200,61.663,314d7498-f2eb-4479-a37a-8eb2f9333685,applied; entities=0,False,1,1,0
+measured,1672,gw_cached,200,63.945,586d6804-6bc1-44a1-ade2-4f2e2c81296f,applied; entities=0,False,1,1,0
+measured,1673,gw_cached,200,66.1,7d4554f1-6bc5-48f3-be39-dcac09b0b490,applied; entities=0,False,1,1,0
+measured,1674,gw_cold,200,75.069,ece1b5aa-2c7e-44e6-a046-765034ce0bb4,applied; entities=0,True,1,0,9
+measured,1675,gw_cold,200,70.952,1f3e623e-6ddb-4e8b-bd34-28f8b6a7d094,applied; entities=0,True,1,0,7
+measured,1676,gw_cached,200,64.686,4a6d6414-81e7-49d4-83d1-c35bbe296130,applied; entities=0,False,1,1,0
+measured,1677,gw_cold,200,71.208,d1ca8e91-68d0-418a-888d-42bcde0c9ef8,applied; entities=0,True,1,0,6
+measured,1678,gw_cached,200,67.393,0271e0fe-0668-4959-8067-d35e126378aa,applied; entities=0,False,1,1,0
+measured,1679,direct,200,51.496,,,,,,
+measured,1680,gw_cold,200,71.975,049b30b7-bbd1-412d-afc4-9ebb36615ee6,applied; entities=0,True,1,0,8
+measured,1681,direct,200,51.506,,,,,,
+measured,1682,gw_cold,200,68.605,2e7b2e68-1595-44ba-96a7-d3959a267e34,applied; entities=0,True,1,0,6
+measured,1683,gw_cold,200,70.471,8eac5d18-1f5f-41d6-977d-df365cbb3a52,applied; entities=0,True,1,0,6
+measured,1684,gw_noscan,200,62.803,015f1c22-a97e-46fe-bf5a-d534dc2af23e,relaxed,,,,0
+measured,1685,direct,200,51.437,,,,,,
+measured,1686,direct,200,51.361,,,,,,
+measured,1687,direct,200,51.152,,,,,,
+measured,1688,gw_cached,200,62.936,38a6363b-1db3-45e9-a7c1-cd47696b41a5,applied; entities=0,False,1,1,0
+measured,1689,gw_cached,200,62.005,5bfaa84c-5826-49ed-9c67-cfaa2413daac,applied; entities=0,False,1,1,0
+measured,1690,gw_cached,200,63.662,f16ec7d0-b81c-4ecb-a6b7-2e7e847764ee,applied; entities=0,False,1,1,0
+measured,1691,gw_cold,200,71.408,d04e0095-45b5-4f7b-8ba5-9144b8b31306,applied; entities=0,True,1,0,7
+measured,1692,direct,200,51.566,,,,,,
+measured,1693,gw_cached,200,60.758,b54dbd15-65d6-4b47-ac29-36f1616af14a,applied; entities=0,False,1,1,0
+measured,1694,gw_noscan,200,63.418,d4f04213-5f58-4e02-921a-f93ca8162118,relaxed,,,,0
+measured,1695,direct,200,51.305,,,,,,
+measured,1696,gw_cold,200,69.765,a76924f2-5f09-4c15-9640-e1928e47a250,applied; entities=0,True,1,0,7
+measured,1697,gw_cold,200,72.263,16821ad7-e8c7-4508-8912-9309c414fbe7,applied; entities=0,True,1,0,7
+measured,1698,direct,200,51.6,,,,,,
+measured,1699,gw_cold,200,69.656,5eff752e-9ee9-4742-baf6-a24eff1d7c32,applied; entities=0,True,1,0,7
+measured,1700,direct,200,51.461,,,,,,
+measured,1701,gw_cold,200,69.017,b0f45636-a11a-4dc3-be8f-c25218f80663,applied; entities=0,True,1,0,7
+measured,1702,gw_cached,200,65.027,81faad36-0b76-4adc-9959-3900efc1459d,applied; entities=0,False,1,1,0
+measured,1703,gw_noscan,200,63.676,0fba540b-846c-4b03-b6b6-1cc27ca01d8a,relaxed,,,,0
+measured,1704,gw_cold,200,70.78,086825f6-41b3-45e9-92d9-2d458044f600,applied; entities=0,True,1,0,7
+measured,1705,gw_cached,200,63.457,cc7e608c-e928-46f5-b26d-cd5878514b01,applied; entities=0,False,1,1,0
+measured,1706,gw_cold,200,70.693,9419f561-a9c6-4319-9261-d4cd29df845f,applied; entities=0,True,1,0,7
+measured,1707,gw_cold,200,71.201,84ace016-c3c1-4a4d-87b4-04dcd65d31a0,applied; entities=0,True,1,0,8
+measured,1708,gw_noscan,200,62.583,1dcb9f08-e590-43f4-ae9a-3735a3fe0791,relaxed,,,,0
+measured,1709,gw_noscan,200,63.647,3324308d-160c-435c-835a-606b25622cce,relaxed,,,,0
+measured,1710,gw_cached,200,64.343,8584eaa1-5c90-44e7-855a-0e07b8726e7a,applied; entities=0,False,1,1,0
+measured,1711,direct,200,51.508,,,,,,
+measured,1712,gw_cached,200,62.862,9f0b7915-a273-468c-a44b-f3cdf54ef2f8,applied; entities=0,False,1,1,0
+measured,1713,gw_cached,200,64.092,93ef8a76-95b4-4725-b95a-1250b6dd9242,applied; entities=0,False,1,1,0
+measured,1714,gw_cached,200,64.352,0cc76813-56ae-43ba-9c66-78b93366243a,applied; entities=0,False,1,1,0
+measured,1715,gw_cold,200,70.856,fcea616a-1b1b-4091-b1c1-38d04ffc127f,applied; entities=0,True,1,0,6
+measured,1716,gw_noscan,200,64.449,c8e65987-2867-4297-b311-c98c6e4de22b,relaxed,,,,0
+measured,1717,gw_noscan,200,68.897,a5db9c3b-c594-424f-a475-1deef2cd4fa9,relaxed,,,,0
+measured,1718,gw_cold,200,75.326,e45fd6fe-3097-4631-a195-168891a5efef,applied; entities=0,True,1,0,9
+measured,1719,gw_cached,200,71.286,f55b17e9-d32e-4620-bded-c3ba88fda7e0,applied; entities=0,False,1,1,0
+measured,1720,direct,200,51.856,,,,,,
+measured,1721,gw_cold,200,74.706,d5f0bf7a-b6fe-42fb-bc7d-a464a5b4bd3d,applied; entities=0,True,1,0,9
+measured,1722,gw_noscan,200,65.616,4f6f0c22-efcb-4d72-9f2f-98e5ee8007fc,relaxed,,,,0
+measured,1723,direct,200,51.487,,,,,,
+measured,1724,gw_noscan,200,64.649,17fa2402-7f92-43b9-82ca-d5bbf03a3bbc,relaxed,,,,0
+measured,1725,gw_cached,200,64.558,30f989e0-2dd5-484f-b147-6a5bc2ceb04d,applied; entities=0,False,1,1,0
+measured,1726,direct,200,51.554,,,,,,
+measured,1727,gw_cached,200,68.188,d1afa750-1a1f-4d52-8e3d-7a059ff78270,applied; entities=0,False,1,1,1
+measured,1728,direct,200,51.441,,,,,,
+measured,1729,gw_cached,200,64.824,59c80f17-3122-449b-a604-8ca3de2a3fe6,applied; entities=0,False,1,1,0
+measured,1730,direct,200,51.535,,,,,,
+measured,1731,gw_cached,200,65.954,3d316dd0-398b-4ad2-be17-9678da905934,applied; entities=0,False,1,1,0
+measured,1732,gw_cold,200,80.313,4585222d-d715-4307-867c-55c68f4012c3,applied; entities=0,True,1,0,10
+measured,1733,direct,200,51.82,,,,,,
+measured,1734,gw_cold,200,69.968,65a38cfa-faac-4c68-a060-f7a959303b2e,applied; entities=0,True,1,0,8
+measured,1735,gw_cold,200,72.692,b3ff189b-d9b4-4176-8f6d-7e2382bf451a,applied; entities=0,True,1,0,7
+measured,1736,gw_cached,200,64.559,87d3e651-cda7-491b-affc-80d509379aed,applied; entities=0,False,1,1,0
+measured,1737,direct,200,51.793,,,,,,
+measured,1738,direct,200,51.881,,,,,,
+measured,1739,direct,200,51.893,,,,,,
+measured,1740,gw_cold,200,70.937,a9108e77-8af8-472b-b361-1bfbc210ca47,applied; entities=0,True,1,0,8
+measured,1741,gw_cold,200,73.596,fe01d70b-2c31-42ba-9cd1-5b8cbc1b3f43,applied; entities=0,True,1,0,7
+measured,1742,direct,200,51.584,,,,,,
+measured,1743,gw_noscan,200,64.886,1bc0ca97-e884-4fae-8913-5f9bdf13e7af,relaxed,,,,0
+measured,1744,gw_cold,200,79.907,fd7edd33-d71b-4a68-837f-fc71ad0d72d9,applied; entities=0,True,1,0,9
+measured,1745,gw_cached,200,65.19,719b3247-bcea-4367-b4ab-bb358aec60b5,applied; entities=0,False,1,1,0
+measured,1746,gw_cold,200,73.272,c8d6ada3-713b-4c88-a675-b8bcdb5ed809,applied; entities=0,True,1,0,7
+measured,1747,gw_cached,200,66.362,af254a4a-c2df-4ab3-8021-c9c2048c4031,applied; entities=0,False,1,1,0
+measured,1748,gw_cold,200,71.536,31d38d33-86f6-4ec8-a803-3a0928f45837,applied; entities=0,True,1,0,7
+measured,1749,direct,200,51.627,,,,,,
+measured,1750,gw_cold,200,71.46,0cdbbd98-2a5c-466f-8899-08705fc051cb,applied; entities=0,True,1,0,8
+measured,1751,gw_cached,200,66.447,7c2a7d5a-b279-4c0a-af51-0eebf9aa626a,applied; entities=0,False,1,1,0
+measured,1752,gw_noscan,200,71.198,75ebcf6c-3f9a-4523-98df-7b64d174e3f3,relaxed,,,,0
+measured,1753,gw_cold,200,73.371,a9e04faa-3aae-4ba2-937c-00a2769e7f78,applied; entities=0,True,1,0,7
+measured,1754,gw_cached,200,63.562,abce2029-2e1f-40e4-bfdc-791836d7d915,applied; entities=0,False,1,1,0
+measured,1755,direct,200,51.391,,,,,,
+measured,1756,direct,200,51.324,,,,,,
+measured,1757,direct,200,51.374,,,,,,
+measured,1758,direct,200,51.436,,,,,,
+measured,1759,gw_cold,200,71.498,3321662e-8105-4b3a-89b2-a125612ac8bf,applied; entities=0,True,1,0,8
+measured,1760,gw_cached,200,65.675,d5525448-10bb-4b2f-afb8-d62c44bd8faa,applied; entities=0,False,1,1,0
+measured,1761,gw_cached,200,64.28,8ca28a2d-4081-4511-be6c-df18d13b87a7,applied; entities=0,False,1,1,0
+measured,1762,gw_cached,200,64.088,a5f62046-9f73-4d21-983b-c9bf4c143510,applied; entities=0,False,1,1,0
+measured,1763,gw_noscan,200,65.209,5d4ac400-d343-4427-9569-ad5fae80664b,relaxed,,,,0
+measured,1764,gw_noscan,200,63.262,d1cc86e6-fb17-48f5-a19c-42977c892e5d,relaxed,,,,0
+measured,1765,gw_cold,200,73.33,969b9944-6a36-465f-8724-c237dbf8bfa7,applied; entities=0,True,1,0,8
+measured,1766,gw_cached,200,66.121,bcb6bd3c-2a97-4e67-b597-f40770ceab94,applied; entities=0,False,1,1,0
+measured,1767,direct,200,51.492,,,,,,
+measured,1768,gw_noscan,200,62.505,33465737-45e0-4fa7-9169-3288e216c792,relaxed,,,,0
+measured,1769,gw_cold,200,72.135,f17a8ba0-1c4c-424f-9738-4a2c862f3b24,applied; entities=0,True,1,0,7
+measured,1770,gw_cached,200,65.232,5c589b91-91b7-4897-989f-6220e1a6e049,applied; entities=0,False,1,1,0
+measured,1771,gw_noscan,200,64.302,17fa4814-9544-4022-9666-df19d091bca3,relaxed,,,,0
+measured,1772,direct,200,51.842,,,,,,
+measured,1773,gw_noscan,200,63.263,a4537fbd-835e-41cf-89fd-45c4b2bdb8c6,relaxed,,,,0
+measured,1774,direct,200,51.359,,,,,,
+measured,1775,gw_cached,200,61.911,0ea38226-014d-44b8-85d7-f4f1dbd8726e,applied; entities=0,False,1,1,0
+measured,1776,gw_cold,200,71.281,141155e3-d0af-4a91-92c5-1a8fc149050a,applied; entities=0,True,1,0,7
+measured,1777,gw_cached,200,63.368,1abd62f1-eb19-488f-b54e-ed89a71da61e,applied; entities=0,False,1,1,0
+measured,1778,gw_noscan,200,63.199,2a50add7-84cc-4d48-9c41-7eadea4fc61c,relaxed,,,,0
+measured,1779,direct,200,51.505,,,,,,
+measured,1780,gw_cold,200,70.216,3466cfdc-ad52-4d21-880e-a80039006da1,applied; entities=0,True,1,0,7
+measured,1781,gw_cached,200,64.758,b14104c8-a43e-4146-a03a-070411229480,applied; entities=0,False,1,1,0
+measured,1782,direct,200,51.403,,,,,,
+measured,1783,gw_cold,200,73.178,57936556-90ca-4a52-973e-92c05443e79e,applied; entities=0,True,1,0,9
+measured,1784,gw_cached,200,64.679,a3c81686-ea35-407d-9ca9-5acb1b492f2f,applied; entities=0,False,1,1,0
+measured,1785,gw_noscan,200,64.613,3648e88c-a220-4553-bd4e-3289e3539710,relaxed,,,,0
+measured,1786,gw_cold,200,69.946,73146141-09d6-408e-8090-c831936341ae,applied; entities=0,True,1,0,7
+measured,1787,gw_noscan,200,64.475,d65de42c-9669-4121-aeda-2e8306efe1b8,relaxed,,,,0
+measured,1788,direct,200,51.715,,,,,,
+measured,1789,gw_cached,200,64.048,612cc34f-861d-4d7b-ad32-97be8a1b7a1b,applied; entities=0,False,1,1,0
+measured,1790,gw_cold,200,77.418,70df68fb-863b-4697-902e-9d375fa470ce,applied; entities=0,True,1,0,9
+measured,1791,gw_cold,200,77.882,bf47bc74-0cc8-4677-9b7d-18252b0c9f7a,applied; entities=0,True,1,0,8
+measured,1792,gw_noscan,200,64.18,fe552f37-0e88-431b-9c25-8a9d744f6f78,relaxed,,,,0
+measured,1793,direct,200,52.062,,,,,,
+measured,1794,gw_noscan,200,62.595,f85b9d61-58a3-4b4e-9cfd-39c085af887a,relaxed,,,,0
+measured,1795,direct,200,51.555,,,,,,
+measured,1796,gw_noscan,200,63.689,df0b251d-8abe-4c23-bf90-3d4b0df9964b,relaxed,,,,0
+measured,1797,gw_cached,200,65.704,50d340e9-dfd8-4f4e-ae98-1973c5ed2760,applied; entities=0,False,1,1,0
+measured,1798,gw_cached,200,65.272,b3e6b956-9c39-42d4-91a4-0a0d6d6e5cb8,applied; entities=0,False,1,1,0
+measured,1799,direct,200,51.486,,,,,,
+measured,1800,direct,200,51.192,,,,,,
+measured,1801,gw_noscan,200,63.06,a7bb9c0d-b96a-4810-8806-0fd725a90641,relaxed,,,,0
+measured,1802,gw_noscan,200,68.334,af3efed6-a7ef-4b6e-a6fd-2441747945bf,relaxed,,,,0
+measured,1803,gw_cold,200,74.045,212f0bbb-cf65-46ff-911a-c4000c983b31,applied; entities=0,True,1,0,8
+measured,1804,gw_cached,200,66.235,7bf452ab-0463-4e21-8fbc-5144f1c48ca1,applied; entities=0,False,1,1,0
+measured,1805,gw_noscan,200,70.618,c2f500d1-f4ee-4b99-a86f-6012e6529fa9,relaxed,,,,0
+measured,1806,gw_noscan,200,70.583,6687da6a-8560-41a1-8aba-716981a36324,relaxed,,,,0
+measured,1807,gw_cold,200,73.38,22784015-cba7-4dde-bbd4-49029140c9b9,applied; entities=0,True,1,0,9
+measured,1808,gw_cold,200,74.794,c5db2c6a-eea9-4312-aeea-784417885a9c,applied; entities=0,True,1,0,7
+measured,1809,direct,200,51.682,,,,,,
+measured,1810,gw_noscan,200,62.602,3560f8da-5538-471b-860b-3d604272d3f2,relaxed,,,,0
+measured,1811,gw_noscan,200,65.913,fd3076b6-f9c2-42ab-b56a-b9cf3e87b571,relaxed,,,,0
+measured,1812,gw_noscan,200,65.528,939b3055-c495-4133-9fbf-3adb19b75116,relaxed,,,,0
+measured,1813,gw_cached,200,62.984,fc4b3cd0-c8d3-44b4-9827-d96cfd27f86a,applied; entities=0,False,1,1,0
+measured,1814,direct,200,51.369,,,,,,
+measured,1815,direct,200,51.717,,,,,,
+measured,1816,gw_cold,200,70.122,162b6751-cdc7-43af-8de0-f36206c9f9e6,applied; entities=0,True,1,0,7
+measured,1817,gw_cached,200,63.142,92f74d55-f4f6-463a-a5cd-1f2023a62a7f,applied; entities=0,False,1,1,0
+measured,1818,gw_cold,200,69.998,bf18e2f4-df6f-49f4-a077-86964426d8f9,applied; entities=0,True,1,0,6
+measured,1819,gw_cold,200,72.615,e740c9f6-4e88-426c-9446-fc0933c972bb,applied; entities=0,True,1,0,8
+measured,1820,direct,200,51.809,,,,,,
+measured,1821,direct,200,51.826,,,,,,
+measured,1822,gw_cached,200,79.164,ec7cf301-a64a-4f28-a065-6fbf5ba6f59b,applied; entities=0,False,1,1,0
+measured,1823,gw_cached,200,81.815,57380a06-d126-4f3c-beb2-8637e3d323f1,applied; entities=0,False,1,1,0
+measured,1824,gw_cached,200,64.658,8722b7d5-3fc7-4798-96b4-85c06e8cf566,applied; entities=0,False,1,1,0
+measured,1825,gw_cached,200,64.37,43db4156-4b31-4b3f-af73-04b195293cf4,applied; entities=0,False,1,1,0
+measured,1826,direct,200,51.97,,,,,,
+measured,1827,gw_cached,200,65.085,e65c6099-7aa3-45c5-97d0-798d7445a0e8,applied; entities=0,False,1,1,0
+measured,1828,direct,200,51.538,,,,,,
+measured,1829,gw_cached,200,64.614,7bd23451-a716-4098-9628-0962f0b4b8f0,applied; entities=0,False,1,1,0
+measured,1830,gw_cached,200,63.66,e860d21e-ae74-4b39-a296-fe206f0aed9d,applied; entities=0,False,1,1,0
+measured,1831,gw_cached,200,63.291,57907421-6c97-4ee0-8b96-6bbb283d83e8,applied; entities=0,False,1,1,0
+measured,1832,gw_cached,200,66.161,d71ffa36-9a3f-4f60-bbba-2a5d979b9849,applied; entities=0,False,1,1,0
+measured,1833,gw_cold,200,71.49,6baac3d4-0461-4350-be56-d56ab4491f61,applied; entities=0,True,1,0,7
+measured,1834,gw_cached,200,65.459,fca91f97-3530-4b8b-a262-b84f75de84e5,applied; entities=0,False,1,1,0
+measured,1835,gw_cold,200,71.139,316f532e-5c8f-4743-8960-2f2d2efe26ac,applied; entities=0,True,1,0,6
+measured,1836,gw_noscan,200,62.802,b4fae208-fd9a-41b8-82ac-35b538c744bf,relaxed,,,,0
+measured,1837,gw_cold,200,70.181,bc2483f8-d682-4b89-8b9e-da6def716096,applied; entities=0,True,1,0,6
+measured,1838,gw_cached,200,65.223,9ce3088d-11cf-4c48-bf26-b3b8202f483d,applied; entities=0,False,1,1,0
+measured,1839,gw_cold,200,71.605,7cda3091-d1e2-4624-90ba-b56f73b223d2,applied; entities=0,True,1,0,7
+measured,1840,gw_cold,200,71.116,6862d0c6-574d-4eca-b180-97be0dde8204,applied; entities=0,True,1,0,7
+measured,1841,direct,200,51.407,,,,,,
+measured,1842,gw_cached,200,63.679,d7d60751-9215-4fa8-b5ff-0d56d8ca4bf8,applied; entities=0,False,1,1,0
+measured,1843,gw_noscan,200,64.996,cc97bdcd-822c-41af-842a-7b8f97594730,relaxed,,,,0
+measured,1844,direct,200,51.715,,,,,,
+measured,1845,gw_noscan,200,64.606,12643ea1-5626-4e5b-981f-c05548559749,relaxed,,,,0
+measured,1846,gw_cold,200,72.803,77ead047-beea-44cf-962e-b0f43d9409ed,applied; entities=0,True,1,0,8
+measured,1847,gw_noscan,200,65.611,a5b88808-3d1a-4166-be83-331ce03341cb,relaxed,,,,0
+measured,1848,gw_cached,200,65.487,774cbc95-5f78-4288-b363-ecc79908338a,applied; entities=0,False,1,1,0
+measured,1849,gw_cold,200,73.538,4918104f-421c-4b65-aa75-25ee928fc288,applied; entities=0,True,1,0,7
+measured,1850,direct,200,51.706,,,,,,
+measured,1851,gw_cached,200,63.34,35b0abb0-3cd6-4238-bfaf-4ba4b07202b4,applied; entities=0,False,1,1,0
+measured,1852,gw_cold,200,71.084,044b8077-d934-49fe-80bc-05aa1da93b06,applied; entities=0,True,1,0,6
+measured,1853,gw_noscan,200,65.226,22d14972-8460-48f5-8598-476753db25a5,relaxed,,,,0
+measured,1854,gw_cached,200,66.207,f3b0a3f9-4bf0-449f-9146-2bbb4bbd345e,applied; entities=0,False,1,1,0
+measured,1855,gw_cached,200,66.166,9d19d120-84ba-4019-9493-b185f50cfe63,applied; entities=0,False,1,1,0
+measured,1856,direct,200,51.53,,,,,,
+measured,1857,gw_cold,200,69.117,e5dc504c-34d9-4644-bdd2-6f14d260c2ca,applied; entities=0,True,1,0,7
+measured,1858,gw_cold,200,71.091,4ddcaf8e-a9a9-4af7-a995-eeb20d02b2e6,applied; entities=0,True,1,0,8
+measured,1859,direct,200,51.458,,,,,,
+measured,1860,gw_noscan,200,64.006,808d2448-ef50-4d7b-889c-73b494684836,relaxed,,,,0
+measured,1861,gw_cold,200,71.375,50978a41-9b43-4c8c-91b2-0f073c09d79f,applied; entities=0,True,1,0,7
+measured,1862,direct,200,51.709,,,,,,
+measured,1863,direct,200,51.855,,,,,,
+measured,1864,gw_cold,200,69.949,435fd0e2-f7b7-48c2-86ee-27cbb67a4c2d,applied; entities=0,True,1,0,7
+measured,1865,direct,200,51.287,,,,,,
+measured,1866,gw_cold,200,69.367,175f4e27-f475-462c-a7fe-1443c044cddd,applied; entities=0,True,1,0,8
+measured,1867,gw_cached,200,62.724,f64e6184-a06c-4df2-8267-9ff081df6320,applied; entities=0,False,1,1,0
+measured,1868,gw_noscan,200,63.863,97e5d253-4b5d-4910-ae79-732380bdf2f5,relaxed,,,,0
+measured,1869,gw_noscan,200,64.033,8bfc79cb-5f32-4403-acf9-42e9a1a63186,relaxed,,,,0
+measured,1870,gw_cached,200,64.267,adb716f0-854c-45b8-83c5-10d3fad366f6,applied; entities=0,False,1,1,0
+measured,1871,gw_noscan,200,65.384,1a17fcc2-b4d1-4876-94eb-2f83396c161d,relaxed,,,,0
+measured,1872,gw_cached,200,65.454,e381d4f6-96e9-41d7-bd6c-0244a3d847c8,applied; entities=0,False,1,1,0
+measured,1873,gw_cached,200,66.672,ab8cafb6-1016-4761-b506-03e1b0039d28,applied; entities=0,False,1,1,0
+measured,1874,direct,200,51.496,,,,,,
+measured,1875,direct,200,51.37,,,,,,
+measured,1876,gw_noscan,200,62.922,3340c61a-c41e-436e-8a94-40b04c5ef1f4,relaxed,,,,0
+measured,1877,gw_noscan,200,66.296,a4a9ed17-4eb1-4d89-b0c8-06397b71bca8,relaxed,,,,0
+measured,1878,gw_noscan,200,63.853,cc9d14d8-3a41-488b-a29d-d2d49ec95580,relaxed,,,,0
+measured,1879,gw_noscan,200,63.519,5b67592c-d604-45a7-bea2-0eb087031139,relaxed,,,,0
+measured,1880,gw_noscan,200,63.516,b0f8cc2f-5117-436b-8281-dbd2396bf40b,relaxed,,,,0
+measured,1881,gw_cached,200,65.601,6df114d0-ad44-4606-895b-093f259f90be,applied; entities=0,False,1,1,0
+measured,1882,direct,200,51.474,,,,,,
+measured,1883,direct,200,51.476,,,,,,
+measured,1884,gw_noscan,200,63.474,33e63420-19a4-4554-9448-169d30d3021c,relaxed,,,,0
+measured,1885,gw_noscan,200,64.85,8388f415-9294-44f7-a9a4-986198d62dc3,relaxed,,,,0
+measured,1886,gw_cold,200,74.213,45f29bb3-95b4-4dd1-b869-c6a07cb095b6,applied; entities=0,True,1,0,7
+measured,1887,gw_noscan,200,64.923,ab0acd31-ba84-47e3-9e61-556f2dce922c,relaxed,,,,0
+measured,1888,gw_noscan,200,63.909,d803580b-2a97-4059-afdd-b7ec403ef783,relaxed,,,,0
+measured,1889,gw_cached,200,65.972,509de133-c7ab-4697-8ac9-1156742f078a,applied; entities=0,False,1,1,0
+measured,1890,direct,200,51.529,,,,,,
+measured,1891,gw_noscan,200,61.092,06e42b22-cf2a-480b-9ac8-1ac1e160cad7,relaxed,,,,0
+measured,1892,gw_cold,200,72.098,0d58e6fa-b589-44bc-abb3-fe12f6e6ff7d,applied; entities=0,True,1,0,6
+measured,1893,direct,200,51.634,,,,,,
+measured,1894,gw_cached,200,61.478,c2583028-3f2a-41a0-973c-f72fc13a9ca4,applied; entities=0,False,1,1,0
+measured,1895,direct,200,51.689,,,,,,
+measured,1896,direct,200,51.51,,,,,,
+measured,1897,gw_cold,200,69.375,a6b23136-2ddc-4dd5-87db-f0978bf49b82,applied; entities=0,True,1,0,6
+measured,1898,gw_noscan,200,64.958,f559fad1-6bde-4798-afd5-b24d121443d2,relaxed,,,,0
+measured,1899,direct,200,51.491,,,,,,
+measured,1900,gw_cold,200,68.344,8e462e08-ea0e-4e38-b8dc-924409a13696,applied; entities=0,True,1,0,7
+measured,1901,gw_cached,200,62.486,10c50672-54f5-4285-9db8-a5b3dfbb4188,applied; entities=0,False,1,1,0
+measured,1902,gw_cold,200,69.665,37e2378f-dc41-4802-b952-708ab27e14e0,applied; entities=0,True,1,0,6
+measured,1903,direct,200,51.265,,,,,,
+measured,1904,direct,200,51.2,,,,,,
+measured,1905,direct,200,51.272,,,,,,
+measured,1906,gw_cold,200,70.112,3d9662f1-4451-48a2-b9c1-9d80fc799d32,applied; entities=0,True,1,0,9
+measured,1907,gw_noscan,200,63.301,299130d9-19e9-49ab-b247-b4457d220b86,relaxed,,,,0
+measured,1908,direct,200,51.486,,,,,,
+measured,1909,direct,200,51.394,,,,,,
+measured,1910,gw_noscan,200,62.339,7736e2b7-5dd2-4cad-8c34-7d1f28baffab,relaxed,,,,0
+measured,1911,direct,200,51.295,,,,,,
+measured,1912,direct,200,51.309,,,,,,
+measured,1913,direct,200,51.21,,,,,,
+measured,1914,direct,200,51.193,,,,,,
+measured,1915,gw_noscan,200,63.729,42c15709-3575-4f0a-abb4-42f728ec0251,relaxed,,,,0
+measured,1916,gw_cold,200,71.421,a6e96bf7-8c86-4312-821d-fd2212bed67b,applied; entities=0,True,1,0,8
+measured,1917,gw_noscan,200,64.017,43c77b04-4f13-4b12-a421-82b854840e76,relaxed,,,,0
+measured,1918,direct,200,51.598,,,,,,
+measured,1919,gw_noscan,200,66.331,4e6810b5-89ae-4a88-a5ce-f14da853dc9d,relaxed,,,,0
+measured,1920,gw_noscan,200,64.404,9e777751-07e8-4cd9-ac65-1c37b10d5ede,relaxed,,,,0
+measured,1921,gw_noscan,200,64.463,00fa7379-ddde-4609-a02e-698b5c98f103,relaxed,,,,0
+measured,1922,gw_noscan,200,65.679,1dbe92d1-c1ff-4a1b-a80d-af8a3711f8d9,relaxed,,,,0
+measured,1923,gw_cold,200,73.393,e68027e9-d4cf-4bff-b301-f6828e34724f,applied; entities=0,True,1,0,8
+measured,1924,gw_cached,200,62.364,7634ef02-dc1b-4cfa-a3de-759e2447006c,applied; entities=0,False,1,1,0
+measured,1925,gw_cold,200,71.297,4bc42002-33ef-43c9-b913-d1987d199e42,applied; entities=0,True,1,0,7
+measured,1926,gw_cached,200,63.121,75afed18-07a8-4e00-a486-8f22e5f7847d,applied; entities=0,False,1,1,0
+measured,1927,gw_cached,200,66.631,1a7cbecb-98af-43a4-97a8-22ded757ff13,applied; entities=0,False,1,1,0
+measured,1928,gw_cached,200,66.217,1565ed65-2bba-4e4d-9bdb-b092d9bc315d,applied; entities=0,False,1,1,0
+measured,1929,gw_cached,200,66.822,ad4bee73-8e59-492e-8f26-39d2dbdbb415,applied; entities=0,False,1,1,0
+measured,1930,gw_noscan,200,65.156,6f741885-260e-40cd-b93d-ec8a44d3b0fe,relaxed,,,,0
+measured,1931,direct,200,51.438,,,,,,
+measured,1932,gw_cached,200,63.298,ccf18c16-cb46-4042-b82c-ca9ceb4ed2d7,applied; entities=0,False,1,1,0
+measured,1933,gw_cold,200,70.793,558bf3f8-9861-4ae6-b2ca-e22fd7b07839,applied; entities=0,True,1,0,7
+measured,1934,gw_cold,200,71.387,aa14369a-47c6-44da-881b-870b6b76afda,applied; entities=0,True,1,0,7
+measured,1935,gw_cold,200,71.294,784c3cff-016c-4c83-891a-3d8681f21105,applied; entities=0,True,1,0,6
+measured,1936,gw_cold,200,73.982,5c1a2d4e-3033-40e0-9099-dfd6c630195b,applied; entities=0,True,1,0,9
+measured,1937,gw_cached,200,64.813,85e94f95-ed3f-4fe3-8fec-a2ee2ba08e60,applied; entities=0,False,1,1,0
+measured,1938,gw_cold,200,74.045,6845a0e3-2deb-4806-8af8-6f8c9c95f81b,applied; entities=0,True,1,0,7
+measured,1939,direct,200,51.6,,,,,,
+measured,1940,gw_noscan,200,61.631,b40989b1-d71f-4114-ab22-2158def67e0e,relaxed,,,,0
+measured,1941,gw_cold,200,71.045,c600dfe2-0613-4757-bb7c-474e46067d6e,applied; entities=0,True,1,0,6
+measured,1942,gw_cold,200,72.326,d7882eb4-f034-4125-ac42-14ec77b8bc61,applied; entities=0,True,1,0,8
+measured,1943,gw_noscan,200,64.559,5287a931-4f66-49a2-a5f0-f5003847d5e0,relaxed,,,,0
+measured,1944,gw_cold,200,71.695,b97c55c0-6393-401b-a8f9-259a9cd5fea7,applied; entities=0,True,1,0,8
+measured,1945,gw_noscan,200,64.679,a49a4ca0-c83f-4f12-a2ff-9d1b7835ae52,relaxed,,,,0
+measured,1946,direct,200,51.292,,,,,,
+measured,1947,direct,200,51.247,,,,,,
+measured,1948,gw_noscan,200,62.687,ba7438cf-6f6a-4efc-a627-ffa4bcc268dc,relaxed,,,,0
+measured,1949,gw_noscan,200,64.508,2ab7c11e-91c6-4b88-9622-d7e16d92292e,relaxed,,,,0
+measured,1950,direct,200,51.518,,,,,,
+measured,1951,gw_cold,200,70.131,fdc55915-c153-4aa8-9a3c-009113a55a79,applied; entities=0,True,1,0,7
+measured,1952,gw_cached,200,65.178,7e0843ea-720b-46ae-89c8-df7c6af6dcb7,applied; entities=0,False,1,1,0
+measured,1953,gw_noscan,200,63.937,0bc72559-4e7c-45de-89b8-fbe305f95c18,relaxed,,,,0
+measured,1954,direct,200,51.588,,,,,,
+measured,1955,direct,200,51.468,,,,,,
+measured,1956,gw_cold,200,70.616,b56ab43c-e626-40bf-996a-f4952f4edecb,applied; entities=0,True,1,0,8
+measured,1957,direct,200,51.573,,,,,,
+measured,1958,gw_cached,200,61.792,d7470e13-ce63-48c0-ab23-b2503a9fa297,applied; entities=0,False,1,1,0
+measured,1959,direct,200,51.303,,,,,,
+measured,1960,direct,200,51.591,,,,,,
+measured,1961,direct,200,51.497,,,,,,
+measured,1962,direct,200,51.543,,,,,,
+measured,1963,gw_cached,200,62.258,6f7f3a18-f401-4866-b8e8-f1b778daefdc,applied; entities=0,False,1,1,0
+measured,1964,gw_noscan,200,65.007,be355daa-193f-4883-b3b8-f57d7786f1bb,relaxed,,,,0
+measured,1965,gw_cached,200,65.067,b9205344-0821-4c11-92ea-08d6063994fb,applied; entities=0,False,1,1,0
+measured,1966,gw_cold,200,69.823,f4833c1f-76f9-48f3-ba9d-8da8972db3f6,applied; entities=0,True,1,0,7
+measured,1967,gw_noscan,200,63.923,fa7d079b-6eac-4d32-afed-4023f138bf9a,relaxed,,,,0
+measured,1968,gw_noscan,200,64.212,5a4d079e-9516-4298-999c-b178bcbd39d0,relaxed,,,,0
+measured,1969,gw_cold,200,72.136,e397451d-6720-4ca5-accf-0913f0b221f0,applied; entities=0,True,1,0,8
+measured,1970,gw_noscan,200,65.273,cf973f97-7a4c-4ecb-a13d-b10c4408f135,relaxed,,,,0
+measured,1971,gw_cold,200,77.745,32fe5b57-fd4c-439b-9e83-731fa8b1b8fd,applied; entities=0,True,1,0,9
+measured,1972,gw_cached,200,68.089,3fedb60b-1166-457d-9287-2e9377b512e7,applied; entities=0,False,1,1,0
+measured,1973,gw_noscan,200,65.241,32c733c6-01e8-4543-89a2-b6d7a9058888,relaxed,,,,0
+measured,1974,gw_cached,200,63.486,d83ba676-a078-427f-bfce-e37542d59bba,applied; entities=0,False,1,1,0
+measured,1975,direct,200,51.371,,,,,,
+measured,1976,gw_cached,200,62.166,956fcd00-f5d1-45fa-9342-91a81e43be8a,applied; entities=0,False,1,1,0
+measured,1977,gw_noscan,200,62.594,96c41706-94be-4c8e-af30-981723cea49f,relaxed,,,,0
+measured,1978,gw_cold,200,71.503,bede15fb-a4e9-4446-9f15-27c9eedea1a9,applied; entities=0,True,1,0,7
+measured,1979,gw_noscan,200,65.692,ca06d266-26e8-4b64-a51a-63af60187049,relaxed,,,,0
+measured,1980,gw_noscan,200,70.447,c7b5a697-9026-425f-a152-3f8e8a782da5,relaxed,,,,0
+measured,1981,direct,200,52.283,,,,,,
+measured,1982,direct,200,52.069,,,,,,
+measured,1983,gw_cold,200,88.959,21528be5-d0ff-4e6a-9c0d-856d0e6f5ca3,applied; entities=0,True,1,0,17
+measured,1984,gw_cached,200,69.909,5186b500-9c9f-4818-89ed-1a408e1608c1,applied; entities=0,False,1,1,0
+measured,1985,gw_cached,200,69.235,176937a2-2627-47b9-b097-f98c966c41ae,applied; entities=0,False,1,1,0
+measured,1986,gw_noscan,200,65.154,7483d2a9-3910-41c9-8b1b-5acd68e7cef1,relaxed,,,,0
+measured,1987,gw_noscan,200,63.62,ccbe72d2-63c0-4ce7-98d7-36db6cf09120,relaxed,,,,0
+measured,1988,gw_noscan,200,63.726,c0f2bcae-2b78-49bb-9db6-5daab76d260b,relaxed,,,,0
+measured,1989,gw_cached,200,64.175,751231e9-cad2-4892-b565-709fb8ff2b8b,applied; entities=0,False,1,1,0
+measured,1990,direct,200,51.495,,,,,,
+measured,1991,gw_noscan,200,62.272,58435049-4d6c-4749-9dea-2e11dec943f0,relaxed,,,,0
+measured,1992,gw_cached,200,64.144,705823a6-5f5d-4b03-a815-004f98264f65,applied; entities=0,False,1,1,0
+measured,1993,direct,200,51.573,,,,,,
+measured,1994,direct,200,51.516,,,,,,
+measured,1995,gw_cold,200,72.176,858b4c2e-f717-4a1a-aa6f-6f2ee157c9b7,applied; entities=0,True,1,0,8
+measured,1996,direct,200,51.198,,,,,,
+measured,1997,gw_cold,200,71.762,039bdc7d-d8b3-48a5-be84-29dbd7346e51,applied; entities=0,True,1,0,7
+measured,1998,direct,200,51.762,,,,,,
+measured,1999,gw_noscan,200,62.731,0ee6c50e-9396-4169-9db4-6e6aa9f41fea,relaxed,,,,0

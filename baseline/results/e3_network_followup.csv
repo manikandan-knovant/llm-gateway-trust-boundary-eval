@@ -1,0 +1,7 @@
+probe,result,docker_engine,observed_at_utc
+A gateway -> B gateway 4000 (published to host),tcp-connected; GET /health/liveliness 200; chat with a non-B key 401,"29.0.1 (linux, WSL2 kernel 6.6.87.2)",2026-11-09T16:53:45Z
+A gateway -> B console-api 8080 (published),tcp-connected,"29.0.1 (linux, WSL2 kernel 6.6.87.2)",2026-11-09T16:53:45Z
+A gateway -> B mock 8080 (published),tcp-connected,"29.0.1 (linux, WSL2 kernel 6.6.87.2)",2026-11-09T16:53:45Z
+A gateway -> B dev-issuer 8090 (published),tcp-connected,"29.0.1 (linux, WSL2 kernel 6.6.87.2)",2026-11-09T16:53:45Z
+A gateway -> B postgres 5432 (not published),tcp-failed: TimeoutError,"29.0.1 (linux, WSL2 kernel 6.6.87.2)",2026-11-09T16:53:45Z
+"A gateway -> B gateway 4001 (no listener, not published)",tcp-failed: TimeoutError,"29.0.1 (linux, WSL2 kernel 6.6.87.2)",2026-11-09T16:53:45Z

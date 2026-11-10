@@ -1,0 +1,37 @@
+{
+ "cpu_model": "Intel Core Ultra 9 185H",
+ "physical_cores": 16,
+ "logical_threads": 22,
+ "cpu_base_clock_mhz": 2300,
+ "ram_gib": 63.5,
+ "os": "Windows 11 Home 10.0.26200 (build 26200)",
+ "docker": "Docker Desktop, client and engine 29.0.1, WSL2 backend, Linux kernel 6.6.87.2-microsoft-standard-WSL2, cgroup v2",
+ "docker_vm_cpus": 22,
+ "docker_vm_memory_gib": 31.1,
+ "docker_vm_limits_source": "WSL2 defaults: no .wslconfig and no CPU or memory values in Docker Desktop settings (all logical threads; half of host RAM)",
+ "container_limits": {
+  "gateway": {
+   "NanoCpus": 0,
+   "CpuQuota": 0,
+   "CpuShares": 0,
+   "CpusetCpus": "",
+   "Memory": 0
+  },
+  "presidio-analyzer": {
+   "NanoCpus": 0,
+   "CpuQuota": 0,
+   "CpuShares": 0,
+   "CpusetCpus": "",
+   "Memory": 0
+  },
+  "mock-upstream": {
+   "NanoCpus": 0,
+   "CpuQuota": 0,
+   "CpuShares": 0,
+   "CpusetCpus": "",
+   "Memory": 0
+  }
+ },
+ "container_limits_note": "no CPU or memory limit on any E14 container (0 = unlimited)",
+ "other_containers_running": "3 unrelated idle containers (about 0% CPU each)"
+}

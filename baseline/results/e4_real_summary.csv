@@ -1,0 +1,3 @@
+model,snapshot,prompts,status_200,restore_success,rate,ci95_low,ci95_high,identifiers,received_masked,received_partial,received_leaked,fate_kept,fate_altered_restorable,fate_altered_unrestorable,fate_absent,values_in_final,finish_length,residual_in_final,spend_usd
+real-mini,gpt-5-mini-2025-08-07,100,100,100,1.0,0.963,1.0,400,360,13,27,373,0,0,0,400,0,0,0.0125
+real-gpt5,gpt-5-2025-08-07,100,100,100,1.0,0.963,1.0,400,360,13,27,373,0,0,0,400,0,0,0.0631

@@ -1,0 +1,411 @@
+phase,seq,arm,status,error_code,latency_ms,model,prompt_tokens,completion_tokens,cost_usd,gateway_cost_header,pseudonymization
+warmup,0,gateway,200,,1622.3,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+warmup,1,direct,200,,1360.6,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+warmup,2,direct,200,,1217.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+warmup,3,direct,200,,1087.4,gpt-5-mini-2025-08-07,35,32,7.275e-05,,
+warmup,4,gateway,200,,1147.6,real-mini,31,28,6.375e-05,0.00006375,applied; entities=0
+warmup,5,direct,200,,1534.2,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+warmup,6,gateway,200,,1064.0,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+warmup,7,gateway,200,,1290.2,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+warmup,8,direct,200,,1098.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+warmup,9,gateway,200,,1061.8,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,0,direct,200,,1441.1,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,1,gateway,200,,1037.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,2,gateway,200,,1652.9,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,3,direct,200,,1048.3,gpt-5-mini-2025-08-07,33,31,7.025e-05,,
+measured,4,gateway,200,,1145.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,5,gateway,200,,1077.2,real-mini,31,28,6.375e-05,0.00006375,applied; entities=0
+measured,6,direct,200,,1070.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,7,gateway,200,,1103.4,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,8,direct,200,,1136.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,9,direct,200,,1134.6,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,10,direct,200,,1175.5,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,11,gateway,200,,1092.5,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,12,direct,200,,1198.7,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,13,direct,200,,1013.1,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,14,direct,200,,1077.0,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,15,gateway,200,,1153.2,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,16,direct,200,,1004.8,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,17,gateway,200,,1077.9,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,18,gateway,200,,918.1,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,19,direct,200,,961.3,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,20,direct,200,,1054.9,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,21,direct,200,,1173.2,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,22,direct,200,,1349.5,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,23,gateway,200,,1070.9,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,24,direct,200,,1246.9,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,25,gateway,200,,1128.8,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,26,direct,200,,1057.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,27,gateway,200,,1161.4,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,28,direct,200,,1132.8,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,29,direct,200,,1159.6,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,30,gateway,200,,1301.5,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,31,gateway,200,,1137.7,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,32,gateway,200,,1278.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,33,gateway,200,,1347.6,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,34,direct,200,,1090.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,35,direct,200,,1091.6,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,36,direct,200,,1133.8,gpt-5-mini-2025-08-07,36,33,7.5e-05,,
+measured,37,gateway,200,,1440.5,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,38,gateway,200,,964.6,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,39,direct,200,,1018.9,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,40,gateway,200,,1112.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,41,gateway,200,,1383.1,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,42,gateway,200,,1065.1,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,43,gateway,200,,1260.6,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,44,direct,200,,1183.6,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,45,direct,200,,1254.8,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,46,direct,200,,1093.3,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,47,direct,200,,1247.4,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,48,gateway,200,,1081.8,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,49,direct,200,,1241.5,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,50,gateway,200,,1068.4,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,51,gateway,200,,1252.9,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,52,direct,200,,1026.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,53,direct,200,,1106.6,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,54,direct,200,,1261.4,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,55,direct,200,,1186.7,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,56,direct,200,,1051.1,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,57,gateway,200,,1158.7,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,58,direct,200,,1483.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,59,direct,200,,1520.3,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,60,gateway,200,,1078.4,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,61,direct,200,,1008.0,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,62,direct,200,,1019.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,63,gateway,200,,1038.4,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,64,direct,200,,1123.1,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,65,gateway,200,,1020.9,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,66,gateway,200,,1034.5,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,67,gateway,200,,1095.6,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,68,gateway,200,,1167.8,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,69,gateway,200,,987.2,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,70,gateway,200,,1181.1,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,71,direct,200,,1324.6,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,72,direct,200,,1097.4,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,73,gateway,200,,980.3,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,74,gateway,200,,1107.2,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,75,gateway,200,,1108.2,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,76,gateway,200,,1085.8,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,77,direct,200,,1222.0,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,78,gateway,200,,1053.1,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,79,direct,200,,1560.2,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,80,direct,200,,1047.9,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,81,gateway,200,,1176.6,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,82,direct,200,,1351.8,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,83,direct,200,,1201.6,gpt-5-mini-2025-08-07,36,32,7.3e-05,,
+measured,84,direct,200,,1172.2,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,85,gateway,200,,1074.5,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,86,direct,200,,1041.0,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,87,direct,200,,1205.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,88,gateway,200,,1439.0,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,89,direct,200,,1189.0,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,90,direct,200,,1047.6,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,91,direct,200,,992.9,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,92,gateway,200,,1081.3,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,93,direct,200,,1122.6,gpt-5-mini-2025-08-07,36,32,7.3e-05,,
+measured,94,direct,200,,1104.6,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,95,direct,200,,1091.8,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,96,gateway,200,,1041.7,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,97,direct,200,,1271.2,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,98,direct,200,,937.5,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,99,direct,200,,1452.3,gpt-5-mini-2025-08-07,36,32,7.3e-05,,
+measured,100,direct,200,,1227.7,gpt-5-mini-2025-08-07,31,27,6.175e-05,,
+measured,101,gateway,200,,1129.6,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,102,direct,200,,1129.4,gpt-5-mini-2025-08-07,33,31,7.025e-05,,
+measured,103,gateway,200,,1122.1,real-mini,35,32,7.275e-05,0.00007275,applied; entities=0
+measured,104,direct,200,,1112.1,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,105,gateway,200,,1175.0,real-mini,35,32,7.275e-05,0.00007275,applied; entities=0
+measured,106,direct,200,,1238.3,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,107,gateway,200,,1280.3,real-mini,36,33,7.5e-05,0.000075,applied; entities=0
+measured,108,gateway,200,,1160.4,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,109,direct,200,,1404.9,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,110,direct,200,,1389.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,111,gateway,200,,1095.6,real-mini,36,33,7.5e-05,0.000075,applied; entities=0
+measured,112,gateway,200,,1149.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,113,gateway,200,,1060.9,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,114,gateway,200,,1190.8,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,115,gateway,200,,1175.1,real-mini,72,30,7.8e-05,0.000078,applied; entities=1; unresolved=0
+measured,116,gateway,200,,1159.0,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,117,direct,200,,1055.7,gpt-5-mini-2025-08-07,35,50,0.00010875,,
+measured,118,gateway,200,,1194.7,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,119,gateway,200,,1252.9,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,120,direct,200,,1141.1,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,121,direct,200,,954.6,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,122,direct,200,,1038.2,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,123,gateway,200,,1141.3,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,124,gateway,200,,1407.5,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,125,direct,200,,899.9,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,126,gateway,200,,1198.2,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,127,direct,200,,970.3,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,128,gateway,200,,994.7,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,129,gateway,200,,1080.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,130,gateway,200,,1195.3,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,131,gateway,200,,1169.6,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,132,direct,200,,1052.4,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,133,gateway,200,,1100.5,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,134,direct,200,,971.2,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,135,gateway,200,,1212.0,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,136,direct,200,,1192.0,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,137,gateway,200,,970.1,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,138,direct,200,,1136.1,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,139,direct,200,,1146.1,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,140,gateway,200,,1647.6,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,141,direct,200,,1751.7,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,142,direct,200,,1002.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,143,gateway,200,,1184.1,real-mini,31,27,6.175e-05,0.00006175,applied; entities=0
+measured,144,direct,200,,1484.1,gpt-5-mini-2025-08-07,34,32,7.25e-05,,
+measured,145,direct,200,,1397.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,146,gateway,200,,1176.1,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,147,direct,200,,1320.4,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,148,direct,200,,1114.9,gpt-5-mini-2025-08-07,36,32,7.3e-05,,
+measured,149,gateway,200,,1374.3,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,150,direct,200,,1302.5,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,151,direct,200,,1215.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,152,direct,200,,1171.0,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,153,gateway,200,,1083.3,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,154,direct,200,,1368.0,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,155,gateway,200,,1351.5,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,156,gateway,200,,1563.5,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,157,gateway,200,,1163.6,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,158,gateway,200,,1426.8,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,159,direct,200,,1353.6,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,160,gateway,200,,1243.3,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,161,direct,200,,1146.8,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,162,direct,200,,1070.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,163,direct,200,,1214.2,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,164,gateway,200,,1367.8,real-mini,31,28,6.375e-05,0.00006375,applied; entities=0
+measured,165,direct,200,,1086.5,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,166,gateway,200,,1071.7,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,167,gateway,200,,1016.0,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,168,gateway,200,,1150.1,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,169,direct,200,,1305.0,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,170,direct,200,,1208.7,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,171,gateway,200,,1168.3,real-mini,37,34,7.725e-05,0.00007725,applied; entities=0
+measured,172,gateway,200,,1133.3,real-mini,33,31,7.025e-05,0.00007025,applied; entities=0
+measured,173,direct,200,,950.4,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,174,gateway,200,,1052.6,real-mini,37,33,7.525e-05,0.00007525,applied; entities=0
+measured,175,gateway,200,,1031.2,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,176,direct,200,,1438.3,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,177,gateway,200,,1114.8,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,178,direct,200,,987.8,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,179,direct,200,,989.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,180,gateway,200,,941.2,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,181,gateway,200,,1057.3,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,182,gateway,200,,1160.8,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,183,direct,200,,1163.4,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,184,gateway,200,,1328.4,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,185,gateway,200,,1155.7,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,186,direct,200,,1127.0,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,187,direct,200,,963.0,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,188,direct,200,,1070.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,189,gateway,200,,1155.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,190,direct,200,,1168.8,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,191,gateway,200,,1186.0,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,192,gateway,200,,1268.0,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,193,direct,200,,1181.4,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,194,gateway,200,,1145.1,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,195,direct,200,,1265.7,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,196,gateway,200,,1005.9,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,197,direct,200,,1145.9,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,198,direct,200,,1094.6,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,199,direct,200,,1027.4,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,200,gateway,200,,1701.8,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,201,gateway,200,,1084.3,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,202,gateway,200,,1073.2,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,203,gateway,200,,1301.4,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,204,gateway,200,,1267.6,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,205,direct,200,,1182.7,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,206,gateway,200,,1007.9,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,207,gateway,200,,1137.9,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,208,gateway,200,,1089.1,real-mini,35,32,7.275e-05,0.00007275,applied; entities=0
+measured,209,gateway,200,,1002.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,210,direct,200,,1041.8,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,211,direct,200,,1099.9,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,212,gateway,200,,1221.1,real-mini,31,28,6.375e-05,0.00006375,applied; entities=0
+measured,213,direct,200,,1061.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,214,gateway,200,,1182.1,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,215,gateway,200,,1004.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,216,gateway,200,,1025.9,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,217,direct,200,,1036.8,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,218,direct,200,,1276.1,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,219,gateway,200,,1005.5,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,220,direct,200,,1187.3,gpt-5-mini-2025-08-07,31,27,6.175e-05,,
+measured,221,direct,200,,1188.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,222,direct,200,,1224.8,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,223,direct,200,,1041.0,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,224,direct,200,,934.6,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,225,gateway,200,,1236.1,real-mini,34,33,7.45e-05,0.0000745,applied; entities=0
+measured,226,direct,200,,1152.0,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,227,gateway,200,,973.7,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,228,direct,200,,1048.1,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,229,gateway,200,,1132.1,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,230,direct,200,,1146.6,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,231,direct,200,,1134.3,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,232,direct,200,,957.1,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,233,direct,200,,1505.2,gpt-5-mini-2025-08-07,35,32,7.275e-05,,
+measured,234,gateway,200,,1065.5,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,235,gateway,200,,1055.9,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,236,gateway,200,,1441.2,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,237,direct,200,,943.1,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,238,gateway,200,,980.8,real-mini,31,28,6.375e-05,0.00006375,applied; entities=0
+measured,239,gateway,200,,1118.8,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,240,direct,200,,1086.8,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,241,direct,200,,1085.7,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,242,gateway,200,,1192.9,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,243,direct,200,,934.4,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,244,direct,200,,1400.1,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,245,gateway,200,,928.2,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,246,gateway,200,,913.1,real-mini,36,28,6.5e-05,0.000065,applied; entities=0
+measured,247,direct,200,,1144.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,248,gateway,200,,998.3,real-mini,31,27,6.175e-05,0.00006175,applied; entities=0
+measured,249,direct,200,,1005.4,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,250,gateway,200,,1182.6,real-mini,35,32,7.275e-05,0.00007275,applied; entities=0
+measured,251,gateway,200,,1028.7,real-mini,36,34,7.7e-05,0.000077,applied; entities=0
+measured,252,direct,200,,921.7,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,253,gateway,200,,1295.7,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,254,direct,200,,1079.7,gpt-5-mini-2025-08-07,31,27,6.175e-05,,
+measured,255,direct,200,,1125.9,gpt-5-mini-2025-08-07,35,32,7.275e-05,,
+measured,256,gateway,200,,1022.0,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,257,direct,200,,1481.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,258,direct,200,,1327.0,gpt-5-mini-2025-08-07,31,27,6.175e-05,,
+measured,259,direct,200,,1182.1,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,260,direct,200,,1153.3,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,261,direct,200,,1272.8,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,262,gateway,200,,1481.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,263,direct,200,,1166.5,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,264,direct,200,,1302.2,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,265,gateway,200,,1052.4,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,266,gateway,200,,961.6,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,267,direct,200,,1188.8,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,268,direct,200,,943.4,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,269,gateway,200,,1182.4,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,270,direct,200,,1012.6,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,271,direct,200,,1098.5,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,272,direct,200,,1509.9,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,273,gateway,200,,1245.1,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,274,gateway,200,,1257.1,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,275,gateway,200,,1243.1,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,276,direct,200,,1096.0,gpt-5-mini-2025-08-07,31,28,6.375e-05,,
+measured,277,direct,200,,1430.6,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,278,gateway,200,,1092.9,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,279,gateway,200,,1554.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,280,direct,200,,1158.6,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,281,gateway,200,,1235.0,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,282,gateway,200,,1388.6,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,283,gateway,200,,1420.8,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,284,gateway,200,,1347.0,real-mini,35,32,7.275e-05,0.00007275,applied; entities=0
+measured,285,direct,200,,1162.0,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,286,direct,200,,1271.1,gpt-5-mini-2025-08-07,36,34,7.7e-05,,
+measured,287,gateway,200,,1156.9,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,288,direct,200,,1420.2,gpt-5-mini-2025-08-07,36,33,7.5e-05,,
+measured,289,gateway,200,,1231.6,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,290,gateway,200,,1445.8,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,291,direct,200,,1101.2,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,292,direct,200,,1203.9,gpt-5-mini-2025-08-07,36,32,7.3e-05,,
+measured,293,direct,200,,1152.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,294,gateway,200,,1029.1,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,295,direct,200,,994.5,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,296,direct,200,,975.3,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,297,direct,200,,1071.2,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,298,direct,200,,1334.6,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,299,gateway,200,,1443.1,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,300,gateway,200,,1216.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,301,direct,200,,1133.0,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,302,gateway,200,,1059.7,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,303,direct,200,,1430.6,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,304,gateway,200,,1221.3,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,305,direct,200,,1091.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,306,direct,200,,1179.8,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,307,gateway,200,,1034.6,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,308,gateway,200,,1828.7,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,309,gateway,200,,1281.8,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,310,gateway,200,,990.6,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,311,gateway,200,,1521.3,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,312,direct,200,,1697.8,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,313,direct,200,,1151.6,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,314,gateway,200,,1112.2,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,315,gateway,200,,1051.5,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,316,gateway,200,,980.0,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,317,direct,200,,1066.2,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,318,direct,200,,1362.1,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,319,gateway,200,,1460.0,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,320,gateway,200,,1225.4,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,321,direct,200,,1208.9,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,322,gateway,200,,1162.1,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,323,direct,200,,1101.8,gpt-5-mini-2025-08-07,31,27,6.175e-05,,
+measured,324,gateway,200,,1338.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,325,gateway,200,,1236.6,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,326,gateway,200,,1093.9,real-mini,34,31,7.05e-05,0.0000705,applied; entities=0
+measured,327,direct,200,,1023.9,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,328,gateway,200,,1359.7,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,329,direct,200,,1033.7,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,330,gateway,200,,1108.0,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,331,direct,200,,1578.7,gpt-5-mini-2025-08-07,34,33,7.45e-05,,
+measured,332,gateway,200,,1092.5,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,333,gateway,200,,1207.3,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,334,gateway,200,,1192.8,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,335,gateway,200,,1210.2,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,336,direct,200,,1132.6,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,337,direct,200,,1172.8,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,338,gateway,200,,1044.3,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,339,direct,200,,1267.0,gpt-5-mini-2025-08-07,35,32,7.275e-05,,
+measured,340,direct,200,,1290.6,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,341,direct,200,,1831.9,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,342,gateway,200,,1154.3,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,343,gateway,200,,1152.2,real-mini,33,31,7.025e-05,0.00007025,applied; entities=0
+measured,344,gateway,200,,1122.5,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,345,direct,200,,1229.4,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,346,gateway,200,,1167.7,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,347,gateway,200,,1243.0,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,348,gateway,200,,1488.0,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,349,gateway,200,,1153.6,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,350,direct,200,,1290.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,351,gateway,200,,959.0,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,352,gateway,200,,1006.9,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,353,gateway,200,,1139.1,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,354,direct,200,,998.3,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,355,gateway,200,,1170.2,real-mini,35,34,7.675e-05,0.00007675,applied; entities=0
+measured,356,direct,200,,981.5,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,357,direct,200,,1061.5,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,358,direct,200,,1149.4,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,359,gateway,200,,1239.9,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,360,gateway,200,,1077.6,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,361,gateway,200,,902.8,real-mini,31,28,6.375e-05,0.00006375,applied; entities=0
+measured,362,direct,200,,929.4,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,363,direct,200,,1217.4,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,364,gateway,200,,1319.4,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,365,gateway,200,,1105.8,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,366,direct,200,,988.5,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,367,gateway,200,,1136.7,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,368,direct,200,,986.6,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,369,gateway,200,,1215.7,real-mini,34,32,7.25e-05,0.0000725,applied; entities=0
+measured,370,direct,200,,1379.6,gpt-5-mini-2025-08-07,35,32,7.275e-05,,
+measured,371,gateway,200,,952.1,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,372,direct,200,,1116.5,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,373,direct,200,,974.5,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,374,gateway,200,,1257.2,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,375,direct,200,,976.8,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,376,direct,200,,1460.5,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,377,direct,200,,1340.6,gpt-5-mini-2025-08-07,33,30,6.825e-05,,
+measured,378,gateway,200,,1147.8,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,379,gateway,200,,1103.9,real-mini,36,32,7.3e-05,0.000073,applied; entities=0
+measured,380,gateway,200,,1050.6,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,381,direct,200,,1217.0,gpt-5-mini-2025-08-07,32,28,6.4e-05,,
+measured,382,gateway,200,,1317.6,real-mini,34,30,6.85e-05,0.0000685,applied; entities=0
+measured,383,gateway,200,,1280.7,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,384,gateway,200,,1297.5,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0
+measured,385,direct,200,,983.4,gpt-5-mini-2025-08-07,32,29,6.6e-05,,
+measured,386,direct,200,,1259.1,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,387,gateway,200,,1185.4,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,388,direct,200,,1088.7,gpt-5-mini-2025-08-07,36,32,7.3e-05,,
+measured,389,gateway,200,,1028.5,real-mini,32,29,6.6e-05,0.000066,applied; entities=0
+measured,390,gateway,200,,1045.4,real-mini,33,30,6.825e-05,0.00006825,applied; entities=0
+measured,391,direct,200,,1254.8,gpt-5-mini-2025-08-07,34,31,7.05e-05,,
+measured,392,direct,200,,1141.0,gpt-5-mini-2025-08-07,33,32,7.225e-05,,
+measured,393,direct,200,,1156.0,gpt-5-mini-2025-08-07,35,31,7.075e-05,,
+measured,394,gateway,200,,1313.3,real-mini,32,28,6.4e-05,0.000064,applied; entities=0
+measured,395,gateway,200,,1160.6,real-mini,33,29,6.625e-05,0.00006625,applied; entities=0
+measured,396,direct,200,,1500.1,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,397,direct,200,,1199.8,gpt-5-mini-2025-08-07,34,30,6.85e-05,,
+measured,398,direct,200,,1199.0,gpt-5-mini-2025-08-07,33,29,6.625e-05,,
+measured,399,gateway,200,,1320.3,real-mini,35,31,7.075e-05,0.00007075,applied; entities=0

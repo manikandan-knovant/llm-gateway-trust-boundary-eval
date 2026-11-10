@@ -1,0 +1,15 @@
+value_shape,label_before,fix_build_status,count
+AA-999999,mrn,leaked,44
+999-99-9999,mrn,masked,25
+999999999,mrn,masked,23
+99999999,mrn,masked,20
+AAA-999999,mrn,leaked,18
+999-99-999,mrn,leaked,13
+#AA-999999,mrn,leaked,10
+AA-99999,mrn,leaked,9
+AA-999999,mrn,masked,6
+AAAA-999999,mrn,leaked,5
+999-999-999,mrn,leaked,5
+99999,mrn,leaked,5
+AA-99999,mrn,masked,4
+AAA-99999,mrn,leaked,4

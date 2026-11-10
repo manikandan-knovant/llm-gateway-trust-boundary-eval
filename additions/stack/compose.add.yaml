@@ -1,0 +1,110 @@
+# Research additions (E7-E12): ONE synthetic tenant per compose project (itpro-add-*). The gateway image is chosen per
+# project (GW_IMAGE: baseline 6fb0334 or fix 3c468b0). Product code and shipped config are used read-only; only the
+# route list is replaced (harness/research_config5.py). All values are local research values.
+
+x-gw: &gw
+  image: ${GW_IMAGE}
+  pull_policy: never
+
+services:
+  postgres:
+    image: postgres:16
+    environment: {POSTGRES_USER: gateway, POSTGRES_PASSWORD: "${PG_PASSWORD}", POSTGRES_DB: litellm}
+    healthcheck: {test: ["CMD-SHELL", "pg_isready -U gateway -d litellm"], interval: 3s, retries: 30}
+
+  presidio-analyzer:
+    profiles: ["presidio"]
+    image: mcr.microsoft.com/presidio-analyzer:2.2.362
+    environment: {WORKERS: "2", GUNICORN_CMD_ARGS: "--preload --timeout 120 --graceful-timeout 30"}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:3000/health', timeout=2)"]
+      interval: 5s
+      retries: 60
+      start_period: 60s
+
+  mock-upstream:
+    image: python:3.12-slim
+    command: ["python", "/harness/mock5.py"]
+    environment: {MOCK_DELAY_MS: "${MOCK_DELAY_MS:-50}"}
+    volumes: ["../harness:/harness:ro"]
+    ports: ["127.0.0.1:${MOCK_PORT}:8080"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+
+  recorder-openai:
+    <<: *gw
+    profiles: ["real"]
+    entrypoint: ["python", "/harness/recorder5.py"]
+    environment: {RECORDER_UPSTREAM: "<OPENAI_API_BASE>"}
+    volumes: ["../harness:/harness:ro"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+
+  recorder-anthropic:
+    <<: *gw
+    profiles: ["real"]
+    entrypoint: ["python", "/harness/recorder5.py"]
+    environment: {RECORDER_UPSTREAM: "<ANTHROPIC_API_BASE>"}
+    volumes: ["../harness:/harness:ro"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+
+  gateway:
+    <<: *gw
+    depends_on:
+      postgres: {condition: service_healthy}
+      mock-upstream: {condition: service_healthy}
+      presidio-analyzer: {condition: service_healthy, required: false}
+      recorder-openai: {condition: service_healthy, required: false}
+      recorder-anthropic: {condition: service_healthy, required: false}
+    environment:
+      LITELLM_MASTER_KEY: ${MASTER_KEY}
+      GATEWAY_DEPLOYMENT_ENVIRONMENT: local
+      DATABASE_URL: postgresql://gateway:${PG_PASSWORD}@postgres:5432/litellm
+      GATEWAY_TENANT_POLICY_PATH: /stack/${POLICY_FILE}
+      GATEWAY_LITELLM_CONFIG_PATH: /tmp/gw/config.yaml
+      GATEWAY_COST_GUARD: ${COST_GUARD}
+      GATEWAY_CONSOLE_DATABASE_URL: postgresql://gw_console:${CONSOLE_PG_PASSWORD}@postgres:5432/litellm
+      LITELLM_LOCAL_MODEL_COST_MAP: "True"
+      GW_OPENAI_API_KEY: ${GW_OPENAI_API_KEY:-}
+      GW_ANTHROPIC_API_KEY: ${GW_ANTHROPIC_API_KEY:-}
+    volumes: ["../stack:/stack:ro", "../harness:/harness:ro"]
+    entrypoint:
+      - sh
+      - -c
+      - >-
+        mkdir -p /tmp/gw && cp /app/gateway_callbacks.py /tmp/gw/ &&
+        python /harness/research_config5.py /app/config.yaml /stack/${ROUTES_FILE} /tmp/gw/config.yaml &&
+        exec litellm --config /tmp/gw/config.yaml --port 4000 --num_workers 1
+    ports: ["127.0.0.1:${GW_PORT}:4000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:4000/health/liveliness', timeout=3)"]
+      interval: 5s
+      retries: 60
+      start_period: 20s
+
+  harness:
+    <<: *gw
+    profiles: ["tools"]
+    environment: {PYTHONDONTWRITEBYTECODE: "1"}
+    volumes: ["../:/research"]
+    working_dir: /research/harness
+    entrypoint: ["python"]
+
+  admin:
+    <<: *gw
+    profiles: ["tools"]
+    environment:
+      GATEWAY_URL: http://gateway:4000
+      MASTER_KEY: ${MASTER_KEY}
+      DATABASE_URL: postgresql://gateway:${PG_PASSWORD}@postgres:5432/litellm
+      GATEWAY_TENANT_ID: ${TENANT_SLUG}
+      GATEWAY_ADMIN_ACTOR: research-harness
+    volumes: ["${GATEWAY_ADMIN_DIR:?path to the gateway tenant-admin scripts}:/admin:ro"]
+    entrypoint: ["python", "/admin/tenant_admin.py"]

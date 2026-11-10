@@ -1,0 +1,27 @@
+id,scope,attempt,expected_status,expected_rows,observed_status,observed_code,observed_rows,strict_match,access_denied,kind
+X1,cross-tenant,tenant A application key calls tenant B chat,401,,401,invalid_credentials,,True,True,attack
+X2,cross-tenant,tenant A master key calls tenant B key management (/key/generate),403,,403,endpoint_not_supported,,True,True,attack
+X3,cross-tenant,tenant A master key calls tenant B chat,401,,401,invalid_credentials,,True,True,attack
+X4,cross-tenant,tenant A per-run key calls tenant B chat,401,,401,invalid_credentials,,True,True,attack
+X5,cross-tenant,tenant A issuer key mints a run key on tenant B,401,,401,invalid_credentials,,True,True,attack
+X6,cross-tenant,"tenant A console token (A issuer, A audience) reads tenant B requests",401,,401,invalid_token,,True,True,attack
+X7,cross-tenant,"token minted at tenant A issuer with tenant B audience, tenant and owner group, to B console",401,,401,invalid_token,,True,True,attack
+X8,cross-tenant,network: tenant A gateway container opens TCP to tenant B Postgres,conn_fail,,conn_fail,failed:TimeoutError,,True,True,attack
+X9,cross-tenant,network: tenant A gateway container opens TCP to tenant B gateway,conn_fail,,connected,connected,,False,False,attack
+X10,cross-tenant,network: tenant A gateway container resolves tenant B container names,conn_fail,,conn_fail,failed:gaierror,,True,True,attack
+Y1,cross-project,proj1 key requests a logical model only proj2 may use,403,,403,model_not_permitted,,True,True,attack
+Y2,cross-project,proj1 key reads the library's spend logs (/spend/logs),403,,403,endpoint_not_supported,,True,True,attack
+Y3,cross-project,proj1 key reads proj2's key info (/key/info),403,,403,endpoint_not_supported,,True,True,attack
+Y4,cross-project,proj1 key reads proj2's team info (/team/info),403,,403,endpoint_not_supported,,True,True,attack
+Y5,cross-project,proj1 issuer reads usage of a run issued by proj2's issuer,404,,404,run_key_not_found,,True,True,attack
+Y6,cross-project,proj1 issuer revokes a run issued by proj2's issuer,404,,404,run_key_not_found,,True,True,attack
+Y7,cross-project,proj1 per-run key requests proj2's logical model,403,,403,model_not_permitted,,True,True,attack
+Y8,cross-project,proj1-scoped console developer lists proj2 requests (?project=proj2),200,0,200,,0,True,True,attack
+Y9,cross-project,proj1-scoped console developer opens a proj2 request by id,404,,404,not_found,,True,True,attack
+Y10,cross-project,proj1-scoped console developer reads proj2 cost,403,,403,forbidden,,True,True,attack
+Y11,cross-project,proj1-scoped console developer assigns itself a role,403,,403,forbidden,,True,True,attack
+P1,positive,tenant A proj1 key calls tenant A chat,200,,200,,,True,,control
+P2,positive,tenant B proj1 key calls tenant B chat,200,,200,,,True,,control
+P3,positive,proj1-scoped console developer lists proj1 requests,200,>=1,200,,3,True,,control
+P4,positive,proj1 issuer reads usage of its own run,200,,200,,,True,,control
+P5,positive,tenant A owner token reads /v1/me on tenant A console,200,,200,,,True,,control

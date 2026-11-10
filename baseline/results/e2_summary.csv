@@ -1,0 +1,5 @@
+scenario,fault,classification,requests_total,failed_before,failed_during,requests_during,served_by_fallback_during,time_to_switch_s,first_fallback_request_latency_ms,failed_during_median_latency_ms,latency_during_median_ms,latency_during_p95_ms,failed_after,served_by_fallback_after,recovery_to_primary_s,error_statuses,example_error_body
+a,503,internal (default),375,0,0,100,100,0.0,136.4,,132.2,142.3,0,0,0.0,,
+b,429,internal (default),375,0,0,100,90,0.0,5280.1,,4937.4,5425.0,0,0,0.0,,
+c,503,restricted; PII,375,0,100,100,0,,,91.3,,,0,0,0.0,503 503,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailableNo fallback model group found for lookup_groups=fo-primary--mock. Fallbacks=[]. Received Model Group=fo-primary--mock\nAvailable Model Group Fallbacks=None\nError doing the fallb"
+d,timeout,internal (default),375,0,100,100,0,,,5048.4,,,0,0,0.0,504 upstream_timeout,"{""error"":{""message"":""the model did not answer within the time limit; the gateway did not retry"",""type"":""upstream_error"",""param"":null,""code"":""upstream_timeout"",""policy_id"":""<tenant-id-a>-policy@v1""}}"

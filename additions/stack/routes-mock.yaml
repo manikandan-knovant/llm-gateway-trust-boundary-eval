@@ -1,0 +1,6 @@
+# Research routes for the mock tenants: every route goes to the local mock upstream (one target per route).
+routes:
+  - {name: bench--mock,       model: openai/mock-model, api_base: "http://mock-upstream:8080/bench/v1",    timeout: 60}
+  - {name: phi--mock,         model: openai/mock-model, api_base: "http://mock-upstream:8080/phi/v1",      timeout: 60}
+  - {name: fo-primary--mock,  model: openai/mock-model, api_base: "http://mock-upstream:8080/primary/v1",  timeout: 5}
+  - {name: fo-fallback--mock, model: openai/mock-model, api_base: "http://mock-upstream:8080/fallback/v1", timeout: 5}

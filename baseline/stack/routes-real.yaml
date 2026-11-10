@@ -1,0 +1,7 @@
+# Research routes for the real-provider sample: the OpenAI direct API (route type of the shipped *--openai routes),
+# key referenced from GW_OPENAI_API_KEY (never copied). REAL_API_BASE: the provider (E1-real) or the body recorder
+# in front of it (E4-real, E6). A mock route stays for the tenant's other tooling.
+routes:
+  - {name: real-mini--openai, model: openai/gpt-5-mini-2025-08-07, api_base: "${REAL_API_BASE}", api_key: "env:GW_OPENAI_API_KEY", timeout: 120}
+  - {name: real-gpt5--openai, model: openai/gpt-5-2025-08-07,      api_base: "${REAL_API_BASE}", api_key: "env:GW_OPENAI_API_KEY", timeout: 180}
+  - {name: bench--mock,       model: openai/mock-model, api_base: "http://mock-upstream:8080/bench/v1", timeout: 60}

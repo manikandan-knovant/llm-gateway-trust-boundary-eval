@@ -1,0 +1,151 @@
+# Baseline build 2026-11-09: ONE synthetic tenant per compose project (research only).
+# The product's shipped config and code are used read-only; only the route list is replaced (harness/research_config.py).
+#
+#   docker compose -p itpro-a --env-file stack/tenant-a.env -f stack/compose.tenant.yaml up -d --wait
+#   docker compose -p itpro-b --env-file stack/tenant-b.env -f stack/compose.tenant.yaml up -d --wait
+#   (real provider: harness/keyenv.py wraps the command and sets GW_OPENAI_API_KEY for that process only)
+#   docker compose -p itpro-a --env-file stack/tenant-a.env -f stack/compose.tenant.yaml down -v
+#
+# Every value here is a LOCAL research value (synthetic tenants, local-only passwords and master keys).
+
+x-gw: &gw
+  image: itpro-gateway:baseline-2026-11-09
+  pull_policy: never
+
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: gateway
+      POSTGRES_PASSWORD: ${PG_PASSWORD}
+      POSTGRES_DB: litellm
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U gateway -d litellm"]
+      interval: 3s
+      retries: 30
+
+  presidio-analyzer:
+    profiles: ["presidio"]
+    image: mcr.microsoft.com/presidio-analyzer:2.2.362     # the image the product's local stack pins
+    environment:
+      WORKERS: "2"
+      GUNICORN_CMD_ARGS: "--preload --timeout 120 --graceful-timeout 30"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:3000/health', timeout=2)"]
+      interval: 5s
+      retries: 60
+      start_period: 60s
+
+  mock-upstream:
+    image: python:3.12-slim
+    command: ["python", "/harness/mock_upstream.py"]
+    environment:
+      MOCK_DELAY_MS: "50"
+    volumes: ["../harness:/harness:ro"]
+    ports: ["127.0.0.1:${MOCK_PORT}:8080"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+
+  # Real-provider runs only: a body-recording pass-through to the provider (records request and response BODIES;
+  # never headers, so never the key). Used for E4-real and E6 to show what the provider received.
+  recorder:
+    <<: *gw
+    profiles: ["real"]
+    entrypoint: ["python", "/harness/recorder_proxy.py"]
+    volumes: ["../harness:/harness:ro"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+
+  gateway:
+    <<: *gw
+    depends_on:
+      postgres: {condition: service_healthy}
+      mock-upstream: {condition: service_healthy}
+      presidio-analyzer: {condition: service_healthy, required: false}
+      recorder: {condition: service_healthy, required: false}
+    environment:
+      LITELLM_MASTER_KEY: ${MASTER_KEY}
+      GATEWAY_DEPLOYMENT_ENVIRONMENT: local
+      DATABASE_URL: postgresql://gateway:${PG_PASSWORD}@postgres:5432/litellm
+      GATEWAY_TENANT_POLICY_PATH: /stack/${POLICY_FILE}
+      GATEWAY_LITELLM_CONFIG_PATH: /tmp/gw/config.yaml
+      GATEWAY_COST_GUARD: ${COST_GUARD}
+      GATEWAY_CONSOLE_DATABASE_URL: postgresql://gw_console:${CONSOLE_PG_PASSWORD}@postgres:5432/litellm
+      LITELLM_LOCAL_MODEL_COST_MAP: "True"
+      REAL_API_BASE: ${REAL_API_BASE:-<OPENAI_API_BASE>}
+      GW_OPENAI_API_KEY: ${GW_OPENAI_API_KEY:-}
+    volumes: ["../stack:/stack:ro", "../harness:/harness:ro"]
+    entrypoint:
+      - sh
+      - -c
+      - >-
+        mkdir -p /tmp/gw && cp /app/gateway_callbacks.py /tmp/gw/ &&
+        python /harness/research_config.py /app/config.yaml /stack/${ROUTES_FILE} /tmp/gw/config.yaml &&
+        exec litellm --config /tmp/gw/config.yaml --port 4000 --num_workers 1
+    ports: ["127.0.0.1:${GW_PORT}:4000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:4000/health/liveliness', timeout=3)"]
+      interval: 5s
+      retries: 60
+      start_period: 20s
+
+  dev-issuer:
+    <<: *gw
+    environment:
+      DEV_ISSUER: http://dev-issuer:8090/v2.0
+      DEV_ISSUER_TENANT: ${IDP_TENANT}
+    volumes: ["${GATEWAY_LOCAL_ISSUER_DIR:?path to the gateway local token issuer}:/local:ro"]          # the product's local-only token stand-in, read-only
+    entrypoint: ["python", "/local/dev_issuer.py"]
+    ports: ["127.0.0.1:${ISSUER_PORT}:8090"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8090/health', timeout=2)"]
+      interval: 3s
+      retries: 30
+
+  console-api:
+    <<: *gw
+    depends_on:
+      gateway: {condition: service_healthy}
+      dev-issuer: {condition: service_healthy}
+    environment:
+      DATABASE_URL: postgresql://gw_console:${CONSOLE_PG_PASSWORD}@postgres:5432/litellm
+      CONSOLE_TENANT_ID: ${TENANT_SLUG}
+      CONSOLE_ENTRA_TENANT_ID: ${IDP_TENANT}
+      CONSOLE_API_AUDIENCES: ${CONSOLE_AUDIENCE}
+      CONSOLE_ISSUER: http://dev-issuer:8090/v2.0
+      CONSOLE_JWKS_URL: http://dev-issuer:8090/keys
+      CONSOLE_ALLOW_INSECURE_DEV_ISSUER: "1"
+      CONSOLE_BOOTSTRAP_OWNER_GROUP: ${OWNER_GROUP}
+    entrypoint: ["python", "-m", "console_api"]
+    ports: ["127.0.0.1:${CONSOLE_PORT}:8080"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/readyz', timeout=3)"]
+      interval: 3s
+      retries: 60
+
+  # Experiment client inside the tenant network (E1, E2, E1-real): both arms start from the same place.
+  harness:
+    <<: *gw
+    profiles: ["tools"]
+    environment:
+      GW_OPENAI_API_KEY: ${GW_OPENAI_API_KEY:-}
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes: ["../:/research"]
+    working_dir: /research/harness
+    entrypoint: ["python"]
+
+  admin:
+    <<: *gw
+    profiles: ["tools"]
+    environment:
+      GATEWAY_URL: http://gateway:4000
+      MASTER_KEY: ${MASTER_KEY}
+      DATABASE_URL: postgresql://gateway:${PG_PASSWORD}@postgres:5432/litellm
+      GATEWAY_TENANT_ID: ${TENANT_SLUG}
+      GATEWAY_ADMIN_ACTOR: research-harness
+    volumes: ["${GATEWAY_ADMIN_DIR:?path to the gateway tenant-admin scripts}:/admin:ro"]
+    entrypoint: ["python", "/admin/tenant_admin.py"]

@@ -1,0 +1,13 @@
+variant,fault,requests_during_fault,phi_requests_reaching_non_baa_fallback,phi_served_200_by_fallback,non_phi_served_by_fallback,phi_reaching_fallback_outside_fault,failed_phi,failed_non_phi,latency_ok_median_ms,latency_ok_p95_ms,latency_failed_median_ms,primary_attempts_per_request_mean,primary_attempts_max,requests_with_primary_retries,error_statuses,error_bodies_exposing_internals,example_error_body
+A,503,100,"44/50 = 88.0% [76.2, 94.4]",44,44/50,0,0,0,4852.9,5444.6,,2.96,3,100,,0/0,
+A,429,100,"45/50 = 90.0% [78.6, 95.7]",45,44/50,0,0,0,4892.2,5506.3,,2.96,3,100,,0/0,
+A,timeout,100,"20/50 = 40.0% [27.6, 53.8]",20,19/50,0,0,0,12465.0,20241.4,,2.71,3,100,,0/0,
+B-other,503,100,"45/50 = 90.0% [78.6, 95.7]",45,43/50,0,0,0,4803.8,5418.3,,2.96,3,100,,0/0,
+B-other,429,100,"45/50 = 90.0% [78.6, 95.7]",45,43/50,0,0,0,4762.6,5399.7,,2.94,3,100,,0/0,
+B-other,timeout,100,"19/50 = 38.0% [25.9, 51.8]",19,20/50,0,0,0,12495.9,20024.6,,2.71,3,100,,0/0,
+B-none,503,100,"44/50 = 88.0% [76.2, 94.4]",44,43/50,0,0,0,4846.8,5415.2,,2.96,3,100,,0/0,
+B-none,429,100,"44/50 = 88.0% [76.2, 94.4]",44,44/50,0,0,0,4901.9,5569.9,,2.96,3,100,,0/0,
+B-none,timeout,100,"18/50 = 36.0% [24.1, 49.9]",18,18/50,0,0,0,12370.1,20205.8,,2.71,3,100,,0/0,
+C-key,503,100,"0/50 = 0.0% [0.0, 7.1]",0,45/50,0,44,0,4667.6,5416.2,9327.7,2.95,3,100,401 401,44/44,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model="
+C-key,429,100,"0/50 = 0.0% [0.0, 7.1]",0,43/50,0,46,0,4717.3,5344.4,9470.4,2.95,3,100,401 401,46/46,"{""error"":{""message"":""litellm.RateLimitError: RateLimitError: OpenAIException - mock upstream rate limit. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tag"
+C-key,timeout,100,"0/50 = 0.0% [0.0, 7.1]",0,19/50,0,20,0,12189.2,20017.4,24339.8,2.72,3,100,401 401,20/20,"{""error"":{""message"":""litellm.Timeout: APITimeoutError - Request timed out. Error_str: Request timed out. - timeout value=5.0, time taken=5.0 seconds\n\nDeployment Info: request_timeout: None\ntimeout: 5.0. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing "

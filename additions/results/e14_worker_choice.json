@@ -1,0 +1,19 @@
+{
+ "rule": "At the soak concurrency (32), rank worker counts by throughput; take the highest whose added p95 is no more than 10% above the p95 of the next-best option by throughput; otherwise step down.",
+ "at_concurrency_32": {
+  "4": {
+   "rps": 82.0,
+   "p95_ms": 335.0
+  },
+  "2": {
+   "rps": 70.2,
+   "p95_ms": 475.0
+  },
+  "1": {
+   "rps": 61.0,
+   "p95_ms": 539.6
+  }
+ },
+ "chosen_workers": 4,
+ "note": "Applied at peak throughput instead (any level), the same rule would pick 2 workers: 114.8 req/s (p95 1730.4 ms at c=128) vs 4 workers 112.2 req/s (p95 1885.4 ms); the two differ by 2.3%."
+}

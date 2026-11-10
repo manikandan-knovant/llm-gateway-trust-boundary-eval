@@ -1,0 +1,20 @@
+{
+  "documented field: {\"tags\": [\"phi\"]}": {
+    "status": 403,
+    "error_message": "{'error': 'This feature is only available for LiteLLM Enterprise users: tags. You must be a LiteLLM Enterprise user to use this feature. If you have a license please set `LITELLM_LICENSE` in your env. Get a 7 day trial key here: https://www.litellm.ai/enterprise#trial. \\nPricing: https://www.litellm"
+  },
+  "key metadata: {\"metadata\": {\"tags\": [\"phi\"]}}": {
+    "status": 200,
+    "error_message": "",
+    "stored_metadata_tags": [
+      "phi"
+    ]
+  },
+  "key metadata: {\"metadata\": {\"tags\": [\"&phi\"]}}": {
+    "status": 200,
+    "error_message": "",
+    "stored_metadata_tags": [
+      "&phi"
+    ]
+  }
+}

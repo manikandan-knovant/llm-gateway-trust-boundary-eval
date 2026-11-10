@@ -1,0 +1,8 @@
+# E7/E12 real providers, each through its body recorder. Keys referenced from GW_* (never copied).
+# claude-sonnet-5-5 is not in LiteLLM 1.102.1's price map: priced explicitly at $2 / $10 per 1M tokens
+# (Anthropic first-party rates, Claude API reference cached 2026-10-06).
+routes:
+  - {name: real-mini--openai,   model: openai/gpt-5-mini-2025-08-07, api_base: "http://recorder-openai:8080/v1", api_key: "env:GW_OPENAI_API_KEY", timeout: 180}
+  - {name: real-gpt5--openai,   model: openai/gpt-5-2025-08-07,      api_base: "http://recorder-openai:8080/v1", api_key: "env:GW_OPENAI_API_KEY", timeout: 180}
+  - {name: real-sonnet--anthropic, model: anthropic/claude-sonnet-5-5, api_base: "http://recorder-anthropic:8080", api_key: "env:GW_ANTHROPIC_API_KEY", timeout: 180, input_cost_per_token: 2.0e-6, output_cost_per_token: 1.0e-5}
+  - {name: bench--mock,         model: openai/mock-model, api_base: "http://mock-upstream:8080/bench/v1", timeout: 60, input_cost_per_token: 2.5e-7, output_cost_per_token: 2.0e-6}

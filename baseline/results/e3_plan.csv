@@ -1,0 +1,27 @@
+id,scope,attempt,expected_status,expected_rows,kind,planned_at_utc
+X1,cross-tenant,tenant A application key calls tenant B chat,401,,attack,2026-11-09T16:50:16Z
+X2,cross-tenant,tenant A master key calls tenant B key management (/key/generate),403,,attack,2026-11-09T16:50:16Z
+X3,cross-tenant,tenant A master key calls tenant B chat,401,,attack,2026-11-09T16:50:16Z
+X4,cross-tenant,tenant A per-run key calls tenant B chat,401,,attack,2026-11-09T16:50:16Z
+X5,cross-tenant,tenant A issuer key mints a run key on tenant B,401,,attack,2026-11-09T16:50:16Z
+X6,cross-tenant,"tenant A console token (A issuer, A audience) reads tenant B requests",401,,attack,2026-11-09T16:50:16Z
+X7,cross-tenant,"token minted at tenant A issuer with tenant B audience, tenant and owner group, to B console",401,,attack,2026-11-09T16:50:16Z
+X8,cross-tenant,network: tenant A gateway container opens TCP to tenant B Postgres,conn_fail,,attack,2026-11-09T16:50:16Z
+X9,cross-tenant,network: tenant A gateway container opens TCP to tenant B gateway,conn_fail,,attack,2026-11-09T16:50:16Z
+X10,cross-tenant,network: tenant A gateway container resolves tenant B container names,conn_fail,,attack,2026-11-09T16:50:16Z
+Y1,cross-project,proj1 key requests a logical model only proj2 may use,403,,attack,2026-11-09T16:50:16Z
+Y2,cross-project,proj1 key reads the library's spend logs (/spend/logs),403,,attack,2026-11-09T16:50:16Z
+Y3,cross-project,proj1 key reads proj2's key info (/key/info),403,,attack,2026-11-09T16:50:16Z
+Y4,cross-project,proj1 key reads proj2's team info (/team/info),403,,attack,2026-11-09T16:50:16Z
+Y5,cross-project,proj1 issuer reads usage of a run issued by proj2's issuer,404,,attack,2026-11-09T16:50:16Z
+Y6,cross-project,proj1 issuer revokes a run issued by proj2's issuer,404,,attack,2026-11-09T16:50:16Z
+Y7,cross-project,proj1 per-run key requests proj2's logical model,403,,attack,2026-11-09T16:50:16Z
+Y8,cross-project,proj1-scoped console developer lists proj2 requests (?project=proj2),200,0,attack,2026-11-09T16:50:16Z
+Y9,cross-project,proj1-scoped console developer opens a proj2 request by id,404,,attack,2026-11-09T16:50:16Z
+Y10,cross-project,proj1-scoped console developer reads proj2 cost,403,,attack,2026-11-09T16:50:16Z
+Y11,cross-project,proj1-scoped console developer assigns itself a role,403,,attack,2026-11-09T16:50:16Z
+P1,positive,tenant A proj1 key calls tenant A chat,200,,control,2026-11-09T16:50:16Z
+P2,positive,tenant B proj1 key calls tenant B chat,200,,control,2026-11-09T16:50:16Z
+P3,positive,proj1-scoped console developer lists proj1 requests,200,>=1,control,2026-11-09T16:50:16Z
+P4,positive,proj1 issuer reads usage of its own run,200,,control,2026-11-09T16:50:16Z
+P5,positive,tenant A owner token reads /v1/me on tenant A console,200,,control,2026-11-09T16:50:16Z

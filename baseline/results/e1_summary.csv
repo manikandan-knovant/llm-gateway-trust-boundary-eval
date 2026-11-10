@@ -1,0 +1,5 @@
+arm,n_ok,n_err,median_ms,p95_ms,p99_ms,added_median_ms,added_p95_ms,added_p99_ms,cache_check
+direct,500,0,51.55,52.07,52.39,0.0,0.0,0.0,
+gw_noscan,500,0,64.61,70.75,80.4,13.06,18.68,28.01,relaxed (no scan) per header: 500/500
+gw_cold,500,0,72.93,80.2,86.58,21.39,28.13,34.2,cold per gateway log: 500/500
+gw_cached,500,0,64.88,69.93,74.67,13.33,17.86,22.28,all parts from cache per gateway log: 500/500

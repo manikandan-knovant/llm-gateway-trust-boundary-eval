@@ -1,0 +1,7 @@
+variant,n,restored_exactly,rate,ci95_low,ci95_high,non_200,with_residual_placeholders
+exact,500,500,1.0,0.9924,1.0,0,0
+single,500,500,1.0,0.9924,1.0,0,0
+brackets,500,500,1.0,0.9924,1.0,0,0
+bare,500,500,1.0,0.9924,1.0,0,0
+stream_split,500,500,1.0,0.9924,1.0,0,0
+all,2500,2500,1.0,0.9985,1.0,0,0

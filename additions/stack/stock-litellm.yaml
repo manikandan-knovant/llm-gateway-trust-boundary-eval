@@ -1,0 +1,12 @@
+# E10: STOCK LiteLLM 1.102.1 (no gateway hooks, no tenant policy, no database). The same two mock routes as the
+# gateway failover test, with a plain fallback from primary to fallback. Everything else is LiteLLM's default
+# (retries, cooldown, error rendering). The 5 s route timeout matches the gateway test.
+model_list:
+  - model_name: fo-primary
+    litellm_params: {model: openai/mock-model, api_base: "http://mock-upstream:8080/primary/v1", api_key: research-mock-key-not-a-secret, timeout: 5}
+  - model_name: fo-fallback
+    litellm_params: {model: openai/mock-model, api_base: "http://mock-upstream:8080/fallback/v1", api_key: research-mock-key-not-a-secret, timeout: 5}
+router_settings:
+  fallbacks: [{fo-primary: [fo-fallback]}]
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

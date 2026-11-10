@@ -1,0 +1,7 @@
+# E12 mock: the tenant A routes, with phi--mock PRICED like GPT-5 mini (USD per token, LiteLLM 1.102.1 price map)
+# so per-run budgets are enforced on realistic numbers. The mock reports tokens as characters/4.
+routes:
+  - {name: bench--mock,       model: openai/mock-model, api_base: "http://mock-upstream:8080/bench/v1",    timeout: 60, input_cost_per_token: 2.5e-7, output_cost_per_token: 2.0e-6}
+  - {name: phi--mock,         model: openai/mock-model, api_base: "http://mock-upstream:8080/phi/v1",      timeout: 60, input_cost_per_token: 2.5e-7, output_cost_per_token: 2.0e-6}
+  - {name: fo-primary--mock,  model: openai/mock-model, api_base: "http://mock-upstream:8080/primary/v1",  timeout: 5,  input_cost_per_token: 2.5e-7, output_cost_per_token: 2.0e-6}
+  - {name: fo-fallback--mock, model: openai/mock-model, api_base: "http://mock-upstream:8080/fallback/v1", timeout: 5,  input_cost_per_token: 2.5e-7, output_cost_per_token: 2.0e-6}

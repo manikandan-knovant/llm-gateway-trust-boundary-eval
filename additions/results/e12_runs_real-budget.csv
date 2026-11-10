@@ -1,0 +1,7 @@
+run,budget_usd,usage_status,gateway_cost_usd,gateway_calls,revoke_status,turn,status,code
+e12-real-budget-00,0.01,200,0.0095554,30,200,,,
+e12-real-budget-01,0.02,200,0.00906795,30,200,,,
+e12-real-budget-02,0.01,200,0.00996845,30,200,,,
+e12-real-budget-03,0.02,200,0.01089115,30,200,,,
+e12-real-budget-04,,,,,,29,429,budget_exceeded
+e12-real-budget-04,0.01,200,0.01068575,29,200,,,

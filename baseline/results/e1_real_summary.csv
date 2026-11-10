@@ -1,0 +1,5 @@
+arm,n_ok,n_err,median_ms,p95_ms,p99_ms,min_ms,max_ms
+direct,200,0,1146.0,1483.2,1698.3,899.9,1831.9
+gateway,200,0,1152.7,1446.5,1653.4,902.8,1828.7
+gateway minus direct,200,,6.7,-36.7,,,
+paired median difference (k-th gateway - k-th direct),200,,11.2,,,,

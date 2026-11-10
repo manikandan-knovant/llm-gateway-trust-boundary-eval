@@ -1,0 +1,2701 @@
+provider,set,prompt,type,format,provider_received,fate,in_final
+mini,A,s4040-000,PERSON,full_name,masked,kept,True
+mini,A,s4040-000,DATE,us_slash,masked,kept,True
+mini,A,s4040-000,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-000,PHONE,paren,masked,kept,True
+mini,A,s4040-001,PERSON,full_name,masked,kept,True
+mini,A,s4040-001,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-001,DATE,iso,masked,kept,True
+mini,A,s4040-001,PHONE,dash,masked,kept,True
+mini,A,s4040-002,PERSON,full_name,masked,kept,True
+mini,A,s4040-002,MRN,mrn_space,masked,kept,True
+mini,A,s4040-002,DATE,long,masked,kept,True
+mini,A,s4040-002,PHONE,dot,masked,kept,True
+mini,A,s4040-003,PERSON,full_name,masked,kept,True
+mini,A,s4040-003,DATE,day_mon,masked,kept,True
+mini,A,s4040-003,MRN,mrn_words,masked,kept,True
+mini,A,s4040-003,PHONE,paren,masked,kept,True
+mini,A,s4040-004,PERSON,full_name,masked,kept,True
+mini,A,s4040-004,DATE,us_short,masked,kept,True
+mini,A,s4040-004,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-004,PHONE,dash,masked,kept,True
+mini,A,s4040-005,PERSON,full_name,masked,kept,True
+mini,A,s4040-005,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-005,DATE,us_slash,masked,kept,True
+mini,A,s4040-005,PHONE,dot,masked,kept,True
+mini,A,s4040-006,PERSON,full_name,masked,kept,True
+mini,A,s4040-006,MRN,mrn_space,masked,kept,True
+mini,A,s4040-006,DATE,iso,masked,kept,True
+mini,A,s4040-006,PHONE,paren,masked,kept,True
+mini,A,s4040-007,PERSON,full_name,masked,kept,True
+mini,A,s4040-007,DATE,long,masked,kept,True
+mini,A,s4040-007,MRN,mrn_words,masked,kept,True
+mini,A,s4040-007,PHONE,dash,masked,kept,True
+mini,A,s4040-008,PERSON,full_name,masked,kept,True
+mini,A,s4040-008,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-008,DATE,day_mon,masked,kept,True
+mini,A,s4040-008,PHONE,dot,masked,kept,True
+mini,A,s4040-009,PERSON,full_name,masked,kept,True
+mini,A,s4040-009,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-009,DATE,us_short,masked,kept,True
+mini,A,s4040-009,PHONE,paren,masked,kept,True
+mini,A,s4040-010,PERSON,full_name,masked,kept,True
+mini,A,s4040-010,DATE,us_slash,masked,kept,True
+mini,A,s4040-010,MRN,mrn_space,masked,kept,True
+mini,A,s4040-010,PHONE,dash,masked,kept,True
+mini,A,s4040-011,PERSON,full_name,masked,kept,True
+mini,A,s4040-011,DATE,iso,masked,kept,True
+mini,A,s4040-011,MRN,mrn_words,masked,kept,True
+mini,A,s4040-011,PHONE,dot,masked,kept,True
+mini,A,s4040-012,PERSON,full_name,masked,kept,True
+mini,A,s4040-012,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-012,DATE,long,masked,kept,True
+mini,A,s4040-012,PHONE,paren,masked,kept,True
+mini,A,s4040-013,PERSON,full_name,masked,kept,True
+mini,A,s4040-013,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-013,DATE,day_mon,masked,kept,True
+mini,A,s4040-013,PHONE,dash,masked,kept,True
+mini,A,s4040-014,PERSON,full_name,masked,kept,True
+mini,A,s4040-014,MRN,mrn_space,masked,kept,True
+mini,A,s4040-014,DATE,us_short,masked,kept,True
+mini,A,s4040-014,PHONE,dot,masked,kept,True
+mini,A,s4040-015,PERSON,full_name,masked,kept,True
+mini,A,s4040-015,DATE,us_slash,masked,kept,True
+mini,A,s4040-015,MRN,mrn_words,masked,kept,True
+mini,A,s4040-015,PHONE,paren,masked,kept,True
+mini,A,s4040-016,PERSON,full_name,masked,kept,True
+mini,A,s4040-016,DATE,iso,masked,kept,True
+mini,A,s4040-016,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-016,PHONE,dash,masked,kept,True
+mini,A,s4040-017,PERSON,full_name,masked,kept,True
+mini,A,s4040-017,DATE,long,partial,kept,True
+mini,A,s4040-017,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-017,PHONE,dot,masked,kept,True
+mini,A,s4040-018,PERSON,full_name,masked,kept,True
+mini,A,s4040-018,DATE,day_mon,masked,kept,True
+mini,A,s4040-018,MRN,mrn_space,masked,kept,True
+mini,A,s4040-018,PHONE,paren,masked,kept,True
+mini,A,s4040-019,PERSON,full_name,masked,kept,True
+mini,A,s4040-019,DATE,us_short,masked,kept,True
+mini,A,s4040-019,MRN,mrn_words,masked,kept,True
+mini,A,s4040-019,PHONE,dash,masked,kept,True
+mini,A,s4040-020,PERSON,full_name,masked,kept,True
+mini,A,s4040-020,DATE,us_slash,masked,kept,True
+mini,A,s4040-020,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-020,PHONE,dot,masked,kept,True
+mini,A,s4040-021,PERSON,full_name,masked,kept,True
+mini,A,s4040-021,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-021,DATE,iso,masked,kept,True
+mini,A,s4040-021,PHONE,paren,masked,kept,True
+mini,A,s4040-022,PERSON,full_name,masked,kept,True
+mini,A,s4040-022,MRN,mrn_space,masked,kept,True
+mini,A,s4040-022,DATE,long,masked,kept,True
+mini,A,s4040-022,PHONE,dash,masked,kept,True
+mini,A,s4040-023,PERSON,full_name,masked,kept,True
+mini,A,s4040-023,MRN,mrn_words,masked,kept,True
+mini,A,s4040-023,DATE,day_mon,masked,kept,True
+mini,A,s4040-023,PHONE,dot,masked,kept,True
+mini,A,s4040-024,PERSON,full_name,masked,kept,True
+mini,A,s4040-024,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-024,DATE,us_short,masked,kept,True
+mini,A,s4040-024,PHONE,paren,masked,kept,True
+mini,A,s4040-025,PERSON,full_name,masked,kept,True
+mini,A,s4040-025,DATE,us_slash,masked,kept,True
+mini,A,s4040-025,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-025,PHONE,dash,masked,kept,True
+mini,A,s4040-026,PERSON,full_name,masked,kept,True
+mini,A,s4040-026,MRN,mrn_space,masked,kept,True
+mini,A,s4040-026,DATE,iso,masked,kept,True
+mini,A,s4040-026,PHONE,dot,masked,kept,True
+mini,A,s4040-027,PERSON,full_name,masked,kept,True
+mini,A,s4040-027,MRN,mrn_words,masked,kept,True
+mini,A,s4040-027,DATE,long,masked,kept,True
+mini,A,s4040-027,PHONE,paren,masked,kept,True
+mini,A,s4040-028,PERSON,full_name,masked,kept,True
+mini,A,s4040-028,DATE,day_mon,masked,kept,True
+mini,A,s4040-028,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-028,PHONE,dash,masked,kept,True
+mini,A,s4040-029,PERSON,full_name,masked,kept,True
+mini,A,s4040-029,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-029,DATE,us_short,masked,kept,True
+mini,A,s4040-029,PHONE,dot,masked,kept,True
+mini,A,s4040-030,PERSON,full_name,masked,kept,True
+mini,A,s4040-030,DATE,us_slash,masked,kept,True
+mini,A,s4040-030,MRN,mrn_space,masked,kept,True
+mini,A,s4040-030,PHONE,paren,masked,kept,True
+mini,A,s4040-031,PERSON,full_name,masked,kept,True
+mini,A,s4040-031,DATE,iso,masked,kept,True
+mini,A,s4040-031,MRN,mrn_words,masked,kept,True
+mini,A,s4040-031,PHONE,dash,masked,kept,True
+mini,A,s4040-032,PERSON,full_name,masked,kept,True
+mini,A,s4040-032,DATE,long,masked,kept,True
+mini,A,s4040-032,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-032,PHONE,dot,masked,kept,True
+mini,A,s4040-033,PERSON,full_name,masked,kept,True
+mini,A,s4040-033,DATE,day_mon,masked,kept,True
+mini,A,s4040-033,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-033,PHONE,paren,masked,kept,True
+mini,A,s4040-034,PERSON,full_name,masked,kept,True
+mini,A,s4040-034,MRN,mrn_space,masked,kept,True
+mini,A,s4040-034,DATE,us_short,masked,kept,True
+mini,A,s4040-034,PHONE,dash,masked,kept,True
+mini,A,s4040-035,PERSON,full_name,masked,kept,True
+mini,A,s4040-035,MRN,mrn_words,masked,kept,True
+mini,A,s4040-035,DATE,us_slash,masked,kept,True
+mini,A,s4040-035,PHONE,dot,masked,kept,True
+mini,A,s4040-036,PERSON,full_name,masked,kept,True
+mini,A,s4040-036,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-036,DATE,iso,masked,kept,True
+mini,A,s4040-036,PHONE,paren,masked,kept,True
+mini,A,s4040-037,PERSON,full_name,masked,kept,True
+mini,A,s4040-037,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-037,DATE,long,masked,kept,True
+mini,A,s4040-037,PHONE,dash,masked,kept,True
+mini,A,s4040-038,PERSON,full_name,masked,kept,True
+mini,A,s4040-038,MRN,mrn_space,masked,kept,True
+mini,A,s4040-038,DATE,day_mon,masked,kept,True
+mini,A,s4040-038,PHONE,dot,masked,kept,True
+mini,A,s4040-039,PERSON,full_name,masked,kept,True
+mini,A,s4040-039,DATE,us_short,masked,kept,True
+mini,A,s4040-039,MRN,mrn_words,masked,kept,True
+mini,A,s4040-039,PHONE,paren,masked,kept,True
+mini,A,s4040-040,PERSON,full_name,masked,kept,True
+mini,A,s4040-040,DATE,us_slash,masked,kept,True
+mini,A,s4040-040,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-040,PHONE,dash,masked,kept,True
+mini,A,s4040-041,PERSON,full_name,masked,kept,True
+mini,A,s4040-041,DATE,iso,masked,kept,True
+mini,A,s4040-041,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-041,PHONE,dot,masked,kept,True
+mini,A,s4040-042,PERSON,full_name,masked,kept,True
+mini,A,s4040-042,DATE,long,masked,kept,True
+mini,A,s4040-042,MRN,mrn_space,masked,kept,True
+mini,A,s4040-042,PHONE,paren,masked,kept,True
+mini,A,s4040-043,PERSON,full_name,masked,kept,True
+mini,A,s4040-043,DATE,day_mon,masked,kept,True
+mini,A,s4040-043,MRN,mrn_words,masked,kept,True
+mini,A,s4040-043,PHONE,dash,masked,kept,True
+mini,A,s4040-044,PERSON,full_name,masked,kept,True
+mini,A,s4040-044,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-044,DATE,us_short,masked,kept,True
+mini,A,s4040-044,PHONE,dot,masked,kept,True
+mini,A,s4040-045,PERSON,full_name,masked,kept,True
+mini,A,s4040-045,DATE,us_slash,masked,kept,True
+mini,A,s4040-045,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-045,PHONE,paren,masked,kept,True
+mini,A,s4040-046,PERSON,full_name,masked,kept,True
+mini,A,s4040-046,MRN,mrn_space,masked,kept,True
+mini,A,s4040-046,DATE,iso,masked,kept,True
+mini,A,s4040-046,PHONE,dash,masked,kept,True
+mini,A,s4040-047,PERSON,full_name,masked,kept,True
+mini,A,s4040-047,DATE,long,masked,kept,True
+mini,A,s4040-047,MRN,mrn_words,masked,kept,True
+mini,A,s4040-047,PHONE,dot,masked,kept,True
+mini,A,s4040-048,PERSON,full_name,masked,kept,True
+mini,A,s4040-048,DATE,day_mon,masked,kept,True
+mini,A,s4040-048,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-048,PHONE,paren,masked,kept,True
+mini,A,s4040-049,PERSON,full_name,masked,kept,True
+mini,A,s4040-049,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-049,DATE,us_short,masked,kept,True
+mini,A,s4040-049,PHONE,dash,masked,kept,True
+mini,A,s4040-050,PERSON,full_name,masked,kept,True
+mini,A,s4040-050,DATE,us_slash,masked,kept,True
+mini,A,s4040-050,MRN,mrn_space,masked,kept,True
+mini,A,s4040-050,PHONE,dot,masked,kept,True
+mini,A,s4040-051,PERSON,full_name,masked,kept,True
+mini,A,s4040-051,MRN,mrn_words,masked,kept,True
+mini,A,s4040-051,DATE,iso,masked,kept,True
+mini,A,s4040-051,PHONE,paren,masked,kept,True
+mini,A,s4040-052,PERSON,full_name,masked,kept,True
+mini,A,s4040-052,DATE,long,masked,kept,True
+mini,A,s4040-052,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-052,PHONE,dash,masked,kept,True
+mini,A,s4040-053,PERSON,full_name,masked,kept,True
+mini,A,s4040-053,DATE,day_mon,masked,kept,True
+mini,A,s4040-053,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-053,PHONE,dot,masked,kept,True
+mini,A,s4040-054,PERSON,full_name,masked,kept,True
+mini,A,s4040-054,DATE,us_short,masked,kept,True
+mini,A,s4040-054,MRN,mrn_space,masked,kept,True
+mini,A,s4040-054,PHONE,paren,masked,kept,True
+mini,A,s4040-055,PERSON,full_name,masked,kept,True
+mini,A,s4040-055,DATE,us_slash,masked,kept,True
+mini,A,s4040-055,MRN,mrn_words,masked,kept,True
+mini,A,s4040-055,PHONE,dash,masked,kept,True
+mini,A,s4040-056,PERSON,full_name,masked,kept,True
+mini,A,s4040-056,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-056,DATE,iso,masked,kept,True
+mini,A,s4040-056,PHONE,dot,masked,kept,True
+mini,A,s4040-057,PERSON,full_name,masked,kept,True
+mini,A,s4040-057,DATE,long,masked,kept,True
+mini,A,s4040-057,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-057,PHONE,paren,masked,kept,True
+mini,A,s4040-058,PERSON,full_name,leaked,n/a (not masked),True
+mini,A,s4040-058,MRN,mrn_space,masked,kept,True
+mini,A,s4040-058,DATE,day_mon,masked,kept,True
+mini,A,s4040-058,PHONE,dash,masked,kept,True
+mini,A,s4040-059,PERSON,full_name,masked,kept,True
+mini,A,s4040-059,MRN,mrn_words,masked,kept,True
+mini,A,s4040-059,DATE,us_short,masked,kept,True
+mini,A,s4040-059,PHONE,dot,masked,kept,True
+mini,A,s4040-060,PERSON,full_name,masked,kept,True
+mini,A,s4040-060,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-060,DATE,us_slash,masked,kept,True
+mini,A,s4040-060,PHONE,paren,masked,kept,True
+mini,A,s4040-061,PERSON,full_name,masked,kept,True
+mini,A,s4040-061,DATE,iso,masked,kept,True
+mini,A,s4040-061,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-061,PHONE,dash,masked,kept,True
+mini,A,s4040-062,PERSON,full_name,masked,kept,True
+mini,A,s4040-062,MRN,mrn_space,masked,kept,True
+mini,A,s4040-062,DATE,long,masked,kept,True
+mini,A,s4040-062,PHONE,dot,masked,kept,True
+mini,A,s4040-063,PERSON,full_name,masked,kept,True
+mini,A,s4040-063,DATE,day_mon,masked,kept,True
+mini,A,s4040-063,MRN,mrn_words,masked,kept,True
+mini,A,s4040-063,PHONE,paren,masked,kept,True
+mini,A,s4040-064,PERSON,full_name,masked,kept,True
+mini,A,s4040-064,DATE,us_short,masked,kept,True
+mini,A,s4040-064,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-064,PHONE,dash,masked,kept,True
+mini,A,s4040-065,PERSON,full_name,masked,kept,True
+mini,A,s4040-065,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-065,DATE,us_slash,masked,kept,True
+mini,A,s4040-065,PHONE,dot,masked,kept,True
+mini,A,s4040-066,PERSON,full_name,masked,kept,True
+mini,A,s4040-066,DATE,iso,masked,kept,True
+mini,A,s4040-066,MRN,mrn_space,masked,kept,True
+mini,A,s4040-066,PHONE,paren,masked,kept,True
+mini,A,s4040-067,PERSON,full_name,masked,kept,True
+mini,A,s4040-067,DATE,long,masked,kept,True
+mini,A,s4040-067,MRN,mrn_words,masked,kept,True
+mini,A,s4040-067,PHONE,dash,masked,kept,True
+mini,A,s4040-068,PERSON,full_name,masked,kept,True
+mini,A,s4040-068,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-068,DATE,day_mon,masked,kept,True
+mini,A,s4040-068,PHONE,dot,masked,kept,True
+mini,A,s4040-069,PERSON,full_name,masked,kept,True
+mini,A,s4040-069,DATE,us_short,masked,kept,True
+mini,A,s4040-069,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-069,PHONE,paren,masked,kept,True
+mini,A,s4040-070,PERSON,full_name,masked,kept,True
+mini,A,s4040-070,DATE,us_slash,masked,kept,True
+mini,A,s4040-070,MRN,mrn_space,masked,kept,True
+mini,A,s4040-070,PHONE,dash,masked,kept,True
+mini,A,s4040-071,PERSON,full_name,masked,kept,True
+mini,A,s4040-071,DATE,iso,masked,kept,True
+mini,A,s4040-071,MRN,mrn_words,masked,kept,True
+mini,A,s4040-071,PHONE,dot,masked,kept,True
+mini,A,s4040-072,PERSON,full_name,masked,kept,True
+mini,A,s4040-072,DATE,long,masked,kept,True
+mini,A,s4040-072,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-072,PHONE,paren,masked,kept,True
+mini,A,s4040-073,PERSON,full_name,masked,kept,True
+mini,A,s4040-073,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-073,DATE,day_mon,masked,kept,True
+mini,A,s4040-073,PHONE,dash,masked,kept,True
+mini,A,s4040-074,PERSON,full_name,masked,kept,True
+mini,A,s4040-074,DATE,us_short,masked,kept,True
+mini,A,s4040-074,MRN,mrn_space,masked,kept,True
+mini,A,s4040-074,PHONE,dot,masked,kept,True
+mini,A,s4040-075,PERSON,full_name,masked,kept,True
+mini,A,s4040-075,MRN,mrn_words,masked,kept,True
+mini,A,s4040-075,DATE,us_slash,masked,kept,True
+mini,A,s4040-075,PHONE,paren,masked,kept,True
+mini,A,s4040-076,PERSON,full_name,masked,kept,True
+mini,A,s4040-076,DATE,iso,masked,kept,True
+mini,A,s4040-076,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-076,PHONE,dash,masked,kept,True
+mini,A,s4040-077,PERSON,full_name,masked,kept,True
+mini,A,s4040-077,DATE,long,masked,kept,True
+mini,A,s4040-077,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-077,PHONE,dot,masked,kept,True
+mini,A,s4040-078,PERSON,full_name,masked,kept,True
+mini,A,s4040-078,MRN,mrn_space,masked,kept,True
+mini,A,s4040-078,DATE,day_mon,masked,kept,True
+mini,A,s4040-078,PHONE,paren,masked,kept,True
+mini,A,s4040-079,PERSON,full_name,masked,kept,True
+mini,A,s4040-079,DATE,us_short,masked,kept,True
+mini,A,s4040-079,MRN,mrn_words,masked,kept,True
+mini,A,s4040-079,PHONE,dash,masked,kept,True
+mini,A,s4040-080,PERSON,full_name,partial,kept,True
+mini,A,s4040-080,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-080,DATE,us_slash,masked,kept,True
+mini,A,s4040-080,PHONE,dot,masked,kept,True
+mini,A,s4040-081,PERSON,full_name,masked,kept,True
+mini,A,s4040-081,DATE,iso,masked,kept,True
+mini,A,s4040-081,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-081,PHONE,paren,masked,kept,True
+mini,A,s4040-082,PERSON,full_name,masked,kept,True
+mini,A,s4040-082,MRN,mrn_space,masked,kept,True
+mini,A,s4040-082,DATE,long,masked,kept,True
+mini,A,s4040-082,PHONE,dash,masked,kept,True
+mini,A,s4040-083,PERSON,full_name,masked,kept,True
+mini,A,s4040-083,MRN,mrn_words,masked,kept,True
+mini,A,s4040-083,DATE,day_mon,masked,kept,True
+mini,A,s4040-083,PHONE,dot,masked,kept,True
+mini,A,s4040-084,PERSON,full_name,masked,kept,True
+mini,A,s4040-084,DATE,us_short,masked,kept,True
+mini,A,s4040-084,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-084,PHONE,paren,masked,kept,True
+mini,A,s4040-085,PERSON,full_name,masked,kept,True
+mini,A,s4040-085,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-085,DATE,us_slash,masked,kept,True
+mini,A,s4040-085,PHONE,dash,masked,kept,True
+mini,A,s4040-086,PERSON,full_name,masked,kept,True
+mini,A,s4040-086,DATE,iso,masked,kept,True
+mini,A,s4040-086,MRN,mrn_space,masked,kept,True
+mini,A,s4040-086,PHONE,dot,masked,kept,True
+mini,A,s4040-087,PERSON,full_name,masked,kept,True
+mini,A,s4040-087,DATE,long,masked,kept,True
+mini,A,s4040-087,MRN,mrn_words,masked,kept,True
+mini,A,s4040-087,PHONE,paren,masked,kept,True
+mini,A,s4040-088,PERSON,full_name,masked,kept,True
+mini,A,s4040-088,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-088,DATE,day_mon,masked,kept,True
+mini,A,s4040-088,PHONE,dash,masked,kept,True
+mini,A,s4040-089,PERSON,full_name,masked,kept,True
+mini,A,s4040-089,DATE,us_short,masked,kept,True
+mini,A,s4040-089,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-089,PHONE,dot,masked,kept,True
+mini,A,s4040-090,PERSON,full_name,masked,kept,True
+mini,A,s4040-090,DATE,us_slash,masked,kept,True
+mini,A,s4040-090,MRN,mrn_space,masked,kept,True
+mini,A,s4040-090,PHONE,paren,masked,kept,True
+mini,A,s4040-091,PERSON,full_name,masked,kept,True
+mini,A,s4040-091,DATE,iso,masked,kept,True
+mini,A,s4040-091,MRN,mrn_words,masked,kept,True
+mini,A,s4040-091,PHONE,dash,masked,kept,True
+mini,A,s4040-092,PERSON,full_name,masked,kept,True
+mini,A,s4040-092,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-092,DATE,long,masked,kept,True
+mini,A,s4040-092,PHONE,dot,masked,kept,True
+mini,A,s4040-093,PERSON,full_name,masked,kept,True
+mini,A,s4040-093,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-093,DATE,day_mon,masked,kept,True
+mini,A,s4040-093,PHONE,paren,masked,kept,True
+mini,A,s4040-094,PERSON,full_name,masked,kept,True
+mini,A,s4040-094,MRN,mrn_space,masked,kept,True
+mini,A,s4040-094,DATE,us_short,masked,kept,True
+mini,A,s4040-094,PHONE,dash,masked,kept,True
+mini,A,s4040-095,PERSON,full_name,masked,kept,True
+mini,A,s4040-095,DATE,us_slash,masked,kept,True
+mini,A,s4040-095,MRN,mrn_words,masked,kept,True
+mini,A,s4040-095,PHONE,dot,masked,kept,True
+mini,A,s4040-096,PERSON,full_name,masked,kept,True
+mini,A,s4040-096,DATE,iso,masked,kept,True
+mini,A,s4040-096,MRN,mrn_colon,masked,kept,True
+mini,A,s4040-096,PHONE,paren,masked,kept,True
+mini,A,s4040-097,PERSON,full_name,masked,kept,True
+mini,A,s4040-097,DATE,long,partial,kept,True
+mini,A,s4040-097,MRN,mrn_hash,masked,kept,True
+mini,A,s4040-097,PHONE,dash,masked,kept,True
+mini,A,s4040-098,PERSON,full_name,masked,kept,True
+mini,A,s4040-098,DATE,day_mon,masked,kept,True
+mini,A,s4040-098,MRN,mrn_space,masked,kept,True
+mini,A,s4040-098,PHONE,dot,masked,kept,True
+mini,A,s4040-099,PERSON,full_name,masked,kept,True
+mini,A,s4040-099,MRN,mrn_words,masked,kept,True
+mini,A,s4040-099,DATE,us_short,masked,kept,True
+mini,A,s4040-099,PHONE,paren,masked,kept,True
+mini,B,p8-000,CITY,city,masked,kept,True
+mini,B,p8-000,PHONE,paren,masked,kept,True
+mini,B,p8-000,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-000,ZIP,zip_context,masked,kept,True
+mini,B,p8-000,NAME,full,masked,kept,True
+mini,B,p8-001,SSN,dashes,masked,kept,True
+mini,B,p8-001,IP,ipv4,masked,kept,True
+mini,B,p8-001,CITY,city,masked,kept,True
+mini,B,p8-001,EMAIL,plain,masked,kept,True
+mini,B,p8-001,STREET,street,masked,kept,True
+mini,B,p8-002,SSN,spaces,partial,kept,False
+mini,B,p8-002,IP,ipv4,masked,kept,True
+mini,B,p8-002,CITY,city,masked,kept,True
+mini,B,p8-002,EMAIL,plus,masked,kept,True
+mini,B,p8-002,URL,https,masked,kept,True
+mini,B,p8-003,VEHICLE,vin,masked,kept,True
+mini,B,p8-003,CLAIM,claim_c,masked,kept,True
+mini,B,p8-003,FAX,paren,masked,kept,True
+mini,B,p8-003,DATE,us_slash,masked,kept,True
+mini,B,p8-003,URL,http,masked,kept,True
+mini,B,p8-004,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-004,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-004,ZIP,zip_bare,masked,kept,True
+mini,B,p8-004,ACCOUNT,card,masked,kept,True
+mini,B,p8-004,DATE,iso,masked,kept,True
+mini,B,p8-005,STREET,street,partial,kept,True
+mini,B,p8-005,URL,https,masked,kept,True
+mini,B,p8-005,CLAIM,claim_hash,masked,kept,True
+mini,B,p8-005,DATE,long,masked,kept,True
+mini,B,p8-005,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-006,FAX,dash,masked,kept,True
+mini,B,p8-006,MEMBER,member_m,masked,kept,True
+mini,B,p8-006,ACCOUNT,iban,masked,kept,True
+mini,B,p8-006,CLAIM,claim_no,masked,kept,True
+mini,B,p8-006,ZIP,zip_context,masked,kept,True
+mini,B,p8-007,CLAIM,claim_ref,masked,kept,True
+mini,B,p8-007,ACCOUNT,card,masked,kept,True
+mini,B,p8-007,URL,http,masked,kept,True
+mini,B,p8-007,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-007,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-008,FAX,paren,masked,kept,True
+mini,B,p8-008,CLAIM,claim_c,masked,kept,True
+mini,B,p8-008,NAME,last_first,partial,kept,True
+mini,B,p8-008,ACCOUNT,bank,masked,kept,True
+mini,B,p8-008,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-009,CLAIM,claim_hash,masked,kept,True
+mini,B,p8-009,COUNTY,county,masked,kept,True
+mini,B,p8-009,ACCOUNT,iban,masked,kept,True
+mini,B,p8-009,EMAIL,plain,masked,kept,True
+mini,B,p8-009,DATE,day_mon,masked,kept,True
+mini,B,p8-010,COUNTY,county,masked,kept,True
+mini,B,p8-010,SSN,plain,leaked,n/a (not masked),True
+mini,B,p8-010,MEMBER,subscriber,masked,kept,True
+mini,B,p8-010,DATE,ordinal,masked,kept,True
+mini,B,p8-010,CLAIM,claim_no,masked,kept,True
+mini,B,p8-011,VEHICLE,vin,masked,kept,True
+mini,B,p8-011,AGE90,age,masked,kept,True
+mini,B,p8-011,PHONE,dash,masked,kept,True
+mini,B,p8-011,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-011,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-012,MRN,mrn_colon,masked,kept,True
+mini,B,p8-012,ZIP,zip_context,masked,kept,True
+mini,B,p8-012,CITY,city,masked,kept,True
+mini,B,p8-012,ACCOUNT,card,masked,kept,True
+mini,B,p8-012,NAME,initial,partial,kept,True
+mini,B,p8-013,CITY,city,masked,kept,True
+mini,B,p8-013,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-013,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-013,PHONE,dot,masked,kept,True
+mini,B,p8-013,IP,ipv4,masked,kept,True
+mini,B,p8-014,URL,https,masked,kept,True
+mini,B,p8-014,NAME,full,masked,kept,True
+mini,B,p8-014,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-014,COUNTY,county,masked,kept,True
+mini,B,p8-014,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-015,EMAIL,plus,masked,kept,True
+mini,B,p8-015,URL,http,masked,kept,True
+mini,B,p8-015,LICENSE,drivers,leaked,n/a (not masked),True
+mini,B,p8-015,MRN,mrn_hash,masked,kept,True
+mini,B,p8-015,PHONE,intl,masked,kept,True
+mini,B,p8-016,ACCOUNT,iban,masked,kept,True
+mini,B,p8-016,CITY,city,masked,kept,True
+mini,B,p8-016,CLAIM,claim_ref,leaked,n/a (not masked),True
+mini,B,p8-016,VEHICLE,vin,masked,kept,True
+mini,B,p8-016,PHONE,spaces,masked,kept,True
+mini,B,p8-017,CITY,city,masked,kept,True
+mini,B,p8-017,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-017,MEMBER,insurance,leaked,n/a (not masked),True
+mini,B,p8-017,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-017,DATE,dotted,masked,kept,True
+mini,B,p8-018,NAME,last_first,partial,kept,True
+mini,B,p8-018,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-018,IP,ipv4,masked,kept,True
+mini,B,p8-018,DATE,month_year,masked,kept,True
+mini,B,p8-018,ACCOUNT,card,masked,kept,True
+mini,B,p8-019,FAX,dash,masked,kept,True
+mini,B,p8-019,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-019,COUNTY,county,masked,kept,True
+mini,B,p8-019,SSN,dashes,masked,kept,True
+mini,B,p8-019,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-020,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-020,COUNTY,county,masked,kept,True
+mini,B,p8-020,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-020,MRN,mrn_words,masked,kept,True
+mini,B,p8-020,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-021,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-021,EMAIL,plain,masked,kept,True
+mini,B,p8-021,AGE90,age,masked,kept,True
+mini,B,p8-021,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-021,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-022,PHONE,paren,masked,kept,True
+mini,B,p8-022,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-022,EMAIL,plus,masked,kept,True
+mini,B,p8-022,STREET,street,masked,kept,True
+mini,B,p8-022,MRN,med_rec,masked,kept,True
+mini,B,p8-023,CITY,city,masked,kept,True
+mini,B,p8-023,ACCOUNT,iban,masked,kept,True
+mini,B,p8-023,DATE,us_slash,masked,kept,True
+mini,B,p8-023,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-023,STREET,street,masked,kept,True
+mini,B,p8-024,DATE,iso,masked,kept,True
+mini,B,p8-024,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-024,MEMBER,medicaid,leaked,n/a (not masked),True
+mini,B,p8-024,SSN,spaces,leaked,n/a (not masked),True
+mini,B,p8-024,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-025,MRN,chart,leaked,n/a (not masked),True
+mini,B,p8-025,AGE90,age,masked,kept,True
+mini,B,p8-025,IP,ipv4,masked,kept,True
+mini,B,p8-025,COUNTY,county,masked,kept,True
+mini,B,p8-025,NAME,initial,masked,kept,True
+mini,B,p8-026,EMAIL,plain,masked,kept,True
+mini,B,p8-026,AGE90,age,masked,kept,True
+mini,B,p8-026,DATE,long,masked,kept,True
+mini,B,p8-026,COUNTY,county,masked,kept,True
+mini,B,p8-026,ZIP,zip_context,masked,kept,True
+mini,B,p8-027,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-027,URL,https,masked,kept,True
+mini,B,p8-027,CLAIM,claim_c,masked,kept,True
+mini,B,p8-027,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-027,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-028,URL,http,masked,kept,True
+mini,B,p8-028,IP,ipv4,masked,kept,True
+mini,B,p8-028,EMAIL,plus,masked,kept,True
+mini,B,p8-028,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-028,AGE90,age,masked,kept,True
+mini,B,p8-029,AGE90,age,masked,kept,True
+mini,B,p8-029,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-029,STREET,street,partial,kept,True
+mini,B,p8-029,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-029,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-030,IP,ipv4,masked,kept,True
+mini,B,p8-030,NAME,full,masked,kept,True
+mini,B,p8-030,ACCOUNT,card,masked,kept,True
+mini,B,p8-030,VEHICLE,vin,masked,kept,True
+mini,B,p8-030,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-031,STREET,street,partial,kept,True
+mini,B,p8-031,ZIP,zip_context,masked,kept,True
+mini,B,p8-031,IP,ipv4,masked,kept,True
+mini,B,p8-031,BIOMETRIC,fingerprint,masked,kept,True
+mini,B,p8-031,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-032,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-032,MRN,mr_hash,leaked,n/a (not masked),True
+mini,B,p8-032,FAX,paren,masked,kept,True
+mini,B,p8-032,NAME,last_first,partial,kept,True
+mini,B,p8-032,LICENSE,passport,leaked,n/a (not masked),True
+mini,B,p8-033,FAX,dash,masked,kept,True
+mini,B,p8-033,CLAIM,claim_hash,masked,kept,True
+mini,B,p8-033,MRN,mrn_colon,masked,kept,True
+mini,B,p8-033,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-033,COUNTY,county,masked,kept,True
+mini,B,p8-034,NAME,initial,masked,kept,True
+mini,B,p8-034,MRN,mrn_hash,masked,kept,True
+mini,B,p8-034,ACCOUNT,iban,masked,kept,True
+mini,B,p8-034,CITY,city,masked,kept,True
+mini,B,p8-034,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-035,MEMBER,member_m,masked,kept,True
+mini,B,p8-035,LICENSE,dea,masked,kept,True
+mini,B,p8-035,COUNTY,county,masked,kept,True
+mini,B,p8-035,NAME,full,masked,kept,True
+mini,B,p8-035,ACCOUNT,card,masked,kept,True
+mini,B,p8-036,DATE,day_mon,masked,kept,True
+mini,B,p8-036,LICENSE,medical,masked,kept,True
+mini,B,p8-036,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-036,COUNTY,county,masked,kept,True
+mini,B,p8-036,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-037,CITY,city,masked,kept,True
+mini,B,p8-037,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-037,COUNTY,county,masked,kept,True
+mini,B,p8-037,IP,ipv4,masked,kept,True
+mini,B,p8-037,SSN,plain,leaked,n/a (not masked),True
+mini,B,p8-038,URL,https,masked,kept,True
+mini,B,p8-038,IP,ipv4,masked,kept,True
+mini,B,p8-038,LICENSE,drivers,masked,kept,True
+mini,B,p8-038,NAME,last_first,partial,kept,True
+mini,B,p8-038,DATE,ordinal,masked,kept,True
+mini,B,p8-039,VEHICLE,vin,masked,kept,True
+mini,B,p8-039,DATE,dotted,leaked,n/a (not masked),True
+mini,B,p8-039,URL,http,masked,kept,True
+mini,B,p8-039,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-039,PHONE,dash,masked,kept,True
+mini,B,p8-040,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-040,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-040,MRN,mrn_words,masked,kept,True
+mini,B,p8-040,IP,ipv4,masked,kept,True
+mini,B,p8-040,PHONE,dot,masked,kept,True
+mini,B,p8-041,CITY,city,masked,kept,True
+mini,B,p8-041,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-041,STREET,street,partial,kept,True
+mini,B,p8-041,MEMBER,subscriber,masked,kept,True
+mini,B,p8-041,COUNTY,county,masked,kept,True
+mini,B,p8-042,MEMBER,insurance,leaked,n/a (not masked),True
+mini,B,p8-042,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-042,CITY,city,masked,kept,True
+mini,B,p8-042,STREET,street,masked,kept,True
+mini,B,p8-042,LICENSE,passport,leaked,n/a (not masked),True
+mini,B,p8-043,AGE90,age,masked,kept,True
+mini,B,p8-043,MEMBER,medicaid,masked,kept,True
+mini,B,p8-043,STREET,street,masked,kept,True
+mini,B,p8-043,CLAIM,claim_no,masked,kept,True
+mini,B,p8-043,EMAIL,plain,masked,kept,True
+mini,B,p8-044,NAME,initial,partial,kept,True
+mini,B,p8-044,MEMBER,member_m,masked,kept,True
+mini,B,p8-044,URL,https,masked,kept,True
+mini,B,p8-044,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-044,LICENSE,dea,masked,kept,True
+mini,B,p8-045,LICENSE,medical,masked,kept,True
+mini,B,p8-045,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-045,AGE90,age,masked,kept,True
+mini,B,p8-045,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-045,COUNTY,county,masked,kept,True
+mini,B,p8-046,PHONE,intl,masked,kept,True
+mini,B,p8-046,IP,ipv4,masked,kept,True
+mini,B,p8-046,AGE90,age,masked,kept,True
+mini,B,p8-046,MEMBER,subscriber,masked,kept,True
+mini,B,p8-046,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-047,URL,http,masked,kept,True
+mini,B,p8-047,ZIP,zip_context,masked,kept,True
+mini,B,p8-047,STREET,street,partial,kept,True
+mini,B,p8-047,PHONE,spaces,masked,kept,True
+mini,B,p8-047,DATE,month_year,masked,kept,True
+mini,B,p8-048,SSN,dashes,masked,kept,True
+mini,B,p8-048,COUNTY,county,masked,kept,True
+mini,B,p8-048,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-048,DATE,us_slash,masked,kept,True
+mini,B,p8-048,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-049,IP,ipv4,masked,kept,True
+mini,B,p8-049,NAME,full,masked,kept,True
+mini,B,p8-049,VEHICLE,vin,masked,kept,True
+mini,B,p8-049,CLAIM,claim_ref,partial,kept,True
+mini,B,p8-049,DATE,iso,masked,kept,True
+mini,B,p8-050,IP,ipv4,masked,kept,True
+mini,B,p8-050,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-050,MRN,med_rec,masked,kept,True
+mini,B,p8-050,FAX,paren,masked,kept,True
+mini,B,p8-050,DATE,long,masked,kept,True
+mini,B,p8-051,LICENSE,drivers,masked,kept,True
+mini,B,p8-051,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-051,URL,https,masked,kept,True
+mini,B,p8-051,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-051,MEMBER,insurance,leaked,n/a (not masked),True
+mini,B,p8-052,EMAIL,plus,masked,kept,True
+mini,B,p8-052,COUNTY,county,masked,kept,True
+mini,B,p8-052,URL,http,masked,kept,True
+mini,B,p8-052,CITY,city,masked,kept,True
+mini,B,p8-052,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-053,ZIP,zip_context,masked,kept,True
+mini,B,p8-053,FAX,dash,masked,kept,True
+mini,B,p8-053,PHONE,paren,masked,kept,True
+mini,B,p8-053,VEHICLE,vin,masked,kept,True
+mini,B,p8-053,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-054,MRN,chart,leaked,n/a (not masked),True
+mini,B,p8-054,SSN,spaces,partial,kept,True
+mini,B,p8-054,DATE,day_mon,masked,kept,True
+mini,B,p8-054,PHONE,dash,masked,kept,True
+mini,B,p8-054,CITY,city,masked,kept,True
+mini,B,p8-055,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-055,PHONE,dot,masked,kept,True
+mini,B,p8-055,FAX,paren,masked,kept,True
+mini,B,p8-055,MRN,mr_hash,leaked,n/a (not masked),True
+mini,B,p8-055,IP,ipv4,masked,kept,True
+mini,B,p8-056,MEMBER,medicaid,leaked,n/a (not masked),True
+mini,B,p8-056,IP,ipv4,masked,kept,True
+mini,B,p8-056,NAME,last_first,partial,kept,True
+mini,B,p8-056,DATE,ordinal,masked,kept,True
+mini,B,p8-056,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-057,FAX,dash,masked,kept,True
+mini,B,p8-057,AGE90,age,masked,kept,True
+mini,B,p8-057,STREET,street,partial,kept,True
+mini,B,p8-057,CLAIM,claim_c,masked,kept,True
+mini,B,p8-057,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-058,LICENSE,passport,leaked,n/a (not masked),True
+mini,B,p8-058,MRN,mrn_colon,masked,kept,True
+mini,B,p8-058,STREET,street,masked,kept,True
+mini,B,p8-058,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-058,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-059,DEVICE,pump,partial,kept,True
+mini,B,p8-059,DATE,dotted,masked,kept,True
+mini,B,p8-059,SSN,plain,leaked,n/a (not masked),True
+mini,B,p8-059,CLAIM,claim_hash,masked,kept,True
+mini,B,p8-059,MRN,mrn_hash,masked,kept,True
+mini,B,p8-060,IP,ipv4,masked,kept,True
+mini,B,p8-060,MRN,mrn_words,masked,kept,True
+mini,B,p8-060,CLAIM,claim_no,masked,kept,True
+mini,B,p8-060,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-060,NAME,initial,masked,kept,True
+mini,B,p8-061,VEHICLE,vin,masked,kept,True
+mini,B,p8-061,NAME,full,masked,kept,True
+mini,B,p8-061,CITY,city,masked,kept,True
+mini,B,p8-061,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-061,PHONE,intl,masked,kept,True
+mini,B,p8-062,BIOMETRIC,fingerprint,masked,kept,True
+mini,B,p8-062,ACCOUNT,iban,masked,kept,True
+mini,B,p8-062,NAME,last_first,partial,kept,True
+mini,B,p8-062,MEMBER,member_m,masked,kept,True
+mini,B,p8-062,MRN,med_rec,masked,kept,True
+mini,B,p8-063,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-063,SSN,dashes,masked,kept,True
+mini,B,p8-063,COUNTY,county,masked,kept,True
+mini,B,p8-063,MRN,chart,leaked,n/a (not masked),True
+mini,B,p8-063,IP,ipv4,masked,kept,True
+mini,B,p8-064,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-064,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-064,LICENSE,dea,masked,kept,True
+mini,B,p8-064,IP,ipv4,masked,kept,True
+mini,B,p8-064,ZIP,zip_context,masked,kept,True
+mini,B,p8-065,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-065,CITY,city,masked,kept,True
+mini,B,p8-065,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-065,COUNTY,county,masked,kept,True
+mini,B,p8-065,ACCOUNT,card,masked,kept,True
+mini,B,p8-066,NAME,initial,partial,kept,True
+mini,B,p8-066,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-066,SSN,spaces,partial,kept,True
+mini,B,p8-066,MRN,mr_hash,leaked,n/a (not masked),True
+mini,B,p8-066,URL,https,masked,kept,True
+mini,B,p8-067,URL,http,masked,kept,True
+mini,B,p8-067,LICENSE,medical,masked,kept,True
+mini,B,p8-067,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-067,CITY,city,masked,kept,True
+mini,B,p8-067,MRN,mrn_colon,masked,kept,True
+mini,B,p8-068,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-068,SSN,plain,leaked,n/a (not masked),True
+mini,B,p8-068,CITY,city,masked,kept,True
+mini,B,p8-068,VEHICLE,vin,masked,kept,True
+mini,B,p8-068,IP,ipv4,masked,kept,True
+mini,B,p8-069,IP,ipv4,masked,kept,True
+mini,B,p8-069,MRN,mrn_hash,masked,kept,True
+mini,B,p8-069,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-069,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-069,AGE90,age,masked,kept,True
+mini,B,p8-070,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-070,PHONE,spaces,masked,kept,True
+mini,B,p8-070,IP,ipv4,masked,kept,True
+mini,B,p8-070,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-070,CLAIM,claim_ref,leaked,n/a (not masked),True
+mini,B,p8-071,AGE90,age,masked,kept,True
+mini,B,p8-071,MEMBER,subscriber,masked,kept,True
+mini,B,p8-071,BIOMETRIC,fingerprint,masked,kept,True
+mini,B,p8-071,NAME,full,masked,kept,True
+mini,B,p8-071,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-072,NAME,last_first,partial,kept,True
+mini,B,p8-072,DATE,month_year,masked,kept,True
+mini,B,p8-072,CLAIM,claim_c,masked,kept,True
+mini,B,p8-072,STREET,street,masked,kept,True
+mini,B,p8-072,EMAIL,plain,masked,kept,True
+mini,B,p8-073,AGE90,age,masked,kept,True
+mini,B,p8-073,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-073,FAX,paren,masked,kept,True
+mini,B,p8-073,VEHICLE,vin,masked,kept,True
+mini,B,p8-073,MEMBER,insurance,leaked,n/a (not masked),True
+mini,B,p8-074,CITY,city,masked,kept,True
+mini,B,p8-074,STREET,street,leaked,n/a (not masked),True
+mini,B,p8-074,NAME,initial,masked,kept,True
+mini,B,p8-074,MEMBER,medicaid,leaked,n/a (not masked),True
+mini,B,p8-074,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-075,FAX,dash,masked,kept,True
+mini,B,p8-075,COUNTY,county,masked,kept,True
+mini,B,p8-075,MRN,mrn_words,masked,kept,True
+mini,B,p8-075,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-075,CITY,city,masked,kept,True
+mini,B,p8-076,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-076,MRN,med_rec,masked,kept,True
+mini,B,p8-076,EMAIL,plus,masked,kept,True
+mini,B,p8-076,ACCOUNT,iban,masked,kept,True
+mini,B,p8-076,AGE90,age,masked,kept,True
+mini,B,p8-077,ACCOUNT,card,masked,kept,True
+mini,B,p8-077,IP,ipv4,masked,kept,True
+mini,B,p8-077,MRN,chart,leaked,n/a (not masked),True
+mini,B,p8-077,AGE90,age,masked,kept,True
+mini,B,p8-077,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-078,IP,ipv4,masked,kept,True
+mini,B,p8-078,MEMBER,member_m,masked,kept,True
+mini,B,p8-078,STREET,street,masked,kept,True
+mini,B,p8-078,CITY,city,masked,kept,True
+mini,B,p8-078,URL,https,masked,kept,True
+mini,B,p8-079,LICENSE,drivers,masked,kept,True
+mini,B,p8-079,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-079,MRN,mr_hash,leaked,n/a (not masked),True
+mini,B,p8-079,MEMBER,subscriber,masked,kept,True
+mini,B,p8-079,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-080,DATE,us_slash,masked,kept,True
+mini,B,p8-080,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-080,AGE90,age,masked,kept,True
+mini,B,p8-080,IP,ipv4,masked,kept,True
+mini,B,p8-080,EMAIL,plain,masked,kept,True
+mini,B,p8-081,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-081,FAX,paren,masked,kept,True
+mini,B,p8-081,STREET,street,masked,kept,True
+mini,B,p8-081,EMAIL,plus,masked,kept,True
+mini,B,p8-081,CITY,city,masked,kept,True
+mini,B,p8-082,FAX,dash,masked,kept,True
+mini,B,p8-082,URL,http,masked,kept,True
+mini,B,p8-082,CLAIM,claim_hash,masked,kept,True
+mini,B,p8-082,LICENSE,passport,leaked,n/a (not masked),True
+mini,B,p8-082,SSN,dashes,masked,kept,True
+mini,B,p8-083,DATE,iso,masked,kept,True
+mini,B,p8-083,ZIP,zip_context,masked,kept,True
+mini,B,p8-083,ACCOUNT,iban,masked,kept,True
+mini,B,p8-083,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-083,AGE90,age,masked,kept,True
+mini,B,p8-084,DATE,long,masked,kept,True
+mini,B,p8-084,VEHICLE,vin,masked,kept,True
+mini,B,p8-084,ACCOUNT,card,masked,kept,True
+mini,B,p8-084,SSN,spaces,leaked,n/a (not masked),True
+mini,B,p8-084,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-085,EMAIL,plain,masked,kept,True
+mini,B,p8-085,COUNTY,county,masked,kept,True
+mini,B,p8-085,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-085,MEMBER,insurance,leaked,n/a (not masked),True
+mini,B,p8-085,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-086,EMAIL,plus,masked,kept,True
+mini,B,p8-086,CITY,city,masked,kept,True
+mini,B,p8-086,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-086,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-086,IP,ipv4,masked,kept,True
+mini,B,p8-087,DATE,day_mon,masked,kept,True
+mini,B,p8-087,EMAIL,obfuscated,partial,kept,True
+mini,B,p8-087,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-087,FAX,paren,masked,kept,True
+mini,B,p8-087,CITY,city,masked,kept,True
+mini,B,p8-088,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-088,MRN,mrn_colon,masked,kept,True
+mini,B,p8-088,VEHICLE,vin,masked,kept,True
+mini,B,p8-088,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-088,CITY,city,masked,kept,True
+mini,B,p8-089,FAX,dash,masked,kept,True
+mini,B,p8-089,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-089,ZIP,zip_context,masked,kept,True
+mini,B,p8-089,EMAIL,plain,masked,kept,True
+mini,B,p8-089,SSN,plain,leaked,n/a (not masked),True
+mini,B,p8-090,SSN,dashes,masked,kept,True
+mini,B,p8-090,MEMBER,medicaid,leaked,n/a (not masked),True
+mini,B,p8-090,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-090,LICENSE,dea,masked,kept,True
+mini,B,p8-090,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-091,AGE90,age,masked,kept,True
+mini,B,p8-091,DEVICE,udi,leaked,n/a (not masked),True
+mini,B,p8-091,LICENSE,medical,masked,kept,True
+mini,B,p8-091,CLAIM,claim_no,masked,kept,True
+mini,B,p8-091,PHONE,paren,masked,kept,True
+mini,B,p8-092,SSN,spaces,leaked,n/a (not masked),True
+mini,B,p8-092,COUNTY,county,masked,kept,True
+mini,B,p8-092,DEVICE,serial,leaked,n/a (not masked),True
+mini,B,p8-092,PHONE,dash,masked,kept,True
+mini,B,p8-092,URL,bare,leaked,n/a (not masked),True
+mini,B,p8-093,IP,ipv4,masked,kept,True
+mini,B,p8-093,CLAIM,claim_ref,leaked,n/a (not masked),True
+mini,B,p8-093,DATE,ordinal,masked,kept,True
+mini,B,p8-093,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-093,VEHICLE,vin,masked,kept,True
+mini,B,p8-094,MRN,mrn_hash,masked,kept,True
+mini,B,p8-094,IP,ipv4,masked,kept,True
+mini,B,p8-094,LICENSE,drivers,masked,kept,True
+mini,B,p8-094,ACCOUNT,bank,leaked,n/a (not masked),True
+mini,B,p8-094,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-095,URL,https,masked,kept,True
+mini,B,p8-095,FAX,paren,masked,kept,True
+mini,B,p8-095,AGE90,age,masked,kept,True
+mini,B,p8-095,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-095,CITY,city,masked,kept,True
+mini,B,p8-096,COUNTY,county,leaked,n/a (not masked),True
+mini,B,p8-096,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-096,ZIP,zip_bare,leaked,n/a (not masked),True
+mini,B,p8-096,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+mini,B,p8-096,FAX,dash,masked,kept,True
+mini,B,p8-097,URL,http,masked,kept,True
+mini,B,p8-097,AGE90,age,masked,kept,True
+mini,B,p8-097,CITY,city,masked,kept,True
+mini,B,p8-097,VEHICLE,plate,leaked,n/a (not masked),True
+mini,B,p8-097,SSN,plain,leaked,n/a (not masked),True
+mini,B,p8-098,MRN,mrn_words,masked,kept,True
+mini,B,p8-098,CLAIM,claim_c,masked,kept,True
+mini,B,p8-098,DEVICE,pump,leaked,n/a (not masked),True
+mini,B,p8-098,URL,bare,masked,kept,True
+mini,B,p8-098,ACCOUNT,iban,masked,kept,True
+mini,B,p8-099,COUNTY,county,masked,kept,True
+mini,B,p8-099,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+mini,B,p8-099,AGE90,age,leaked,n/a (not masked),True
+mini,B,p8-099,NAME,full,masked,kept,True
+mini,B,p8-099,ZIP,zip_context,masked,kept,True
+gpt5,A,s4040-000,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-000,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-000,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-000,PHONE,paren,masked,kept,True
+gpt5,A,s4040-001,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-001,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-001,DATE,iso,masked,kept,True
+gpt5,A,s4040-001,PHONE,dash,masked,kept,True
+gpt5,A,s4040-002,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-002,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-002,DATE,long,masked,kept,True
+gpt5,A,s4040-002,PHONE,dot,masked,kept,True
+gpt5,A,s4040-003,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-003,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-003,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-003,PHONE,paren,masked,kept,True
+gpt5,A,s4040-004,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-004,DATE,us_short,masked,kept,True
+gpt5,A,s4040-004,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-004,PHONE,dash,masked,kept,True
+gpt5,A,s4040-005,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-005,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-005,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-005,PHONE,dot,masked,kept,True
+gpt5,A,s4040-006,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-006,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-006,DATE,iso,masked,kept,True
+gpt5,A,s4040-006,PHONE,paren,masked,kept,True
+gpt5,A,s4040-007,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-007,DATE,long,masked,kept,True
+gpt5,A,s4040-007,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-007,PHONE,dash,masked,kept,True
+gpt5,A,s4040-008,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-008,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-008,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-008,PHONE,dot,masked,kept,True
+gpt5,A,s4040-009,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-009,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-009,DATE,us_short,masked,kept,True
+gpt5,A,s4040-009,PHONE,paren,masked,kept,True
+gpt5,A,s4040-010,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-010,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-010,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-010,PHONE,dash,masked,kept,True
+gpt5,A,s4040-011,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-011,DATE,iso,masked,kept,True
+gpt5,A,s4040-011,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-011,PHONE,dot,masked,kept,True
+gpt5,A,s4040-012,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-012,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-012,DATE,long,masked,kept,True
+gpt5,A,s4040-012,PHONE,paren,masked,kept,True
+gpt5,A,s4040-013,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-013,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-013,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-013,PHONE,dash,masked,kept,True
+gpt5,A,s4040-014,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-014,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-014,DATE,us_short,masked,kept,True
+gpt5,A,s4040-014,PHONE,dot,masked,kept,True
+gpt5,A,s4040-015,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-015,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-015,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-015,PHONE,paren,masked,kept,True
+gpt5,A,s4040-016,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-016,DATE,iso,masked,kept,True
+gpt5,A,s4040-016,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-016,PHONE,dash,masked,kept,True
+gpt5,A,s4040-017,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-017,DATE,long,partial,kept,True
+gpt5,A,s4040-017,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-017,PHONE,dot,masked,kept,True
+gpt5,A,s4040-018,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-018,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-018,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-018,PHONE,paren,masked,kept,True
+gpt5,A,s4040-019,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-019,DATE,us_short,masked,kept,True
+gpt5,A,s4040-019,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-019,PHONE,dash,masked,kept,True
+gpt5,A,s4040-020,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-020,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-020,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-020,PHONE,dot,masked,kept,True
+gpt5,A,s4040-021,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-021,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-021,DATE,iso,masked,kept,True
+gpt5,A,s4040-021,PHONE,paren,masked,kept,True
+gpt5,A,s4040-022,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-022,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-022,DATE,long,masked,kept,True
+gpt5,A,s4040-022,PHONE,dash,masked,kept,True
+gpt5,A,s4040-023,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-023,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-023,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-023,PHONE,dot,masked,kept,True
+gpt5,A,s4040-024,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-024,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-024,DATE,us_short,masked,kept,True
+gpt5,A,s4040-024,PHONE,paren,masked,kept,True
+gpt5,A,s4040-025,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-025,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-025,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-025,PHONE,dash,masked,kept,True
+gpt5,A,s4040-026,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-026,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-026,DATE,iso,masked,kept,True
+gpt5,A,s4040-026,PHONE,dot,masked,kept,True
+gpt5,A,s4040-027,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-027,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-027,DATE,long,masked,kept,True
+gpt5,A,s4040-027,PHONE,paren,masked,kept,True
+gpt5,A,s4040-028,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-028,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-028,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-028,PHONE,dash,masked,kept,True
+gpt5,A,s4040-029,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-029,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-029,DATE,us_short,masked,kept,True
+gpt5,A,s4040-029,PHONE,dot,masked,kept,True
+gpt5,A,s4040-030,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-030,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-030,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-030,PHONE,paren,masked,kept,True
+gpt5,A,s4040-031,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-031,DATE,iso,masked,kept,True
+gpt5,A,s4040-031,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-031,PHONE,dash,masked,kept,True
+gpt5,A,s4040-032,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-032,DATE,long,masked,kept,True
+gpt5,A,s4040-032,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-032,PHONE,dot,masked,kept,True
+gpt5,A,s4040-033,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-033,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-033,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-033,PHONE,paren,masked,kept,True
+gpt5,A,s4040-034,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-034,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-034,DATE,us_short,masked,kept,True
+gpt5,A,s4040-034,PHONE,dash,masked,kept,True
+gpt5,A,s4040-035,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-035,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-035,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-035,PHONE,dot,masked,kept,True
+gpt5,A,s4040-036,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-036,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-036,DATE,iso,masked,kept,True
+gpt5,A,s4040-036,PHONE,paren,masked,kept,True
+gpt5,A,s4040-037,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-037,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-037,DATE,long,masked,kept,True
+gpt5,A,s4040-037,PHONE,dash,masked,kept,True
+gpt5,A,s4040-038,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-038,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-038,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-038,PHONE,dot,masked,kept,True
+gpt5,A,s4040-039,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-039,DATE,us_short,masked,kept,True
+gpt5,A,s4040-039,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-039,PHONE,paren,masked,kept,True
+gpt5,A,s4040-040,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-040,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-040,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-040,PHONE,dash,masked,kept,True
+gpt5,A,s4040-041,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-041,DATE,iso,masked,kept,True
+gpt5,A,s4040-041,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-041,PHONE,dot,masked,kept,True
+gpt5,A,s4040-042,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-042,DATE,long,masked,kept,True
+gpt5,A,s4040-042,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-042,PHONE,paren,masked,kept,True
+gpt5,A,s4040-043,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-043,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-043,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-043,PHONE,dash,masked,kept,True
+gpt5,A,s4040-044,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-044,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-044,DATE,us_short,masked,kept,True
+gpt5,A,s4040-044,PHONE,dot,masked,kept,True
+gpt5,A,s4040-045,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-045,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-045,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-045,PHONE,paren,masked,kept,True
+gpt5,A,s4040-046,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-046,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-046,DATE,iso,masked,kept,True
+gpt5,A,s4040-046,PHONE,dash,masked,kept,True
+gpt5,A,s4040-047,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-047,DATE,long,masked,kept,True
+gpt5,A,s4040-047,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-047,PHONE,dot,masked,kept,True
+gpt5,A,s4040-048,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-048,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-048,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-048,PHONE,paren,masked,kept,True
+gpt5,A,s4040-049,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-049,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-049,DATE,us_short,masked,kept,True
+gpt5,A,s4040-049,PHONE,dash,masked,kept,True
+gpt5,A,s4040-050,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-050,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-050,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-050,PHONE,dot,masked,kept,True
+gpt5,A,s4040-051,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-051,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-051,DATE,iso,masked,kept,True
+gpt5,A,s4040-051,PHONE,paren,masked,kept,True
+gpt5,A,s4040-052,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-052,DATE,long,masked,kept,True
+gpt5,A,s4040-052,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-052,PHONE,dash,masked,kept,True
+gpt5,A,s4040-053,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-053,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-053,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-053,PHONE,dot,masked,kept,True
+gpt5,A,s4040-054,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-054,DATE,us_short,masked,kept,True
+gpt5,A,s4040-054,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-054,PHONE,paren,masked,kept,True
+gpt5,A,s4040-055,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-055,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-055,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-055,PHONE,dash,masked,kept,True
+gpt5,A,s4040-056,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-056,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-056,DATE,iso,masked,kept,True
+gpt5,A,s4040-056,PHONE,dot,masked,kept,True
+gpt5,A,s4040-057,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-057,DATE,long,masked,kept,True
+gpt5,A,s4040-057,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-057,PHONE,paren,masked,kept,True
+gpt5,A,s4040-058,PERSON,full_name,leaked,n/a (not masked),True
+gpt5,A,s4040-058,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-058,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-058,PHONE,dash,masked,kept,True
+gpt5,A,s4040-059,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-059,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-059,DATE,us_short,masked,kept,True
+gpt5,A,s4040-059,PHONE,dot,masked,kept,True
+gpt5,A,s4040-060,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-060,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-060,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-060,PHONE,paren,masked,kept,True
+gpt5,A,s4040-061,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-061,DATE,iso,masked,kept,True
+gpt5,A,s4040-061,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-061,PHONE,dash,masked,kept,True
+gpt5,A,s4040-062,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-062,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-062,DATE,long,masked,kept,True
+gpt5,A,s4040-062,PHONE,dot,masked,kept,True
+gpt5,A,s4040-063,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-063,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-063,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-063,PHONE,paren,masked,kept,True
+gpt5,A,s4040-064,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-064,DATE,us_short,masked,kept,True
+gpt5,A,s4040-064,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-064,PHONE,dash,masked,kept,True
+gpt5,A,s4040-065,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-065,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-065,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-065,PHONE,dot,masked,kept,True
+gpt5,A,s4040-066,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-066,DATE,iso,masked,kept,True
+gpt5,A,s4040-066,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-066,PHONE,paren,masked,kept,True
+gpt5,A,s4040-067,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-067,DATE,long,masked,kept,True
+gpt5,A,s4040-067,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-067,PHONE,dash,masked,kept,True
+gpt5,A,s4040-068,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-068,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-068,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-068,PHONE,dot,masked,kept,True
+gpt5,A,s4040-069,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-069,DATE,us_short,masked,kept,True
+gpt5,A,s4040-069,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-069,PHONE,paren,masked,kept,True
+gpt5,A,s4040-070,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-070,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-070,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-070,PHONE,dash,masked,kept,True
+gpt5,A,s4040-071,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-071,DATE,iso,masked,kept,True
+gpt5,A,s4040-071,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-071,PHONE,dot,masked,kept,True
+gpt5,A,s4040-072,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-072,DATE,long,masked,kept,True
+gpt5,A,s4040-072,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-072,PHONE,paren,masked,kept,True
+gpt5,A,s4040-073,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-073,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-073,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-073,PHONE,dash,masked,kept,True
+gpt5,A,s4040-074,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-074,DATE,us_short,masked,kept,True
+gpt5,A,s4040-074,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-074,PHONE,dot,masked,kept,True
+gpt5,A,s4040-075,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-075,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-075,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-075,PHONE,paren,masked,kept,True
+gpt5,A,s4040-076,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-076,DATE,iso,masked,kept,True
+gpt5,A,s4040-076,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-076,PHONE,dash,masked,kept,True
+gpt5,A,s4040-077,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-077,DATE,long,masked,kept,True
+gpt5,A,s4040-077,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-077,PHONE,dot,masked,kept,True
+gpt5,A,s4040-078,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-078,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-078,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-078,PHONE,paren,masked,kept,True
+gpt5,A,s4040-079,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-079,DATE,us_short,masked,kept,True
+gpt5,A,s4040-079,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-079,PHONE,dash,masked,kept,True
+gpt5,A,s4040-080,PERSON,full_name,partial,kept,True
+gpt5,A,s4040-080,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-080,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-080,PHONE,dot,masked,kept,True
+gpt5,A,s4040-081,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-081,DATE,iso,masked,kept,True
+gpt5,A,s4040-081,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-081,PHONE,paren,masked,kept,True
+gpt5,A,s4040-082,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-082,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-082,DATE,long,masked,kept,True
+gpt5,A,s4040-082,PHONE,dash,masked,kept,True
+gpt5,A,s4040-083,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-083,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-083,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-083,PHONE,dot,masked,kept,True
+gpt5,A,s4040-084,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-084,DATE,us_short,masked,kept,True
+gpt5,A,s4040-084,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-084,PHONE,paren,masked,kept,True
+gpt5,A,s4040-085,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-085,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-085,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-085,PHONE,dash,masked,kept,True
+gpt5,A,s4040-086,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-086,DATE,iso,masked,kept,True
+gpt5,A,s4040-086,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-086,PHONE,dot,masked,kept,True
+gpt5,A,s4040-087,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-087,DATE,long,masked,kept,True
+gpt5,A,s4040-087,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-087,PHONE,paren,masked,kept,True
+gpt5,A,s4040-088,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-088,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-088,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-088,PHONE,dash,masked,kept,True
+gpt5,A,s4040-089,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-089,DATE,us_short,masked,kept,True
+gpt5,A,s4040-089,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-089,PHONE,dot,masked,kept,True
+gpt5,A,s4040-090,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-090,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-090,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-090,PHONE,paren,masked,kept,True
+gpt5,A,s4040-091,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-091,DATE,iso,masked,kept,True
+gpt5,A,s4040-091,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-091,PHONE,dash,masked,kept,True
+gpt5,A,s4040-092,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-092,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-092,DATE,long,masked,kept,True
+gpt5,A,s4040-092,PHONE,dot,masked,kept,True
+gpt5,A,s4040-093,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-093,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-093,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-093,PHONE,paren,masked,kept,True
+gpt5,A,s4040-094,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-094,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-094,DATE,us_short,masked,kept,True
+gpt5,A,s4040-094,PHONE,dash,masked,kept,True
+gpt5,A,s4040-095,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-095,DATE,us_slash,masked,kept,True
+gpt5,A,s4040-095,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-095,PHONE,dot,masked,kept,True
+gpt5,A,s4040-096,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-096,DATE,iso,masked,kept,True
+gpt5,A,s4040-096,MRN,mrn_colon,masked,kept,True
+gpt5,A,s4040-096,PHONE,paren,masked,kept,True
+gpt5,A,s4040-097,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-097,DATE,long,partial,kept,True
+gpt5,A,s4040-097,MRN,mrn_hash,masked,kept,True
+gpt5,A,s4040-097,PHONE,dash,masked,kept,True
+gpt5,A,s4040-098,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-098,DATE,day_mon,masked,kept,True
+gpt5,A,s4040-098,MRN,mrn_space,masked,kept,True
+gpt5,A,s4040-098,PHONE,dot,masked,kept,True
+gpt5,A,s4040-099,PERSON,full_name,masked,kept,True
+gpt5,A,s4040-099,MRN,mrn_words,masked,kept,True
+gpt5,A,s4040-099,DATE,us_short,masked,kept,True
+gpt5,A,s4040-099,PHONE,paren,masked,kept,True
+gpt5,B,p8-000,CITY,city,masked,kept,True
+gpt5,B,p8-000,PHONE,paren,masked,kept,True
+gpt5,B,p8-000,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-000,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-000,NAME,full,masked,kept,True
+gpt5,B,p8-001,SSN,dashes,masked,kept,True
+gpt5,B,p8-001,IP,ipv4,masked,kept,True
+gpt5,B,p8-001,CITY,city,masked,kept,True
+gpt5,B,p8-001,EMAIL,plain,masked,kept,True
+gpt5,B,p8-001,STREET,street,masked,kept,True
+gpt5,B,p8-002,SSN,spaces,partial,kept,True
+gpt5,B,p8-002,IP,ipv4,masked,kept,True
+gpt5,B,p8-002,CITY,city,masked,kept,True
+gpt5,B,p8-002,EMAIL,plus,masked,kept,True
+gpt5,B,p8-002,URL,https,masked,kept,True
+gpt5,B,p8-003,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-003,CLAIM,claim_c,masked,kept,True
+gpt5,B,p8-003,FAX,paren,masked,kept,True
+gpt5,B,p8-003,DATE,us_slash,masked,kept,True
+gpt5,B,p8-003,URL,http,masked,kept,True
+gpt5,B,p8-004,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-004,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-004,ZIP,zip_bare,masked,kept,True
+gpt5,B,p8-004,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-004,DATE,iso,masked,kept,True
+gpt5,B,p8-005,STREET,street,partial,kept,True
+gpt5,B,p8-005,URL,https,masked,kept,True
+gpt5,B,p8-005,CLAIM,claim_hash,masked,kept,True
+gpt5,B,p8-005,DATE,long,masked,kept,True
+gpt5,B,p8-005,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-006,FAX,dash,masked,kept,True
+gpt5,B,p8-006,MEMBER,member_m,masked,kept,True
+gpt5,B,p8-006,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-006,CLAIM,claim_no,masked,kept,True
+gpt5,B,p8-006,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-007,CLAIM,claim_ref,masked,kept,True
+gpt5,B,p8-007,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-007,URL,http,masked,kept,True
+gpt5,B,p8-007,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-007,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-008,FAX,paren,masked,kept,True
+gpt5,B,p8-008,CLAIM,claim_c,masked,kept,True
+gpt5,B,p8-008,NAME,last_first,partial,kept,True
+gpt5,B,p8-008,ACCOUNT,bank,masked,kept,True
+gpt5,B,p8-008,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-009,CLAIM,claim_hash,masked,kept,True
+gpt5,B,p8-009,COUNTY,county,masked,kept,True
+gpt5,B,p8-009,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-009,EMAIL,plain,masked,kept,True
+gpt5,B,p8-009,DATE,day_mon,masked,kept,True
+gpt5,B,p8-010,COUNTY,county,masked,kept,True
+gpt5,B,p8-010,SSN,plain,leaked,n/a (not masked),True
+gpt5,B,p8-010,MEMBER,subscriber,masked,kept,True
+gpt5,B,p8-010,DATE,ordinal,masked,kept,True
+gpt5,B,p8-010,CLAIM,claim_no,masked,kept,True
+gpt5,B,p8-011,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-011,AGE90,age,masked,kept,True
+gpt5,B,p8-011,PHONE,dash,masked,kept,True
+gpt5,B,p8-011,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-011,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-012,MRN,mrn_colon,masked,kept,True
+gpt5,B,p8-012,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-012,CITY,city,masked,kept,True
+gpt5,B,p8-012,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-012,NAME,initial,partial,kept,True
+gpt5,B,p8-013,CITY,city,masked,kept,True
+gpt5,B,p8-013,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-013,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-013,PHONE,dot,masked,kept,True
+gpt5,B,p8-013,IP,ipv4,masked,kept,True
+gpt5,B,p8-014,URL,https,masked,kept,True
+gpt5,B,p8-014,NAME,full,masked,kept,True
+gpt5,B,p8-014,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-014,COUNTY,county,masked,kept,True
+gpt5,B,p8-014,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-015,EMAIL,plus,masked,kept,True
+gpt5,B,p8-015,URL,http,masked,kept,True
+gpt5,B,p8-015,LICENSE,drivers,leaked,n/a (not masked),True
+gpt5,B,p8-015,MRN,mrn_hash,masked,kept,True
+gpt5,B,p8-015,PHONE,intl,masked,kept,True
+gpt5,B,p8-016,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-016,CITY,city,masked,kept,True
+gpt5,B,p8-016,CLAIM,claim_ref,leaked,n/a (not masked),True
+gpt5,B,p8-016,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-016,PHONE,spaces,masked,kept,True
+gpt5,B,p8-017,CITY,city,masked,kept,True
+gpt5,B,p8-017,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-017,MEMBER,insurance,leaked,n/a (not masked),True
+gpt5,B,p8-017,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-017,DATE,dotted,masked,kept,True
+gpt5,B,p8-018,NAME,last_first,partial,kept,True
+gpt5,B,p8-018,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-018,IP,ipv4,masked,kept,True
+gpt5,B,p8-018,DATE,month_year,masked,kept,True
+gpt5,B,p8-018,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-019,FAX,dash,masked,kept,True
+gpt5,B,p8-019,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-019,COUNTY,county,masked,kept,True
+gpt5,B,p8-019,SSN,dashes,masked,kept,True
+gpt5,B,p8-019,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-020,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-020,COUNTY,county,masked,kept,True
+gpt5,B,p8-020,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-020,MRN,mrn_words,masked,kept,True
+gpt5,B,p8-020,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-021,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-021,EMAIL,plain,masked,kept,True
+gpt5,B,p8-021,AGE90,age,masked,kept,True
+gpt5,B,p8-021,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-021,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-022,PHONE,paren,masked,kept,True
+gpt5,B,p8-022,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-022,EMAIL,plus,masked,kept,True
+gpt5,B,p8-022,STREET,street,masked,kept,True
+gpt5,B,p8-022,MRN,med_rec,masked,kept,True
+gpt5,B,p8-023,CITY,city,masked,kept,True
+gpt5,B,p8-023,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-023,DATE,us_slash,masked,kept,True
+gpt5,B,p8-023,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-023,STREET,street,masked,kept,True
+gpt5,B,p8-024,DATE,iso,masked,kept,True
+gpt5,B,p8-024,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-024,MEMBER,medicaid,leaked,n/a (not masked),True
+gpt5,B,p8-024,SSN,spaces,leaked,n/a (not masked),True
+gpt5,B,p8-024,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-025,MRN,chart,leaked,n/a (not masked),True
+gpt5,B,p8-025,AGE90,age,masked,kept,True
+gpt5,B,p8-025,IP,ipv4,masked,kept,True
+gpt5,B,p8-025,COUNTY,county,masked,kept,True
+gpt5,B,p8-025,NAME,initial,masked,kept,True
+gpt5,B,p8-026,EMAIL,plain,masked,kept,True
+gpt5,B,p8-026,AGE90,age,masked,kept,True
+gpt5,B,p8-026,DATE,long,masked,kept,True
+gpt5,B,p8-026,COUNTY,county,masked,kept,True
+gpt5,B,p8-026,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-027,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-027,URL,https,masked,kept,True
+gpt5,B,p8-027,CLAIM,claim_c,masked,kept,True
+gpt5,B,p8-027,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-027,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-028,URL,http,masked,kept,True
+gpt5,B,p8-028,IP,ipv4,masked,kept,True
+gpt5,B,p8-028,EMAIL,plus,masked,kept,True
+gpt5,B,p8-028,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-028,AGE90,age,masked,kept,True
+gpt5,B,p8-029,AGE90,age,masked,kept,True
+gpt5,B,p8-029,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-029,STREET,street,partial,kept,True
+gpt5,B,p8-029,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-029,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-030,IP,ipv4,masked,kept,True
+gpt5,B,p8-030,NAME,full,masked,kept,True
+gpt5,B,p8-030,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-030,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-030,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-031,STREET,street,partial,kept,True
+gpt5,B,p8-031,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-031,IP,ipv4,masked,kept,True
+gpt5,B,p8-031,BIOMETRIC,fingerprint,masked,kept,True
+gpt5,B,p8-031,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-032,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-032,MRN,mr_hash,leaked,n/a (not masked),True
+gpt5,B,p8-032,FAX,paren,masked,kept,True
+gpt5,B,p8-032,NAME,last_first,partial,kept,True
+gpt5,B,p8-032,LICENSE,passport,leaked,n/a (not masked),True
+gpt5,B,p8-033,FAX,dash,masked,kept,True
+gpt5,B,p8-033,CLAIM,claim_hash,masked,kept,True
+gpt5,B,p8-033,MRN,mrn_colon,masked,kept,True
+gpt5,B,p8-033,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-033,COUNTY,county,masked,kept,True
+gpt5,B,p8-034,NAME,initial,masked,kept,True
+gpt5,B,p8-034,MRN,mrn_hash,masked,kept,True
+gpt5,B,p8-034,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-034,CITY,city,masked,kept,True
+gpt5,B,p8-034,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-035,MEMBER,member_m,masked,kept,True
+gpt5,B,p8-035,LICENSE,dea,masked,kept,True
+gpt5,B,p8-035,COUNTY,county,masked,kept,True
+gpt5,B,p8-035,NAME,full,masked,kept,True
+gpt5,B,p8-035,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-036,DATE,day_mon,masked,kept,True
+gpt5,B,p8-036,LICENSE,medical,masked,kept,True
+gpt5,B,p8-036,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-036,COUNTY,county,masked,kept,True
+gpt5,B,p8-036,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-037,CITY,city,masked,kept,True
+gpt5,B,p8-037,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-037,COUNTY,county,masked,kept,True
+gpt5,B,p8-037,IP,ipv4,masked,kept,True
+gpt5,B,p8-037,SSN,plain,leaked,n/a (not masked),True
+gpt5,B,p8-038,URL,https,masked,kept,True
+gpt5,B,p8-038,IP,ipv4,masked,kept,True
+gpt5,B,p8-038,LICENSE,drivers,masked,kept,True
+gpt5,B,p8-038,NAME,last_first,partial,kept,True
+gpt5,B,p8-038,DATE,ordinal,masked,kept,True
+gpt5,B,p8-039,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-039,DATE,dotted,leaked,n/a (not masked),True
+gpt5,B,p8-039,URL,http,masked,kept,True
+gpt5,B,p8-039,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-039,PHONE,dash,masked,kept,True
+gpt5,B,p8-040,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-040,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-040,MRN,mrn_words,masked,kept,True
+gpt5,B,p8-040,IP,ipv4,masked,kept,True
+gpt5,B,p8-040,PHONE,dot,masked,kept,True
+gpt5,B,p8-041,CITY,city,masked,kept,True
+gpt5,B,p8-041,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-041,STREET,street,partial,kept,True
+gpt5,B,p8-041,MEMBER,subscriber,masked,kept,True
+gpt5,B,p8-041,COUNTY,county,masked,kept,True
+gpt5,B,p8-042,MEMBER,insurance,leaked,n/a (not masked),True
+gpt5,B,p8-042,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-042,CITY,city,masked,kept,True
+gpt5,B,p8-042,STREET,street,masked,kept,True
+gpt5,B,p8-042,LICENSE,passport,leaked,n/a (not masked),True
+gpt5,B,p8-043,AGE90,age,masked,kept,True
+gpt5,B,p8-043,MEMBER,medicaid,masked,kept,True
+gpt5,B,p8-043,STREET,street,masked,kept,True
+gpt5,B,p8-043,CLAIM,claim_no,masked,kept,True
+gpt5,B,p8-043,EMAIL,plain,masked,kept,True
+gpt5,B,p8-044,NAME,initial,partial,kept,True
+gpt5,B,p8-044,MEMBER,member_m,masked,kept,True
+gpt5,B,p8-044,URL,https,masked,kept,True
+gpt5,B,p8-044,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-044,LICENSE,dea,masked,kept,True
+gpt5,B,p8-045,LICENSE,medical,masked,kept,True
+gpt5,B,p8-045,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-045,AGE90,age,masked,kept,True
+gpt5,B,p8-045,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-045,COUNTY,county,masked,kept,True
+gpt5,B,p8-046,PHONE,intl,masked,kept,True
+gpt5,B,p8-046,IP,ipv4,masked,kept,True
+gpt5,B,p8-046,AGE90,age,masked,kept,True
+gpt5,B,p8-046,MEMBER,subscriber,masked,kept,True
+gpt5,B,p8-046,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-047,URL,http,masked,kept,True
+gpt5,B,p8-047,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-047,STREET,street,partial,kept,True
+gpt5,B,p8-047,PHONE,spaces,masked,kept,True
+gpt5,B,p8-047,DATE,month_year,masked,kept,True
+gpt5,B,p8-048,SSN,dashes,masked,kept,True
+gpt5,B,p8-048,COUNTY,county,masked,kept,True
+gpt5,B,p8-048,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-048,DATE,us_slash,masked,kept,True
+gpt5,B,p8-048,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-049,IP,ipv4,masked,kept,True
+gpt5,B,p8-049,NAME,full,masked,kept,True
+gpt5,B,p8-049,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-049,CLAIM,claim_ref,partial,kept,True
+gpt5,B,p8-049,DATE,iso,masked,kept,True
+gpt5,B,p8-050,IP,ipv4,masked,kept,True
+gpt5,B,p8-050,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-050,MRN,med_rec,masked,kept,True
+gpt5,B,p8-050,FAX,paren,masked,kept,True
+gpt5,B,p8-050,DATE,long,masked,kept,True
+gpt5,B,p8-051,LICENSE,drivers,masked,kept,True
+gpt5,B,p8-051,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-051,URL,https,masked,kept,True
+gpt5,B,p8-051,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-051,MEMBER,insurance,leaked,n/a (not masked),True
+gpt5,B,p8-052,EMAIL,plus,masked,kept,True
+gpt5,B,p8-052,COUNTY,county,masked,kept,True
+gpt5,B,p8-052,URL,http,masked,kept,True
+gpt5,B,p8-052,CITY,city,masked,kept,True
+gpt5,B,p8-052,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-053,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-053,FAX,dash,masked,kept,True
+gpt5,B,p8-053,PHONE,paren,masked,kept,True
+gpt5,B,p8-053,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-053,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-054,MRN,chart,leaked,n/a (not masked),True
+gpt5,B,p8-054,SSN,spaces,partial,kept,True
+gpt5,B,p8-054,DATE,day_mon,masked,kept,True
+gpt5,B,p8-054,PHONE,dash,masked,kept,True
+gpt5,B,p8-054,CITY,city,masked,kept,True
+gpt5,B,p8-055,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-055,PHONE,dot,masked,kept,True
+gpt5,B,p8-055,FAX,paren,masked,kept,True
+gpt5,B,p8-055,MRN,mr_hash,leaked,n/a (not masked),True
+gpt5,B,p8-055,IP,ipv4,masked,kept,True
+gpt5,B,p8-056,MEMBER,medicaid,leaked,n/a (not masked),True
+gpt5,B,p8-056,IP,ipv4,masked,kept,True
+gpt5,B,p8-056,NAME,last_first,partial,kept,True
+gpt5,B,p8-056,DATE,ordinal,masked,kept,True
+gpt5,B,p8-056,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-057,FAX,dash,masked,kept,True
+gpt5,B,p8-057,AGE90,age,masked,kept,True
+gpt5,B,p8-057,STREET,street,partial,kept,True
+gpt5,B,p8-057,CLAIM,claim_c,masked,kept,True
+gpt5,B,p8-057,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-058,LICENSE,passport,leaked,n/a (not masked),True
+gpt5,B,p8-058,MRN,mrn_colon,masked,kept,True
+gpt5,B,p8-058,STREET,street,masked,kept,True
+gpt5,B,p8-058,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-058,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-059,DEVICE,pump,partial,kept,True
+gpt5,B,p8-059,DATE,dotted,masked,kept,True
+gpt5,B,p8-059,SSN,plain,leaked,n/a (not masked),True
+gpt5,B,p8-059,CLAIM,claim_hash,masked,kept,True
+gpt5,B,p8-059,MRN,mrn_hash,masked,kept,True
+gpt5,B,p8-060,IP,ipv4,masked,kept,True
+gpt5,B,p8-060,MRN,mrn_words,masked,kept,True
+gpt5,B,p8-060,CLAIM,claim_no,masked,kept,True
+gpt5,B,p8-060,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-060,NAME,initial,masked,kept,True
+gpt5,B,p8-061,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-061,NAME,full,masked,kept,True
+gpt5,B,p8-061,CITY,city,masked,kept,True
+gpt5,B,p8-061,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-061,PHONE,intl,masked,kept,True
+gpt5,B,p8-062,BIOMETRIC,fingerprint,masked,kept,True
+gpt5,B,p8-062,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-062,NAME,last_first,partial,kept,True
+gpt5,B,p8-062,MEMBER,member_m,masked,kept,True
+gpt5,B,p8-062,MRN,med_rec,masked,kept,True
+gpt5,B,p8-063,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-063,SSN,dashes,masked,kept,True
+gpt5,B,p8-063,COUNTY,county,masked,kept,True
+gpt5,B,p8-063,MRN,chart,leaked,n/a (not masked),True
+gpt5,B,p8-063,IP,ipv4,masked,kept,True
+gpt5,B,p8-064,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-064,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-064,LICENSE,dea,masked,kept,True
+gpt5,B,p8-064,IP,ipv4,masked,kept,True
+gpt5,B,p8-064,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-065,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-065,CITY,city,masked,kept,True
+gpt5,B,p8-065,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-065,COUNTY,county,masked,kept,True
+gpt5,B,p8-065,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-066,NAME,initial,partial,kept,True
+gpt5,B,p8-066,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-066,SSN,spaces,partial,kept,True
+gpt5,B,p8-066,MRN,mr_hash,leaked,n/a (not masked),True
+gpt5,B,p8-066,URL,https,masked,kept,True
+gpt5,B,p8-067,URL,http,masked,kept,True
+gpt5,B,p8-067,LICENSE,medical,masked,kept,True
+gpt5,B,p8-067,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-067,CITY,city,masked,kept,True
+gpt5,B,p8-067,MRN,mrn_colon,masked,kept,True
+gpt5,B,p8-068,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-068,SSN,plain,leaked,n/a (not masked),True
+gpt5,B,p8-068,CITY,city,masked,kept,True
+gpt5,B,p8-068,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-068,IP,ipv4,masked,kept,True
+gpt5,B,p8-069,IP,ipv4,masked,kept,True
+gpt5,B,p8-069,MRN,mrn_hash,masked,kept,True
+gpt5,B,p8-069,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-069,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-069,AGE90,age,masked,kept,True
+gpt5,B,p8-070,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-070,PHONE,spaces,masked,kept,True
+gpt5,B,p8-070,IP,ipv4,masked,kept,True
+gpt5,B,p8-070,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-070,CLAIM,claim_ref,leaked,n/a (not masked),True
+gpt5,B,p8-071,AGE90,age,masked,kept,True
+gpt5,B,p8-071,MEMBER,subscriber,masked,kept,True
+gpt5,B,p8-071,BIOMETRIC,fingerprint,masked,kept,True
+gpt5,B,p8-071,NAME,full,masked,kept,True
+gpt5,B,p8-071,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-072,NAME,last_first,partial,kept,True
+gpt5,B,p8-072,DATE,month_year,masked,kept,True
+gpt5,B,p8-072,CLAIM,claim_c,masked,kept,True
+gpt5,B,p8-072,STREET,street,masked,kept,True
+gpt5,B,p8-072,EMAIL,plain,masked,kept,True
+gpt5,B,p8-073,AGE90,age,masked,kept,True
+gpt5,B,p8-073,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-073,FAX,paren,masked,kept,True
+gpt5,B,p8-073,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-073,MEMBER,insurance,leaked,n/a (not masked),True
+gpt5,B,p8-074,CITY,city,masked,kept,True
+gpt5,B,p8-074,STREET,street,leaked,n/a (not masked),True
+gpt5,B,p8-074,NAME,initial,masked,kept,True
+gpt5,B,p8-074,MEMBER,medicaid,leaked,n/a (not masked),True
+gpt5,B,p8-074,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-075,FAX,dash,masked,kept,True
+gpt5,B,p8-075,COUNTY,county,masked,kept,True
+gpt5,B,p8-075,MRN,mrn_words,masked,kept,True
+gpt5,B,p8-075,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-075,CITY,city,masked,kept,True
+gpt5,B,p8-076,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-076,MRN,med_rec,masked,kept,True
+gpt5,B,p8-076,EMAIL,plus,masked,kept,True
+gpt5,B,p8-076,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-076,AGE90,age,masked,kept,True
+gpt5,B,p8-077,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-077,IP,ipv4,masked,kept,True
+gpt5,B,p8-077,MRN,chart,leaked,n/a (not masked),True
+gpt5,B,p8-077,AGE90,age,masked,kept,True
+gpt5,B,p8-077,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-078,IP,ipv4,masked,kept,True
+gpt5,B,p8-078,MEMBER,member_m,masked,kept,True
+gpt5,B,p8-078,STREET,street,masked,kept,True
+gpt5,B,p8-078,CITY,city,masked,kept,True
+gpt5,B,p8-078,URL,https,masked,kept,True
+gpt5,B,p8-079,LICENSE,drivers,masked,kept,True
+gpt5,B,p8-079,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-079,MRN,mr_hash,leaked,n/a (not masked),True
+gpt5,B,p8-079,MEMBER,subscriber,masked,kept,True
+gpt5,B,p8-079,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-080,DATE,us_slash,masked,kept,True
+gpt5,B,p8-080,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-080,AGE90,age,masked,kept,True
+gpt5,B,p8-080,IP,ipv4,masked,kept,True
+gpt5,B,p8-080,EMAIL,plain,masked,kept,True
+gpt5,B,p8-081,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-081,FAX,paren,masked,kept,True
+gpt5,B,p8-081,STREET,street,masked,kept,True
+gpt5,B,p8-081,EMAIL,plus,masked,kept,True
+gpt5,B,p8-081,CITY,city,masked,kept,True
+gpt5,B,p8-082,FAX,dash,masked,kept,True
+gpt5,B,p8-082,URL,http,masked,kept,True
+gpt5,B,p8-082,CLAIM,claim_hash,masked,kept,True
+gpt5,B,p8-082,LICENSE,passport,leaked,n/a (not masked),True
+gpt5,B,p8-082,SSN,dashes,masked,kept,True
+gpt5,B,p8-083,DATE,iso,masked,kept,True
+gpt5,B,p8-083,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-083,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-083,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-083,AGE90,age,masked,kept,True
+gpt5,B,p8-084,DATE,long,masked,kept,True
+gpt5,B,p8-084,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-084,ACCOUNT,card,masked,kept,True
+gpt5,B,p8-084,SSN,spaces,leaked,n/a (not masked),True
+gpt5,B,p8-084,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-085,EMAIL,plain,masked,kept,True
+gpt5,B,p8-085,COUNTY,county,masked,kept,True
+gpt5,B,p8-085,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-085,MEMBER,insurance,leaked,n/a (not masked),True
+gpt5,B,p8-085,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-086,EMAIL,plus,masked,kept,True
+gpt5,B,p8-086,CITY,city,masked,kept,True
+gpt5,B,p8-086,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-086,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-086,IP,ipv4,masked,kept,True
+gpt5,B,p8-087,DATE,day_mon,masked,kept,True
+gpt5,B,p8-087,EMAIL,obfuscated,partial,kept,True
+gpt5,B,p8-087,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-087,FAX,paren,masked,kept,True
+gpt5,B,p8-087,CITY,city,masked,kept,True
+gpt5,B,p8-088,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-088,MRN,mrn_colon,masked,kept,True
+gpt5,B,p8-088,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-088,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-088,CITY,city,masked,kept,True
+gpt5,B,p8-089,FAX,dash,masked,kept,True
+gpt5,B,p8-089,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-089,ZIP,zip_context,masked,kept,True
+gpt5,B,p8-089,EMAIL,plain,masked,kept,True
+gpt5,B,p8-089,SSN,plain,leaked,n/a (not masked),True
+gpt5,B,p8-090,SSN,dashes,masked,kept,True
+gpt5,B,p8-090,MEMBER,medicaid,leaked,n/a (not masked),True
+gpt5,B,p8-090,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-090,LICENSE,dea,masked,kept,True
+gpt5,B,p8-090,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-091,AGE90,age,masked,kept,True
+gpt5,B,p8-091,DEVICE,udi,leaked,n/a (not masked),True
+gpt5,B,p8-091,LICENSE,medical,masked,kept,True
+gpt5,B,p8-091,CLAIM,claim_no,masked,kept,True
+gpt5,B,p8-091,PHONE,paren,masked,kept,True
+gpt5,B,p8-092,SSN,spaces,leaked,n/a (not masked),True
+gpt5,B,p8-092,COUNTY,county,masked,kept,True
+gpt5,B,p8-092,DEVICE,serial,leaked,n/a (not masked),True
+gpt5,B,p8-092,PHONE,dash,masked,kept,True
+gpt5,B,p8-092,URL,bare,leaked,n/a (not masked),True
+gpt5,B,p8-093,IP,ipv4,masked,kept,True
+gpt5,B,p8-093,CLAIM,claim_ref,leaked,n/a (not masked),True
+gpt5,B,p8-093,DATE,ordinal,masked,kept,True
+gpt5,B,p8-093,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-093,VEHICLE,vin,masked,kept,True
+gpt5,B,p8-094,MRN,mrn_hash,masked,kept,True
+gpt5,B,p8-094,IP,ipv4,masked,kept,True
+gpt5,B,p8-094,LICENSE,drivers,masked,kept,True
+gpt5,B,p8-094,ACCOUNT,bank,leaked,n/a (not masked),True
+gpt5,B,p8-094,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-095,URL,https,masked,kept,True
+gpt5,B,p8-095,FAX,paren,masked,kept,True
+gpt5,B,p8-095,AGE90,age,masked,kept,True
+gpt5,B,p8-095,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-095,CITY,city,masked,kept,True
+gpt5,B,p8-096,COUNTY,county,leaked,n/a (not masked),True
+gpt5,B,p8-096,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-096,ZIP,zip_bare,leaked,n/a (not masked),True
+gpt5,B,p8-096,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+gpt5,B,p8-096,FAX,dash,masked,kept,True
+gpt5,B,p8-097,URL,http,masked,kept,True
+gpt5,B,p8-097,AGE90,age,masked,kept,True
+gpt5,B,p8-097,CITY,city,masked,kept,True
+gpt5,B,p8-097,VEHICLE,plate,leaked,n/a (not masked),True
+gpt5,B,p8-097,SSN,plain,leaked,n/a (not masked),True
+gpt5,B,p8-098,MRN,mrn_words,masked,kept,True
+gpt5,B,p8-098,CLAIM,claim_c,masked,kept,True
+gpt5,B,p8-098,DEVICE,pump,leaked,n/a (not masked),True
+gpt5,B,p8-098,URL,bare,masked,kept,True
+gpt5,B,p8-098,ACCOUNT,iban,masked,kept,True
+gpt5,B,p8-099,COUNTY,county,masked,kept,True
+gpt5,B,p8-099,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+gpt5,B,p8-099,AGE90,age,leaked,n/a (not masked),True
+gpt5,B,p8-099,NAME,full,masked,kept,True
+gpt5,B,p8-099,ZIP,zip_context,masked,kept,True
+sonnet,A,s4040-000,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-000,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-000,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-000,PHONE,paren,masked,kept,True
+sonnet,A,s4040-001,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-001,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-001,DATE,iso,masked,kept,True
+sonnet,A,s4040-001,PHONE,dash,masked,kept,True
+sonnet,A,s4040-002,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-002,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-002,DATE,long,masked,kept,True
+sonnet,A,s4040-002,PHONE,dot,masked,kept,True
+sonnet,A,s4040-003,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-003,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-003,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-003,PHONE,paren,masked,kept,True
+sonnet,A,s4040-004,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-004,DATE,us_short,masked,kept,True
+sonnet,A,s4040-004,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-004,PHONE,dash,masked,kept,True
+sonnet,A,s4040-005,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-005,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-005,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-005,PHONE,dot,masked,kept,True
+sonnet,A,s4040-006,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-006,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-006,DATE,iso,masked,kept,True
+sonnet,A,s4040-006,PHONE,paren,masked,kept,True
+sonnet,A,s4040-007,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-007,DATE,long,masked,kept,True
+sonnet,A,s4040-007,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-007,PHONE,dash,masked,kept,True
+sonnet,A,s4040-008,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-008,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-008,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-008,PHONE,dot,masked,kept,True
+sonnet,A,s4040-009,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-009,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-009,DATE,us_short,masked,kept,True
+sonnet,A,s4040-009,PHONE,paren,masked,kept,True
+sonnet,A,s4040-010,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-010,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-010,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-010,PHONE,dash,masked,kept,True
+sonnet,A,s4040-011,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-011,DATE,iso,masked,kept,True
+sonnet,A,s4040-011,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-011,PHONE,dot,masked,kept,True
+sonnet,A,s4040-012,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-012,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-012,DATE,long,masked,kept,True
+sonnet,A,s4040-012,PHONE,paren,masked,kept,True
+sonnet,A,s4040-013,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-013,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-013,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-013,PHONE,dash,masked,kept,True
+sonnet,A,s4040-014,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-014,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-014,DATE,us_short,masked,kept,True
+sonnet,A,s4040-014,PHONE,dot,masked,kept,True
+sonnet,A,s4040-015,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-015,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-015,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-015,PHONE,paren,masked,kept,True
+sonnet,A,s4040-016,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-016,DATE,iso,masked,kept,True
+sonnet,A,s4040-016,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-016,PHONE,dash,masked,kept,True
+sonnet,A,s4040-017,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-017,DATE,long,partial,kept,True
+sonnet,A,s4040-017,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-017,PHONE,dot,masked,kept,True
+sonnet,A,s4040-018,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-018,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-018,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-018,PHONE,paren,masked,kept,True
+sonnet,A,s4040-019,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-019,DATE,us_short,masked,kept,True
+sonnet,A,s4040-019,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-019,PHONE,dash,masked,kept,True
+sonnet,A,s4040-020,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-020,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-020,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-020,PHONE,dot,masked,kept,True
+sonnet,A,s4040-021,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-021,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-021,DATE,iso,masked,kept,True
+sonnet,A,s4040-021,PHONE,paren,masked,kept,True
+sonnet,A,s4040-022,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-022,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-022,DATE,long,masked,kept,True
+sonnet,A,s4040-022,PHONE,dash,masked,kept,True
+sonnet,A,s4040-023,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-023,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-023,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-023,PHONE,dot,masked,kept,True
+sonnet,A,s4040-024,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-024,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-024,DATE,us_short,masked,kept,True
+sonnet,A,s4040-024,PHONE,paren,masked,kept,True
+sonnet,A,s4040-025,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-025,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-025,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-025,PHONE,dash,masked,kept,True
+sonnet,A,s4040-026,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-026,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-026,DATE,iso,masked,kept,True
+sonnet,A,s4040-026,PHONE,dot,masked,kept,True
+sonnet,A,s4040-027,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-027,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-027,DATE,long,masked,kept,True
+sonnet,A,s4040-027,PHONE,paren,masked,kept,True
+sonnet,A,s4040-028,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-028,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-028,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-028,PHONE,dash,masked,kept,True
+sonnet,A,s4040-029,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-029,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-029,DATE,us_short,masked,kept,True
+sonnet,A,s4040-029,PHONE,dot,masked,kept,True
+sonnet,A,s4040-030,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-030,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-030,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-030,PHONE,paren,masked,kept,True
+sonnet,A,s4040-031,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-031,DATE,iso,masked,kept,True
+sonnet,A,s4040-031,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-031,PHONE,dash,masked,kept,True
+sonnet,A,s4040-032,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-032,DATE,long,masked,kept,True
+sonnet,A,s4040-032,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-032,PHONE,dot,masked,kept,True
+sonnet,A,s4040-033,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-033,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-033,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-033,PHONE,paren,masked,kept,True
+sonnet,A,s4040-034,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-034,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-034,DATE,us_short,masked,kept,True
+sonnet,A,s4040-034,PHONE,dash,masked,kept,True
+sonnet,A,s4040-035,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-035,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-035,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-035,PHONE,dot,masked,kept,True
+sonnet,A,s4040-036,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-036,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-036,DATE,iso,masked,kept,True
+sonnet,A,s4040-036,PHONE,paren,masked,kept,True
+sonnet,A,s4040-037,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-037,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-037,DATE,long,masked,kept,True
+sonnet,A,s4040-037,PHONE,dash,masked,kept,True
+sonnet,A,s4040-038,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-038,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-038,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-038,PHONE,dot,masked,kept,True
+sonnet,A,s4040-039,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-039,DATE,us_short,masked,kept,True
+sonnet,A,s4040-039,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-039,PHONE,paren,masked,kept,True
+sonnet,A,s4040-040,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-040,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-040,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-040,PHONE,dash,masked,kept,True
+sonnet,A,s4040-041,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-041,DATE,iso,masked,kept,True
+sonnet,A,s4040-041,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-041,PHONE,dot,masked,kept,True
+sonnet,A,s4040-042,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-042,DATE,long,masked,kept,True
+sonnet,A,s4040-042,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-042,PHONE,paren,masked,kept,True
+sonnet,A,s4040-043,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-043,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-043,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-043,PHONE,dash,masked,kept,True
+sonnet,A,s4040-044,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-044,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-044,DATE,us_short,masked,kept,True
+sonnet,A,s4040-044,PHONE,dot,masked,kept,True
+sonnet,A,s4040-045,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-045,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-045,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-045,PHONE,paren,masked,kept,True
+sonnet,A,s4040-046,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-046,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-046,DATE,iso,masked,kept,True
+sonnet,A,s4040-046,PHONE,dash,masked,kept,True
+sonnet,A,s4040-047,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-047,DATE,long,masked,kept,True
+sonnet,A,s4040-047,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-047,PHONE,dot,masked,kept,True
+sonnet,A,s4040-048,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-048,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-048,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-048,PHONE,paren,masked,kept,True
+sonnet,A,s4040-049,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-049,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-049,DATE,us_short,masked,kept,True
+sonnet,A,s4040-049,PHONE,dash,masked,kept,True
+sonnet,A,s4040-050,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-050,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-050,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-050,PHONE,dot,masked,kept,True
+sonnet,A,s4040-051,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-051,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-051,DATE,iso,masked,kept,True
+sonnet,A,s4040-051,PHONE,paren,masked,kept,True
+sonnet,A,s4040-052,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-052,DATE,long,masked,kept,True
+sonnet,A,s4040-052,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-052,PHONE,dash,masked,kept,True
+sonnet,A,s4040-053,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-053,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-053,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-053,PHONE,dot,masked,kept,True
+sonnet,A,s4040-054,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-054,DATE,us_short,masked,kept,True
+sonnet,A,s4040-054,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-054,PHONE,paren,masked,kept,True
+sonnet,A,s4040-055,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-055,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-055,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-055,PHONE,dash,masked,kept,True
+sonnet,A,s4040-056,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-056,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-056,DATE,iso,masked,kept,True
+sonnet,A,s4040-056,PHONE,dot,masked,kept,True
+sonnet,A,s4040-057,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-057,DATE,long,masked,kept,True
+sonnet,A,s4040-057,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-057,PHONE,paren,masked,kept,True
+sonnet,A,s4040-058,PERSON,full_name,leaked,n/a (not masked),True
+sonnet,A,s4040-058,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-058,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-058,PHONE,dash,masked,kept,True
+sonnet,A,s4040-059,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-059,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-059,DATE,us_short,masked,kept,True
+sonnet,A,s4040-059,PHONE,dot,masked,kept,True
+sonnet,A,s4040-060,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-060,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-060,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-060,PHONE,paren,masked,kept,True
+sonnet,A,s4040-061,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-061,DATE,iso,masked,kept,True
+sonnet,A,s4040-061,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-061,PHONE,dash,masked,kept,True
+sonnet,A,s4040-062,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-062,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-062,DATE,long,masked,kept,True
+sonnet,A,s4040-062,PHONE,dot,masked,kept,True
+sonnet,A,s4040-063,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-063,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-063,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-063,PHONE,paren,masked,kept,True
+sonnet,A,s4040-064,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-064,DATE,us_short,masked,kept,True
+sonnet,A,s4040-064,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-064,PHONE,dash,masked,kept,True
+sonnet,A,s4040-065,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-065,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-065,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-065,PHONE,dot,masked,kept,True
+sonnet,A,s4040-066,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-066,DATE,iso,masked,kept,True
+sonnet,A,s4040-066,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-066,PHONE,paren,masked,kept,True
+sonnet,A,s4040-067,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-067,DATE,long,masked,kept,True
+sonnet,A,s4040-067,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-067,PHONE,dash,masked,kept,True
+sonnet,A,s4040-068,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-068,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-068,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-068,PHONE,dot,masked,kept,True
+sonnet,A,s4040-069,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-069,DATE,us_short,masked,kept,True
+sonnet,A,s4040-069,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-069,PHONE,paren,masked,kept,True
+sonnet,A,s4040-070,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-070,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-070,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-070,PHONE,dash,masked,kept,True
+sonnet,A,s4040-071,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-071,DATE,iso,masked,kept,True
+sonnet,A,s4040-071,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-071,PHONE,dot,masked,kept,True
+sonnet,A,s4040-072,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-072,DATE,long,masked,kept,True
+sonnet,A,s4040-072,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-072,PHONE,paren,masked,kept,True
+sonnet,A,s4040-073,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-073,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-073,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-073,PHONE,dash,masked,kept,True
+sonnet,A,s4040-074,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-074,DATE,us_short,masked,kept,True
+sonnet,A,s4040-074,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-074,PHONE,dot,masked,kept,True
+sonnet,A,s4040-075,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-075,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-075,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-075,PHONE,paren,masked,kept,True
+sonnet,A,s4040-076,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-076,DATE,iso,masked,kept,True
+sonnet,A,s4040-076,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-076,PHONE,dash,masked,kept,True
+sonnet,A,s4040-077,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-077,DATE,long,masked,kept,True
+sonnet,A,s4040-077,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-077,PHONE,dot,masked,kept,True
+sonnet,A,s4040-078,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-078,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-078,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-078,PHONE,paren,masked,kept,True
+sonnet,A,s4040-079,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-079,DATE,us_short,masked,kept,True
+sonnet,A,s4040-079,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-079,PHONE,dash,masked,kept,True
+sonnet,A,s4040-080,PERSON,full_name,partial,kept,True
+sonnet,A,s4040-080,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-080,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-080,PHONE,dot,masked,kept,True
+sonnet,A,s4040-081,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-081,DATE,iso,masked,kept,True
+sonnet,A,s4040-081,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-081,PHONE,paren,masked,kept,True
+sonnet,A,s4040-082,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-082,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-082,DATE,long,masked,kept,True
+sonnet,A,s4040-082,PHONE,dash,masked,kept,True
+sonnet,A,s4040-083,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-083,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-083,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-083,PHONE,dot,masked,kept,True
+sonnet,A,s4040-084,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-084,DATE,us_short,masked,kept,True
+sonnet,A,s4040-084,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-084,PHONE,paren,masked,kept,True
+sonnet,A,s4040-085,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-085,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-085,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-085,PHONE,dash,masked,kept,True
+sonnet,A,s4040-086,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-086,DATE,iso,masked,kept,True
+sonnet,A,s4040-086,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-086,PHONE,dot,masked,kept,True
+sonnet,A,s4040-087,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-087,DATE,long,masked,kept,True
+sonnet,A,s4040-087,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-087,PHONE,paren,masked,kept,True
+sonnet,A,s4040-088,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-088,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-088,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-088,PHONE,dash,masked,kept,True
+sonnet,A,s4040-089,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-089,DATE,us_short,masked,kept,True
+sonnet,A,s4040-089,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-089,PHONE,dot,masked,kept,True
+sonnet,A,s4040-090,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-090,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-090,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-090,PHONE,paren,masked,kept,True
+sonnet,A,s4040-091,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-091,DATE,iso,masked,kept,True
+sonnet,A,s4040-091,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-091,PHONE,dash,masked,kept,True
+sonnet,A,s4040-092,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-092,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-092,DATE,long,masked,kept,True
+sonnet,A,s4040-092,PHONE,dot,masked,kept,True
+sonnet,A,s4040-093,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-093,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-093,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-093,PHONE,paren,masked,kept,True
+sonnet,A,s4040-094,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-094,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-094,DATE,us_short,masked,kept,True
+sonnet,A,s4040-094,PHONE,dash,masked,kept,True
+sonnet,A,s4040-095,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-095,DATE,us_slash,masked,kept,True
+sonnet,A,s4040-095,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-095,PHONE,dot,masked,kept,True
+sonnet,A,s4040-096,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-096,DATE,iso,masked,kept,True
+sonnet,A,s4040-096,MRN,mrn_colon,masked,kept,True
+sonnet,A,s4040-096,PHONE,paren,masked,kept,True
+sonnet,A,s4040-097,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-097,DATE,long,partial,kept,True
+sonnet,A,s4040-097,MRN,mrn_hash,masked,kept,True
+sonnet,A,s4040-097,PHONE,dash,masked,kept,True
+sonnet,A,s4040-098,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-098,DATE,day_mon,masked,kept,True
+sonnet,A,s4040-098,MRN,mrn_space,masked,kept,True
+sonnet,A,s4040-098,PHONE,dot,masked,kept,True
+sonnet,A,s4040-099,PERSON,full_name,masked,kept,True
+sonnet,A,s4040-099,MRN,mrn_words,masked,kept,True
+sonnet,A,s4040-099,DATE,us_short,masked,kept,True
+sonnet,A,s4040-099,PHONE,paren,masked,kept,True
+sonnet,B,p8-000,CITY,city,masked,kept,True
+sonnet,B,p8-000,PHONE,paren,masked,kept,True
+sonnet,B,p8-000,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-000,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-000,NAME,full,masked,kept,True
+sonnet,B,p8-001,SSN,dashes,masked,kept,True
+sonnet,B,p8-001,IP,ipv4,masked,kept,True
+sonnet,B,p8-001,CITY,city,masked,kept,True
+sonnet,B,p8-001,EMAIL,plain,masked,kept,True
+sonnet,B,p8-001,STREET,street,masked,kept,True
+sonnet,B,p8-002,SSN,spaces,partial,kept,True
+sonnet,B,p8-002,IP,ipv4,masked,kept,True
+sonnet,B,p8-002,CITY,city,masked,kept,True
+sonnet,B,p8-002,EMAIL,plus,masked,kept,True
+sonnet,B,p8-002,URL,https,masked,kept,True
+sonnet,B,p8-003,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-003,CLAIM,claim_c,masked,kept,True
+sonnet,B,p8-003,FAX,paren,masked,kept,True
+sonnet,B,p8-003,DATE,us_slash,masked,kept,True
+sonnet,B,p8-003,URL,http,masked,kept,True
+sonnet,B,p8-004,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-004,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-004,ZIP,zip_bare,masked,kept,True
+sonnet,B,p8-004,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-004,DATE,iso,masked,kept,True
+sonnet,B,p8-005,STREET,street,partial,kept,True
+sonnet,B,p8-005,URL,https,masked,kept,True
+sonnet,B,p8-005,CLAIM,claim_hash,masked,kept,True
+sonnet,B,p8-005,DATE,long,masked,kept,True
+sonnet,B,p8-005,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-006,FAX,dash,masked,kept,True
+sonnet,B,p8-006,MEMBER,member_m,masked,kept,True
+sonnet,B,p8-006,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-006,CLAIM,claim_no,masked,kept,True
+sonnet,B,p8-006,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-007,CLAIM,claim_ref,masked,kept,True
+sonnet,B,p8-007,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-007,URL,http,masked,kept,True
+sonnet,B,p8-007,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-007,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-008,FAX,paren,masked,kept,True
+sonnet,B,p8-008,CLAIM,claim_c,masked,kept,True
+sonnet,B,p8-008,NAME,last_first,partial,kept,True
+sonnet,B,p8-008,ACCOUNT,bank,masked,kept,True
+sonnet,B,p8-008,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-009,CLAIM,claim_hash,masked,kept,True
+sonnet,B,p8-009,COUNTY,county,masked,kept,True
+sonnet,B,p8-009,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-009,EMAIL,plain,masked,kept,True
+sonnet,B,p8-009,DATE,day_mon,masked,kept,True
+sonnet,B,p8-010,COUNTY,county,masked,kept,True
+sonnet,B,p8-010,SSN,plain,leaked,n/a (not masked),True
+sonnet,B,p8-010,MEMBER,subscriber,masked,kept,True
+sonnet,B,p8-010,DATE,ordinal,masked,kept,True
+sonnet,B,p8-010,CLAIM,claim_no,masked,kept,True
+sonnet,B,p8-011,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-011,AGE90,age,masked,kept,True
+sonnet,B,p8-011,PHONE,dash,masked,kept,True
+sonnet,B,p8-011,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-011,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-012,MRN,mrn_colon,masked,kept,True
+sonnet,B,p8-012,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-012,CITY,city,masked,kept,True
+sonnet,B,p8-012,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-012,NAME,initial,partial,kept,True
+sonnet,B,p8-013,CITY,city,masked,kept,True
+sonnet,B,p8-013,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-013,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-013,PHONE,dot,masked,kept,True
+sonnet,B,p8-013,IP,ipv4,masked,kept,True
+sonnet,B,p8-014,URL,https,masked,kept,True
+sonnet,B,p8-014,NAME,full,masked,kept,True
+sonnet,B,p8-014,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-014,COUNTY,county,masked,kept,True
+sonnet,B,p8-014,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-015,EMAIL,plus,masked,kept,True
+sonnet,B,p8-015,URL,http,masked,kept,True
+sonnet,B,p8-015,LICENSE,drivers,leaked,n/a (not masked),True
+sonnet,B,p8-015,MRN,mrn_hash,masked,kept,True
+sonnet,B,p8-015,PHONE,intl,masked,kept,True
+sonnet,B,p8-016,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-016,CITY,city,masked,kept,True
+sonnet,B,p8-016,CLAIM,claim_ref,leaked,n/a (not masked),True
+sonnet,B,p8-016,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-016,PHONE,spaces,masked,kept,True
+sonnet,B,p8-017,CITY,city,masked,kept,True
+sonnet,B,p8-017,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-017,MEMBER,insurance,leaked,n/a (not masked),True
+sonnet,B,p8-017,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-017,DATE,dotted,masked,kept,True
+sonnet,B,p8-018,NAME,last_first,partial,kept,True
+sonnet,B,p8-018,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-018,IP,ipv4,masked,kept,True
+sonnet,B,p8-018,DATE,month_year,masked,kept,True
+sonnet,B,p8-018,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-019,FAX,dash,masked,kept,True
+sonnet,B,p8-019,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-019,COUNTY,county,masked,kept,True
+sonnet,B,p8-019,SSN,dashes,masked,kept,True
+sonnet,B,p8-019,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-020,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-020,COUNTY,county,masked,kept,True
+sonnet,B,p8-020,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-020,MRN,mrn_words,masked,kept,True
+sonnet,B,p8-020,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-021,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-021,EMAIL,plain,masked,kept,True
+sonnet,B,p8-021,AGE90,age,masked,kept,True
+sonnet,B,p8-021,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-021,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-022,PHONE,paren,masked,kept,True
+sonnet,B,p8-022,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-022,EMAIL,plus,masked,kept,True
+sonnet,B,p8-022,STREET,street,masked,kept,True
+sonnet,B,p8-022,MRN,med_rec,masked,kept,True
+sonnet,B,p8-023,CITY,city,masked,kept,True
+sonnet,B,p8-023,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-023,DATE,us_slash,masked,kept,True
+sonnet,B,p8-023,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-023,STREET,street,masked,kept,True
+sonnet,B,p8-024,DATE,iso,masked,kept,True
+sonnet,B,p8-024,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-024,MEMBER,medicaid,leaked,n/a (not masked),True
+sonnet,B,p8-024,SSN,spaces,leaked,n/a (not masked),True
+sonnet,B,p8-024,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-025,MRN,chart,leaked,n/a (not masked),True
+sonnet,B,p8-025,AGE90,age,masked,kept,True
+sonnet,B,p8-025,IP,ipv4,masked,kept,True
+sonnet,B,p8-025,COUNTY,county,masked,kept,True
+sonnet,B,p8-025,NAME,initial,masked,kept,True
+sonnet,B,p8-026,EMAIL,plain,masked,kept,True
+sonnet,B,p8-026,AGE90,age,masked,kept,True
+sonnet,B,p8-026,DATE,long,masked,kept,True
+sonnet,B,p8-026,COUNTY,county,masked,kept,True
+sonnet,B,p8-026,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-027,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-027,URL,https,masked,kept,True
+sonnet,B,p8-027,CLAIM,claim_c,masked,kept,True
+sonnet,B,p8-027,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-027,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-028,URL,http,masked,kept,True
+sonnet,B,p8-028,IP,ipv4,masked,kept,True
+sonnet,B,p8-028,EMAIL,plus,masked,kept,True
+sonnet,B,p8-028,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-028,AGE90,age,masked,kept,True
+sonnet,B,p8-029,AGE90,age,masked,kept,True
+sonnet,B,p8-029,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-029,STREET,street,partial,kept,True
+sonnet,B,p8-029,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-029,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-030,IP,ipv4,masked,kept,True
+sonnet,B,p8-030,NAME,full,masked,kept,True
+sonnet,B,p8-030,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-030,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-030,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-031,STREET,street,partial,kept,True
+sonnet,B,p8-031,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-031,IP,ipv4,masked,kept,True
+sonnet,B,p8-031,BIOMETRIC,fingerprint,masked,kept,True
+sonnet,B,p8-031,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-032,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-032,MRN,mr_hash,leaked,n/a (not masked),True
+sonnet,B,p8-032,FAX,paren,masked,kept,True
+sonnet,B,p8-032,NAME,last_first,partial,kept,True
+sonnet,B,p8-032,LICENSE,passport,leaked,n/a (not masked),True
+sonnet,B,p8-033,FAX,dash,masked,kept,True
+sonnet,B,p8-033,CLAIM,claim_hash,masked,kept,True
+sonnet,B,p8-033,MRN,mrn_colon,masked,kept,True
+sonnet,B,p8-033,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-033,COUNTY,county,masked,kept,True
+sonnet,B,p8-034,NAME,initial,masked,kept,True
+sonnet,B,p8-034,MRN,mrn_hash,masked,kept,True
+sonnet,B,p8-034,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-034,CITY,city,masked,kept,True
+sonnet,B,p8-034,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-035,MEMBER,member_m,masked,kept,True
+sonnet,B,p8-035,LICENSE,dea,masked,kept,True
+sonnet,B,p8-035,COUNTY,county,masked,kept,True
+sonnet,B,p8-035,NAME,full,masked,kept,True
+sonnet,B,p8-035,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-036,DATE,day_mon,masked,kept,True
+sonnet,B,p8-036,LICENSE,medical,masked,kept,True
+sonnet,B,p8-036,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-036,COUNTY,county,masked,kept,True
+sonnet,B,p8-036,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-037,CITY,city,masked,kept,True
+sonnet,B,p8-037,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-037,COUNTY,county,masked,kept,True
+sonnet,B,p8-037,IP,ipv4,masked,kept,True
+sonnet,B,p8-037,SSN,plain,leaked,n/a (not masked),True
+sonnet,B,p8-038,URL,https,masked,kept,True
+sonnet,B,p8-038,IP,ipv4,masked,kept,True
+sonnet,B,p8-038,LICENSE,drivers,masked,kept,True
+sonnet,B,p8-038,NAME,last_first,partial,kept,True
+sonnet,B,p8-038,DATE,ordinal,masked,kept,True
+sonnet,B,p8-039,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-039,DATE,dotted,leaked,n/a (not masked),True
+sonnet,B,p8-039,URL,http,masked,kept,True
+sonnet,B,p8-039,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-039,PHONE,dash,masked,kept,True
+sonnet,B,p8-040,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-040,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-040,MRN,mrn_words,masked,kept,True
+sonnet,B,p8-040,IP,ipv4,masked,kept,True
+sonnet,B,p8-040,PHONE,dot,masked,kept,True
+sonnet,B,p8-041,CITY,city,masked,kept,True
+sonnet,B,p8-041,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-041,STREET,street,partial,kept,True
+sonnet,B,p8-041,MEMBER,subscriber,masked,kept,True
+sonnet,B,p8-041,COUNTY,county,masked,kept,True
+sonnet,B,p8-042,MEMBER,insurance,leaked,n/a (not masked),True
+sonnet,B,p8-042,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-042,CITY,city,masked,kept,True
+sonnet,B,p8-042,STREET,street,masked,kept,True
+sonnet,B,p8-042,LICENSE,passport,leaked,n/a (not masked),True
+sonnet,B,p8-043,AGE90,age,masked,kept,True
+sonnet,B,p8-043,MEMBER,medicaid,masked,kept,True
+sonnet,B,p8-043,STREET,street,masked,kept,True
+sonnet,B,p8-043,CLAIM,claim_no,masked,kept,True
+sonnet,B,p8-043,EMAIL,plain,masked,kept,True
+sonnet,B,p8-044,NAME,initial,partial,kept,True
+sonnet,B,p8-044,MEMBER,member_m,masked,kept,True
+sonnet,B,p8-044,URL,https,masked,kept,True
+sonnet,B,p8-044,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-044,LICENSE,dea,masked,kept,True
+sonnet,B,p8-045,LICENSE,medical,masked,kept,True
+sonnet,B,p8-045,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-045,AGE90,age,masked,kept,True
+sonnet,B,p8-045,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-045,COUNTY,county,masked,kept,True
+sonnet,B,p8-046,PHONE,intl,masked,kept,True
+sonnet,B,p8-046,IP,ipv4,masked,kept,True
+sonnet,B,p8-046,AGE90,age,masked,kept,True
+sonnet,B,p8-046,MEMBER,subscriber,masked,kept,True
+sonnet,B,p8-046,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-047,URL,http,masked,kept,True
+sonnet,B,p8-047,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-047,STREET,street,partial,kept,True
+sonnet,B,p8-047,PHONE,spaces,masked,kept,True
+sonnet,B,p8-047,DATE,month_year,masked,kept,True
+sonnet,B,p8-048,SSN,dashes,masked,kept,True
+sonnet,B,p8-048,COUNTY,county,masked,kept,True
+sonnet,B,p8-048,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-048,DATE,us_slash,masked,kept,True
+sonnet,B,p8-048,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-049,IP,ipv4,masked,kept,True
+sonnet,B,p8-049,NAME,full,masked,kept,True
+sonnet,B,p8-049,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-049,CLAIM,claim_ref,partial,kept,True
+sonnet,B,p8-049,DATE,iso,masked,kept,True
+sonnet,B,p8-050,IP,ipv4,masked,kept,True
+sonnet,B,p8-050,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-050,MRN,med_rec,masked,kept,True
+sonnet,B,p8-050,FAX,paren,masked,kept,True
+sonnet,B,p8-050,DATE,long,masked,kept,True
+sonnet,B,p8-051,LICENSE,drivers,masked,kept,True
+sonnet,B,p8-051,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-051,URL,https,masked,kept,True
+sonnet,B,p8-051,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-051,MEMBER,insurance,leaked,n/a (not masked),True
+sonnet,B,p8-052,EMAIL,plus,masked,kept,True
+sonnet,B,p8-052,COUNTY,county,masked,kept,True
+sonnet,B,p8-052,URL,http,masked,kept,True
+sonnet,B,p8-052,CITY,city,masked,kept,True
+sonnet,B,p8-052,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-053,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-053,FAX,dash,masked,kept,True
+sonnet,B,p8-053,PHONE,paren,masked,kept,True
+sonnet,B,p8-053,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-053,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-054,MRN,chart,leaked,n/a (not masked),True
+sonnet,B,p8-054,SSN,spaces,partial,kept,True
+sonnet,B,p8-054,DATE,day_mon,masked,kept,True
+sonnet,B,p8-054,PHONE,dash,masked,kept,True
+sonnet,B,p8-054,CITY,city,masked,kept,True
+sonnet,B,p8-055,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-055,PHONE,dot,masked,kept,True
+sonnet,B,p8-055,FAX,paren,masked,kept,True
+sonnet,B,p8-055,MRN,mr_hash,leaked,n/a (not masked),True
+sonnet,B,p8-055,IP,ipv4,masked,kept,True
+sonnet,B,p8-056,MEMBER,medicaid,leaked,n/a (not masked),True
+sonnet,B,p8-056,IP,ipv4,masked,kept,True
+sonnet,B,p8-056,NAME,last_first,partial,kept,True
+sonnet,B,p8-056,DATE,ordinal,masked,kept,True
+sonnet,B,p8-056,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-057,FAX,dash,masked,kept,True
+sonnet,B,p8-057,AGE90,age,masked,kept,True
+sonnet,B,p8-057,STREET,street,partial,kept,True
+sonnet,B,p8-057,CLAIM,claim_c,masked,kept,True
+sonnet,B,p8-057,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-058,LICENSE,passport,leaked,n/a (not masked),True
+sonnet,B,p8-058,MRN,mrn_colon,masked,kept,True
+sonnet,B,p8-058,STREET,street,masked,kept,True
+sonnet,B,p8-058,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-058,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-059,DEVICE,pump,partial,kept,True
+sonnet,B,p8-059,DATE,dotted,masked,kept,True
+sonnet,B,p8-059,SSN,plain,leaked,n/a (not masked),True
+sonnet,B,p8-059,CLAIM,claim_hash,masked,kept,True
+sonnet,B,p8-059,MRN,mrn_hash,masked,kept,True
+sonnet,B,p8-060,IP,ipv4,masked,kept,True
+sonnet,B,p8-060,MRN,mrn_words,masked,kept,True
+sonnet,B,p8-060,CLAIM,claim_no,masked,kept,True
+sonnet,B,p8-060,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-060,NAME,initial,masked,kept,True
+sonnet,B,p8-061,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-061,NAME,full,masked,kept,True
+sonnet,B,p8-061,CITY,city,masked,kept,True
+sonnet,B,p8-061,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-061,PHONE,intl,masked,kept,True
+sonnet,B,p8-062,BIOMETRIC,fingerprint,masked,kept,True
+sonnet,B,p8-062,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-062,NAME,last_first,partial,kept,True
+sonnet,B,p8-062,MEMBER,member_m,masked,kept,True
+sonnet,B,p8-062,MRN,med_rec,masked,kept,True
+sonnet,B,p8-063,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-063,SSN,dashes,masked,kept,True
+sonnet,B,p8-063,COUNTY,county,masked,kept,True
+sonnet,B,p8-063,MRN,chart,leaked,n/a (not masked),True
+sonnet,B,p8-063,IP,ipv4,masked,kept,True
+sonnet,B,p8-064,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-064,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-064,LICENSE,dea,masked,kept,True
+sonnet,B,p8-064,IP,ipv4,masked,kept,True
+sonnet,B,p8-064,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-065,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-065,CITY,city,masked,kept,True
+sonnet,B,p8-065,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-065,COUNTY,county,masked,kept,True
+sonnet,B,p8-065,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-066,NAME,initial,partial,kept,True
+sonnet,B,p8-066,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-066,SSN,spaces,partial,kept,True
+sonnet,B,p8-066,MRN,mr_hash,leaked,n/a (not masked),True
+sonnet,B,p8-066,URL,https,masked,kept,True
+sonnet,B,p8-067,URL,http,masked,kept,True
+sonnet,B,p8-067,LICENSE,medical,masked,kept,True
+sonnet,B,p8-067,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-067,CITY,city,masked,kept,True
+sonnet,B,p8-067,MRN,mrn_colon,masked,kept,True
+sonnet,B,p8-068,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-068,SSN,plain,leaked,n/a (not masked),True
+sonnet,B,p8-068,CITY,city,masked,kept,True
+sonnet,B,p8-068,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-068,IP,ipv4,masked,kept,True
+sonnet,B,p8-069,IP,ipv4,masked,kept,True
+sonnet,B,p8-069,MRN,mrn_hash,masked,kept,True
+sonnet,B,p8-069,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-069,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-069,AGE90,age,masked,kept,True
+sonnet,B,p8-070,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-070,PHONE,spaces,masked,kept,True
+sonnet,B,p8-070,IP,ipv4,masked,kept,True
+sonnet,B,p8-070,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-070,CLAIM,claim_ref,leaked,n/a (not masked),True
+sonnet,B,p8-071,AGE90,age,masked,kept,True
+sonnet,B,p8-071,MEMBER,subscriber,masked,kept,True
+sonnet,B,p8-071,BIOMETRIC,fingerprint,masked,kept,True
+sonnet,B,p8-071,NAME,full,masked,kept,True
+sonnet,B,p8-071,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-072,NAME,last_first,partial,kept,True
+sonnet,B,p8-072,DATE,month_year,masked,kept,True
+sonnet,B,p8-072,CLAIM,claim_c,masked,kept,True
+sonnet,B,p8-072,STREET,street,masked,kept,True
+sonnet,B,p8-072,EMAIL,plain,masked,kept,True
+sonnet,B,p8-073,AGE90,age,masked,kept,True
+sonnet,B,p8-073,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-073,FAX,paren,masked,kept,True
+sonnet,B,p8-073,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-073,MEMBER,insurance,leaked,n/a (not masked),True
+sonnet,B,p8-074,CITY,city,masked,kept,True
+sonnet,B,p8-074,STREET,street,leaked,n/a (not masked),True
+sonnet,B,p8-074,NAME,initial,masked,kept,True
+sonnet,B,p8-074,MEMBER,medicaid,leaked,n/a (not masked),True
+sonnet,B,p8-074,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-075,FAX,dash,masked,kept,True
+sonnet,B,p8-075,COUNTY,county,masked,kept,True
+sonnet,B,p8-075,MRN,mrn_words,masked,kept,True
+sonnet,B,p8-075,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-075,CITY,city,masked,kept,True
+sonnet,B,p8-076,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-076,MRN,med_rec,masked,kept,True
+sonnet,B,p8-076,EMAIL,plus,masked,kept,True
+sonnet,B,p8-076,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-076,AGE90,age,masked,kept,True
+sonnet,B,p8-077,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-077,IP,ipv4,masked,kept,True
+sonnet,B,p8-077,MRN,chart,leaked,n/a (not masked),True
+sonnet,B,p8-077,AGE90,age,masked,kept,True
+sonnet,B,p8-077,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-078,IP,ipv4,masked,kept,True
+sonnet,B,p8-078,MEMBER,member_m,masked,kept,True
+sonnet,B,p8-078,STREET,street,masked,kept,True
+sonnet,B,p8-078,CITY,city,masked,kept,True
+sonnet,B,p8-078,URL,https,masked,kept,True
+sonnet,B,p8-079,LICENSE,drivers,masked,kept,True
+sonnet,B,p8-079,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-079,MRN,mr_hash,leaked,n/a (not masked),True
+sonnet,B,p8-079,MEMBER,subscriber,masked,kept,True
+sonnet,B,p8-079,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-080,DATE,us_slash,masked,kept,True
+sonnet,B,p8-080,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-080,AGE90,age,masked,kept,True
+sonnet,B,p8-080,IP,ipv4,masked,kept,True
+sonnet,B,p8-080,EMAIL,plain,masked,kept,True
+sonnet,B,p8-081,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-081,FAX,paren,masked,kept,True
+sonnet,B,p8-081,STREET,street,masked,kept,True
+sonnet,B,p8-081,EMAIL,plus,masked,kept,True
+sonnet,B,p8-081,CITY,city,masked,kept,True
+sonnet,B,p8-082,FAX,dash,masked,kept,True
+sonnet,B,p8-082,URL,http,masked,kept,True
+sonnet,B,p8-082,CLAIM,claim_hash,masked,kept,True
+sonnet,B,p8-082,LICENSE,passport,leaked,n/a (not masked),True
+sonnet,B,p8-082,SSN,dashes,masked,kept,True
+sonnet,B,p8-083,DATE,iso,masked,kept,True
+sonnet,B,p8-083,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-083,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-083,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-083,AGE90,age,masked,kept,True
+sonnet,B,p8-084,DATE,long,masked,kept,True
+sonnet,B,p8-084,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-084,ACCOUNT,card,masked,kept,True
+sonnet,B,p8-084,SSN,spaces,leaked,n/a (not masked),True
+sonnet,B,p8-084,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-085,EMAIL,plain,masked,kept,True
+sonnet,B,p8-085,COUNTY,county,masked,kept,True
+sonnet,B,p8-085,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-085,MEMBER,insurance,leaked,n/a (not masked),True
+sonnet,B,p8-085,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-086,EMAIL,plus,masked,kept,True
+sonnet,B,p8-086,CITY,city,masked,kept,True
+sonnet,B,p8-086,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-086,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-086,IP,ipv4,masked,kept,True
+sonnet,B,p8-087,DATE,day_mon,masked,kept,True
+sonnet,B,p8-087,EMAIL,obfuscated,partial,kept,True
+sonnet,B,p8-087,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-087,FAX,paren,masked,kept,True
+sonnet,B,p8-087,CITY,city,masked,kept,True
+sonnet,B,p8-088,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-088,MRN,mrn_colon,masked,kept,True
+sonnet,B,p8-088,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-088,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-088,CITY,city,masked,kept,True
+sonnet,B,p8-089,FAX,dash,masked,kept,True
+sonnet,B,p8-089,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-089,ZIP,zip_context,masked,kept,True
+sonnet,B,p8-089,EMAIL,plain,masked,kept,True
+sonnet,B,p8-089,SSN,plain,leaked,n/a (not masked),True
+sonnet,B,p8-090,SSN,dashes,masked,kept,True
+sonnet,B,p8-090,MEMBER,medicaid,leaked,n/a (not masked),True
+sonnet,B,p8-090,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-090,LICENSE,dea,masked,kept,True
+sonnet,B,p8-090,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-091,AGE90,age,masked,kept,True
+sonnet,B,p8-091,DEVICE,udi,leaked,n/a (not masked),True
+sonnet,B,p8-091,LICENSE,medical,masked,kept,True
+sonnet,B,p8-091,CLAIM,claim_no,masked,kept,True
+sonnet,B,p8-091,PHONE,paren,masked,kept,True
+sonnet,B,p8-092,SSN,spaces,leaked,n/a (not masked),True
+sonnet,B,p8-092,COUNTY,county,masked,kept,True
+sonnet,B,p8-092,DEVICE,serial,leaked,n/a (not masked),True
+sonnet,B,p8-092,PHONE,dash,masked,kept,True
+sonnet,B,p8-092,URL,bare,leaked,n/a (not masked),True
+sonnet,B,p8-093,IP,ipv4,masked,kept,True
+sonnet,B,p8-093,CLAIM,claim_ref,leaked,n/a (not masked),True
+sonnet,B,p8-093,DATE,ordinal,masked,kept,True
+sonnet,B,p8-093,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-093,VEHICLE,vin,masked,kept,True
+sonnet,B,p8-094,MRN,mrn_hash,masked,kept,True
+sonnet,B,p8-094,IP,ipv4,masked,kept,True
+sonnet,B,p8-094,LICENSE,drivers,masked,kept,True
+sonnet,B,p8-094,ACCOUNT,bank,leaked,n/a (not masked),True
+sonnet,B,p8-094,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-095,URL,https,masked,kept,True
+sonnet,B,p8-095,FAX,paren,masked,kept,True
+sonnet,B,p8-095,AGE90,age,masked,kept,True
+sonnet,B,p8-095,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-095,CITY,city,masked,kept,True
+sonnet,B,p8-096,COUNTY,county,leaked,n/a (not masked),True
+sonnet,B,p8-096,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-096,ZIP,zip_bare,leaked,n/a (not masked),True
+sonnet,B,p8-096,BIOMETRIC,fingerprint,leaked,n/a (not masked),True
+sonnet,B,p8-096,FAX,dash,masked,kept,True
+sonnet,B,p8-097,URL,http,masked,kept,True
+sonnet,B,p8-097,AGE90,age,masked,kept,True
+sonnet,B,p8-097,CITY,city,masked,kept,True
+sonnet,B,p8-097,VEHICLE,plate,leaked,n/a (not masked),True
+sonnet,B,p8-097,SSN,plain,leaked,n/a (not masked),True
+sonnet,B,p8-098,MRN,mrn_words,masked,kept,True
+sonnet,B,p8-098,CLAIM,claim_c,masked,kept,True
+sonnet,B,p8-098,DEVICE,pump,leaked,n/a (not masked),True
+sonnet,B,p8-098,URL,bare,masked,kept,True
+sonnet,B,p8-098,ACCOUNT,iban,masked,kept,True
+sonnet,B,p8-099,COUNTY,county,masked,kept,True
+sonnet,B,p8-099,BIOMETRIC,voiceprint,leaked,n/a (not masked),True
+sonnet,B,p8-099,AGE90,age,leaked,n/a (not masked),True
+sonnet,B,p8-099,NAME,full,masked,kept,True
+sonnet,B,p8-099,ZIP,zip_context,masked,kept,True

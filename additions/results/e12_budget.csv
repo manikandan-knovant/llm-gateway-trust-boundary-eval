@@ -1,0 +1,26 @@
+tag,run,budget_usd,gateway_spend_usd,refused_at_turn,refusal,overshoot_usd,overshoot_pct
+mock-budget,e12-mock-budget-00,0.005,0.0053355,17,429 budget_exceeded,0.0003355,6.7
+mock-budget,e12-mock-budget-01,0.01,0.01123825,26,429 budget_exceeded,0.00123825,12.4
+mock-budget,e12-mock-budget-02,0.02,0.0162475,not refused,,-0.0037525,-18.8
+mock-budget,e12-mock-budget-03,0.03,0.01528975,not refused,,-0.01471025,-49.0
+mock-budget,e12-mock-budget-04,0.005,0.00573525,18,429 budget_exceeded,0.00073525,14.7
+mock-budget,e12-mock-budget-05,0.01,0.01150425,26,429 budget_exceeded,0.00150425,15.0
+mock-budget,e12-mock-budget-06,0.02,0.01536975,not refused,,-0.00463025,-23.2
+mock-budget,e12-mock-budget-07,0.03,0.0149115,not refused,,-0.0150885,-50.3
+mock-budget,e12-mock-budget-08,0.005,0.00510825,17,429 budget_exceeded,0.00010825,2.2
+mock-budget,e12-mock-budget-09,0.01,0.0111845,27,429 budget_exceeded,0.0011845,11.8
+mock-budget,e12-mock-budget-10,0.02,0.01472325,not refused,,-0.00527675,-26.4
+mock-budget,e12-mock-budget-11,0.03,0.0150995,not refused,,-0.0149005,-49.7
+mock-budget,e12-mock-budget-12,0.005,0.0059015,19,429 budget_exceeded,0.0009015,18.0
+mock-budget,e12-mock-budget-13,0.01,0.0107465,26,429 budget_exceeded,0.0007465,7.5
+mock-budget,e12-mock-budget-14,0.02,0.01488075,not refused,,-0.00511925,-25.6
+mock-budget,e12-mock-budget-15,0.03,0.01605125,not refused,,-0.01394875,-46.5
+mock-budget,e12-mock-budget-16,0.005,0.0056555,18,429 budget_exceeded,0.0006555,13.1
+mock-budget,e12-mock-budget-17,0.01,0.01107075,26,429 budget_exceeded,0.00107075,10.7
+mock-budget,e12-mock-budget-18,0.02,0.01518075,not refused,,-0.00481925,-24.1
+mock-budget,e12-mock-budget-19,0.03,0.01499675,not refused,,-0.01500325,-50.0
+real-budget,e12-real-budget-00,0.01,0.0095554,not refused,,-0.0004446,-4.4
+real-budget,e12-real-budget-01,0.02,0.00906795,not refused,,-0.01093205,-54.7
+real-budget,e12-real-budget-02,0.01,0.00996845,not refused,,-3.155e-05,-0.3
+real-budget,e12-real-budget-03,0.02,0.01089115,not refused,,-0.00910885,-45.5
+real-budget,e12-real-budget-04,0.01,0.01068575,29,429 budget_exceeded,0.00068575,6.9

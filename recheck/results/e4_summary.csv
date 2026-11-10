@@ -1,0 +1,19 @@
+tenant,type,format,n,masked,detection_rate,ci95_low,ci95_high,leaked_or_partial,partial,unaligned
+a,all,all,2000,1979,0.9895,0.984,0.9931,21,11,0
+a,DATE,all,500,494,0.988,0.9741,0.9945,6,6,0
+a,DATE,day_mon,100,100,1.0,0.963,1.0,0,0,0
+a,DATE,iso,100,100,1.0,0.963,1.0,0,0,0
+a,DATE,long,100,94,0.94,0.8752,0.9722,6,6,0
+a,DATE,us_short,100,100,1.0,0.963,1.0,0,0,0
+a,DATE,us_slash,100,100,1.0,0.963,1.0,0,0,0
+a,MRN,all,500,500,1.0,0.9924,1.0,0,0,0
+a,MRN,mrn_colon,125,125,1.0,0.9702,1.0,0,0,0
+a,MRN,mrn_hash,125,125,1.0,0.9702,1.0,0,0,0
+a,MRN,mrn_space,125,125,1.0,0.9702,1.0,0,0,0
+a,MRN,mrn_words,125,125,1.0,0.9702,1.0,0,0,0
+a,PERSON,all,500,485,0.97,0.9511,0.9817,15,5,0
+a,PHONE,all,500,500,1.0,0.9924,1.0,0,0,0
+a,PHONE,dash,167,167,1.0,0.9775,1.0,0,0,0
+a,PHONE,dot,166,166,1.0,0.9774,1.0,0,0,0
+a,PHONE,paren,167,167,1.0,0.9775,1.0,0,0,0
+a,OVER-MASKING,prompts with >=1 non-entity span masked,500,0,0.0,0.0,0.0076,,,

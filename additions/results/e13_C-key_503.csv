@@ -1,0 +1,376 @@
+variant,scenario,i,marker,kind,request_tags,t_send_s,latency_ms,status,error_code,error_body,body_exposes_internals,hdr_attempted_retries,hdr_attempted_fallbacks,hdr_served_api_base_is_fallback,primary_attempts,fallback_hits
+C-key,503,0,REQ-e13ckey-503-0000-PHI,PHI,null,0.0,63.3,200,,,,0,0,False,1,0
+C-key,503,1,REQ-e13ckey-503-0001-NON,NON,null,0.201,64.3,200,,,,0,0,False,1,0
+C-key,503,2,REQ-e13ckey-503-0002-PHI,PHI,null,0.401,60.8,200,,,,0,0,False,1,0
+C-key,503,3,REQ-e13ckey-503-0003-NON,NON,null,0.601,60.4,200,,,,0,0,False,1,0
+C-key,503,4,REQ-e13ckey-503-0004-PHI,PHI,null,0.801,63.9,200,,,,0,0,False,1,0
+C-key,503,5,REQ-e13ckey-503-0005-NON,NON,null,1.001,65.6,200,,,,0,0,False,1,0
+C-key,503,6,REQ-e13ckey-503-0006-PHI,PHI,null,1.202,60.3,200,,,,0,0,False,1,0
+C-key,503,7,REQ-e13ckey-503-0007-NON,NON,null,1.401,63.8,200,,,,0,0,False,1,0
+C-key,503,8,REQ-e13ckey-503-0008-PHI,PHI,null,1.601,63.0,200,,,,0,0,False,1,0
+C-key,503,9,REQ-e13ckey-503-0009-NON,NON,null,1.801,61.0,200,,,,0,0,False,1,0
+C-key,503,10,REQ-e13ckey-503-0010-PHI,PHI,null,2.001,62.3,200,,,,0,0,False,1,0
+C-key,503,11,REQ-e13ckey-503-0011-NON,NON,null,2.201,63.6,200,,,,0,0,False,1,0
+C-key,503,12,REQ-e13ckey-503-0012-PHI,PHI,null,2.401,60.3,200,,,,0,0,False,1,0
+C-key,503,13,REQ-e13ckey-503-0013-NON,NON,null,2.601,62.3,200,,,,0,0,False,1,0
+C-key,503,14,REQ-e13ckey-503-0014-PHI,PHI,null,2.801,62.3,200,,,,0,0,False,1,0
+C-key,503,15,REQ-e13ckey-503-0015-NON,NON,null,3.001,60.9,200,,,,0,0,False,1,0
+C-key,503,16,REQ-e13ckey-503-0016-PHI,PHI,null,3.201,62.0,200,,,,0,0,False,1,0
+C-key,503,17,REQ-e13ckey-503-0017-NON,NON,null,3.401,61.0,200,,,,0,0,False,1,0
+C-key,503,18,REQ-e13ckey-503-0018-PHI,PHI,null,3.601,61.3,200,,,,0,0,False,1,0
+C-key,503,19,REQ-e13ckey-503-0019-NON,NON,null,3.801,61.3,200,,,,0,0,False,1,0
+C-key,503,20,REQ-e13ckey-503-0020-PHI,PHI,null,4.001,63.4,200,,,,0,0,False,1,0
+C-key,503,21,REQ-e13ckey-503-0021-NON,NON,null,4.201,60.8,200,,,,0,0,False,1,0
+C-key,503,22,REQ-e13ckey-503-0022-PHI,PHI,null,4.401,60.9,200,,,,0,0,False,1,0
+C-key,503,23,REQ-e13ckey-503-0023-NON,NON,null,4.601,60.9,200,,,,0,0,False,1,0
+C-key,503,24,REQ-e13ckey-503-0024-PHI,PHI,null,4.801,62.4,200,,,,0,0,False,1,0
+C-key,503,25,REQ-e13ckey-503-0025-NON,NON,null,5.001,60.3,200,,,,0,0,False,1,0
+C-key,503,26,REQ-e13ckey-503-0026-PHI,PHI,null,5.201,60.8,200,,,,0,0,False,1,0
+C-key,503,27,REQ-e13ckey-503-0027-NON,NON,null,5.4,60.0,200,,,,0,0,False,1,0
+C-key,503,28,REQ-e13ckey-503-0028-PHI,PHI,null,5.601,60.9,200,,,,0,0,False,1,0
+C-key,503,29,REQ-e13ckey-503-0029-NON,NON,null,5.801,63.1,200,,,,0,0,False,1,0
+C-key,503,30,REQ-e13ckey-503-0030-PHI,PHI,null,6.001,60.4,200,,,,0,0,False,1,0
+C-key,503,31,REQ-e13ckey-503-0031-NON,NON,null,6.201,60.9,200,,,,0,0,False,1,0
+C-key,503,32,REQ-e13ckey-503-0032-PHI,PHI,null,6.401,61.8,200,,,,0,0,False,1,0
+C-key,503,33,REQ-e13ckey-503-0033-NON,NON,null,6.601,61.5,200,,,,0,0,False,1,0
+C-key,503,34,REQ-e13ckey-503-0034-PHI,PHI,null,6.801,62.9,200,,,,0,0,False,1,0
+C-key,503,35,REQ-e13ckey-503-0035-NON,NON,null,7.001,63.0,200,,,,0,0,False,1,0
+C-key,503,36,REQ-e13ckey-503-0036-PHI,PHI,null,7.201,62.6,200,,,,0,0,False,1,0
+C-key,503,37,REQ-e13ckey-503-0037-NON,NON,null,7.401,60.9,200,,,,0,0,False,1,0
+C-key,503,38,REQ-e13ckey-503-0038-PHI,PHI,null,7.6,60.1,200,,,,0,0,False,1,0
+C-key,503,39,REQ-e13ckey-503-0039-NON,NON,null,7.801,61.6,200,,,,0,0,False,1,0
+C-key,503,40,REQ-e13ckey-503-0040-PHI,PHI,null,8.001,62.9,200,,,,0,0,False,1,0
+C-key,503,41,REQ-e13ckey-503-0041-NON,NON,null,8.201,60.2,200,,,,0,0,False,1,0
+C-key,503,42,REQ-e13ckey-503-0042-PHI,PHI,null,8.401,61.3,200,,,,0,0,False,1,0
+C-key,503,43,REQ-e13ckey-503-0043-NON,NON,null,8.601,60.6,200,,,,0,0,False,1,0
+C-key,503,44,REQ-e13ckey-503-0044-PHI,PHI,null,8.801,61.6,200,,,,0,0,False,1,0
+C-key,503,45,REQ-e13ckey-503-0045-NON,NON,null,9.001,62.2,200,,,,0,0,False,1,0
+C-key,503,46,REQ-e13ckey-503-0046-PHI,PHI,null,9.201,61.8,200,,,,0,0,False,1,0
+C-key,503,47,REQ-e13ckey-503-0047-NON,NON,null,9.401,61.9,200,,,,0,0,False,1,0
+C-key,503,48,REQ-e13ckey-503-0048-PHI,PHI,null,9.601,60.6,200,,,,0,0,False,1,0
+C-key,503,49,REQ-e13ckey-503-0049-NON,NON,null,9.801,61.3,200,,,,0,0,False,1,0
+C-key,503,50,REQ-e13ckey-503-0050-PHI,PHI,null,10.001,10395.0,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,51,REQ-e13ckey-503-0051-NON,NON,null,10.201,4804.8,200,,,,0,1,True,3,1
+C-key,503,52,REQ-e13ckey-503-0052-PHI,PHI,null,10.401,9699.7,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,53,REQ-e13ckey-503-0053-NON,NON,null,10.601,5197.0,200,,,,0,1,True,3,1
+C-key,503,54,REQ-e13ckey-503-0054-PHI,PHI,null,10.801,8685.2,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,55,REQ-e13ckey-503-0055-NON,NON,null,11.001,4867.0,200,,,,0,1,True,3,1
+C-key,503,56,REQ-e13ckey-503-0056-PHI,PHI,null,11.201,9061.9,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,57,REQ-e13ckey-503-0057-NON,NON,null,11.401,5210.0,200,,,,0,1,True,3,1
+C-key,503,58,REQ-e13ckey-503-0058-PHI,PHI,null,11.601,8042.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,59,REQ-e13ckey-503-0059-NON,NON,null,11.801,5042.1,200,,,,0,1,True,3,1
+C-key,503,60,REQ-e13ckey-503-0060-PHI,PHI,null,12.001,9771.9,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,61,REQ-e13ckey-503-0061-NON,NON,null,12.201,4932.1,200,,,,0,1,True,3,1
+C-key,503,62,REQ-e13ckey-503-0062-PHI,PHI,null,12.401,9308.8,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,63,REQ-e13ckey-503-0063-NON,NON,null,12.601,4822.2,200,,,,0,1,True,3,1
+C-key,503,64,REQ-e13ckey-503-0064-PHI,PHI,null,12.8,10041.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,65,REQ-e13ckey-503-0065-NON,NON,null,13.001,4643.8,200,,,,0,1,True,3,1
+C-key,503,66,REQ-e13ckey-503-0066-PHI,PHI,null,13.201,8842.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,67,REQ-e13ckey-503-0067-NON,NON,null,13.401,4667.8,200,,,,0,1,True,3,1
+C-key,503,68,REQ-e13ckey-503-0068-PHI,PHI,null,13.601,9664.7,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,69,REQ-e13ckey-503-0069-NON,NON,null,13.801,4762.6,200,,,,0,1,True,3,1
+C-key,503,70,REQ-e13ckey-503-0070-PHI,PHI,null,14.001,9511.3,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,71,REQ-e13ckey-503-0071-NON,NON,null,14.201,4164.8,200,,,,0,1,True,3,1
+C-key,503,72,REQ-e13ckey-503-0072-PHI,PHI,null,14.401,9416.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,73,REQ-e13ckey-503-0073-NON,NON,null,14.601,5703.0,200,,,,0,1,True,3,1
+C-key,503,74,REQ-e13ckey-503-0074-PHI,PHI,null,14.801,9458.5,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,75,REQ-e13ckey-503-0075-NON,NON,null,15.001,5007.9,200,,,,0,1,True,3,1
+C-key,503,76,REQ-e13ckey-503-0076-PHI,PHI,null,15.201,9389.3,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,77,REQ-e13ckey-503-0077-NON,NON,null,15.401,5208.5,200,,,,0,1,True,3,1
+C-key,503,78,REQ-e13ckey-503-0078-PHI,PHI,null,15.601,10231.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,79,REQ-e13ckey-503-0079-NON,NON,null,15.8,5150.0,200,,,,0,1,True,3,1
+C-key,503,80,REQ-e13ckey-503-0080-PHI,PHI,null,16.001,9136.1,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,81,REQ-e13ckey-503-0081-NON,NON,null,16.201,4854.8,200,,,,0,1,True,3,1
+C-key,503,82,REQ-e13ckey-503-0082-PHI,PHI,null,16.401,9356.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,83,REQ-e13ckey-503-0083-NON,NON,null,16.601,4250.9,200,,,,0,1,True,3,1
+C-key,503,84,REQ-e13ckey-503-0084-PHI,PHI,null,16.8,9823.7,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,85,REQ-e13ckey-503-0085-NON,NON,null,17.001,4527.3,200,,,,0,1,True,3,1
+C-key,503,86,REQ-e13ckey-503-0086-PHI,PHI,null,17.201,8825.5,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,87,REQ-e13ckey-503-0087-NON,NON,null,17.401,4604.7,200,,,,0,1,True,3,1
+C-key,503,88,REQ-e13ckey-503-0088-PHI,PHI,null,17.601,10022.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,89,REQ-e13ckey-503-0089-NON,NON,null,17.801,5175.3,200,,,,0,1,True,3,1
+C-key,503,90,REQ-e13ckey-503-0090-PHI,PHI,null,18.001,9497.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,91,REQ-e13ckey-503-0091-NON,NON,null,18.201,5369.0,200,,,,0,1,True,3,1
+C-key,503,92,REQ-e13ckey-503-0092-PHI,PHI,null,18.4,9030.7,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,93,REQ-e13ckey-503-0093-NON,NON,null,18.601,5399.8,200,,,,0,1,True,3,1
+C-key,503,94,REQ-e13ckey-503-0094-PHI,PHI,null,18.801,10394.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,95,REQ-e13ckey-503-0095-NON,NON,null,19.001,4895.8,200,,,,0,1,True,3,1
+C-key,503,96,REQ-e13ckey-503-0096-PHI,PHI,null,19.201,9057.0,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,97,REQ-e13ckey-503-0097-NON,NON,null,19.401,4431.5,200,,,,0,1,True,3,1
+C-key,503,98,REQ-e13ckey-503-0098-PHI,PHI,null,19.601,9346.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,99,REQ-e13ckey-503-0099-NON,NON,null,19.801,4567.4,200,,,,0,1,True,3,1
+C-key,503,100,REQ-e13ckey-503-0100-PHI,PHI,null,20.001,9743.9,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,101,REQ-e13ckey-503-0101-NON,NON,null,20.201,4437.6,200,,,,0,1,True,3,1
+C-key,503,102,REQ-e13ckey-503-0102-PHI,PHI,null,20.401,8992.5,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,103,REQ-e13ckey-503-0103-NON,NON,null,20.601,5059.1,200,,,,0,1,True,3,1
+C-key,503,104,REQ-e13ckey-503-0104-PHI,PHI,null,20.801,8796.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,105,REQ-e13ckey-503-0105-NON,NON,null,21.0,4850.5,200,,,,0,1,True,3,1
+C-key,503,106,REQ-e13ckey-503-0106-PHI,PHI,null,21.202,9197.2,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,107,REQ-e13ckey-503-0107-NON,NON,null,21.401,5776.5,200,,,,0,1,True,3,1
+C-key,503,108,REQ-e13ckey-503-0108-PHI,PHI,null,21.602,9216.0,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,109,REQ-e13ckey-503-0109-NON,NON,null,21.801,4557.2,200,,,,0,1,True,3,1
+C-key,503,110,REQ-e13ckey-503-0110-PHI,PHI,null,22.001,9056.0,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,111,REQ-e13ckey-503-0111-NON,NON,null,22.201,4581.4,200,,,,0,1,True,3,1
+C-key,503,112,REQ-e13ckey-503-0112-PHI,PHI,null,22.4,9081.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,113,REQ-e13ckey-503-0113-NON,NON,null,22.601,5058.9,200,,,,0,1,True,3,1
+C-key,503,114,REQ-e13ckey-503-0114-PHI,PHI,null,22.801,10219.8,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,115,REQ-e13ckey-503-0115-NON,NON,null,23.001,5465.6,200,,,,0,1,True,3,1
+C-key,503,116,REQ-e13ckey-503-0116-PHI,PHI,null,23.201,9136.8,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,117,REQ-e13ckey-503-0117-NON,NON,null,23.401,4615.8,200,,,,0,1,True,3,1
+C-key,503,118,REQ-e13ckey-503-0118-PHI,PHI,null,23.601,9820.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,119,REQ-e13ckey-503-0119-NON,NON,null,23.801,4042.4,200,,,,0,1,True,3,1
+C-key,503,120,REQ-e13ckey-503-0120-PHI,PHI,null,24.001,9228.5,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,121,REQ-e13ckey-503-0121-NON,NON,null,24.201,5367.2,200,,,,0,1,True,3,1
+C-key,503,122,REQ-e13ckey-503-0122-PHI,PHI,null,24.4,9012.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,123,REQ-e13ckey-503-0123-NON,NON,null,24.601,4266.8,200,,,,0,1,True,3,1
+C-key,503,124,REQ-e13ckey-503-0124-PHI,PHI,null,24.801,9184.9,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,125,REQ-e13ckey-503-0125-NON,NON,null,25.0,5096.8,200,,,,0,1,True,3,1
+C-key,503,126,REQ-e13ckey-503-0126-PHI,PHI,null,25.201,8654.2,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,127,REQ-e13ckey-503-0127-NON,NON,null,25.401,4626.7,200,,,,0,1,True,3,1
+C-key,503,128,REQ-e13ckey-503-0128-PHI,PHI,null,25.601,8819.8,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,129,REQ-e13ckey-503-0129-NON,NON,null,25.801,4459.4,200,,,,0,1,True,3,1
+C-key,503,130,REQ-e13ckey-503-0130-PHI,PHI,null,26.0,10298.4,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,131,REQ-e13ckey-503-0131-NON,NON,null,26.202,4469.2,200,,,,0,1,True,3,1
+C-key,503,132,REQ-e13ckey-503-0132-PHI,PHI,null,26.4,9989.9,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,133,REQ-e13ckey-503-0133-NON,NON,null,26.601,4931.6,200,,,,0,1,True,3,1
+C-key,503,134,REQ-e13ckey-503-0134-PHI,PHI,null,26.802,9241.8,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,135,REQ-e13ckey-503-0135-NON,NON,null,27.001,4667.3,200,,,,0,1,True,3,1
+C-key,503,136,REQ-e13ckey-503-0136-PHI,PHI,null,27.201,9359.6,401,401,"{""error"":{""message"":""litellm.ServiceUnavailableError: ServiceUnavailableError: OpenAIException - mock upstream unavailable. Received Model Group=fo-primary\nAvailable Model Group Fallbacks=['fo-fallback']\nError doing the fallback: Not allowed to access model due to tags configuration. Passed model=fo-fallback and tags=['&phi']"",""type"":""internal_server_error"",""param"":null,""code"":""401""}}",True,,,False,3,0
+C-key,503,137,REQ-e13ckey-503-0137-NON,NON,null,27.401,4865.4,200,,,,0,1,True,3,1
+C-key,503,138,REQ-e13ckey-503-0138-PHI,PHI,null,27.6,2722.9,200,,,,2,0,False,3,0
+C-key,503,139,REQ-e13ckey-503-0139-NON,NON,null,27.801,4792.7,200,,,,0,1,True,3,1
+C-key,503,140,REQ-e13ckey-503-0140-PHI,PHI,null,28.001,2515.8,200,,,,2,0,False,3,0
+C-key,503,141,REQ-e13ckey-503-0141-NON,NON,null,28.201,2495.0,200,,,,2,0,False,3,0
+C-key,503,142,REQ-e13ckey-503-0142-PHI,PHI,null,28.402,2836.1,200,,,,2,0,False,3,0
+C-key,503,143,REQ-e13ckey-503-0143-NON,NON,null,28.602,2686.9,200,,,,2,0,False,3,0
+C-key,503,144,REQ-e13ckey-503-0144-PHI,PHI,null,28.801,2394.0,200,,,,2,0,False,3,0
+C-key,503,145,REQ-e13ckey-503-0145-NON,NON,null,29.0,1132.8,200,,,,1,0,False,2,0
+C-key,503,146,REQ-e13ckey-503-0146-PHI,PHI,null,29.2,890.5,200,,,,1,0,False,2,0
+C-key,503,147,REQ-e13ckey-503-0147-NON,NON,null,29.401,733.2,200,,,,1,0,False,2,0
+C-key,503,148,REQ-e13ckey-503-0148-PHI,PHI,null,29.601,1204.3,200,,,,1,0,False,2,0
+C-key,503,149,REQ-e13ckey-503-0149-NON,NON,null,29.801,1248.0,200,,,,1,0,False,2,0
+C-key,503,150,REQ-e13ckey-503-0150-PHI,PHI,null,30.001,60.5,200,,,,0,0,False,1,0
+C-key,503,151,REQ-e13ckey-503-0151-NON,NON,null,30.201,64.5,200,,,,0,0,False,1,0
+C-key,503,152,REQ-e13ckey-503-0152-PHI,PHI,null,30.401,60.6,200,,,,0,0,False,1,0
+C-key,503,153,REQ-e13ckey-503-0153-NON,NON,null,30.6,60.9,200,,,,0,0,False,1,0
+C-key,503,154,REQ-e13ckey-503-0154-PHI,PHI,null,30.801,65.7,200,,,,0,0,False,1,0
+C-key,503,155,REQ-e13ckey-503-0155-NON,NON,null,31.001,60.8,200,,,,0,0,False,1,0
+C-key,503,156,REQ-e13ckey-503-0156-PHI,PHI,null,31.201,62.8,200,,,,0,0,False,1,0
+C-key,503,157,REQ-e13ckey-503-0157-NON,NON,null,31.4,64.2,200,,,,0,0,False,1,0
+C-key,503,158,REQ-e13ckey-503-0158-PHI,PHI,null,31.601,62.9,200,,,,0,0,False,1,0
+C-key,503,159,REQ-e13ckey-503-0159-NON,NON,null,31.801,61.9,200,,,,0,0,False,1,0
+C-key,503,160,REQ-e13ckey-503-0160-PHI,PHI,null,32.001,67.9,200,,,,0,0,False,1,0
+C-key,503,161,REQ-e13ckey-503-0161-NON,NON,null,32.201,65.9,200,,,,0,0,False,1,0
+C-key,503,162,REQ-e13ckey-503-0162-PHI,PHI,null,32.4,62.1,200,,,,0,0,False,1,0
+C-key,503,163,REQ-e13ckey-503-0163-NON,NON,null,32.601,61.0,200,,,,0,0,False,1,0
+C-key,503,164,REQ-e13ckey-503-0164-PHI,PHI,null,32.801,63.4,200,,,,0,0,False,1,0
+C-key,503,165,REQ-e13ckey-503-0165-NON,NON,null,33.001,68.6,200,,,,0,0,False,1,0
+C-key,503,166,REQ-e13ckey-503-0166-PHI,PHI,null,33.201,60.7,200,,,,0,0,False,1,0
+C-key,503,167,REQ-e13ckey-503-0167-NON,NON,null,33.401,69.9,200,,,,0,0,False,1,0
+C-key,503,168,REQ-e13ckey-503-0168-PHI,PHI,null,33.6,62.2,200,,,,0,0,False,1,0
+C-key,503,169,REQ-e13ckey-503-0169-NON,NON,null,33.801,61.1,200,,,,0,0,False,1,0
+C-key,503,170,REQ-e13ckey-503-0170-PHI,PHI,null,34.001,61.0,200,,,,0,0,False,1,0
+C-key,503,171,REQ-e13ckey-503-0171-NON,NON,null,34.201,63.6,200,,,,0,0,False,1,0
+C-key,503,172,REQ-e13ckey-503-0172-PHI,PHI,null,34.401,68.3,200,,,,0,0,False,1,0
+C-key,503,173,REQ-e13ckey-503-0173-NON,NON,null,34.601,64.1,200,,,,0,0,False,1,0
+C-key,503,174,REQ-e13ckey-503-0174-PHI,PHI,null,34.801,62.0,200,,,,0,0,False,1,0
+C-key,503,175,REQ-e13ckey-503-0175-NON,NON,null,35.001,61.9,200,,,,0,0,False,1,0
+C-key,503,176,REQ-e13ckey-503-0176-PHI,PHI,null,35.2,61.6,200,,,,0,0,False,1,0
+C-key,503,177,REQ-e13ckey-503-0177-NON,NON,null,35.4,61.0,200,,,,0,0,False,1,0
+C-key,503,178,REQ-e13ckey-503-0178-PHI,PHI,null,35.601,61.7,200,,,,0,0,False,1,0
+C-key,503,179,REQ-e13ckey-503-0179-NON,NON,null,35.801,61.6,200,,,,0,0,False,1,0
+C-key,503,180,REQ-e13ckey-503-0180-PHI,PHI,null,36.001,60.7,200,,,,0,0,False,1,0
+C-key,503,181,REQ-e13ckey-503-0181-NON,NON,null,36.201,61.1,200,,,,0,0,False,1,0
+C-key,503,182,REQ-e13ckey-503-0182-PHI,PHI,null,36.401,59.4,200,,,,0,0,False,1,0
+C-key,503,183,REQ-e13ckey-503-0183-NON,NON,null,36.601,60.0,200,,,,0,0,False,1,0
+C-key,503,184,REQ-e13ckey-503-0184-PHI,PHI,null,36.801,63.8,200,,,,0,0,False,1,0
+C-key,503,185,REQ-e13ckey-503-0185-NON,NON,null,37.002,62.5,200,,,,0,0,False,1,0
+C-key,503,186,REQ-e13ckey-503-0186-PHI,PHI,null,37.201,62.3,200,,,,0,0,False,1,0
+C-key,503,187,REQ-e13ckey-503-0187-NON,NON,null,37.401,60.8,200,,,,0,0,False,1,0
+C-key,503,188,REQ-e13ckey-503-0188-PHI,PHI,null,37.6,60.4,200,,,,0,0,False,1,0
+C-key,503,189,REQ-e13ckey-503-0189-NON,NON,null,37.801,63.2,200,,,,0,0,False,1,0
+C-key,503,190,REQ-e13ckey-503-0190-PHI,PHI,null,38.001,63.6,200,,,,0,0,False,1,0
+C-key,503,191,REQ-e13ckey-503-0191-NON,NON,null,38.201,63.3,200,,,,0,0,False,1,0
+C-key,503,192,REQ-e13ckey-503-0192-PHI,PHI,null,38.401,60.5,200,,,,0,0,False,1,0
+C-key,503,193,REQ-e13ckey-503-0193-NON,NON,null,38.601,61.4,200,,,,0,0,False,1,0
+C-key,503,194,REQ-e13ckey-503-0194-PHI,PHI,null,38.801,64.2,200,,,,0,0,False,1,0
+C-key,503,195,REQ-e13ckey-503-0195-NON,NON,null,39.001,61.9,200,,,,0,0,False,1,0
+C-key,503,196,REQ-e13ckey-503-0196-PHI,PHI,null,39.201,62.0,200,,,,0,0,False,1,0
+C-key,503,197,REQ-e13ckey-503-0197-NON,NON,null,39.401,63.3,200,,,,0,0,False,1,0
+C-key,503,198,REQ-e13ckey-503-0198-PHI,PHI,null,39.6,61.6,200,,,,0,0,False,1,0
+C-key,503,199,REQ-e13ckey-503-0199-NON,NON,null,39.801,63.2,200,,,,0,0,False,1,0
+C-key,503,200,REQ-e13ckey-503-0200-PHI,PHI,null,40.001,61.5,200,,,,0,0,False,1,0
+C-key,503,201,REQ-e13ckey-503-0201-NON,NON,null,40.201,63.4,200,,,,0,0,False,1,0
+C-key,503,202,REQ-e13ckey-503-0202-PHI,PHI,null,40.401,62.2,200,,,,0,0,False,1,0
+C-key,503,203,REQ-e13ckey-503-0203-NON,NON,null,40.601,60.9,200,,,,0,0,False,1,0
+C-key,503,204,REQ-e13ckey-503-0204-PHI,PHI,null,40.801,66.3,200,,,,0,0,False,1,0
+C-key,503,205,REQ-e13ckey-503-0205-NON,NON,null,41.001,61.7,200,,,,0,0,False,1,0
+C-key,503,206,REQ-e13ckey-503-0206-PHI,PHI,null,41.201,60.2,200,,,,0,0,False,1,0
+C-key,503,207,REQ-e13ckey-503-0207-NON,NON,null,41.401,61.9,200,,,,0,0,False,1,0
+C-key,503,208,REQ-e13ckey-503-0208-PHI,PHI,null,41.601,59.7,200,,,,0,0,False,1,0
+C-key,503,209,REQ-e13ckey-503-0209-NON,NON,null,41.801,61.0,200,,,,0,0,False,1,0
+C-key,503,210,REQ-e13ckey-503-0210-PHI,PHI,null,42.001,61.2,200,,,,0,0,False,1,0
+C-key,503,211,REQ-e13ckey-503-0211-NON,NON,null,42.201,60.5,200,,,,0,0,False,1,0
+C-key,503,212,REQ-e13ckey-503-0212-PHI,PHI,null,42.401,60.1,200,,,,0,0,False,1,0
+C-key,503,213,REQ-e13ckey-503-0213-NON,NON,null,42.601,60.6,200,,,,0,0,False,1,0
+C-key,503,214,REQ-e13ckey-503-0214-PHI,PHI,null,42.801,60.3,200,,,,0,0,False,1,0
+C-key,503,215,REQ-e13ckey-503-0215-NON,NON,null,43.001,60.9,200,,,,0,0,False,1,0
+C-key,503,216,REQ-e13ckey-503-0216-PHI,PHI,null,43.201,61.0,200,,,,0,0,False,1,0
+C-key,503,217,REQ-e13ckey-503-0217-NON,NON,null,43.402,60.4,200,,,,0,0,False,1,0
+C-key,503,218,REQ-e13ckey-503-0218-PHI,PHI,null,43.601,62.7,200,,,,0,0,False,1,0
+C-key,503,219,REQ-e13ckey-503-0219-NON,NON,null,43.801,61.3,200,,,,0,0,False,1,0
+C-key,503,220,REQ-e13ckey-503-0220-PHI,PHI,null,44.001,62.3,200,,,,0,0,False,1,0
+C-key,503,221,REQ-e13ckey-503-0221-NON,NON,null,44.201,61.3,200,,,,0,0,False,1,0
+C-key,503,222,REQ-e13ckey-503-0222-PHI,PHI,null,44.401,63.8,200,,,,0,0,False,1,0
+C-key,503,223,REQ-e13ckey-503-0223-NON,NON,null,44.601,60.2,200,,,,0,0,False,1,0
+C-key,503,224,REQ-e13ckey-503-0224-PHI,PHI,null,44.801,63.3,200,,,,0,0,False,1,0
+C-key,503,225,REQ-e13ckey-503-0225-NON,NON,null,45.001,65.5,200,,,,0,0,False,1,0
+C-key,503,226,REQ-e13ckey-503-0226-PHI,PHI,null,45.202,62.9,200,,,,0,0,False,1,0
+C-key,503,227,REQ-e13ckey-503-0227-NON,NON,null,45.401,60.5,200,,,,0,0,False,1,0
+C-key,503,228,REQ-e13ckey-503-0228-PHI,PHI,null,45.601,61.7,200,,,,0,0,False,1,0
+C-key,503,229,REQ-e13ckey-503-0229-NON,NON,null,45.801,60.0,200,,,,0,0,False,1,0
+C-key,503,230,REQ-e13ckey-503-0230-PHI,PHI,null,46.001,62.4,200,,,,0,0,False,1,0
+C-key,503,231,REQ-e13ckey-503-0231-NON,NON,null,46.201,61.5,200,,,,0,0,False,1,0
+C-key,503,232,REQ-e13ckey-503-0232-PHI,PHI,null,46.401,60.7,200,,,,0,0,False,1,0
+C-key,503,233,REQ-e13ckey-503-0233-NON,NON,null,46.601,61.0,200,,,,0,0,False,1,0
+C-key,503,234,REQ-e13ckey-503-0234-PHI,PHI,null,46.801,63.3,200,,,,0,0,False,1,0
+C-key,503,235,REQ-e13ckey-503-0235-NON,NON,null,47.001,60.4,200,,,,0,0,False,1,0
+C-key,503,236,REQ-e13ckey-503-0236-PHI,PHI,null,47.201,62.9,200,,,,0,0,False,1,0
+C-key,503,237,REQ-e13ckey-503-0237-NON,NON,null,47.401,60.7,200,,,,0,0,False,1,0
+C-key,503,238,REQ-e13ckey-503-0238-PHI,PHI,null,47.601,62.5,200,,,,0,0,False,1,0
+C-key,503,239,REQ-e13ckey-503-0239-NON,NON,null,47.8,62.4,200,,,,0,0,False,1,0
+C-key,503,240,REQ-e13ckey-503-0240-PHI,PHI,null,48.001,62.0,200,,,,0,0,False,1,0
+C-key,503,241,REQ-e13ckey-503-0241-NON,NON,null,48.201,62.5,200,,,,0,0,False,1,0
+C-key,503,242,REQ-e13ckey-503-0242-PHI,PHI,null,48.401,59.5,200,,,,0,0,False,1,0
+C-key,503,243,REQ-e13ckey-503-0243-NON,NON,null,48.601,63.8,200,,,,0,0,False,1,0
+C-key,503,244,REQ-e13ckey-503-0244-PHI,PHI,null,48.801,64.0,200,,,,0,0,False,1,0
+C-key,503,245,REQ-e13ckey-503-0245-NON,NON,null,49.001,61.1,200,,,,0,0,False,1,0
+C-key,503,246,REQ-e13ckey-503-0246-PHI,PHI,null,49.201,65.1,200,,,,0,0,False,1,0
+C-key,503,247,REQ-e13ckey-503-0247-NON,NON,null,49.402,61.4,200,,,,0,0,False,1,0
+C-key,503,248,REQ-e13ckey-503-0248-PHI,PHI,null,49.601,61.6,200,,,,0,0,False,1,0
+C-key,503,249,REQ-e13ckey-503-0249-NON,NON,null,49.801,63.7,200,,,,0,0,False,1,0
+C-key,503,250,REQ-e13ckey-503-0250-PHI,PHI,null,50.001,62.3,200,,,,0,0,False,1,0
+C-key,503,251,REQ-e13ckey-503-0251-NON,NON,null,50.201,62.0,200,,,,0,0,False,1,0
+C-key,503,252,REQ-e13ckey-503-0252-PHI,PHI,null,50.401,61.9,200,,,,0,0,False,1,0
+C-key,503,253,REQ-e13ckey-503-0253-NON,NON,null,50.601,61.3,200,,,,0,0,False,1,0
+C-key,503,254,REQ-e13ckey-503-0254-PHI,PHI,null,50.801,60.5,200,,,,0,0,False,1,0
+C-key,503,255,REQ-e13ckey-503-0255-NON,NON,null,51.001,60.5,200,,,,0,0,False,1,0
+C-key,503,256,REQ-e13ckey-503-0256-PHI,PHI,null,51.201,61.3,200,,,,0,0,False,1,0
+C-key,503,257,REQ-e13ckey-503-0257-NON,NON,null,51.401,62.0,200,,,,0,0,False,1,0
+C-key,503,258,REQ-e13ckey-503-0258-PHI,PHI,null,51.601,60.6,200,,,,0,0,False,1,0
+C-key,503,259,REQ-e13ckey-503-0259-NON,NON,null,51.801,61.4,200,,,,0,0,False,1,0
+C-key,503,260,REQ-e13ckey-503-0260-PHI,PHI,null,52.001,60.8,200,,,,0,0,False,1,0
+C-key,503,261,REQ-e13ckey-503-0261-NON,NON,null,52.201,61.3,200,,,,0,0,False,1,0
+C-key,503,262,REQ-e13ckey-503-0262-PHI,PHI,null,52.401,61.1,200,,,,0,0,False,1,0
+C-key,503,263,REQ-e13ckey-503-0263-NON,NON,null,52.601,60.9,200,,,,0,0,False,1,0
+C-key,503,264,REQ-e13ckey-503-0264-PHI,PHI,null,52.801,61.6,200,,,,0,0,False,1,0
+C-key,503,265,REQ-e13ckey-503-0265-NON,NON,null,53.001,61.8,200,,,,0,0,False,1,0
+C-key,503,266,REQ-e13ckey-503-0266-PHI,PHI,null,53.201,60.4,200,,,,0,0,False,1,0
+C-key,503,267,REQ-e13ckey-503-0267-NON,NON,null,53.401,60.8,200,,,,0,0,False,1,0
+C-key,503,268,REQ-e13ckey-503-0268-PHI,PHI,null,53.601,63.5,200,,,,0,0,False,1,0
+C-key,503,269,REQ-e13ckey-503-0269-NON,NON,null,53.801,61.6,200,,,,0,0,False,1,0
+C-key,503,270,REQ-e13ckey-503-0270-PHI,PHI,null,54.001,60.6,200,,,,0,0,False,1,0
+C-key,503,271,REQ-e13ckey-503-0271-NON,NON,null,54.201,61.3,200,,,,0,0,False,1,0
+C-key,503,272,REQ-e13ckey-503-0272-PHI,PHI,null,54.401,60.4,200,,,,0,0,False,1,0
+C-key,503,273,REQ-e13ckey-503-0273-NON,NON,null,54.601,61.8,200,,,,0,0,False,1,0
+C-key,503,274,REQ-e13ckey-503-0274-PHI,PHI,null,54.801,63.8,200,,,,0,0,False,1,0
+C-key,503,275,REQ-e13ckey-503-0275-NON,NON,null,55.001,61.5,200,,,,0,0,False,1,0
+C-key,503,276,REQ-e13ckey-503-0276-PHI,PHI,null,55.202,61.8,200,,,,0,0,False,1,0
+C-key,503,277,REQ-e13ckey-503-0277-NON,NON,null,55.401,60.6,200,,,,0,0,False,1,0
+C-key,503,278,REQ-e13ckey-503-0278-PHI,PHI,null,55.601,61.6,200,,,,0,0,False,1,0
+C-key,503,279,REQ-e13ckey-503-0279-NON,NON,null,55.801,61.8,200,,,,0,0,False,1,0
+C-key,503,280,REQ-e13ckey-503-0280-PHI,PHI,null,56.0,62.7,200,,,,0,0,False,1,0
+C-key,503,281,REQ-e13ckey-503-0281-NON,NON,null,56.201,61.5,200,,,,0,0,False,1,0
+C-key,503,282,REQ-e13ckey-503-0282-PHI,PHI,null,56.401,62.6,200,,,,0,0,False,1,0
+C-key,503,283,REQ-e13ckey-503-0283-NON,NON,null,56.601,62.4,200,,,,0,0,False,1,0
+C-key,503,284,REQ-e13ckey-503-0284-PHI,PHI,null,56.801,61.0,200,,,,0,0,False,1,0
+C-key,503,285,REQ-e13ckey-503-0285-NON,NON,null,57.001,60.5,200,,,,0,0,False,1,0
+C-key,503,286,REQ-e13ckey-503-0286-PHI,PHI,null,57.201,64.0,200,,,,0,0,False,1,0
+C-key,503,287,REQ-e13ckey-503-0287-NON,NON,null,57.401,60.0,200,,,,0,0,False,1,0
+C-key,503,288,REQ-e13ckey-503-0288-PHI,PHI,null,57.601,60.6,200,,,,0,0,False,1,0
+C-key,503,289,REQ-e13ckey-503-0289-NON,NON,null,57.801,59.7,200,,,,0,0,False,1,0
+C-key,503,290,REQ-e13ckey-503-0290-PHI,PHI,null,58.001,62.0,200,,,,0,0,False,1,0
+C-key,503,291,REQ-e13ckey-503-0291-NON,NON,null,58.201,63.8,200,,,,0,0,False,1,0
+C-key,503,292,REQ-e13ckey-503-0292-PHI,PHI,null,58.401,63.3,200,,,,0,0,False,1,0
+C-key,503,293,REQ-e13ckey-503-0293-NON,NON,null,58.601,61.7,200,,,,0,0,False,1,0
+C-key,503,294,REQ-e13ckey-503-0294-PHI,PHI,null,58.801,61.8,200,,,,0,0,False,1,0
+C-key,503,295,REQ-e13ckey-503-0295-NON,NON,null,59.001,62.2,200,,,,0,0,False,1,0
+C-key,503,296,REQ-e13ckey-503-0296-PHI,PHI,null,59.201,61.9,200,,,,0,0,False,1,0
+C-key,503,297,REQ-e13ckey-503-0297-NON,NON,null,59.401,61.4,200,,,,0,0,False,1,0
+C-key,503,298,REQ-e13ckey-503-0298-PHI,PHI,null,59.601,61.6,200,,,,0,0,False,1,0
+C-key,503,299,REQ-e13ckey-503-0299-NON,NON,null,59.801,61.9,200,,,,0,0,False,1,0
+C-key,503,300,REQ-e13ckey-503-0300-PHI,PHI,null,60.001,61.8,200,,,,0,0,False,1,0
+C-key,503,301,REQ-e13ckey-503-0301-NON,NON,null,60.201,60.6,200,,,,0,0,False,1,0
+C-key,503,302,REQ-e13ckey-503-0302-PHI,PHI,null,60.401,63.6,200,,,,0,0,False,1,0
+C-key,503,303,REQ-e13ckey-503-0303-NON,NON,null,60.601,64.8,200,,,,0,0,False,1,0
+C-key,503,304,REQ-e13ckey-503-0304-PHI,PHI,null,60.801,61.4,200,,,,0,0,False,1,0
+C-key,503,305,REQ-e13ckey-503-0305-NON,NON,null,61.001,61.5,200,,,,0,0,False,1,0
+C-key,503,306,REQ-e13ckey-503-0306-PHI,PHI,null,61.201,65.7,200,,,,0,0,False,1,0
+C-key,503,307,REQ-e13ckey-503-0307-NON,NON,null,61.403,63.3,200,,,,0,0,False,1,0
+C-key,503,308,REQ-e13ckey-503-0308-PHI,PHI,null,61.601,62.2,200,,,,0,0,False,1,0
+C-key,503,309,REQ-e13ckey-503-0309-NON,NON,null,61.801,60.8,200,,,,0,0,False,1,0
+C-key,503,310,REQ-e13ckey-503-0310-PHI,PHI,null,62.001,62.7,200,,,,0,0,False,1,0
+C-key,503,311,REQ-e13ckey-503-0311-NON,NON,null,62.2,61.4,200,,,,0,0,False,1,0
+C-key,503,312,REQ-e13ckey-503-0312-PHI,PHI,null,62.401,60.6,200,,,,0,0,False,1,0
+C-key,503,313,REQ-e13ckey-503-0313-NON,NON,null,62.601,64.5,200,,,,0,0,False,1,0
+C-key,503,314,REQ-e13ckey-503-0314-PHI,PHI,null,62.801,62.0,200,,,,0,0,False,1,0
+C-key,503,315,REQ-e13ckey-503-0315-NON,NON,null,63.001,60.8,200,,,,0,0,False,1,0
+C-key,503,316,REQ-e13ckey-503-0316-PHI,PHI,null,63.201,62.8,200,,,,0,0,False,1,0
+C-key,503,317,REQ-e13ckey-503-0317-NON,NON,null,63.401,61.4,200,,,,0,0,False,1,0
+C-key,503,318,REQ-e13ckey-503-0318-PHI,PHI,null,63.601,62.7,200,,,,0,0,False,1,0
+C-key,503,319,REQ-e13ckey-503-0319-NON,NON,null,63.801,60.7,200,,,,0,0,False,1,0
+C-key,503,320,REQ-e13ckey-503-0320-PHI,PHI,null,64.001,59.9,200,,,,0,0,False,1,0
+C-key,503,321,REQ-e13ckey-503-0321-NON,NON,null,64.201,62.3,200,,,,0,0,False,1,0
+C-key,503,322,REQ-e13ckey-503-0322-PHI,PHI,null,64.401,60.6,200,,,,0,0,False,1,0
+C-key,503,323,REQ-e13ckey-503-0323-NON,NON,null,64.601,61.7,200,,,,0,0,False,1,0
+C-key,503,324,REQ-e13ckey-503-0324-PHI,PHI,null,64.801,60.5,200,,,,0,0,False,1,0
+C-key,503,325,REQ-e13ckey-503-0325-NON,NON,null,65.001,63.0,200,,,,0,0,False,1,0
+C-key,503,326,REQ-e13ckey-503-0326-PHI,PHI,null,65.201,61.0,200,,,,0,0,False,1,0
+C-key,503,327,REQ-e13ckey-503-0327-NON,NON,null,65.401,60.1,200,,,,0,0,False,1,0
+C-key,503,328,REQ-e13ckey-503-0328-PHI,PHI,null,65.601,61.7,200,,,,0,0,False,1,0
+C-key,503,329,REQ-e13ckey-503-0329-NON,NON,null,65.801,61.4,200,,,,0,0,False,1,0
+C-key,503,330,REQ-e13ckey-503-0330-PHI,PHI,null,66.001,63.0,200,,,,0,0,False,1,0
+C-key,503,331,REQ-e13ckey-503-0331-NON,NON,null,66.201,62.3,200,,,,0,0,False,1,0
+C-key,503,332,REQ-e13ckey-503-0332-PHI,PHI,null,66.401,60.7,200,,,,0,0,False,1,0
+C-key,503,333,REQ-e13ckey-503-0333-NON,NON,null,66.601,61.8,200,,,,0,0,False,1,0
+C-key,503,334,REQ-e13ckey-503-0334-PHI,PHI,null,66.801,63.4,200,,,,0,0,False,1,0
+C-key,503,335,REQ-e13ckey-503-0335-NON,NON,null,67.001,62.0,200,,,,0,0,False,1,0
+C-key,503,336,REQ-e13ckey-503-0336-PHI,PHI,null,67.202,62.3,200,,,,0,0,False,1,0
+C-key,503,337,REQ-e13ckey-503-0337-NON,NON,null,67.401,61.7,200,,,,0,0,False,1,0
+C-key,503,338,REQ-e13ckey-503-0338-PHI,PHI,null,67.601,61.5,200,,,,0,0,False,1,0
+C-key,503,339,REQ-e13ckey-503-0339-NON,NON,null,67.801,61.2,200,,,,0,0,False,1,0
+C-key,503,340,REQ-e13ckey-503-0340-PHI,PHI,null,68.001,62.7,200,,,,0,0,False,1,0
+C-key,503,341,REQ-e13ckey-503-0341-NON,NON,null,68.201,61.6,200,,,,0,0,False,1,0
+C-key,503,342,REQ-e13ckey-503-0342-PHI,PHI,null,68.401,62.5,200,,,,0,0,False,1,0
+C-key,503,343,REQ-e13ckey-503-0343-NON,NON,null,68.601,64.0,200,,,,0,0,False,1,0
+C-key,503,344,REQ-e13ckey-503-0344-PHI,PHI,null,68.801,60.6,200,,,,0,0,False,1,0
+C-key,503,345,REQ-e13ckey-503-0345-NON,NON,null,69.001,59.1,200,,,,0,0,False,1,0
+C-key,503,346,REQ-e13ckey-503-0346-PHI,PHI,null,69.201,62.7,200,,,,0,0,False,1,0
+C-key,503,347,REQ-e13ckey-503-0347-NON,NON,null,69.401,60.7,200,,,,0,0,False,1,0
+C-key,503,348,REQ-e13ckey-503-0348-PHI,PHI,null,69.601,63.4,200,,,,0,0,False,1,0
+C-key,503,349,REQ-e13ckey-503-0349-NON,NON,null,69.801,63.1,200,,,,0,0,False,1,0
+C-key,503,350,REQ-e13ckey-503-0350-PHI,PHI,null,70.001,61.0,200,,,,0,0,False,1,0
+C-key,503,351,REQ-e13ckey-503-0351-NON,NON,null,70.201,62.1,200,,,,0,0,False,1,0
+C-key,503,352,REQ-e13ckey-503-0352-PHI,PHI,null,70.401,60.6,200,,,,0,0,False,1,0
+C-key,503,353,REQ-e13ckey-503-0353-NON,NON,null,70.601,63.4,200,,,,0,0,False,1,0
+C-key,503,354,REQ-e13ckey-503-0354-PHI,PHI,null,70.801,63.1,200,,,,0,0,False,1,0
+C-key,503,355,REQ-e13ckey-503-0355-NON,NON,null,71.001,61.7,200,,,,0,0,False,1,0
+C-key,503,356,REQ-e13ckey-503-0356-PHI,PHI,null,71.201,59.9,200,,,,0,0,False,1,0
+C-key,503,357,REQ-e13ckey-503-0357-NON,NON,null,71.401,60.1,200,,,,0,0,False,1,0
+C-key,503,358,REQ-e13ckey-503-0358-PHI,PHI,null,71.601,62.4,200,,,,0,0,False,1,0
+C-key,503,359,REQ-e13ckey-503-0359-NON,NON,null,71.801,62.2,200,,,,0,0,False,1,0
+C-key,503,360,REQ-e13ckey-503-0360-PHI,PHI,null,72.001,62.4,200,,,,0,0,False,1,0
+C-key,503,361,REQ-e13ckey-503-0361-NON,NON,null,72.201,62.1,200,,,,0,0,False,1,0
+C-key,503,362,REQ-e13ckey-503-0362-PHI,PHI,null,72.401,63.7,200,,,,0,0,False,1,0
+C-key,503,363,REQ-e13ckey-503-0363-NON,NON,null,72.601,61.7,200,,,,0,0,False,1,0
+C-key,503,364,REQ-e13ckey-503-0364-PHI,PHI,null,72.801,61.1,200,,,,0,0,False,1,0
+C-key,503,365,REQ-e13ckey-503-0365-NON,NON,null,73.001,61.1,200,,,,0,0,False,1,0
+C-key,503,366,REQ-e13ckey-503-0366-PHI,PHI,null,73.201,60.0,200,,,,0,0,False,1,0
+C-key,503,367,REQ-e13ckey-503-0367-NON,NON,null,73.401,61.1,200,,,,0,0,False,1,0
+C-key,503,368,REQ-e13ckey-503-0368-PHI,PHI,null,73.601,61.5,200,,,,0,0,False,1,0
+C-key,503,369,REQ-e13ckey-503-0369-NON,NON,null,73.801,61.9,200,,,,0,0,False,1,0
+C-key,503,370,REQ-e13ckey-503-0370-PHI,PHI,null,74.001,60.6,200,,,,0,0,False,1,0
+C-key,503,371,REQ-e13ckey-503-0371-NON,NON,null,74.201,62.8,200,,,,0,0,False,1,0
+C-key,503,372,REQ-e13ckey-503-0372-PHI,PHI,null,74.401,61.7,200,,,,0,0,False,1,0
+C-key,503,373,REQ-e13ckey-503-0373-NON,NON,null,74.601,61.8,200,,,,0,0,False,1,0
+C-key,503,374,REQ-e13ckey-503-0374-PHI,PHI,null,74.801,61.0,200,,,,0,0,False,1,0

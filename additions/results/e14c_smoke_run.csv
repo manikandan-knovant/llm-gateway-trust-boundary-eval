@@ -1,0 +1,2 @@
+t_start,t_end,workers,concurrency,recorder_exchanges,recorder_statuses,recorder_first_seq,client_spend_estimate_usd,stopped_by_cap
+1794271475.371,1794271491.548,4,8,72,{200: 72},1,0.010533,False

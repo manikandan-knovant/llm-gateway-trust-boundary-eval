@@ -1,0 +1,18 @@
+# E13: STOCK LiteLLM 1.102.1 with its own tag-based routing (no gateway hooks, no tenant policy). Same two mock routes,
+# same 5 s route timeout and same fallback as E10 (stock-litellm.yaml); the only additions are the documented tag
+# settings (https://docs.litellm.ai/docs/proxy/tag_routing):
+#   litellm_params.tags            fo-primary (BAA): ["phi", "default"]; fo-fallback (no BAA): ["default"] only
+#   router_settings.enable_tag_filtering: true
+# Retries, cooldown and error rendering stay LiteLLM's defaults, as in E10. A database is attached only so that virtual
+# keys (Variant B, C-key) exist; this config file is identical for every variant.
+model_list:
+  - model_name: fo-primary
+    litellm_params: {model: openai/mock-model, api_base: "http://mock-upstream:8080/primary/v1", api_key: research-mock-key-not-a-secret, timeout: 5, tags: ["phi", "default"]}
+  - model_name: fo-fallback
+    litellm_params: {model: openai/mock-model, api_base: "http://mock-upstream:8080/fallback/v1", api_key: research-mock-key-not-a-secret, timeout: 5, tags: ["default"]}
+router_settings:
+  enable_tag_filtering: true
+  fallbacks: [{fo-primary: [fo-fallback]}]
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  database_url: os.environ/DATABASE_URL

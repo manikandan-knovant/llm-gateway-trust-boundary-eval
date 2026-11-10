@@ -1,0 +1,15 @@
+build,masked_span_shape,count
+a-base,"age phrase (N-year-old, N yo, aged N)",177
+a-base,bare year (19xx/20xx),61
+a-base,"other, labelled PERSON",36
+a-base,"duration / relative (N days, weeks, months, years)",32
+a-base,"other, labelled NRP",24
+a-base,"other, labelled DATE",17
+a-base,"other, labelled LOCATION",10
+a-fix,"age phrase (N-year-old, N yo, aged N)",176
+a-fix,bare year (19xx/20xx),61
+a-fix,"other, labelled PERSON",36
+a-fix,"other, labelled NRP",24
+a-fix,"other, labelled DATE",17
+a-fix,"other, labelled LOCATION",10
+a-fix,"duration / relative (N days, weeks, months, years)",4

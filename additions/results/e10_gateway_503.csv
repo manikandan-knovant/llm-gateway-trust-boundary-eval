@@ -1,0 +1,376 @@
+arm,scenario,i,marker,kind,t_send_s,latency_ms,status,error_code,error_body,body_exposes_internals,served_route_header,primary_attempts,fallback_hits
+gateway,503,0,REQ-gateway-503-0000-PHI,PHI,0.0,406.4,200,,,,fo-primary--mock,1,0
+gateway,503,1,REQ-gateway-503-0001-NON,NON,0.201,213.0,200,,,,fo-primary--mock,1,0
+gateway,503,2,REQ-gateway-503-0002-PHI,PHI,0.401,84.8,200,,,,fo-primary--mock,1,0
+gateway,503,3,REQ-gateway-503-0003-NON,NON,0.601,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,4,REQ-gateway-503-0004-PHI,PHI,0.801,78.1,200,,,,fo-primary--mock,1,0
+gateway,503,5,REQ-gateway-503-0005-NON,NON,1.001,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,6,REQ-gateway-503-0006-PHI,PHI,1.201,72.3,200,,,,fo-primary--mock,1,0
+gateway,503,7,REQ-gateway-503-0007-NON,NON,1.401,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,8,REQ-gateway-503-0008-PHI,PHI,1.601,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,9,REQ-gateway-503-0009-NON,NON,1.801,74.6,200,,,,fo-primary--mock,1,0
+gateway,503,10,REQ-gateway-503-0010-PHI,PHI,2.001,75.5,200,,,,fo-primary--mock,1,0
+gateway,503,11,REQ-gateway-503-0011-NON,NON,2.201,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,12,REQ-gateway-503-0012-PHI,PHI,2.401,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,13,REQ-gateway-503-0013-NON,NON,2.601,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,14,REQ-gateway-503-0014-PHI,PHI,2.801,72.3,200,,,,fo-primary--mock,1,0
+gateway,503,15,REQ-gateway-503-0015-NON,NON,3.001,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,16,REQ-gateway-503-0016-PHI,PHI,3.201,75.4,200,,,,fo-primary--mock,1,0
+gateway,503,17,REQ-gateway-503-0017-NON,NON,3.401,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,18,REQ-gateway-503-0018-PHI,PHI,3.601,75.5,200,,,,fo-primary--mock,1,0
+gateway,503,19,REQ-gateway-503-0019-NON,NON,3.8,74.0,200,,,,fo-primary--mock,1,0
+gateway,503,20,REQ-gateway-503-0020-PHI,PHI,4.001,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,21,REQ-gateway-503-0021-NON,NON,4.201,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,22,REQ-gateway-503-0022-PHI,PHI,4.401,76.7,200,,,,fo-primary--mock,1,0
+gateway,503,23,REQ-gateway-503-0023-NON,NON,4.601,75.1,200,,,,fo-primary--mock,1,0
+gateway,503,24,REQ-gateway-503-0024-PHI,PHI,4.801,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,25,REQ-gateway-503-0025-NON,NON,5.001,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,26,REQ-gateway-503-0026-PHI,PHI,5.201,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,27,REQ-gateway-503-0027-NON,NON,5.401,72.0,200,,,,fo-primary--mock,1,0
+gateway,503,28,REQ-gateway-503-0028-PHI,PHI,5.601,74.6,200,,,,fo-primary--mock,1,0
+gateway,503,29,REQ-gateway-503-0029-NON,NON,5.801,71.5,200,,,,fo-primary--mock,1,0
+gateway,503,30,REQ-gateway-503-0030-PHI,PHI,6.001,75.2,200,,,,fo-primary--mock,1,0
+gateway,503,31,REQ-gateway-503-0031-NON,NON,6.201,70.6,200,,,,fo-primary--mock,1,0
+gateway,503,32,REQ-gateway-503-0032-PHI,PHI,6.401,71.6,200,,,,fo-primary--mock,1,0
+gateway,503,33,REQ-gateway-503-0033-NON,NON,6.601,72.2,200,,,,fo-primary--mock,1,0
+gateway,503,34,REQ-gateway-503-0034-PHI,PHI,6.801,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,35,REQ-gateway-503-0035-NON,NON,7.001,71.4,200,,,,fo-primary--mock,1,0
+gateway,503,36,REQ-gateway-503-0036-PHI,PHI,7.201,77.3,200,,,,fo-primary--mock,1,0
+gateway,503,37,REQ-gateway-503-0037-NON,NON,7.401,72.2,200,,,,fo-primary--mock,1,0
+gateway,503,38,REQ-gateway-503-0038-PHI,PHI,7.601,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,39,REQ-gateway-503-0039-NON,NON,7.801,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,40,REQ-gateway-503-0040-PHI,PHI,8.001,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,41,REQ-gateway-503-0041-NON,NON,8.201,73.5,200,,,,fo-primary--mock,1,0
+gateway,503,42,REQ-gateway-503-0042-PHI,PHI,8.401,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,43,REQ-gateway-503-0043-NON,NON,8.601,73.7,200,,,,fo-primary--mock,1,0
+gateway,503,44,REQ-gateway-503-0044-PHI,PHI,8.801,84.4,200,,,,fo-primary--mock,1,0
+gateway,503,45,REQ-gateway-503-0045-NON,NON,9.001,71.9,200,,,,fo-primary--mock,1,0
+gateway,503,46,REQ-gateway-503-0046-PHI,PHI,9.201,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,47,REQ-gateway-503-0047-NON,NON,9.401,71.6,200,,,,fo-primary--mock,1,0
+gateway,503,48,REQ-gateway-503-0048-PHI,PHI,9.601,74.5,200,,,,fo-primary--mock,1,0
+gateway,503,49,REQ-gateway-503-0049-NON,NON,9.801,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,50,REQ-gateway-503-0050-PHI,PHI,10.001,115.7,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""323ee9e1-28db-42f8-a09a-8dbb822a9bb0""}}",False,,1,0
+gateway,503,51,REQ-gateway-503-0051-NON,NON,10.2,135.0,200,,,,fo-fallback--mock,1,1
+gateway,503,52,REQ-gateway-503-0052-PHI,PHI,10.401,95.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""d3dfbec5-527e-4811-8c45-d5dc6d752522""}}",False,,1,0
+gateway,503,53,REQ-gateway-503-0053-NON,NON,10.601,140.3,200,,,,fo-fallback--mock,1,1
+gateway,503,54,REQ-gateway-503-0054-PHI,PHI,10.802,96.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""2084ccf3-ff46-4b4f-8ff8-9d8d0e4d8d86""}}",False,,1,0
+gateway,503,55,REQ-gateway-503-0055-NON,NON,11.0,131.8,200,,,,fo-fallback--mock,1,1
+gateway,503,56,REQ-gateway-503-0056-PHI,PHI,11.201,93.9,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""a7124082-8246-4a3c-8539-65c804bfec68""}}",False,,1,0
+gateway,503,57,REQ-gateway-503-0057-NON,NON,11.401,132.3,200,,,,fo-fallback--mock,1,1
+gateway,503,58,REQ-gateway-503-0058-PHI,PHI,11.602,94.6,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""c51de601-9227-43a4-a062-bd17d62d3251""}}",False,,1,0
+gateway,503,59,REQ-gateway-503-0059-NON,NON,11.802,132.7,200,,,,fo-fallback--mock,1,1
+gateway,503,60,REQ-gateway-503-0060-PHI,PHI,12.001,95.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""874bc863-5f98-461d-a206-5e01470fa59a""}}",False,,1,0
+gateway,503,61,REQ-gateway-503-0061-NON,NON,12.201,134.4,200,,,,fo-fallback--mock,1,1
+gateway,503,62,REQ-gateway-503-0062-PHI,PHI,12.401,96.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""595405dd-8e97-4c5a-ad71-5f521c25426e""}}",False,,1,0
+gateway,503,63,REQ-gateway-503-0063-NON,NON,12.601,134.1,200,,,,fo-fallback--mock,1,1
+gateway,503,64,REQ-gateway-503-0064-PHI,PHI,12.801,95.7,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""9e590c49-5d07-445b-9bf6-ac41830c9a98""}}",False,,1,0
+gateway,503,65,REQ-gateway-503-0065-NON,NON,13.002,130.8,200,,,,fo-fallback--mock,1,1
+gateway,503,66,REQ-gateway-503-0066-PHI,PHI,13.201,93.9,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""e988e9d0-8381-4c97-86fc-838a29af569e""}}",False,,1,0
+gateway,503,67,REQ-gateway-503-0067-NON,NON,13.401,132.9,200,,,,fo-fallback--mock,1,1
+gateway,503,68,REQ-gateway-503-0068-PHI,PHI,13.601,103.3,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""d5650b3e-1d34-4381-9564-d42783c6c92d""}}",False,,1,0
+gateway,503,69,REQ-gateway-503-0069-NON,NON,13.801,131.3,200,,,,fo-fallback--mock,1,1
+gateway,503,70,REQ-gateway-503-0070-PHI,PHI,14.001,96.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""564ebef4-069b-4b1c-91a6-e6d8eb6c1736""}}",False,,1,0
+gateway,503,71,REQ-gateway-503-0071-NON,NON,14.202,134.5,200,,,,fo-fallback--mock,1,1
+gateway,503,72,REQ-gateway-503-0072-PHI,PHI,14.4,94.5,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""c972356c-1169-4cc1-8ee7-410af4bb29e0""}}",False,,1,0
+gateway,503,73,REQ-gateway-503-0073-NON,NON,14.601,134.2,200,,,,fo-fallback--mock,1,1
+gateway,503,74,REQ-gateway-503-0074-PHI,PHI,14.801,91.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""0b4271e6-7548-4970-87c1-712ba2d78419""}}",False,,1,0
+gateway,503,75,REQ-gateway-503-0075-NON,NON,15.001,134.1,200,,,,fo-fallback--mock,1,1
+gateway,503,76,REQ-gateway-503-0076-PHI,PHI,15.201,94.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""e8929509-a612-4df5-88a8-7fa74b46195b""}}",False,,1,0
+gateway,503,77,REQ-gateway-503-0077-NON,NON,15.401,135.1,200,,,,fo-fallback--mock,1,1
+gateway,503,78,REQ-gateway-503-0078-PHI,PHI,15.601,94.7,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""117137ae-9998-4e94-83d2-0300b3d2324c""}}",False,,1,0
+gateway,503,79,REQ-gateway-503-0079-NON,NON,15.801,135.1,200,,,,fo-fallback--mock,1,1
+gateway,503,80,REQ-gateway-503-0080-PHI,PHI,16.001,94.9,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""d229ded8-89fc-4d49-94f5-c0c44b9fba28""}}",False,,1,0
+gateway,503,81,REQ-gateway-503-0081-NON,NON,16.201,137.6,200,,,,fo-fallback--mock,1,1
+gateway,503,82,REQ-gateway-503-0082-PHI,PHI,16.401,95.6,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""d4bdca9f-a68f-432f-883e-01878bc100be""}}",False,,1,0
+gateway,503,83,REQ-gateway-503-0083-NON,NON,16.602,134.8,200,,,,fo-fallback--mock,1,1
+gateway,503,84,REQ-gateway-503-0084-PHI,PHI,16.801,101.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""33c06d9b-8629-45d7-b992-fa1641168752""}}",False,,1,0
+gateway,503,85,REQ-gateway-503-0085-NON,NON,17.001,133.6,200,,,,fo-fallback--mock,1,1
+gateway,503,86,REQ-gateway-503-0086-PHI,PHI,17.201,94.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""cc680d05-43ec-40f6-bbcb-e0c259bc7ec3""}}",False,,1,0
+gateway,503,87,REQ-gateway-503-0087-NON,NON,17.401,133.1,200,,,,fo-fallback--mock,1,1
+gateway,503,88,REQ-gateway-503-0088-PHI,PHI,17.601,94.5,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""ead335be-f8c2-44dc-87c0-0132abfdc25e""}}",False,,1,0
+gateway,503,89,REQ-gateway-503-0089-NON,NON,17.801,133.4,200,,,,fo-fallback--mock,1,1
+gateway,503,90,REQ-gateway-503-0090-PHI,PHI,18.001,94.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""9d90ba05-8ebb-4afc-b9ea-66a67c7faf47""}}",False,,1,0
+gateway,503,91,REQ-gateway-503-0091-NON,NON,18.201,133.2,200,,,,fo-fallback--mock,1,1
+gateway,503,92,REQ-gateway-503-0092-PHI,PHI,18.4,102.8,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""8a3319f1-72a6-4d24-80f8-f4fcbcdb9f40""}}",False,,1,0
+gateway,503,93,REQ-gateway-503-0093-NON,NON,18.601,138.1,200,,,,fo-fallback--mock,1,1
+gateway,503,94,REQ-gateway-503-0094-PHI,PHI,18.801,117.5,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""e9f85443-3124-4dae-b7db-51f5c06225db""}}",False,,1,0
+gateway,503,95,REQ-gateway-503-0095-NON,NON,19.001,130.6,200,,,,fo-fallback--mock,1,1
+gateway,503,96,REQ-gateway-503-0096-PHI,PHI,19.201,97.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""44e560b7-b980-4b5d-a432-f1364ec32e3d""}}",False,,1,0
+gateway,503,97,REQ-gateway-503-0097-NON,NON,19.402,135.7,200,,,,fo-fallback--mock,1,1
+gateway,503,98,REQ-gateway-503-0098-PHI,PHI,19.6,99.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""3dd69db8-5510-4a83-a159-4430c4a92fe6""}}",False,,1,0
+gateway,503,99,REQ-gateway-503-0099-NON,NON,19.801,139.7,200,,,,fo-fallback--mock,1,1
+gateway,503,100,REQ-gateway-503-0100-PHI,PHI,20.001,91.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""b2c3777a-ec9c-4a13-ad4f-2aff0ae01e83""}}",False,,1,0
+gateway,503,101,REQ-gateway-503-0101-NON,NON,20.201,132.5,200,,,,fo-fallback--mock,1,1
+gateway,503,102,REQ-gateway-503-0102-PHI,PHI,20.402,95.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""c51a80e8-7f63-4c1c-b3d6-88e1c84fe6d6""}}",False,,1,0
+gateway,503,103,REQ-gateway-503-0103-NON,NON,20.602,140.6,200,,,,fo-fallback--mock,1,1
+gateway,503,104,REQ-gateway-503-0104-PHI,PHI,20.801,91.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""5b94130c-bdd6-4259-8359-e64f7b8f8d4e""}}",False,,1,0
+gateway,503,105,REQ-gateway-503-0105-NON,NON,21.001,133.6,200,,,,fo-fallback--mock,1,1
+gateway,503,106,REQ-gateway-503-0106-PHI,PHI,21.201,94.5,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""b81958f3-9362-4166-b9c2-398dcc04867b""}}",False,,1,0
+gateway,503,107,REQ-gateway-503-0107-NON,NON,21.401,136.2,200,,,,fo-fallback--mock,1,1
+gateway,503,108,REQ-gateway-503-0108-PHI,PHI,21.601,96.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""18ae0fa3-a989-4908-9965-a8f4e61e63e7""}}",False,,1,0
+gateway,503,109,REQ-gateway-503-0109-NON,NON,21.801,133.3,200,,,,fo-fallback--mock,1,1
+gateway,503,110,REQ-gateway-503-0110-PHI,PHI,22.001,101.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""4fcd34fa-a59b-4593-af93-6a2000d3daa1""}}",False,,1,0
+gateway,503,111,REQ-gateway-503-0111-NON,NON,22.201,130.0,200,,,,fo-fallback--mock,1,1
+gateway,503,112,REQ-gateway-503-0112-PHI,PHI,22.401,97.9,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""086fce85-a24f-45c5-a175-176af395aa52""}}",False,,1,0
+gateway,503,113,REQ-gateway-503-0113-NON,NON,22.601,132.0,200,,,,fo-fallback--mock,1,1
+gateway,503,114,REQ-gateway-503-0114-PHI,PHI,22.802,95.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""a05aabca-5dc6-47b0-a31a-74eede1c654a""}}",False,,1,0
+gateway,503,115,REQ-gateway-503-0115-NON,NON,23.002,137.2,200,,,,fo-fallback--mock,1,1
+gateway,503,116,REQ-gateway-503-0116-PHI,PHI,23.201,95.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""330dbaf6-9bf4-42ef-a37f-38c5bf3950ae""}}",False,,1,0
+gateway,503,117,REQ-gateway-503-0117-NON,NON,23.402,131.7,200,,,,fo-fallback--mock,1,1
+gateway,503,118,REQ-gateway-503-0118-PHI,PHI,23.602,94.7,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""a23f74cf-cfac-4bfa-ade6-792f53ccec04""}}",False,,1,0
+gateway,503,119,REQ-gateway-503-0119-NON,NON,23.802,134.3,200,,,,fo-fallback--mock,1,1
+gateway,503,120,REQ-gateway-503-0120-PHI,PHI,24.001,94.7,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""c06103db-702b-4b7e-b619-bfe30397d1ee""}}",False,,1,0
+gateway,503,121,REQ-gateway-503-0121-NON,NON,24.201,133.2,200,,,,fo-fallback--mock,1,1
+gateway,503,122,REQ-gateway-503-0122-PHI,PHI,24.401,95.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""5d3e6aee-15eb-499b-b859-3c7fafdac523""}}",False,,1,0
+gateway,503,123,REQ-gateway-503-0123-NON,NON,24.601,137.1,200,,,,fo-fallback--mock,1,1
+gateway,503,124,REQ-gateway-503-0124-PHI,PHI,24.801,98.8,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""658576fd-d27e-47ab-abc6-e452e02ec83d""}}",False,,1,0
+gateway,503,125,REQ-gateway-503-0125-NON,NON,25.001,131.9,200,,,,fo-fallback--mock,1,1
+gateway,503,126,REQ-gateway-503-0126-PHI,PHI,25.201,99.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""a17f487c-046f-45ed-afaa-24d5e4962243""}}",False,,1,0
+gateway,503,127,REQ-gateway-503-0127-NON,NON,25.401,133.5,200,,,,fo-fallback--mock,1,1
+gateway,503,128,REQ-gateway-503-0128-PHI,PHI,25.601,97.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""b8b9cf9d-c8a9-48d8-81de-4307074a1324""}}",False,,1,0
+gateway,503,129,REQ-gateway-503-0129-NON,NON,25.802,138.9,200,,,,fo-fallback--mock,1,1
+gateway,503,130,REQ-gateway-503-0130-PHI,PHI,26.002,96.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""5a26126f-5c9a-4bad-be5b-94c9a36443bd""}}",False,,1,0
+gateway,503,131,REQ-gateway-503-0131-NON,NON,26.202,132.9,200,,,,fo-fallback--mock,1,1
+gateway,503,132,REQ-gateway-503-0132-PHI,PHI,26.401,96.8,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""8dff21b4-6cc6-43b8-907a-7df180bb73cb""}}",False,,1,0
+gateway,503,133,REQ-gateway-503-0133-NON,NON,26.602,134.4,200,,,,fo-fallback--mock,1,1
+gateway,503,134,REQ-gateway-503-0134-PHI,PHI,26.801,93.3,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""74f9a1d7-0240-47e2-8e21-092f1158c944""}}",False,,1,0
+gateway,503,135,REQ-gateway-503-0135-NON,NON,27.001,133.0,200,,,,fo-fallback--mock,1,1
+gateway,503,136,REQ-gateway-503-0136-PHI,PHI,27.201,97.5,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""b2f7ce2e-9a92-43ea-82f7-8574183b88b4""}}",False,,1,0
+gateway,503,137,REQ-gateway-503-0137-NON,NON,27.4,134.9,200,,,,fo-fallback--mock,1,1
+gateway,503,138,REQ-gateway-503-0138-PHI,PHI,27.601,95.9,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""2bdeb282-49dc-4cbd-9dfd-60677d7b7d66""}}",False,,1,0
+gateway,503,139,REQ-gateway-503-0139-NON,NON,27.802,136.2,200,,,,fo-fallback--mock,1,1
+gateway,503,140,REQ-gateway-503-0140-PHI,PHI,28.001,97.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""c51da7fa-77b7-4356-aca0-5f2a9afa2950""}}",False,,1,0
+gateway,503,141,REQ-gateway-503-0141-NON,NON,28.2,134.4,200,,,,fo-fallback--mock,1,1
+gateway,503,142,REQ-gateway-503-0142-PHI,PHI,28.401,103.2,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""538be87f-154a-4952-b19f-2017cf3b4048""}}",False,,1,0
+gateway,503,143,REQ-gateway-503-0143-NON,NON,28.601,132.0,200,,,,fo-fallback--mock,1,1
+gateway,503,144,REQ-gateway-503-0144-PHI,PHI,28.801,119.1,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""edfc8708-ad69-4b7e-a2c5-728fec269604""}}",False,,1,0
+gateway,503,145,REQ-gateway-503-0145-NON,NON,29.001,133.1,200,,,,fo-fallback--mock,1,1
+gateway,503,146,REQ-gateway-503-0146-PHI,PHI,29.202,100.0,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""93f7bd99-b916-4b53-98d7-286a927d5ff4""}}",False,,1,0
+gateway,503,147,REQ-gateway-503-0147-NON,NON,29.4,135.8,200,,,,fo-fallback--mock,1,1
+gateway,503,148,REQ-gateway-503-0148-PHI,PHI,29.6,97.4,503,no_cleared_route_available,"{""error"":{""message"":""the model provider is unavailable, and no other route is cleared for this request's data; the gateway did not send it elsewhere. Try again later"",""type"":""upstream_error"",""param"":null,""code"":""no_cleared_route_available"",""policy_id"":""<tenant-id-add-a>-policy@v1"",""request_id"":""48e65584-2362-423b-8cba-795d13845767""}}",False,,1,0
+gateway,503,149,REQ-gateway-503-0149-NON,NON,29.802,132.9,200,,,,fo-fallback--mock,1,1
+gateway,503,150,REQ-gateway-503-0150-PHI,PHI,30.001,77.1,200,,,,fo-primary--mock,1,0
+gateway,503,151,REQ-gateway-503-0151-NON,NON,30.201,74.5,200,,,,fo-primary--mock,1,0
+gateway,503,152,REQ-gateway-503-0152-PHI,PHI,30.401,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,153,REQ-gateway-503-0153-NON,NON,30.601,77.5,200,,,,fo-primary--mock,1,0
+gateway,503,154,REQ-gateway-503-0154-PHI,PHI,30.801,73.5,200,,,,fo-primary--mock,1,0
+gateway,503,155,REQ-gateway-503-0155-NON,NON,31.001,73.8,200,,,,fo-primary--mock,1,0
+gateway,503,156,REQ-gateway-503-0156-PHI,PHI,31.201,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,157,REQ-gateway-503-0157-NON,NON,31.401,75.3,200,,,,fo-primary--mock,1,0
+gateway,503,158,REQ-gateway-503-0158-PHI,PHI,31.601,74.5,200,,,,fo-primary--mock,1,0
+gateway,503,159,REQ-gateway-503-0159-NON,NON,31.801,71.1,200,,,,fo-primary--mock,1,0
+gateway,503,160,REQ-gateway-503-0160-PHI,PHI,32.001,76.5,200,,,,fo-primary--mock,1,0
+gateway,503,161,REQ-gateway-503-0161-NON,NON,32.201,72.7,200,,,,fo-primary--mock,1,0
+gateway,503,162,REQ-gateway-503-0162-PHI,PHI,32.401,76.3,200,,,,fo-primary--mock,1,0
+gateway,503,163,REQ-gateway-503-0163-NON,NON,32.601,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,164,REQ-gateway-503-0164-PHI,PHI,32.801,73.4,200,,,,fo-primary--mock,1,0
+gateway,503,165,REQ-gateway-503-0165-NON,NON,33.001,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,166,REQ-gateway-503-0166-PHI,PHI,33.201,78.1,200,,,,fo-primary--mock,1,0
+gateway,503,167,REQ-gateway-503-0167-NON,NON,33.401,71.8,200,,,,fo-primary--mock,1,0
+gateway,503,168,REQ-gateway-503-0168-PHI,PHI,33.601,77.5,200,,,,fo-primary--mock,1,0
+gateway,503,169,REQ-gateway-503-0169-NON,NON,33.801,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,170,REQ-gateway-503-0170-PHI,PHI,34.001,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,171,REQ-gateway-503-0171-NON,NON,34.201,75.7,200,,,,fo-primary--mock,1,0
+gateway,503,172,REQ-gateway-503-0172-PHI,PHI,34.401,73.7,200,,,,fo-primary--mock,1,0
+gateway,503,173,REQ-gateway-503-0173-NON,NON,34.601,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,174,REQ-gateway-503-0174-PHI,PHI,34.801,74.5,200,,,,fo-primary--mock,1,0
+gateway,503,175,REQ-gateway-503-0175-NON,NON,35.001,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,176,REQ-gateway-503-0176-PHI,PHI,35.201,76.7,200,,,,fo-primary--mock,1,0
+gateway,503,177,REQ-gateway-503-0177-NON,NON,35.401,74.2,200,,,,fo-primary--mock,1,0
+gateway,503,178,REQ-gateway-503-0178-PHI,PHI,35.601,77.1,200,,,,fo-primary--mock,1,0
+gateway,503,179,REQ-gateway-503-0179-NON,NON,35.801,73.5,200,,,,fo-primary--mock,1,0
+gateway,503,180,REQ-gateway-503-0180-PHI,PHI,36.001,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,181,REQ-gateway-503-0181-NON,NON,36.201,74.2,200,,,,fo-primary--mock,1,0
+gateway,503,182,REQ-gateway-503-0182-PHI,PHI,36.401,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,183,REQ-gateway-503-0183-NON,NON,36.601,72.0,200,,,,fo-primary--mock,1,0
+gateway,503,184,REQ-gateway-503-0184-PHI,PHI,36.801,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,185,REQ-gateway-503-0185-NON,NON,37.001,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,186,REQ-gateway-503-0186-PHI,PHI,37.201,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,187,REQ-gateway-503-0187-NON,NON,37.401,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,188,REQ-gateway-503-0188-PHI,PHI,37.601,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,189,REQ-gateway-503-0189-NON,NON,37.801,71.2,200,,,,fo-primary--mock,1,0
+gateway,503,190,REQ-gateway-503-0190-PHI,PHI,38.001,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,191,REQ-gateway-503-0191-NON,NON,38.201,75.2,200,,,,fo-primary--mock,1,0
+gateway,503,192,REQ-gateway-503-0192-PHI,PHI,38.401,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,193,REQ-gateway-503-0193-NON,NON,38.601,72.9,200,,,,fo-primary--mock,1,0
+gateway,503,194,REQ-gateway-503-0194-PHI,PHI,38.801,76.9,200,,,,fo-primary--mock,1,0
+gateway,503,195,REQ-gateway-503-0195-NON,NON,39.001,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,196,REQ-gateway-503-0196-PHI,PHI,39.201,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,197,REQ-gateway-503-0197-NON,NON,39.401,72.9,200,,,,fo-primary--mock,1,0
+gateway,503,198,REQ-gateway-503-0198-PHI,PHI,39.601,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,199,REQ-gateway-503-0199-NON,NON,39.801,74.0,200,,,,fo-primary--mock,1,0
+gateway,503,200,REQ-gateway-503-0200-PHI,PHI,40.001,75.8,200,,,,fo-primary--mock,1,0
+gateway,503,201,REQ-gateway-503-0201-NON,NON,40.201,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,202,REQ-gateway-503-0202-PHI,PHI,40.401,75.2,200,,,,fo-primary--mock,1,0
+gateway,503,203,REQ-gateway-503-0203-NON,NON,40.601,73.4,200,,,,fo-primary--mock,1,0
+gateway,503,204,REQ-gateway-503-0204-PHI,PHI,40.8,76.2,200,,,,fo-primary--mock,1,0
+gateway,503,205,REQ-gateway-503-0205-NON,NON,41.001,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,206,REQ-gateway-503-0206-PHI,PHI,41.201,74.0,200,,,,fo-primary--mock,1,0
+gateway,503,207,REQ-gateway-503-0207-NON,NON,41.401,76.2,200,,,,fo-primary--mock,1,0
+gateway,503,208,REQ-gateway-503-0208-PHI,PHI,41.601,76.3,200,,,,fo-primary--mock,1,0
+gateway,503,209,REQ-gateway-503-0209-NON,NON,41.801,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,210,REQ-gateway-503-0210-PHI,PHI,42.0,73.3,200,,,,fo-primary--mock,1,0
+gateway,503,211,REQ-gateway-503-0211-NON,NON,42.201,75.6,200,,,,fo-primary--mock,1,0
+gateway,503,212,REQ-gateway-503-0212-PHI,PHI,42.401,76.3,200,,,,fo-primary--mock,1,0
+gateway,503,213,REQ-gateway-503-0213-NON,NON,42.601,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,214,REQ-gateway-503-0214-PHI,PHI,42.801,75.8,200,,,,fo-primary--mock,1,0
+gateway,503,215,REQ-gateway-503-0215-NON,NON,43.001,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,216,REQ-gateway-503-0216-PHI,PHI,43.2,74.0,200,,,,fo-primary--mock,1,0
+gateway,503,217,REQ-gateway-503-0217-NON,NON,43.401,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,218,REQ-gateway-503-0218-PHI,PHI,43.601,73.3,200,,,,fo-primary--mock,1,0
+gateway,503,219,REQ-gateway-503-0219-NON,NON,43.801,71.6,200,,,,fo-primary--mock,1,0
+gateway,503,220,REQ-gateway-503-0220-PHI,PHI,44.001,76.6,200,,,,fo-primary--mock,1,0
+gateway,503,221,REQ-gateway-503-0221-NON,NON,44.201,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,222,REQ-gateway-503-0222-PHI,PHI,44.401,74.1,200,,,,fo-primary--mock,1,0
+gateway,503,223,REQ-gateway-503-0223-NON,NON,44.601,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,224,REQ-gateway-503-0224-PHI,PHI,44.801,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,225,REQ-gateway-503-0225-NON,NON,45.001,76.1,200,,,,fo-primary--mock,1,0
+gateway,503,226,REQ-gateway-503-0226-PHI,PHI,45.2,76.9,200,,,,fo-primary--mock,1,0
+gateway,503,227,REQ-gateway-503-0227-NON,NON,45.401,71.7,200,,,,fo-primary--mock,1,0
+gateway,503,228,REQ-gateway-503-0228-PHI,PHI,45.601,76.0,200,,,,fo-primary--mock,1,0
+gateway,503,229,REQ-gateway-503-0229-NON,NON,45.801,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,230,REQ-gateway-503-0230-PHI,PHI,46.001,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,231,REQ-gateway-503-0231-NON,NON,46.201,75.3,200,,,,fo-primary--mock,1,0
+gateway,503,232,REQ-gateway-503-0232-PHI,PHI,46.401,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,233,REQ-gateway-503-0233-NON,NON,46.601,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,234,REQ-gateway-503-0234-PHI,PHI,46.801,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,235,REQ-gateway-503-0235-NON,NON,47.001,75.5,200,,,,fo-primary--mock,1,0
+gateway,503,236,REQ-gateway-503-0236-PHI,PHI,47.201,76.7,200,,,,fo-primary--mock,1,0
+gateway,503,237,REQ-gateway-503-0237-NON,NON,47.401,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,238,REQ-gateway-503-0238-PHI,PHI,47.601,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,239,REQ-gateway-503-0239-NON,NON,47.801,71.7,200,,,,fo-primary--mock,1,0
+gateway,503,240,REQ-gateway-503-0240-PHI,PHI,48.001,74.2,200,,,,fo-primary--mock,1,0
+gateway,503,241,REQ-gateway-503-0241-NON,NON,48.2,73.8,200,,,,fo-primary--mock,1,0
+gateway,503,242,REQ-gateway-503-0242-PHI,PHI,48.401,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,243,REQ-gateway-503-0243-NON,NON,48.601,74.2,200,,,,fo-primary--mock,1,0
+gateway,503,244,REQ-gateway-503-0244-PHI,PHI,48.801,81.7,200,,,,fo-primary--mock,1,0
+gateway,503,245,REQ-gateway-503-0245-NON,NON,49.002,71.6,200,,,,fo-primary--mock,1,0
+gateway,503,246,REQ-gateway-503-0246-PHI,PHI,49.201,76.5,200,,,,fo-primary--mock,1,0
+gateway,503,247,REQ-gateway-503-0247-NON,NON,49.401,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,248,REQ-gateway-503-0248-PHI,PHI,49.601,75.9,200,,,,fo-primary--mock,1,0
+gateway,503,249,REQ-gateway-503-0249-NON,NON,49.8,71.3,200,,,,fo-primary--mock,1,0
+gateway,503,250,REQ-gateway-503-0250-PHI,PHI,50.001,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,251,REQ-gateway-503-0251-NON,NON,50.201,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,252,REQ-gateway-503-0252-PHI,PHI,50.401,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,253,REQ-gateway-503-0253-NON,NON,50.601,72.0,200,,,,fo-primary--mock,1,0
+gateway,503,254,REQ-gateway-503-0254-PHI,PHI,50.801,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,255,REQ-gateway-503-0255-NON,NON,51.001,76.8,200,,,,fo-primary--mock,1,0
+gateway,503,256,REQ-gateway-503-0256-PHI,PHI,51.2,77.0,200,,,,fo-primary--mock,1,0
+gateway,503,257,REQ-gateway-503-0257-NON,NON,51.401,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,258,REQ-gateway-503-0258-PHI,PHI,51.601,75.3,200,,,,fo-primary--mock,1,0
+gateway,503,259,REQ-gateway-503-0259-NON,NON,51.8,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,260,REQ-gateway-503-0260-PHI,PHI,52.001,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,261,REQ-gateway-503-0261-NON,NON,52.201,76.4,200,,,,fo-primary--mock,1,0
+gateway,503,262,REQ-gateway-503-0262-PHI,PHI,52.401,75.1,200,,,,fo-primary--mock,1,0
+gateway,503,263,REQ-gateway-503-0263-NON,NON,52.601,71.9,200,,,,fo-primary--mock,1,0
+gateway,503,264,REQ-gateway-503-0264-PHI,PHI,52.801,75.2,200,,,,fo-primary--mock,1,0
+gateway,503,265,REQ-gateway-503-0265-NON,NON,53.001,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,266,REQ-gateway-503-0266-PHI,PHI,53.201,76.2,200,,,,fo-primary--mock,1,0
+gateway,503,267,REQ-gateway-503-0267-NON,NON,53.401,71.6,200,,,,fo-primary--mock,1,0
+gateway,503,268,REQ-gateway-503-0268-PHI,PHI,53.601,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,269,REQ-gateway-503-0269-NON,NON,53.801,74.6,200,,,,fo-primary--mock,1,0
+gateway,503,270,REQ-gateway-503-0270-PHI,PHI,54.001,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,271,REQ-gateway-503-0271-NON,NON,54.2,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,272,REQ-gateway-503-0272-PHI,PHI,54.401,75.9,200,,,,fo-primary--mock,1,0
+gateway,503,273,REQ-gateway-503-0273-NON,NON,54.601,72.0,200,,,,fo-primary--mock,1,0
+gateway,503,274,REQ-gateway-503-0274-PHI,PHI,54.801,74.8,200,,,,fo-primary--mock,1,0
+gateway,503,275,REQ-gateway-503-0275-NON,NON,55.001,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,276,REQ-gateway-503-0276-PHI,PHI,55.201,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,277,REQ-gateway-503-0277-NON,NON,55.401,73.3,200,,,,fo-primary--mock,1,0
+gateway,503,278,REQ-gateway-503-0278-PHI,PHI,55.601,75.1,200,,,,fo-primary--mock,1,0
+gateway,503,279,REQ-gateway-503-0279-NON,NON,55.801,73.3,200,,,,fo-primary--mock,1,0
+gateway,503,280,REQ-gateway-503-0280-PHI,PHI,56.001,76.4,200,,,,fo-primary--mock,1,0
+gateway,503,281,REQ-gateway-503-0281-NON,NON,56.201,74.0,200,,,,fo-primary--mock,1,0
+gateway,503,282,REQ-gateway-503-0282-PHI,PHI,56.402,76.0,200,,,,fo-primary--mock,1,0
+gateway,503,283,REQ-gateway-503-0283-NON,NON,56.601,72.7,200,,,,fo-primary--mock,1,0
+gateway,503,284,REQ-gateway-503-0284-PHI,PHI,56.801,73.8,200,,,,fo-primary--mock,1,0
+gateway,503,285,REQ-gateway-503-0285-NON,NON,57.0,85.6,200,,,,fo-primary--mock,1,0
+gateway,503,286,REQ-gateway-503-0286-PHI,PHI,57.201,77.3,200,,,,fo-primary--mock,1,0
+gateway,503,287,REQ-gateway-503-0287-NON,NON,57.401,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,288,REQ-gateway-503-0288-PHI,PHI,57.601,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,289,REQ-gateway-503-0289-NON,NON,57.801,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,290,REQ-gateway-503-0290-PHI,PHI,58.001,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,291,REQ-gateway-503-0291-NON,NON,58.201,73.1,200,,,,fo-primary--mock,1,0
+gateway,503,292,REQ-gateway-503-0292-PHI,PHI,58.401,76.0,200,,,,fo-primary--mock,1,0
+gateway,503,293,REQ-gateway-503-0293-NON,NON,58.601,72.2,200,,,,fo-primary--mock,1,0
+gateway,503,294,REQ-gateway-503-0294-PHI,PHI,58.8,85.4,200,,,,fo-primary--mock,1,0
+gateway,503,295,REQ-gateway-503-0295-NON,NON,59.001,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,296,REQ-gateway-503-0296-PHI,PHI,59.201,78.7,200,,,,fo-primary--mock,1,0
+gateway,503,297,REQ-gateway-503-0297-NON,NON,59.401,72.7,200,,,,fo-primary--mock,1,0
+gateway,503,298,REQ-gateway-503-0298-PHI,PHI,59.601,73.7,200,,,,fo-primary--mock,1,0
+gateway,503,299,REQ-gateway-503-0299-NON,NON,59.801,71.4,200,,,,fo-primary--mock,1,0
+gateway,503,300,REQ-gateway-503-0300-PHI,PHI,60.001,76.5,200,,,,fo-primary--mock,1,0
+gateway,503,301,REQ-gateway-503-0301-NON,NON,60.201,81.5,200,,,,fo-primary--mock,1,0
+gateway,503,302,REQ-gateway-503-0302-PHI,PHI,60.401,72.9,200,,,,fo-primary--mock,1,0
+gateway,503,303,REQ-gateway-503-0303-NON,NON,60.601,71.2,200,,,,fo-primary--mock,1,0
+gateway,503,304,REQ-gateway-503-0304-PHI,PHI,60.801,76.6,200,,,,fo-primary--mock,1,0
+gateway,503,305,REQ-gateway-503-0305-NON,NON,61.001,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,306,REQ-gateway-503-0306-PHI,PHI,61.201,74.5,200,,,,fo-primary--mock,1,0
+gateway,503,307,REQ-gateway-503-0307-NON,NON,61.401,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,308,REQ-gateway-503-0308-PHI,PHI,61.601,73.2,200,,,,fo-primary--mock,1,0
+gateway,503,309,REQ-gateway-503-0309-NON,NON,61.8,72.5,200,,,,fo-primary--mock,1,0
+gateway,503,310,REQ-gateway-503-0310-PHI,PHI,62.001,76.6,200,,,,fo-primary--mock,1,0
+gateway,503,311,REQ-gateway-503-0311-NON,NON,62.201,72.1,200,,,,fo-primary--mock,1,0
+gateway,503,312,REQ-gateway-503-0312-PHI,PHI,62.401,76.8,200,,,,fo-primary--mock,1,0
+gateway,503,313,REQ-gateway-503-0313-NON,NON,62.601,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,314,REQ-gateway-503-0314-PHI,PHI,62.801,76.2,200,,,,fo-primary--mock,1,0
+gateway,503,315,REQ-gateway-503-0315-NON,NON,63.001,70.7,200,,,,fo-primary--mock,1,0
+gateway,503,316,REQ-gateway-503-0316-PHI,PHI,63.201,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,317,REQ-gateway-503-0317-NON,NON,63.401,74.5,200,,,,fo-primary--mock,1,0
+gateway,503,318,REQ-gateway-503-0318-PHI,PHI,63.601,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,319,REQ-gateway-503-0319-NON,NON,63.8,73.3,200,,,,fo-primary--mock,1,0
+gateway,503,320,REQ-gateway-503-0320-PHI,PHI,64.001,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,321,REQ-gateway-503-0321-NON,NON,64.201,72.3,200,,,,fo-primary--mock,1,0
+gateway,503,322,REQ-gateway-503-0322-PHI,PHI,64.401,75.1,200,,,,fo-primary--mock,1,0
+gateway,503,323,REQ-gateway-503-0323-NON,NON,64.601,71.6,200,,,,fo-primary--mock,1,0
+gateway,503,324,REQ-gateway-503-0324-PHI,PHI,64.801,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,325,REQ-gateway-503-0325-NON,NON,65.001,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,326,REQ-gateway-503-0326-PHI,PHI,65.201,74.9,200,,,,fo-primary--mock,1,0
+gateway,503,327,REQ-gateway-503-0327-NON,NON,65.401,72.5,200,,,,fo-primary--mock,1,0
+gateway,503,328,REQ-gateway-503-0328-PHI,PHI,65.601,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,329,REQ-gateway-503-0329-NON,NON,65.801,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,330,REQ-gateway-503-0330-PHI,PHI,66.001,73.3,200,,,,fo-primary--mock,1,0
+gateway,503,331,REQ-gateway-503-0331-NON,NON,66.201,74.7,200,,,,fo-primary--mock,1,0
+gateway,503,332,REQ-gateway-503-0332-PHI,PHI,66.401,75.2,200,,,,fo-primary--mock,1,0
+gateway,503,333,REQ-gateway-503-0333-NON,NON,66.601,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,334,REQ-gateway-503-0334-PHI,PHI,66.8,74.2,200,,,,fo-primary--mock,1,0
+gateway,503,335,REQ-gateway-503-0335-NON,NON,67.001,70.8,200,,,,fo-primary--mock,1,0
+gateway,503,336,REQ-gateway-503-0336-PHI,PHI,67.201,75.6,200,,,,fo-primary--mock,1,0
+gateway,503,337,REQ-gateway-503-0337-NON,NON,67.401,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,338,REQ-gateway-503-0338-PHI,PHI,67.601,72.9,200,,,,fo-primary--mock,1,0
+gateway,503,339,REQ-gateway-503-0339-NON,NON,67.801,72.2,200,,,,fo-primary--mock,1,0
+gateway,503,340,REQ-gateway-503-0340-PHI,PHI,68.001,74.6,200,,,,fo-primary--mock,1,0
+gateway,503,341,REQ-gateway-503-0341-NON,NON,68.201,71.5,200,,,,fo-primary--mock,1,0
+gateway,503,342,REQ-gateway-503-0342-PHI,PHI,68.4,73.8,200,,,,fo-primary--mock,1,0
+gateway,503,343,REQ-gateway-503-0343-NON,NON,68.601,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,344,REQ-gateway-503-0344-PHI,PHI,68.801,78.8,200,,,,fo-primary--mock,1,0
+gateway,503,345,REQ-gateway-503-0345-NON,NON,69.001,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,346,REQ-gateway-503-0346-PHI,PHI,69.201,76.9,200,,,,fo-primary--mock,1,0
+gateway,503,347,REQ-gateway-503-0347-NON,NON,69.401,72.6,200,,,,fo-primary--mock,1,0
+gateway,503,348,REQ-gateway-503-0348-PHI,PHI,69.601,78.3,200,,,,fo-primary--mock,1,0
+gateway,503,349,REQ-gateway-503-0349-NON,NON,69.801,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,350,REQ-gateway-503-0350-PHI,PHI,70.001,73.4,200,,,,fo-primary--mock,1,0
+gateway,503,351,REQ-gateway-503-0351-NON,NON,70.201,74.6,200,,,,fo-primary--mock,1,0
+gateway,503,352,REQ-gateway-503-0352-PHI,PHI,70.401,74.4,200,,,,fo-primary--mock,1,0
+gateway,503,353,REQ-gateway-503-0353-NON,NON,70.601,72.9,200,,,,fo-primary--mock,1,0
+gateway,503,354,REQ-gateway-503-0354-PHI,PHI,70.801,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,355,REQ-gateway-503-0355-NON,NON,71.001,74.3,200,,,,fo-primary--mock,1,0
+gateway,503,356,REQ-gateway-503-0356-PHI,PHI,71.201,73.6,200,,,,fo-primary--mock,1,0
+gateway,503,357,REQ-gateway-503-0357-NON,NON,71.401,71.1,200,,,,fo-primary--mock,1,0
+gateway,503,358,REQ-gateway-503-0358-PHI,PHI,71.601,73.8,200,,,,fo-primary--mock,1,0
+gateway,503,359,REQ-gateway-503-0359-NON,NON,71.801,72.5,200,,,,fo-primary--mock,1,0
+gateway,503,360,REQ-gateway-503-0360-PHI,PHI,72.001,73.8,200,,,,fo-primary--mock,1,0
+gateway,503,361,REQ-gateway-503-0361-NON,NON,72.201,73.7,200,,,,fo-primary--mock,1,0
+gateway,503,362,REQ-gateway-503-0362-PHI,PHI,72.401,78.0,200,,,,fo-primary--mock,1,0
+gateway,503,363,REQ-gateway-503-0363-NON,NON,72.601,75.3,200,,,,fo-primary--mock,1,0
+gateway,503,364,REQ-gateway-503-0364-PHI,PHI,72.801,75.7,200,,,,fo-primary--mock,1,0
+gateway,503,365,REQ-gateway-503-0365-NON,NON,73.001,71.7,200,,,,fo-primary--mock,1,0
+gateway,503,366,REQ-gateway-503-0366-PHI,PHI,73.201,73.4,200,,,,fo-primary--mock,1,0
+gateway,503,367,REQ-gateway-503-0367-NON,NON,73.401,73.0,200,,,,fo-primary--mock,1,0
+gateway,503,368,REQ-gateway-503-0368-PHI,PHI,73.601,71.4,200,,,,fo-primary--mock,1,0
+gateway,503,369,REQ-gateway-503-0369-NON,NON,73.801,74.2,200,,,,fo-primary--mock,1,0
+gateway,503,370,REQ-gateway-503-0370-PHI,PHI,74.001,75.0,200,,,,fo-primary--mock,1,0
+gateway,503,371,REQ-gateway-503-0371-NON,NON,74.201,72.2,200,,,,fo-primary--mock,1,0
+gateway,503,372,REQ-gateway-503-0372-PHI,PHI,74.401,73.9,200,,,,fo-primary--mock,1,0
+gateway,503,373,REQ-gateway-503-0373-NON,NON,74.601,74.0,200,,,,fo-primary--mock,1,0
+gateway,503,374,REQ-gateway-503-0374-PHI,PHI,74.801,73.2,200,,,,fo-primary--mock,1,0
